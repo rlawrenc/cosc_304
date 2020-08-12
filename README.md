@@ -77,7 +77,7 @@ TBD
 | November 23 (M) | Database hosting and data cleansing/wrangling | |
 | November 27 (F) | Project development | |
 | November 30 (M) | Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary | |
-| December 4 (F) | Final Exam Review | |
+| December 4 (F) | **Final Exam Review** | |
 
 ## Labs
 
@@ -117,33 +117,6 @@ toward the instructor, a student in the class, or about other individuals or gro
 ## Academic Integrity
 The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating usually result in a failing grade or mark of zero on the assignment or in the course.   Careful records are kept to monitor and prevent recidivism.  A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
 
-## Grading Practices   
-Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
-
-## Disability Assistance
-The Disability Resource Centre ensures educational equity for students with disabilities, injuries or illness. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, visit our website for more information: http://students.ok.ubc.ca/drc/welcome.html or contact the DRC at:   drc.questions@ubc.ca 
-
-## Equity, Human Rights, Discrimination and Harassment
-UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an environment that is free from human rights based discrimination and harassment.  If you require assistance related to an issue of equity, discrimination or harassment, please contact the Equity Office, your administrative head of unit, and/or your unit’s equity representative.   
-UBC Okanagan Equity Advisor:   ph. 250-807-9291; 
-E-mail:  equity.ubco@ubc.ca    			Web:  https://equity.ok.ubc.ca/
-
-### Health & Wellness
-At UBC Okanagan health services to students are provided by Health and Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Health and Wellness for more information or to book an appointment.
-UNC 337  Email: healthwellness.okanagan@ubc.ca  	Web:www.students.ok.ubc.ca/health-wellness
-
-## Sexual Violence Prevention and Response Office (SVPRO)
-A safe and confidential place for UBC students, staff and faculty who have experienced sexual   violence regardless of when or where it took place. Just want to talk? We are here to listen and help you explore your options. We can help you find a safe place to stay, explain your reporting options (UBC or police), accompany you to the hospital, or support you with academic accommodations. You have the right to choose what happens next. We support your decision, whatever you decide. Visit svpro.ok.ubc.ca or call us at 250.807.9640
- 
-## Independent Investigations Office (IIO)
-If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO via email: director.of.investigations@ubc.ca or by calling 604.827.2060 or online by visiting investigationsoffice.ubc.ca
-
-## The Hub
-The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. For more information, please visit the Hub’s website (https://students.ok.ubc.ca/student-learning-hub/) or call 250-807-9185.
-
-### SAFEWALK
-Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
-For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC SAFE – Okanagan app.
 
 ## Academic Integrity Course Policies
 Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
@@ -153,28 +126,62 @@ Academic integrity is critical to being a professional developer and a respected
 - Collaboration in groups of up to 4 on Canvas quizzes and in-class exercises
 
 #### Not Allowed
-One person providing all answers for a quiz/exercise to a group of people of any size	Not Allowed
-Sharing, posting, or distributing answers to other students or websites for quizzes/exercises	Not Allowed
-Dividing up the work for a quiz or exercise between members of an approved group	Not Recommended
-Answering questions for another student or submitting answers on their behalf	Not Allowed
-Requesting help from previous students in the course or other individuals outside of the course	Not Allowed
-Relying on others to do work for me or not contributing reasonable effort to group activities	Not Allowed
+ - One person providing all answers for a quiz/exercise to a group of people of any size
+ - Sharing, posting, or distributing answers to other students or websites for quizzes/exercises
+ - Answering questions for another student or submitting answers on their behalf
+ - Requesting help from previous students in the course or other individuals outside of the course
+ - Relying on others to do work for me or not contributing reasonable effort to group activities
+ - Dividing up the work for a quiz or exercise between members of an approved group (*Not Recommended*)
 
-Assignments
-Working on an individual assignment with a group of people and submitting minor variations of work developed together	Not Allowed
-For group assignment, completing all work independently and providing answer to rest of group	Not Allowed
-Sharing solutions to assignments with other students or on the Internet	Not Allowed
-Receiving solutions to assignments from other sources (students, web, tutors)	Not Allowed
-Request help from the TA or instructor and use the answer/code that they provide	Allowed
-Answer general questions about assignments in chat or discussion forums	Allowed (*with care)
+### Assignments
+#### Allowed
+- Request help from the TA or instructor and use the answer/code that they provide
+- Answer general questions about assignments in chat or discussion forums (*Allowed with care*)
+
+#### Not Allowed
+ - Working on an individual assignment with a group of people and submitting minor variations of work developed together
+ - For group assignment, completing all work independently and providing answer to rest of group
+ - Sharing solutions to assignments with other students or on the Internet	
+ - Receiving solutions to assignments from other sources (students, web, tutors)	
 	
-Exams	
-Using any non-approved resource (people, web, etc.) for exams 	Not Allowed (severe)
-Posting or providing answers to students who have not yet completed the exam	Not Allowed
-Requesting help from other people or web services for open book exams	Not Allowed
-Using course material including assignments, notes, and quizzes in an open book exam	Allowed
-Posting or providing exam questions and answers after exam has been completed	Not Allowed
-Allowing another person to write or complete any part of any exam	Not Allowed (severe)
+### Exams
+#### Allowed
+- Using course material including assignments, notes, and quizzes in an open book exam
+
+#### Not Allowed
+- Using any non-approved resource (people, web, etc.) for exams **(severe)**
+- Allowing another person to write or complete any part of any exam **(severe)**
+- Posting or providing answers to students who have not yet completed the exam
+- Requesting help from other people or web services for open book exams
+- Posting or providing exam questions and answers after exam has been completed
+
+### Grading Practices   
+Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
+
+### Disability Assistance
+The Disability Resource Centre ensures educational equity for students with disabilities, injuries or illness. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, visit our website for more information: http://students.ok.ubc.ca/drc/welcome.html or contact the DRC at:   drc.questions@ubc.ca 
+
+### Equity, Human Rights, Discrimination and Harassment
+UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an environment that is free from human rights based discrimination and harassment.  If you require assistance related to an issue of equity, discrimination or harassment, please contact the Equity Office, your administrative head of unit, and/or your unit’s equity representative.   
+UBC Okanagan Equity Advisor:   ph. 250-807-9291; 
+E-mail:  equity.ubco@ubc.ca    			Web:  https://equity.ok.ubc.ca/
+
+### Health & Wellness
+At UBC Okanagan health services to students are provided by Health and Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Health and Wellness for more information or to book an appointment.
+UNC 337  Email: healthwellness.okanagan@ubc.ca  	Web:www.students.ok.ubc.ca/health-wellness
+
+### Sexual Violence Prevention and Response Office (SVPRO)
+A safe and confidential place for UBC students, staff and faculty who have experienced sexual   violence regardless of when or where it took place. Just want to talk? We are here to listen and help you explore your options. We can help you find a safe place to stay, explain your reporting options (UBC or police), accompany you to the hospital, or support you with academic accommodations. You have the right to choose what happens next. We support your decision, whatever you decide. Visit svpro.ok.ubc.ca or call us at 250.807.9640
+ 
+### Independent Investigations Office (IIO)
+If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO via email: director.of.investigations@ubc.ca or by calling 604.827.2060 or online by visiting investigationsoffice.ubc.ca
+
+### The Hub
+The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. For more information, please visit the Hub’s website (https://students.ok.ubc.ca/student-learning-hub/) or call 250-807-9185.
+
+### SAFEWALK
+Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
+For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC SAFE – Okanagan app.
 
 
 ## Reference Material
