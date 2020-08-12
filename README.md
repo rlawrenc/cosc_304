@@ -88,8 +88,8 @@ For this course, expect to spend about five hours per week in out-of-class prepa
 
 ## Labs
 
-|  Lab | Date | Topic |
-|--:---|------|-------|
+| Lab | Date | Topic |
+|-:-|------|-------|
 |  | September 7 – 11 |	No Lab during First Week of Class |
 | [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
