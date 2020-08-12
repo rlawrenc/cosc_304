@@ -49,11 +49,11 @@ TBD
 
 ## Schedule
 **Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
-**Lab:** Drop-in labs and help desk
+**Lab:** Drop-in virtual labs and help sessions
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
-| September 11 (F) | First day of classes.  Introduction to course/databases | |
+| September 11 (F) | **First day of classes.  Introduction to course/databases** | |
 | September 14 (M) | Relational Model - Schemas, Keys, Constraints, Integrity | |
 | September 18 (F) | Relational Algebra - Select, Project, Set Ops, Outer Joins, Practice Questions | |
 | September 21 (M) | SQL DDL – Create table, constraints, create indexes, Insert/Delete/Update | |
@@ -95,113 +95,17 @@ TBD
 | [9](labs/lab9) | November 23 – 27 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](labs/lab10) | Nov. 30 – Dec. 4 | Lab 10: Project Completion |
 
+## Missing an Exam
+Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
-## Learning Outcomes
+## Copyright Disclaimer   
+Diagrams and figures included in lecture presentations adhere to Copyright Guidelines for UBC Faculty, Staff and Students http://copyright.ubc.ca/requirements/copyright-guidelines/ and UBC Fair Dealing Requirements for Faculty and Staff http://copyright.ubc.ca/requirements/fair-dealing/.  Some of these figures and images are subject to copyright and will not be posted to Connect. All material uploaded to Connect that contain diagrams and figures are used with permission of the publisher; are in the public domain; are licensed by Creative Commons; meet the permitted terms of use of UBC’s library license agreements for electronic items; and/or adhere to the UBC Fair Dealing Requirements for Faculty and Staff. Access to the Connect course site is limited to students currently registered in this course. Under no circumstance are students permitted to provide any other person with means to access this material. Anyone violating these restrictions may be subject to legal action. Permission to electronically record any course materials must be granted by the instructor. Distribution of this material to a third party is forbidden.
 
-After completing this course, students will be able to:
-
-1. Explain the use case for databases and use relational databases and relational model terminology.
-2. Write SQL DDL including CREATE and DROP TABLE, INSERT, UPDATE, and DELETE statements.
-3. Perform SQL SELECT queries of moderate complexity including SELECT-FROM-WHERE, GROUP BY, ORDER BY, HAVING clauses and queries that contain subqueries, functions, and outer joins.
-4. Write code in Python and R that queries a relational database.
-5. Understand the components (entity, relationship, attribute) of an Entity-Relationship (ER) diagram in UML class diagram syntax in order to understand a database structure. Be able to convert an ER diagram into the relational model.
-6. Fluency with XML and JSON representation formats and querying using XPath.
-
-
-## Lecture Learning Objectives
-
-1. Relational Database Introduction
-      - define database, DBMS, schema, metadata
-      - define program-data independence/data abstraction and explain how it is achieved by databases but not by file systems
-      - Use relational model terminology: relation, attribute, tuple, domain, degree, cardinality
-      - define and compare/contrast: DDL and DML
-      - list the properties of relations
-      - define superkey, key, candidate key, primary key, foreign key
-      - define integrity, constraints, domain constraint, entity integrity constraint, referential integrity constraint
-      - given a relation be able to: identify its cardinality, degree, domains, keys, and superkeys and determine if constraints are being violated
-      - define: relational algebra, query language
-  
-2. SQL DDL: CREATE, INSERT, DELETE, UPDATE
-      - recognize valid and invalid identifiers
-      - explain the key types of constraints and how to enforce them: required (not null) data, domain constraints, entity integrity, referential integrity
-      - write a CREATE TABLE statement given a high-level description
-      - list what ALTER TABLE can and cannot do 
-      - remove a table using DROP TABLE
-      - create an index on fields of a table
-      - explain how an index helps improve query time
-      - write INSERT, DELETE, and UPDATE commands
-      
-3. SQL: select, project, join, ORDER BY
-      * translate English questions into SQL queries that may require:<br>
-            - SELECT-FROM-WHERE syntax for selection, projection, and join<br> 
-            - renaming and aliasing including queries with multiple copies of the same relation <br>
-            - ORDER BY <br>
-            - LIMIT/OFFSET <br>
-            - DISTINCT to eliminate duplicates <br>
-            - UNION, EXCEPT, INTERSECT set operations <br>
-            - IS NULL or IS NOT NULL <br>
-            - LIKE string pattern matching <br>
-      * read SQL queries to determine their output and English meaning
-
-4. SQL: GROUP BY, aggregate functions, subqueries, outer joins
-      - write SQL queries containing aggregate functions and calculated fields
-      - write SQL queries requiring nested subqueries and the use of the appropriate operators such as comparison operators for single value subqueries, IN, NOT IN, ANY, ALL for table result subqueries, and EXISTS and NOT EXISTS for multiple result subqueries which may or may not contain results
-      - lookup documentation on SQL functions supported by a particular database and use them as required in queries
-      - explain the purpose of OUTER and NATURAL joins and use them for queries
-
-5. Programming with Databases in R and Python
-      - explain the common steps in querying a database using a programming language
-      - draw and explain the database-program architecture and the key components
-      - write a simple program to query a database in both Python and R
-      - use a variety of databases including MySQL, Microsoft SQL Server, and SQLite
-      - explain the purpose of ODBC
-      - list the components of a database connection URL
-      - use dplyr to query a database
-      - be able to debug and resolve database connection and usage issues in Python and R code
-
-6. ER/UML Diagrams with Relational Mapping
-      - describe the three steps in database design including the results of each step
-      - describe differences between conceptual, logical, and physical data models
-      - define entity, relationship, and attribute
-      - identify on an ER diagram: entity type, relationship type, degree of a relationship, recursive relationship, attribute, multi-valued attribute, derived attribute
-      - identify on an ER diagram: primary key, partial primary key
-      - identify on an ER diagram: cardinality and participation constraints
-      - given an ER diagram, translate to the relational model with sufficient detail to be able to write queries using only an ER diagram in UML syntax
-
-7. XML, JSON, and NoSQL
-      - list some advantages of XML
-      - given an XML document, determine if it is well-formed
-      - given an XML document and a DTD or XML Schema, determine if it is valid
-      - know the symbols (?, \*, +) for cardinality constraints in DTDs
-      - compare and contrast ID/IDREFs in DTDs with keys and foreign keys in the relational model
-      - list some advantages that XML Schema has over DTDs
-      - explain why and when namespaces are used
-      - given an XML document and query description, write an XPath query to retrieve the appropriate node sequence to answer the query
-      - given an XML document and an XPath expression, list the result of evaluating the expression
-      - understand the basic constructs used to encode JSON data
-      - compare JSON representation versus relational model
-      - understand alternative models for representing data besides the relational model
-      - list some NoSQL databases and reason about their benefits and issues compared to the relational model for certain problems
-      - explain at a high-level how MapReduce works      
-
-8. Advanced SQL: Views, Security, Transactions
-      - define views using CREATE VIEW from a high-level description
-      - list advantages and disadvantages of views
-      - use GRANT/REVOKE syntax
-      - list the types of privileges and know when to use them
-      - given a SQL command, explain what privileges are required for it to execute
-      - explain how views are useful for security
-      - define: transaction
-      - list ACID properties
-      - be aware of WITH RECURSIVE for recursive SQL queries
-      
 ## Grievances and Complaints Procedures
-A student who has a complaint related to this course should follow the procedures summarized below.
-- The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the
-instructor if they do not feel, for whatever reason, that they can directly approach the instructor.
-- If the complaint is not resolved to the student's satisfaction, the student should go to the departmental chair John Braun at
-SCI 388, 807-8032.
-
+A student who has a complaint related to this course should follow the procedures summarized below:
+ - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
+ - If the complaint is not resolved to the student's satisfaction, the student should go to the departmental chair John Braun at SCI 388, 807-8032 or e-mail him at john.braun@ubc.ca.  
+ 
 ## Your Responsibilities
 Your responsibilities to this class and to your education as a whole include attendance and participation. You have a
 responsibility to help create a classroom environment where all may learn. At the most basic level, this means you will
@@ -211,41 +115,71 @@ talking on a cell-phone, inappropriate use of profanity in classroom discussion,
 toward the instructor, a student in the class, or about other individuals or groups.
 
 ## Academic Integrity
-The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are
-expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this
-means submitting only original work done by you and acknowledging all sources of information or ideas and attributing
-them to others as required. This also means you should not cheat, copy, or mislead others about what is your work.
-Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious
-consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating usually result in a
-failing grade or mark of zero on the assignment or in the course. Careful records are kept to monitor and prevent recidivism.
-A more detailed description of academic integrity, including the policies and procedures, may be found at
-http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,54,111,959. If you have any questions about how academic
-integrity applies to this course, consult with the instructor.
+The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating usually result in a failing grade or mark of zero on the assignment or in the course.   Careful records are kept to monitor and prevent recidivism.  A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
+
+## Grading Practices   
+Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
 
 ## Disability Assistance
-If you require disability-related accommodations to meet the course objectives, please contact the Diversity Advisor of
-Disability Resources located in the University Centre, Room 227. For more information about Disability Resources or
-academic accommodations, please visit the website at: https://students.ok.ubc.ca/drc/welcome.html
+The Disability Resource Centre ensures educational equity for students with disabilities, injuries or illness. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, visit our website for more information: http://students.ok.ubc.ca/drc/welcome.html or contact the DRC at:   drc.questions@ubc.ca 
 
 ## Equity, Human Rights, Discrimination and Harassment
-UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an
-environment that is free from human rights based discrimination and harassment. If you require assistance related to an
-issue of equity, discrimination or harassment, please contact the Equity Office, your administrative head of unit, and/or your
-unit’s equity representative. UBC Okanagan Equity Advisor: ph. 250-807-9291; email equity.ubco@ubc.ca
-Web: http://equity.ok.ubc.ca
+UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an environment that is free from human rights based discrimination and harassment.  If you require assistance related to an issue of equity, discrimination or harassment, please contact the Equity Office, your administrative head of unit, and/or your unit’s equity representative.   
+UBC Okanagan Equity Advisor:   ph. 250-807-9291; 
+E-mail:  equity.ubco@ubc.ca    			Web:  https://equity.ok.ubc.ca/
 
-## Missing an Exam
-Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's
-policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam
-may have a question format different from the regular exam. If the reason for
-absence is satisfactory, the student’s final exam will be worth more of the final grade. Further information on Academic
-Concession can be found under Policies and Regulation in the Okanagan Academic Calendar
-http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0
+### Health & Wellness
+At UBC Okanagan health services to students are provided by Health and Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Health and Wellness for more information or to book an appointment.
+UNC 337  Email: healthwellness.okanagan@ubc.ca  	Web:www.students.ok.ubc.ca/health-wellness
+
+## Sexual Violence Prevention and Response Office (SVPRO)
+A safe and confidential place for UBC students, staff and faculty who have experienced sexual   violence regardless of when or where it took place. Just want to talk? We are here to listen and help you explore your options. We can help you find a safe place to stay, explain your reporting options (UBC or police), accompany you to the hospital, or support you with academic accommodations. You have the right to choose what happens next. We support your decision, whatever you decide. Visit svpro.ok.ubc.ca or call us at 250.807.9640
+ 
+## Independent Investigations Office (IIO)
+If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO via email: director.of.investigations@ubc.ca or by calling 604.827.2060 or online by visiting investigationsoffice.ubc.ca
+
+## The Hub
+The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. For more information, please visit the Hub’s website (https://students.ok.ubc.ca/student-learning-hub/) or call 250-807-9185.
+
+### SAFEWALK
+Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
+For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC SAFE – Okanagan app.
+
+## Academic Integrity Course Policies
+Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
+
+### In-Class Participation and Quizzes and Teamwork Collaboration
+#### Allowed
+- Collaboration in groups of up to 4 on Canvas quizzes and in-class exercises
+
+#### Not Allowed
+One person providing all answers for a quiz/exercise to a group of people of any size	Not Allowed
+Sharing, posting, or distributing answers to other students or websites for quizzes/exercises	Not Allowed
+Dividing up the work for a quiz or exercise between members of an approved group	Not Recommended
+Answering questions for another student or submitting answers on their behalf	Not Allowed
+Requesting help from previous students in the course or other individuals outside of the course	Not Allowed
+Relying on others to do work for me or not contributing reasonable effort to group activities	Not Allowed
+
+Assignments
+Working on an individual assignment with a group of people and submitting minor variations of work developed together	Not Allowed
+For group assignment, completing all work independently and providing answer to rest of group	Not Allowed
+Sharing solutions to assignments with other students or on the Internet	Not Allowed
+Receiving solutions to assignments from other sources (students, web, tutors)	Not Allowed
+Request help from the TA or instructor and use the answer/code that they provide	Allowed
+Answer general questions about assignments in chat or discussion forums	Allowed (*with care)
+	
+Exams	
+Using any non-approved resource (people, web, etc.) for exams 	Not Allowed (severe)
+Posting or providing answers to students who have not yet completed the exam	Not Allowed
+Requesting help from other people or web services for open book exams	Not Allowed
+Using course material including assignments, notes, and quizzes in an open book exam	Allowed
+Posting or providing exam questions and answers after exam has been completed	Not Allowed
+Allowing another person to write or complete any part of any exam	Not Allowed (severe)
 
 
 ## Reference Material
 * [SQL for Web Nerds](http://philip.greenspun.com/sql/index.html)
 * [SQL Tutorial by Software Carpentry](http://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [SQL in R with dplyr](https://datacarpentry.org/R-ecology-lesson/05-r-and-databases.html)
-* [R DBI Package](https://www.rdocumentation.org/packages/DBI)
-* [COSC 304](https://people.ok.ubc.ca/rlawrenc/teaching/304/index.html)
+
+
