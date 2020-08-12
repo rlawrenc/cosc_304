@@ -18,7 +18,6 @@ TBD
 **Course Format:** Interactive online classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
 
 **Learning Outcomes:**
-Learning Outcomes  
  - Understand the use case for databases and the relational model for data storage.
  - Proficiency in creating queries on relational databases using relational algebra and SQL.
  - Read existing database designs, design new databases using ER/UML modeling, and convert to the relational model.
@@ -32,7 +31,7 @@ Learning Outcomes
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 16th in class | 
 | Midterm #2 | 15% | November 13th in class | 
-| Final Exam | 35% (cumulative, three hours) | 
+| Final Exam | 35% | Cumulative, three hours | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -49,12 +48,8 @@ Learning Outcomes
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
-
 **Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
 **Lab:** Drop-in labs and help desk
-
-**Phone:** 250-807-9390
-**E-mail:**	ramon.lawrence@ubc.ca
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
@@ -67,16 +62,16 @@ Learning Outcomes
 | October 2 (F) | SQL - Subqueries, Outer joins | |
 | October 5 (M) |	Database Design – General Approach ; ER and UML Modeling | |
 | October 9 (F) |	ER and UML Modeling examples and questions | |
-| October 12 (M) | No class due to Thanksgiving | |
-| October 16 (F) | Midterm Exam #1 In-Class | |
+| October 12 (M) | **No class due to Thanksgiving** | |
+| October 16 (F) | **Midterm Exam #1 In-Class** | |
 | October 19 (M) | EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model | |
 | October 23 (F) | Database Programming using Java/JDBC | |
 | October 26 (M) | Database Programming using Python and R | |
 | October 30 (F) | Database Web Programming – Web servers, JSP/PHP | |
 | November 2 (M) | Advanced SQL DDL – Triggers and Views | |
 | November 6 (F) | Advanced SQL – Security, Transactions, Recursion | |
-| November 9 (M) | Midterm Exam #2 In-Class | |
-| November 13 (F) | No class for Term 1 midterm break. | |
+| November 9 (M) | **Midterm Exam #2 In-Class** | |
+| November 13 (F) | **No class for Term 1 midterm break** | |
 | November 16 (M) | XML, XPath, JSON, NoSQL Databases | |
 | November 20 (F) | Normalization and Design Verification | |
 | November 23 (M) | Database hosting and data cleansing/wrangling | |
@@ -88,7 +83,7 @@ Learning Outcomes
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 7 – 11 |	No Lab during First Week of Class |
+|  | September 7 – 11 |	**No Lab during First Week of Class** |
 | [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
 | [3](labs/lab3) | Sept. 28 – Oct. 2 | Lab 3: Writing SQL queries on a MySQL database |
