@@ -1,7 +1,9 @@
 # COSC 304 - Introduction to Databases - Winter 2020 Term 1
 
 ## Instructor
-Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390
+Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
+**Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment<br>
+**Office Location:** ASC 349 (virtual office hours)
 
 ## TA
 TBD
@@ -14,47 +16,43 @@ TBD
 
 ## Course Objectives
 **Course Format:** Interactive online classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
+
 **Learning Outcomes:**
-      - Ability to query and develop programs to interact with existing databases.
-      - Understanding of database design techniques and experience creating database applications.
-**Course Objectives:**
-      - Ability to query relational databases using relational algebra and SQL.
-      - Application of ER/UML design for building database applications.
-      - Ability to create a database and access it with programs and reporting software.
+Learning Outcomes  
+ - Understand the use case for databases and the relational model for data storage.
+ - Proficiency in creating queries on relational databases using relational algebra and SQL.
+ - Read existing database designs, design new databases using ER/UML modeling, and convert to the relational model.
+ - Construct programs that access a database to read data, perform analysis, and output results.
+ - Exposure to database technologies like NoSQL, JSON, XML, and cloud databases.
 
 ## Marking and Evaluation
-| Item | Weighting |
-|------|-----------|
-| Quizzes and Exercises | 10% | 
-| Assignments | 25% | 
-| Two Midterm Exams | 30% (in class, 15% each) | 
+| Item | Weighting | Description |
+|------|-----------|-------------|
+| Quizzes and Exercises | 10% | Online and during class time activities |
+| Assignments | 25% | Weekly assignments |
+| Midterm #1 | 15% | October 16th in class | 
+| Midterm #2 | 15% | November 13th in class | 
 | Final Exam | 35% (cumulative, three hours) | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
 ## Textbook and Reference Material
- - All notes released online.
+ - All notes are online.
  - A textbook is not required. Students can get supplemental material from any database textbook.
 
 ## Expectations
  - Attend all classes and prepare before attending class. 
- - Read the notes before the class time.
- - Learn the material in the course by completing all assignments.
+ - Read the notes before the class time. **Expect to spend about five hours per week in out-of-class preparation.**
+ - Learn the material in the course by completing all assignments. **No late assignments are accepted.**
  - Enjoy attending class activities and participate according to your personality.  Ask questions by posting on chat or raising your hand.
  - Please actively participate in class discussions, questions, and problem solving exercises.
- - I want all students to pass the course, receive a good grade, and feel the course was beneficial.
-
-## Homework Expectation
-For this course, expect to spend about five hours per week in out-of-class preparation.
-
-
+ - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
 
 **Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
 **Lab:** Drop-in labs and help desk
-**Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment
-**Office Location:** ASC 349
+
 **Phone:** 250-807-9390
 **E-mail:**	ramon.lawrence@ubc.ca
 
