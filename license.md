@@ -14,10 +14,3 @@ These materials are distributed under the Creative Commons Attribution-ShareAlik
 Dr. Ramon Lawrence<br>
 Professor of Computer Science at University of British Columbia Okanagan<br>
 ramon.lawrence@ubc.ca
-
-### Other contributors were:
-Matthew Fritter, mattfritter@gmail.com
-
-## Attributions
-
-Although the content is not directly derived or adapted from the DSCI 513 Database and Data Retrieval course developed at University of British Columbia Vancouver campus, the course material is similar and materials were made available by the producers including Laks V.S. Lakshmanan.
