@@ -60,26 +60,49 @@ For this course, expect to spend about five hours per week in out-of-class prepa
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
-| 2019-10-08 | [Relational Database Introduction](lectures/lecture1)  | [SQL for Web Nerds: Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| 2019-10-10 | [SQL DDL: CREATE, INSERT, DELETE, UPDATE](lectures/lecture2)  |  |
-| 2019-10-15 | [SQL: select, project, join, ORDER BY](lectures/lecture3) | [SQL for Web Nerds: Queries](http://philip.greenspun.com/sql/queries.html) |
-| 2019-10-17 | [SQL: GROUP BY, aggregate functions, subqueries, outer joins](lectures/lecture4) |  [SQL for Web Nerds: Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| 2019-10-22 | [Programming with Databases in R and Python](lectures/lecture5)      | [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br>[pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started)<br>[Python Database API](https://www.python.org/dev/peps/pep-0249)<br>[Python sqlite3](https://docs.python.org/3/library/sqlite3.html)<br> [MySQL and R Tutorial](https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r)<br>RStudio: [MySQL](https://db.rstudio.com/databases/my-sql/), [SQLServer](https://db.rstudio.com/databases/microsoft-sql-server/), [DB Queries](https://db.rstudio.com/getting-started/database-queries/),<br> [DBI](https://db.rstudio.com/dbi/), [SQLite](https://db.rstudio.com/databases/sqlite/) |
-| 2019-10-24 | SQL Quiz |  |
-| 2019-10-29 | [ER/UML Diagrams with Relational Mapping](lectures/lecture6) |  |
-| 2019-10-31 | [XML, JSON, and NoSQL](lectures/lecture7) | [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| 2019-11-05 | [Advanced SQL: Views, Security, Transactions](lectures/lecture8) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| 2019-11-07 | Course Quiz |  |
-
+| September 11 (F) | First day of classes.  Introduction to course/databases | |
+| September 14 (M) | Relational Model - Schemas, Keys, Constraints, Integrity | |
+| September 18 (F) | Relational Algebra - Select, Project, Set Ops, Outer Joins, Practice Questions | |
+| September 21 (M) | SQL DDL – Create table, constraints, create indexes, Insert/Delete/Update | |
+| September 25 (F) | SQL - Simple Queries, LIKE operator, Set Operations, Order By | |
+| September 28 (M) | SQL - Group By, Aggregate Functions | |
+| October 2 (F) | SQL - Subqueries, Outer joins | |
+| October 5 (M) |	Database Design – General Approach ; ER and UML Modeling | |
+| October 9 (F) |	ER and UML Modeling examples and questions | |
+| October 12 (M) | No class due to Thanksgiving | |
+| October 16 (F) | Midterm Exam #1 In-Class | |
+| October 19 (M) | EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model | |
+| October 23 (F) | Database Programming using Java/JDBC | |
+| October 26 (M) | Database Programming using Python and R | |
+| October 30 (F) | Database Web Programming – Web servers, JSP/PHP | |
+| November 2 (M) | Advanced SQL DDL – Triggers and Views | |
+| November 6 (F) | Advanced SQL – Security, Transactions, Recursion | |
+| November 9 (M) | Midterm Exam #2 In-Class | |
+| November 13 (F) | No class for Term 1 midterm break. | |
+| November 16 (M) | XML, XPath, JSON, NoSQL Databases | |
+| November 20 (F) | Normalization and Design Verification | |
+| November 23 (M) | Database hosting and data cleansing/wrangling | |
+| November 27 (F) | Project development | |
+| November 30 (M) | Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary | |
+| December 4 (F) | Final Exam Review | |
 
 ## Labs
 
-|     | Lab topic   | Lab Date | Due Date |
-|-----|-------------|----------|----------|
-| [1](labs/lab1) | SQL DDL | 2019-10-10 | 2019-10-17 20:00 |
-| [2](labs/lab2) | SQL | 2019-10-17 | 2019-10-24 20:00 |
-| [3](labs/lab3) | Database Programming | 2019-10-24 | 2019-10-31 20:00 |
-| [4](labs/lab4) | ER diagrams/NoSQL | 2019-10-31 | 2019-11-07 20:00 |
+|  Lab   | Lab topic  |
+|-----|-------------|
+|  | September 7 – 11 |	No Lab during First Week of Class |
+| [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
+| [1](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
+| [1](labs/lab3) | Sept. 28 – Oct. 2 | Lab 3: Writing SQL queries on a MySQL database |
+| [1](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
+| [1](labs/lab5) | October 12 – 16 |Lab 5: Converting UML Diagrams into the Relational Model |
+| [1](labs/lab5) | October 19 – 23 | Lab 5: Converting UML Diagrams into the Relational Model (cont.) |
+| [1](labs/lab6) | October 26 – 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [1](labs/lab7) | November 2 – 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [1](labs/lab7) | November 9 – 13 | Lab 7: Building a Database-enabled Web Site using JSP/PHP (cont.) |
+| [1](labs/lab8) | November 16 – 20 | Lab 8: Images, Security, and Transactions |
+| [1](labs/lab9) | November 23 – 27 | Lab 9: XML, JSON, Views, and Triggers |
+| [1](labs/lab10) | Nov. 30 – Dec. 4 | Lab 10: Project Completion |
 
 
 ## Learning Outcomes
