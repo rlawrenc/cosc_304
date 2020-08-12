@@ -31,7 +31,7 @@ TBD
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 16th in class | 
 | Midterm #2 | 15% | November 13th in class | 
-| Final Exam | 35% | Cumulative, three hours | 
+| Final Exam | 35% | Cumulative, three hours **Exams may use Proctorio and require a web camera.**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
