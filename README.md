@@ -1,11 +1,62 @@
-# DATA 540: Databases and Data Retrieval
+# COSC 304 - Introduction to Databases - Winter 2020 Term 1
 
-Using and querying relational and NoSQL databases for analysis. Experience with SQL, JSON, and programs that use databases.
+## Instructor
+Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390
+
+## TA
+TBD
+
+## Course Description
+**Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
+**Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
+
+**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last part involves database and web programming with Java, JDBC, JSP, Python, and PHP. Students completing the course have experience with current database technologies, and the ability to use and develop databases and associated applications.
+
+## Course Objectives
+**Course Format:** Interactive online classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
+**Learning Outcomes:**
+      - Ability to query and develop programs to interact with existing databases.
+      - Understanding of database design techniques and experience creating database applications.
+**Course Objectives:**
+      - Ability to query relational databases using relational algebra and SQL.
+      - Application of ER/UML design for building database applications.
+      - Ability to create a database and access it with programs and reporting software.
+
+## Marking and Evaluation
+| Item | Weighting |
+|------|-----------:|
+| Quizzes and Exercises | 10% | 
+| Assignments | 25% | 
+| Two Midterm Exams | 30% (in class, 15% each) | 
+| Final Exam | 35% (cumulative, three hours) | 
+
+**A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
+
+## Textbook and Reference Material
+ - All notes released online.
+ - A textbook is not required. Students can get supplemental material from any database textbook.
+
+## Expectations
+ - Attend all classes and prepare before attending class. 
+ - Read the notes before the class time.
+ - Learn the material in the course by completing all assignments.
+ - Enjoy attending class activities and participate according to your personality.  Ask questions by posting on chat or raising your hand.
+ - Please actively participate in class discussions, questions, and problem solving exercises.
+ - I want all students to pass the course, receive a good grade, and feel the course was beneficial.
+
+## Homework Expectation
+For this course, expect to spend about five hours per week in out-of-class preparation.
+
+
 
 ## Schedule
 
-**Lecture:** Tuesday/Thursday 11:00 a.m. to 12:30 p.m. in SCI 396<br>
-**Lab:** Thursday 1:30 p.m. to 3:30 p.m. in SCI 396
+**Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
+**Lab:** Drop-in labs and help desk
+**Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment
+**Office Location:** ASC 349
+**Phone:** 250-807-9390
+**E-mail:**	ramon.lawrence@ubc.ca
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
@@ -30,24 +81,6 @@ Using and querying relational and NoSQL databases for analysis. Experience with 
 | [3](labs/lab3) | Database Programming | 2019-10-24 | 2019-10-31 20:00 |
 | [4](labs/lab4) | ER diagrams/NoSQL | 2019-10-31 | 2019-11-07 20:00 |
 
-## Quizzes
-|     | Date and Time | Topic |
-|-----|------|------|
-| 1 | 2019-10-24 In-class | SQL | 
-| 2 | 2019-11-07 In-class |  All course content  |
-
-## Instructor
-Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390
-
-## TA
-Debangsha Sarkar
-
-## Marking and Evaluation
-| Item | Weighting |
-|------|-----------:|
-| Clickers | 10% | 
-| Labs | 30% | 
-| Quizzes | 60% | 
 
 ## Learning Outcomes
 
@@ -178,7 +211,7 @@ integrity applies to this course, consult with the instructor.
 ## Disability Assistance
 If you require disability-related accommodations to meet the course objectives, please contact the Diversity Advisor of
 Disability Resources located in the University Centre, Room 227. For more information about Disability Resources or
-academic accommodations, please visit the website at: http://students.ok.ubc.ca/drc/welcome.html
+academic accommodations, please visit the website at: https://students.ok.ubc.ca/drc/welcome.html
 
 ## Equity, Human Rights, Discrimination and Harassment
 UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an
