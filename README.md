@@ -31,7 +31,7 @@ TBD
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 16th in class | 
 | Midterm #2 | 15% | November 13th in class | 
-| Final Exam | 35% | Cumulative, three hours **Exams may use Proctorio and require a web camera.**| 
+| Final Exam | 35% | Cumulative, three hours ; **Exams may use Proctorio and require a web camera.**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -60,8 +60,8 @@ TBD
 | September 25 (F) | SQL - Simple Queries, LIKE operator, Set Operations, Order By | |
 | September 28 (M) | SQL - Group By, Aggregate Functions | |
 | October 2 (F) | SQL - Subqueries, Outer joins | |
-| October 5 (M) |	Database Design – General Approach ; ER and UML Modeling | |
-| October 9 (F) |	ER and UML Modeling examples and questions | |
+| October 5 (M) | Database Design – General Approach ; ER and UML Modeling | |
+| October 9 (F) | ER and UML Modeling examples and questions | |
 | October 12 (M) | **No class due to Thanksgiving** | |
 | October 16 (F) | **Midterm Exam #1 In-Class** | |
 | October 19 (M) | EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model | |
@@ -135,6 +135,7 @@ Academic integrity is critical to being a professional developer and a respected
 
 ### Assignments
 #### Allowed
+- Collaborating with your approved group members (usually two) and submitting a shared answer to the assignment
 - Request help from the TA or instructor and use the answer/code that they provide
 - Answer general questions about assignments in chat or discussion forums (*Allowed with care*)
 
@@ -187,6 +188,6 @@ For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC
 ## Reference Material
 * [SQL for Web Nerds](http://philip.greenspun.com/sql/index.html)
 * [SQL Tutorial by Software Carpentry](http://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
-* [SQL in R with dplyr](https://datacarpentry.org/R-ecology-lesson/05-r-and-databases.html)
+
 
 
