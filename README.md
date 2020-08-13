@@ -56,7 +56,7 @@ TBD
 | September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | |
 | September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) | |
 | September 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins, Practice Questions](lectures/lecture3) | |
-| September 21 (M) | [SQL DDL – Create table, constraints, create indexes, Insert/Delete/Update](lectures/lecture4) | |
+| September 21 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | |
 | September 25 (F) | [SQL - Simple Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | |
 | September 28 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | |
 | October 2 (F) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
