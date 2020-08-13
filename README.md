@@ -53,30 +53,30 @@ TBD
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
-| September 11 (F) | **First day of classes.  Introduction to course/databases** | |
-| September 14 (M) | Relational Model - Schemas, Keys, Constraints, Integrity | |
-| September 18 (F) | Relational Algebra - Select, Project, Set Ops, Outer Joins, Practice Questions | |
-| September 21 (M) | SQL DDL – Create table, constraints, create indexes, Insert/Delete/Update | |
-| September 25 (F) | SQL - Simple Queries, LIKE operator, Set Operations, Order By | |
-| September 28 (M) | SQL - Group By, Aggregate Functions | |
-| October 2 (F) | SQL - Subqueries, Outer joins | |
-| October 5 (M) | Database Design – General Approach ; ER and UML Modeling | |
-| October 9 (F) | ER and UML Modeling examples and questions | |
+| September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | |
+| September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) | |
+| September 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins, Practice Questions](lectures/lecture3) | |
+| September 21 (M) | [SQL DDL – Create table, constraints, create indexes, Insert/Delete/Update](lectures/lecture4) | |
+| September 25 (F) | [SQL - Simple Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | |
+| September 28 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | |
+| October 2 (F) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
+| October 5 (M) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
+| October 9 (F) | [ER and UML Modeling examples and questions](lectures/lecture8) | |
 | October 12 (M) | **No class due to Thanksgiving** | |
 | October 16 (F) | **Midterm Exam #1 In-Class** | |
-| October 19 (M) | EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model | |
-| October 23 (F) | Database Programming using Java/JDBC | |
-| October 26 (M) | Database Programming using Python and R | |
-| October 30 (F) | Database Web Programming – Web servers, JSP/PHP | |
-| November 2 (M) | Advanced SQL DDL – Triggers and Views | |
-| November 6 (F) | Advanced SQL – Security, Transactions, Recursion | |
+| October 19 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
+| October 23 (F) | [Database Programming using Java/JDBC](lectures/lecture10) | |
+| October 26 (M) | [Database Programming using Python and R](lectures/lecture11) | |
+| October 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | |
+| November 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | |
+| November 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | |
 | November 9 (M) | **Midterm Exam #2 In-Class** | |
 | November 13 (F) | **No class for Term 1 midterm break** | |
-| November 16 (M) | XML, XPath, JSON, NoSQL Databases | |
-| November 20 (F) | Normalization and Design Verification | |
-| November 23 (M) | Database hosting and data cleansing/wrangling | |
+| November 16 (M) | [XML, XPath, JSON, NoSQL Databases](lectures/lecture15) | |
+| November 20 (F) | [Normalization and Design Verification](lectures/lecture16) | |
+| November 23 (M) | [Database hosting and data cleansing/wrangling](lectures/lecture17) | |
 | November 27 (F) | Project development | |
-| November 30 (M) | Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary | |
+| November 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture18) | |
 | December 4 (F) | **Final Exam Review** | |
 
 ## Labs
