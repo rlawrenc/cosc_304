@@ -66,13 +66,13 @@ TBD
 | October 16 (F) | **Midterm Exam #1 In-Class** | |
 | October 19 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
 | October 23 (F) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| October 26 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code)  |
+| October 26 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br>[pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249)<br>[Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
 | October 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code), [Comic - Why validation is important](http://xkcd.com/327/) |
-| November 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| November 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | |
+| November 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| November 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
 | November 9 (M) | **Midterm Exam #2 In-Class** | |
 | November 13 (F) | **No class for Term 1 midterm break** | |
-| November 16 (M) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code) |
+| November 16 (M) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | November 20 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
 | November 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
 | November 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
