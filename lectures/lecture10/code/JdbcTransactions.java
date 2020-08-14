@@ -15,7 +15,7 @@ public class JdbcTransactions
 {	public static void main(String[] args)
 	{	String url = "jdbc:sqlserver://sql04.ok.ubc.ca;databaseName=db_rlawrenc;";
 		String uid = "rlawrenc";
-		String pw = "test";
+		String pw = "todo";
 
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);)
 		{		
