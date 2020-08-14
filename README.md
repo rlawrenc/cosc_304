@@ -72,10 +72,10 @@ TBD
 | November 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | |
 | November 9 (M) | **Midterm Exam #2 In-Class** | |
 | November 13 (F) | **No class for Term 1 midterm break** | |
-| November 16 (M) | [XML, XPath, JSON, NoSQL Databases](lectures/lecture15) | |
-| November 20 (F) | [Normalization and Design Verification](lectures/lecture16) | |
-| November 23 (M) | [Database hosting and data cleansing/wrangling](lectures/lecture17) | |
-| November 27 (F) | Project development | |
+| November 16 (M) | [XML and XPath](lectures/lecture15) | |
+| November 20 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
+| November 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
+| November 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | |
 | November 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture18) | |
 | December 4 (F) | **Final Exam Review** | |
 
