@@ -51,7 +51,7 @@ TBD
 **Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
 **Lab:** Drop-in virtual labs and help sessions
 
-|   Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Topic  | Reading and Resources |
+|   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Topic  | Reading and Resources |
 |------------|------|-----------|
 | September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
 | September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) |  |
