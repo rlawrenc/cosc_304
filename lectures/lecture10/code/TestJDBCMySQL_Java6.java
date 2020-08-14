@@ -4,7 +4,7 @@ public class TestJDBCMySQL_Java6
 {	public static void main(String[] args)
 	{	String url = "jdbc:mysql://cosc304.ok.ubc.ca/workson";
 		String uid = "rlawrenc";
-		String pw = "test";      
+		String pw = "todo";      
 
 		// Note: Loading a driver class is not required.
 		try 
