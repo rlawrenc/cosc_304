@@ -51,10 +51,10 @@ TBD
 **Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
 **Lab:** Drop-in virtual labs and help sessions
 
-|   Date     | Topic  | Reading |
+|   Date     | Topic  | Reading and Resources |
 |------------|------|-----------|
 | September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) | |
+| September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn RA Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39) |
 | September 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | |
 | September 21 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | |
 | September 25 (F) | [SQL - Simple Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | |
