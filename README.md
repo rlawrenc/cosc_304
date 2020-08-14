@@ -76,7 +76,7 @@ TBD
 | November 20 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
 | November 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
 | November 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | |
-| November 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture18) | |
+| November 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | |
 | December 4 (F) | **Final Exam Review** | |
 
 ## Labs
