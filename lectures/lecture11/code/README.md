@@ -8,6 +8,6 @@
 
 ### Sample Python Code Files
 - [Python MySQL Query Example (.py)](PythonQueryExample.py), [Python MySQL Query Example (.ipynb)](PythonQueryExample.ipynb)
-- [Python MySQL Query Example with Parameters (.py)](PythonMySQLParameters.py), ]Python MySQL Query Example with Parameters (.ipynb)](PythonMySQLParameters.ipynb)
+- [Python MySQL Query Example with Parameters (.py)](PythonMySQLParameters.py), [Python MySQL Query Example with Parameters (.ipynb)](PythonMySQLParameters.ipynb)
 - [Python MySQL Insert/Delete Example (.py)](PythonMySQLInsertDelete.py), [Python MySQL Insert/Delete Example (.ipynb)](PythonMySQLInsertDelete.ipynb)
 - [Python SQL Server Example (.py)](PythonSQLServer.py), [Python SQL Server Example (.ipynb)](PythonSQLServer.ipynb)
