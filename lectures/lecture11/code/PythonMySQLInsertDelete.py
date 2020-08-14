@@ -1,6 +1,6 @@
 import mysql.connector
 try:
-    cnx = mysql.connector.connect(user='rlawrenc', password='test', host='cosc304.ok.ubc.ca', database='db_rlawrenc', ssl_disabled='True')
+    cnx = mysql.connector.connect(user='rlawrenc', password='todo', host='cosc304.ok.ubc.ca', database='db_rlawrenc', ssl_disabled='True')
     cursor = cnx.cursor()
     sql = "INSERT INTO emp (eno, ename, salary) VALUES (%s, %s, %s)"
     cursor.execute(sql, ('E10', 'Test Person', 100000))
