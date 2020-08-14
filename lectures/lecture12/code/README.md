@@ -4,9 +4,9 @@
 - [HelloWorld.jsp](jsp/HelloWorld.jsp)
 - [JdbcQuery.jsp](jsp/JdbcQuery.jsp)
 - [JSP File for Database Access (jdbc.jsp)](jsp/jdbc.jsp)
-- **JSP (passing data) - ** [sendingPage.jsp](jsp/sendingPage.jsp), [receivingPage.jsp](jsp/receivingPage.jsp)
-- **JSP (user login) - ** [login.jsp](jsp/login.jsp), [auth.jsp](jsp/auth.jsp), [protectedPage.jsp](jsp/protectedPage.jsp), [validateLogin.jsp](jsp/validateLogin.jsp)
-- **JSP (connection pools) - ** [QueryCP.jsp](jsp/QueryCP.jsp) (connection pool query)
+- **JSP (passing data) -** [sendingPage.jsp](jsp/sendingPage.jsp), [receivingPage.jsp](jsp/receivingPage.jsp)
+- **JSP (user login) -** [login.jsp](jsp/login.jsp), [auth.jsp](jsp/auth.jsp), [protectedPage.jsp](jsp/protectedPage.jsp), [validateLogin.jsp](jsp/validateLogin.jsp)
+- **JSP (connection pools) -** [QueryCP.jsp](jsp/QueryCP.jsp) (connection pool query)
 
 ### JSP Forms
 - **Bad Using String Concatenation:** [QueryJSPBad.html](jsp/QueryJSPBad.html), [EmpQueryBad.jsp](jsp/EmpQueryBad.jsp)
