@@ -53,7 +53,7 @@ TBD
 
 |   Date     | Topic  | Reading |
 |------------|------|-----------|
-| September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | |
+| September 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
 | September 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) | |
 | September 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | |
 | September 21 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | |
