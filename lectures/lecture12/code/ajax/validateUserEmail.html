@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Validate User Name and Email</title>
+</head>
+
+<body bgcolor="white">
+
+<script type="text/javascript">
+function checkUserName(){
+	var name = document.getElementById("username").value;
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET","validateUserEmail.jsp?name="+name,false);
+	xmlhttp.send(null);	// Synchronous version with no additional payload
+	if (xmlhttp.responseText != "VALID")
+		alert(xmlhttp.responseText);
+}
+
+function checkEmail(){
+	var email = document.getElementById("email").value;
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET","validateUserEmail.jsp?email="+email,false);
+	xmlhttp.send(null);	// Synchronous version with no additional payload
+	if (xmlhttp.responseText != "VALID")
+		alert(xmlhttp.responseText);
+}
+</script>
+
+<form name="input">
+	Name: <input type="text" id="username"> <a href="javascript: checkUserName()">Check</a> <br>
+	Email: <input type="text" id="email"> <a href="javascript: checkEmail()">Check</a>
+</form>
+
+</body>
+</html>
