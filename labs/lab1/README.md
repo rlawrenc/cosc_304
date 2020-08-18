@@ -6,7 +6,7 @@
 
 ## Relational Algebra Practice
 
-**This lab has a practice component that is not graded and an [assignment component](assign/readme.md).**
+**This lab has a practice component that is not graded and an [assignment component](assign).**
 
 The lab practices writing queries in relational algebra using a [book database schema](https://gist.github.com/rlawrenc/367f41bb51110ef3c84bb5f906f2fb87):
 
@@ -121,4 +121,4 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 </ol>
 
-### [Lab 1 - Relational Algebra Assignment](assign/readme.md)
+### [Lab 1 - Relational Algebra Assignment](assign)
