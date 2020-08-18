@@ -26,17 +26,17 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 <li>Return all books (ISBN only) with a list price over $50.</li>
 
-<li>Return all books (ISBN only) with a publish date before Jan. 11, 2001 or whose publisher is 'GenCo'.</li>
+<li>Return all books (ISBN only) with a publish date before May. 11, 2020 or whose publisher is 'GenCo'.</li>
 
 <li>Return all addresses (both for authors and bookstores).</li>
 
 <li>Return all authors that have not published a book.</li>
 
-<li>Return the list of books written by Joe Smith.</li>
+<li>Return the list of books written by Elle Padimi.</li>
 
-<li>Return the list of books written by Joe Smith that cost less than $40.</li>
+<li>Return the list of books written by Elle Padimi that cost less than $40.</li>
 
-<li>Find all authors (firstName, lastName) who have written books that have been published after Feb. 15, 1990.</li>
+<li>Find all authors (firstName, lastName) who have written books that have been published after July 1, 2020.</li>
 
 <li>Find all authors who have written more than one book.</li>
 
@@ -53,52 +53,52 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 #### Answers:
 
 <ol>
-<li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>listPrice > 50</sub>(Book))</li>
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>listPrice > 50</sub> (Book))</li>
 
-<li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>pubDate < '2001-01-11' OR publisher = 'GenCo'</sub>(Book))</li>
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>pubDate < '2020-05-11' OR publisher = 'GenCo'</sub> (Book))</li>
 
-<li> &pi;&nbsp;<sub>address</sub>(Author) &cup; &nbsp; &pi;<sub>address</sub>(Bookstore)</li>
+<li> &pi;&nbsp;<sub>address</sub> (Author) &cup; &nbsp; &pi;<sub>address</sub> (Bookstore)</li>
 
-<li> &pi;&nbsp;<sub>firstName, lastName</sub>(Author) - &pi;<sub>firstName, lastName</sub>(BookAuthor)</li>
+<li> &pi;&nbsp;<sub>firstName, lastName</sub> (Author) - &pi;<sub>firstName, lastName</sub> (BookAuthor)</li>
 
-<li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>firstName = 'Joe' and lastName = 'Smith'</sub>(BookAuthor))</li>
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>firstName = 'Elle' and lastName = 'Padimi'</sub> (BookAuthor))</li>
 
-<li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>firstName = 'Joe' and lastName = 'Smith' and listPrice < 40</sub>(BookAuthor &#x22C8; Book))</li>
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>firstName = 'Elle' and lastName = 'Padimi' and listPrice < 40</sub> (BookAuthor &#x22C8; Book))</li>
 
-<li> &pi;&nbsp;<sub>firstName, lastName</sub>(&sigma;<sub>pubDate > '1990-02-15'</sub>(BookAuthor &#x22C8; Book))</li>
+<li> &pi;&nbsp;<sub>firstName, lastName</sub> (&sigma;<sub>pubDate > '2020-07-01'</sub> (BookAuthor &#x22C8; Book))</li>
 
-<li> &pi;&nbsp;<sub>B1.firstName, B1.lastName</sub>(&sigma;<sub>B1.firstName = B2.firstName AND B1.lastName = B2.lastName AND B1.isbn != B2.isbn</sub>(BookAuthor B1 X BookAuthor B2))
-
-<BR><b>With a join:</b><BR>
-
-&pi;&nbsp;<sub>B1.firstName, B1.lastName</sub>(BookAuthor B1 &#x22C8; &nbsp;<sub>B1.firstName = B2.firstName AND B1.lastName = B2.lastName AND B1.isbn != B2.isbn</sub> BookAuthor B2)
-</li>
-
-<li> &pi;&nbsp;<sub>B1.isbn, B2.isbn</sub>(&sigma;<sub>B1.title = B2.title AND B1.isbn < B2.isbn</sub>(Book B1 X Book B2))
+<li> &pi;&nbsp;<sub>B1.firstName, B1.lastName</sub> (&sigma;<sub>B1.firstName = B2.firstName AND B1.lastName = B2.lastName AND B1.isbn != B2.isbn</sub> (BookAuthor B1 X BookAuthor B2))
 
 <BR><b>With a join:</b><BR>
 
-&pi;&nbsp;<sub>B1.isbn, B2.isbn</sub>(Book B1 &#x22C8; &nbsp;<sub>B1.title = B2.title AND B1.isbn < B2.isbn</sub> Book B2)
+&pi;&nbsp;<sub>B1.firstName, B1.lastName</sub> (BookAuthor B1 &#x22C8; &nbsp;<sub>B1.firstName = B2.firstName AND B1.lastName = B2.lastName AND B1.isbn != B2.isbn</sub> BookAuthor B2)
+</li>
+
+<li> &pi;&nbsp;<sub>B1.isbn, B2.isbn</sub> (&sigma;<sub>B1.title = B2.title AND B1.isbn < B2.isbn</sub> (Book B1 X Book B2))
+
+<BR><b>With a join:</b><BR>
+
+&pi;&nbsp;<sub>B1.isbn, B2.isbn</sub> (Book B1 &#x22C8; &nbsp;<sub>B1.title = B2.title AND B1.isbn < B2.isbn</sub> Book B2)
 
 </li>
 
-<li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>storeName = 'All Books'</sub>(Stock)) &cap; &nbsp; &pi;<sub>isbn</sub>(&sigma;<sub>storeName = 'Some Books'</sub>(Stock))
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>storeName = 'All Books'</sub> (Stock)) &cap; &nbsp; &pi;<sub>isbn</sub>(&sigma;<sub>storeName = 'Some Books'</sub> (Stock))
 <BR><b>OR</b><BR>
 
-&pi;&nbsp;<sub>S1.isbn</sub>(&sigma;<sub>S1.storeName = 'All Books' AND S2.storeName = 'Some Books' and S1.isbn=S2.isbn</sub>(Stock S1 X Stock S2))
+&pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books' AND S2.storeName = 'Some Books' and S1.isbn=S2.isbn</sub>(Stock S1 X Stock S2))
 
 <BR><b>OR</b><BR>
 
-&pi;&nbsp;<sub>S1.isbn</sub>(&sigma;<sub>S1.storeName = 'All Books'</sub> (Stock S1)  &#x22C8; &nbsp; <sub>S1.isbn=S2.isbn</sub> &sigma;<sub>S2.storeName = 'Some Books'</sub>(Stock S2))
+&pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books'</sub> (Stock S1)  &#x22C8; &nbsp; <sub>S1.isbn=S2.isbn</sub> &sigma;<sub>S2.storeName = 'Some Books'</sub> (Stock S2))
 
 
 </li>
 
-<li> &pi;&nbsp;<sub>S1.isbn</sub>(&sigma;<sub>S1.isbn = S2.isbn AND S2.storePrice < S1.storePrice AND S1.storeName = 'All Books' AND S2.storeName = 'Some Books'</sub>(Stock S1 X Stock S2))
+<li> &pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.isbn = S2.isbn AND S2.storePrice < S1.storePrice AND S1.storeName = 'All Books' AND S2.storeName = 'Some Books'</sub > (Stock S1 X Stock S2))
 
 <BR><b>OR</b><BR>
 
-&pi;&nbsp;<sub>S1.isbn</sub>(&sigma;<sub>S1.storeName = 'All Books'</sub>(Stock S1) &#x22C8; &nbsp;<sub>S1.isbn = S2.isbn AND S2.storePrice < S1.storePrice</sub> (&sigma;<sub>S2.storeName = 'Some Books'</sub>(Stock S2))</li>
+&pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books'</sub> (Stock S1) &#x22C8; &nbsp;<sub>S1.isbn = S2.isbn AND S2.storePrice < S1.storePrice</sub> (&sigma;<sub>S2.storeName = 'Some Books'</sub> (Stock S2))</li>
 
 </ol>
 
@@ -107,10 +107,10 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 <p><b>Challenge questions: </b></p>
 
 <ol>
-<li>Find all the books published by Harper Collins that are in-stock at Chapters.  <BR><b>Answer:</b><BR>
+<li>Find all the books published by Wiley that are in-stock at Amazon. <BR><b>Answer:</b><BR>
 
 
-&pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>storeName='Chapters' AND quantity > 0</sub>(Stock &#x22C8; &sigma;<sub>publisher='Harper Collins'</sub>(Book)))
+&pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>storeName='Wiley' AND quantity > 0</sub> (Stock &#x22C8; &sigma;<sub>publisher='Amazon'</sub>(Book)))
 </li>
 
 
