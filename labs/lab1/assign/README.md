@@ -18,14 +18,14 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
 <ol>
-<li> Return the product name, price, and inventory for all products with an inventory more than 10. <br>Expected output:<br><img src="img/ra_q1.png" width="250"></li>
+<li> Return the product name, price, and inventory for all products with an inventory more than 10. <br>Expected output:<br><img src="img/ra_q1.png"></li>
 
-<li> Return the shipment id, date, and customer id of all shipments that contain product id 3 with amount less than 10. <br>Expected output:<br><img src="img/ra_q2.png" width="280"></li>
+<li> Return the shipment id, date, and customer id of all shipments that contain product id 3 with amount less than 10. <br>Expected output:<br><img src="img/ra_q2.png"></li>
 
-<li> Return a list of all the customer id and names that have received a shipment after March 1, 2015 and contain some product with id less than 4 that had an amount more than 5. <br>Expected output:<br><img src="img/ra_q3.png" width="160"></li>
+<li> Return a list of all the customer id and names that have received a shipment after March 1, 2015 and contain some product with id less than 4 that had an amount more than 5. <br>Expected output:<br><img src="img/ra_q3.png"></li>
 
 <li> Return the product name, current inventory, shipment amount, and customer state where the product had a shipment of an amount at least half of its current inventory and the customer state was either NJ or IA.<br>Expected output:<br><img src="img/ra_q4.png"></li>
 
-<li> Return a list of product ids and names where the product has either a price < $40.00 or has appeared in a shipment for a customer with id greater than 3.<br>Expected output:<br><img src="img/q3_5.png" width="300"><br>Note: Order does not matter for records.</li>
+<li> Return a list of product ids and names where the product has either a price < $40.00 or has appeared in a shipment for a customer with id greater than 3.<br>Expected output:<br><img src="img/q3_5.png"><br>Note: Order does not matter for records.</li>
 </ol>
 
