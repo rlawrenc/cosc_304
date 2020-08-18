@@ -1,11 +1,9 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 1: Querying using Relational Algebra
 
-<hr>
-
-<p><b>This lab has a practice component and an assignment component.  To skip directly to the assignment, <a href="Assign/index.html">click here</a>.</b></p>
+<p><b>This lab has a practice component and an assignment component.  To skip directly to the assignment, <a href="assign/index.html">click here</a>.</b></p>
 
 
-<h2>Relational Algebra Practice</h2>
+## Relational Algebra Practice
 
 <p>In this lab, we will practice writing queries in relational algebra.  The database schema we will use stores information on books:</p>
 
