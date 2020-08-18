@@ -110,7 +110,7 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 <li>Find all the books published by Wiley that are in-stock at Amazon. <BR><b>Answer:</b><BR>
 
 
-&pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>publisher='Wiley' AND quantity > 0</sub> (Book &#x22C8; &sigma;<sub>storeName='Amazon'</sub> (Stock)))
+&pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>publisher='Wiley' AND quantity > 0</sub> (Book &#x22C8; &sigma;<sub>storeName='Amazon'</sub> (Stock)))
 </li>
 
 
