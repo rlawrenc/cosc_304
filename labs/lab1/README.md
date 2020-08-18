@@ -1,11 +1,14 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 1: Querying using Relational Algebra
 
-<p><b>This lab has a practice component and an assignment component.  To skip directly to the assignment, <a href="assign/index.html">click here</a>.</b></p>
+## [RelaX - Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/)
 
+[RelaX](https://dbis-uibk.github.io/relax/) is an online relational algebra tool that we will use for the assignments. It allows entering relational algebra expressions and executing them to get results. The data set can be loaded from a GitHub Gist including the [Bookstore data set]() used for sample relational algebra queries in this lab.
 
 ## Relational Algebra Practice
 
-<p>In this lab, we will practice writing queries in relational algebra.  The database schema we will use stores information on books:</p>
+**This lab has a practice component that is not graded and an [assignment component](assign/readme.md).**
+
+The lab practices writing queries in relational algebra using a book database schema:
 
 <PRE>
 Book (<u>isbn</u>, pubDate, listPrice, publisher, title, copyright)
@@ -15,10 +18,9 @@ Bookstore (<u>name</u>, address)
 Stock (<u>storeName</u>, <u>isbn</u>, storePrice, quantity)
 </PRE>
 
-<p>The <tt>Author</tt> relation gives the author's first and last names and address. Each first name/last name pair is unique. The <tt>Book</tt> relation gives the isbn, title, copyright date, publication date, and recommended list price.  Since a book can have multiple authors, the relation <tt>BookAuthor</tt> matches up authors (identified by name) with books (identified by ISBN).  The <tt>Bookstore</tt> relation gives the name (key) and address of a book store. The <tt>Stock</tt> relation gives the bookstore name, the price, and the ISBN number of the book. listPrice and storePrice are real numbers. copyright and pubDate are integers (representing the year). All other attributes are strings.</p>
+The <tt>Author</tt> relation gives the author's first and last names and address. Each first name/last name pair is unique. The <tt>Book</tt> relation gives the isbn, title, copyright date, publication date, and recommended list price.  Since a book can have multiple authors, the relation <tt>BookAuthor</tt> matches up authors (identified by name) with books (identified by ISBN).  The <tt>Bookstore</tt> relation gives the name (key) and address of a book store. The <tt>Stock</tt> relation gives the bookstore name, the price, and the ISBN number of the book. listPrice and storePrice are real numbers. copyright and pubDate are integers (representing the year). All other attributes are strings.
 
-
-<p>Questions:  (Write the answer in relational algebra)</p>
+### Questions:  (Write the answer in relational algebra)
 
 <ol>
 
@@ -48,7 +50,7 @@ Stock (<u>storeName</u>, <u>isbn</u>, storePrice, quantity)
 </ol>
 
 
-<p><b>Answers: </b></p>
+#### Answers:
 
 <ol>
 <li> &pi;&nbsp;<sub>isbn</sub>(&sigma;<sub>listPrice > 50</sub>(Book))</li>
@@ -114,9 +116,9 @@ Stock (<u>storeName</u>, <u>isbn</u>, storePrice, quantity)
 
 <li>List the addresses of stores that have pairs of books with the same title and different ISBNs.<BR></li>
 
-<IMG SRC="challengeQuestionAnswer.png">
+<IMG SRC="img/challengeQuestionAnswer.png">
 
 
 </ol>
 
-<h2><A HREF="Assign/index.html">Lab 1 - Relational Algebra Assignment</A></h2>
+### [Lab 1 - Relational Algebra Assignment](assign/readme.md)
