@@ -25,6 +25,7 @@ All labs are done online with assistance from teaching assistants and instructor
 | Monday 4 to 6 pm | TBD |
 | Tuesday 9 to 11 am | TBD |
 | Thursday 3 to 5 pm | TBD |
+| Friday 9:30 to 11:30 am | Dr. Ramon Lawrence |
 | Friday 1 to 5 pm | TBD |
 
 ## Submission Guidelines for Assignments
