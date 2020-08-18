@@ -34,7 +34,7 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 <li>Return the list of books written by Elle Padimi.</li>
 
-<li>Return the list of books written by Elle Padimi that cost less than $40.</li>
+<li>Return the list of books written by Elle Padimi that cost less than $70.</li>
 
 <li>Find all authors (firstName, lastName) who have written books that have been published after July 1, 2020.</li>
 
@@ -63,7 +63,7 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 <li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>firstName = 'Elle' and lastName = 'Padimi'</sub> (BookAuthor))</li>
 
-<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>firstName = 'Elle' and lastName = 'Padimi' and listPrice < 40</sub> (BookAuthor &#x22C8; Book))</li>
+<li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>firstName = 'Elle' and lastName = 'Padimi' and listPrice < 70</sub> (BookAuthor &#x22C8; Book))</li>
 
 <li> &pi;&nbsp;<sub>firstName, lastName</sub> (&sigma;<sub>pubDate > '2020-07-01'</sub> (BookAuthor &#x22C8; Book))</li>
 
