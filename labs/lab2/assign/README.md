@@ -4,7 +4,7 @@ This assignment practices creating tables with SQL DDL. We will see later how to
 
 ## Question 1 (10 marks)
 
-Write the SQL DDL to create the following 5 tables for an App store: Publisher, Category, App, AppVersion, AppVersionReview:
+Write the SQL DDL to create the following 5 tables for an App store: `Publisher`, `Category`, `App`, `AppVersion`, `AppVersionReview`:
 
 <ol>
 
