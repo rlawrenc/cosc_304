@@ -18,7 +18,7 @@ Your MySQL user id is the first letter in your first name followed by up to 7 le
 
 We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open source graphical query tool.  SQuirreL is capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
-Start up SQuirreL.  Register our MySQL server with the information: ([screenshot](squirrel_mysql_register.png).
+Start up SQuirreL.  Register our MySQL server with the information: ([screenshot](img/squirrel_mysql_register.png)).
 
 <pre>
 Name: MySQL
@@ -32,7 +32,7 @@ Database: db_(your MySQL user id - the first letter of your first name followed 
 
 ### Step #3: Example SQL DDL
 
-Using SQuirreL (or MySQL command-line), create the tables for the [university datdabase](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
+Using SQuirreL (or MySQL command-line), create the tables for the [university database](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
 
 **Optional:** We have been using the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
 
