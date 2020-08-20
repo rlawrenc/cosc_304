@@ -48,18 +48,18 @@ Insert the following records into the appropriate tables.
 
 ### Delete (3 marks)
 
-1. Delete any AppVersionReview where the rating is less than or equal to 3. (1 mark)
+1. Delete any `AppVersionReview` where the `rating` is less than or equal to `3`. (1 mark)
 
-2. Delete all apps published by <tt>'Microsoftk'</tt>. (1 mark) <strong>How many rows are deleted when this statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on Recipe is either SET NULL or NO ACTION to see the difference.
+2. Delete all apps published by <tt>'Microsoft'</tt>. (1 mark) <strong>How many rows are deleted when this statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on Recipe is either SET NULL or NO ACTION to see the difference.
 
 
 ### Update (3 marks)
 
-1. Update the AppVersion table so the price of every version of appId 200 is 2.99.
+1. Update the `AppVersion` table so the `price` of every version of `appId 200` is `2.99`.
 
-2. Update app with id 100 to have an id of 300.
+2. Update `App` with `id 100` to have an `id` of `300`.
 
-3. Change the app id 200 version '6.1' to have version='6.2' and releaseDate of August 12, 2020 at noon.
+3. Change the `app id 200 version '6.1'` to have `version='6.2'` and `releaseDate` of `August 12, 2020 at noon`.
 
 ## Submission
 
