@@ -8,15 +8,15 @@ Write the SQL DDL to create the following 5 tables for an App store: `Publisher`
 
 <ol>
 
-<li>A <tt>Publisher</tt> table where each publisher is identified by an integer <tt>id</tt> and has a name (up to 40 characters). (1 mark)</li>
+<li>A <tt>Publisher</tt> table where each publisher is identified by an integer <tt>id</tt> and has a `name` (up to 40 characters). (1 mark)</li>
 
-<li>A <tt>Category</tt> table where each ingredient has an id (integer), a name (up to 50 characters), and a parentId to identify its parent category. The parentId should be a foreign key to the Category table. (1.5 marks)</li>
+<li>A <tt>Category</tt> table where each ingredient has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)</li>
 
-<li>An <tt>App</tt> table storing each phone app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include name (string up to 40 characters), publisherId (integer), categoryId (integer), and description (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)</li>
+<li>An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 40 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)</li>
 
-<li>A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the appId and version (exactly 10 characters). Each release has a releaseDate (<tt>DATETIME</tt>), an integer rating, a price (up to 10 digits with 2 decimals), and a description (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)</li>
+<li>A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)</li>
 
-<li>A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the appId, version, and reviewer (exactly 20 characters). There is also a reviewDate (DATETIME), ratiing (int), and review (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete.</i></b> (2 marks)</li>
+<li>A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete.</i></b> (2 marks)</li>
 </ol>
 
 ## Question 2 (10 marks)
@@ -28,13 +28,21 @@ Write the SQL DDL to perform the following modifications to the database created
 Insert the following records into the appropriate tables.
 
 <ol>
-  <li><b>Publisher -</b> <tt>(1,'Microsoft')</tt>  ; <tt>(2,'Zynga')</tt></li>
-<li><b>Category -</b> <tt>(1,'Office Productivity',null)</tt> ; <tt>(2,'Spreadsheets and Calculation Programs',1)</tt> ; <tt>(3,'Games',null)</tt> ; <tt>((4,'Strategy Games',3)</tt></li>
+  <li><b>Publisher -</b> <tt>(1,'Microsoft')</tt>  <br> <tt>(2,'Zynga')</tt></li>
+<li><b>Category -</b> <tt>(1,'Office Productivity',null)</tt> <br> <tt>(2,'Spreadsheets and Calculation Programs',1)</tt> <br> <tt>(3,'Games',null)</tt> <br> <tt>(4,'Strategy Games',3)</tt></li>
 <li><b>App -</b> <tt>(100, 'Microsoft Excel', 1, 2, 'Spreadsheet')</tt><br>
 <tt>(200, 'Words with Friends 2', 2, 3, 'Show what you know about words!')</tt>
 </li>
-  <li><b>AppVersion - </b> <tt>(100, '1.0', '2008-09-11', 1.0, 3.99, 'First version')</tt>, <tt>(100, '2.0', '2020-01-01', 5.0, 15.99, 'Best version for more money')</tt>, <tt>(200, '5.0', '2018-05-23', 3.0, 1.99, null)</tt>, <tt>(200, '6.1', '2020-07-11', 4.5, 0.99, 'Have fun!')</tt></li>
-  <li><b>AppVersionReview - </b> <tt>(100, '1.0', 'Joe', '2008-09-11 08:00:00', 1.0, 'First review. It sucks!')</tt>, <tt>(100, '1.0', 'Steve', '2008-09-11 08:05:00', 5.0, 'It is awesome!')</tt>, <tt>(100, '2.0', 'Padhu', '2020-02-03 11:23:45', 3.0, 'Decent')</tt>, <tt>(100, '2.0', 'Chen', '2020-05-19 18:25:00', 4.0, 'Much improved');</tt>, <tt>(200, '5.0', 'Amy', '2018-09-17 09:00:00', 3.0, 'Okay')</tt>, <tt>(200, '6.1', 'Astra', '2020-11-22 10:03:00', 5.0, 'Addictive!')</tt></li>
+  <li><b>AppVersion - </b> <tt>(100, '1.0', '2008-09-11', 1.0, 3.99, 'First version')</tt><br> 
+    <tt>(100, '2.0', '2020-01-01', 5.0, 15.99, 'Best version for more money')</tt><br> 
+    <tt>(200, '5.0', '2018-05-23', 3.0, 1.99, null)</tt><br> 
+    <tt>(200, '6.1', '2020-07-11', 4.5, 0.99, 'Have fun!')</tt></li>
+  <li><b>AppVersionReview - </b> <tt>(100, '1.0', 'Joe', '2008-09-11 08:00:00', 1.0, 'First review. It sucks!')</tt><br> 
+    <tt>(100, '1.0', 'Steve', '2008-09-11 08:05:00', 5.0, 'It is awesome!')</tt><br>
+    <tt>(100, '2.0', 'Padhu', '2020-02-03 11:23:45', 3.0, 'Decent')</tt><br>
+    <tt>(100, '2.0', 'Chen', '2020-05-19 18:25:00', 4.0, 'Much improved');</tt><br>
+    <tt>(200, '5.0', 'Amy', '2018-09-17 09:00:00', 3.0, 'Okay')</tt><br>
+    <tt>(200, '6.1', 'Astra', '2020-11-22 10:03:00', 5.0, 'Addictive!')</tt></li>
 </ol>
 
 
