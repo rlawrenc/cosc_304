@@ -1,14 +1,10 @@
-# Lab 3
+# COSC 304 - Introduction to Database Systems<br>Assignment 3 - SQL
 
-h1>COSC 304 - Introduction to Database Systems
-<br>Assignment 3 - SQL</h1>
+This assignment practices writing queries in SQL.
 
-<p>This assignment practices writing queries in SQL.</p>
+## Question 1 (20 marks)
 
-
-<h2>Question 1 (20 marks)</h2>
-
-<p>Given the following relational schema, write queries in <b>SQL</b> to answer the English questions. <b>There is a shipment database on the MySQL server.</b> You can also use the <a href="ShipmentMySQL.sql">DDL for MySQL</a>. <b>You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.</b></p>
+Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL server.** You can also use the [DDL for MySQL](ShipmentMySQL.sql) for use in your own database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 <pre>
 Customer(<i>cid:</i> integer, <i>cname:</i> string, <i>address:</i> string, <i>city:</i> string, <i>state:</i> string)
@@ -18,65 +14,139 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
 <ol>
-<li> Return the product names and inventory value of each product (<b>price*inventory</b>) ordered by product name.<br>
-<h4>Output:</h4>
+<li> Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.<br>
+#### Output:
 <pre>
++-----------------+-----------------+
+| cname           | cityState       |
++-----------------+-----------------+
+| Shannon Rose    | Wyandotte, MI   |
+| Fred Smith      | Springfield, IL |
+| Beth Rosebud    | Muscatine, IA   |
+| Robert Dean     | Morristown, NJ  |
+| Joe Smithsonian | Iowa City, IA   |
+| Suzanne May     | Iowa City, IA   |
++-----------------+-----------------+
 </pre>
 </li>
 
-<li> Return total value of products in inventory.
-<br><h4>Output:</h4>
+<li> Return the total amount of all products shipped and the distinct different items shipped (`pid`).
+<br>
+#### Output:
 <pre>
++-----------+-------------------------+
+| sumAmount | distinctProductsShipped |
++-----------+-------------------------+
+|       121 |                       4 |
++-----------+-------------------------+
 </pre>
 </li>
 
-<li> For all customers in Iowa (<b>'IA'</b>) list the customer name, product name, and amount for all shipments.
-<br><h4>Output:</h4>
+<li> For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
+#### Output:
 <pre>
++-------+-----------------+-----------------+--------+
+| state | cname           | pname           | amount |
++-------+-----------------+-----------------+--------+
+| IA    | Joe Smithsonian | Swiss Chocolate |     20 |
+| IA    | Joe Smithsonian | Wooden Chair    |     32 |
+| IA    | Joe Smithsonian | Wooden Chair    |      2 |
+| NJ    | Robert Dean     | Teddy Bear      |      1 |
+| NJ    | Robert Dean     | Chocolate Bar   |     10 |
++-------+-----------------+-----------------+--------+
 </pre>
 </li>
 
-<li> Return the number of shipments to customers with first name <b>'Scott'</b>.
-<br><h4>Output:</h4>
+<li> Return the number of shipments to customers with `street` in their address.
+<br>
+#### Output:
 <pre>
++-----+-----------------+--------------+
+| cid | cname           | numShipments |
++-----+-----------------+--------------+
+|   2 | Joe Smithsonian |            3 |
++-----+-----------------+--------------+
 </pre>
 </li>
 
-<li> Return customer names and total sales of products shipped to each customer. Only show customers with total sales
-	 of over <b>$200</b> with the results ordered in descending order of total sales.
-<br><h4>Output:</h4>
+<li> For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.<br>
+#### Output:
 <pre>
++-------+--------------+--------------+
+| state | numCustomers | numShipments |
++-------+--------------+--------------+
+| CA    |            2 |            7 |
+| IA    |            1 |            3 |
+| IL    |            1 |            1 |
+| NJ    |            1 |            1 |
++-------+--------------+--------------+
 </pre>
 </li>
 
-<li> Return the list of customers (no duplicates) that have never received a shipment.
-<br><h4>Output:</h4>
+<li> Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
+<br>
+#### Output:
 <pre>
++-----------+--------------------+
+| city      | totalShipmentValue |
++-----------+--------------------+
+| Hollywood |            1057.68 |
+| Iowa City |            2427.80 |
++-----------+--------------------+
+
 </pre>
 </li>
 
-<li> Return product names and total amount shipped (<b>price*amount</b>) for products shipping over <b>$1,000</b>.
-<br><h4>Output:</h4>
+<li> Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
+<br>
+#### Output:
 <pre>
++-----+-----------------+----------------------+--------------------+-------------------+
+| pid | pname           | numberOfTimesShipped | totalAmountShipped | totalValueShipped |
++-----+-----------------+----------------------+--------------------+-------------------+
+|   1 | Swiss Chocolate |                    2 |                  8 |            263.92 |
+|   2 | Wooden Chair    |                    3 |                 50 |           2600.00 |
+|   4 | Chocolate Bar   |                    2 |                 35 |            138.25 |
++-----+-----------------+----------------------+--------------------+-------------------+
 </pre>
 </li>
 
-<li> Return the products (name) whose name contains <b>'Ch'</b> with a price more than the average price.
-<br><h4>Output:</h4>
+
+<li> Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). <br>
+#### Output:
 <pre>
++-----------------+--------------+-------------+
+| pname           | pname        | numTogether |
++-----------------+--------------+-------------+
+| Chocolate Bar   | Teddy Bear   |           1 |
+| Swiss Chocolate | Wooden Chair |           1 |
++-----------------+--------------+-------------+
 </pre>
 </li>
 
-<li> Return all customers and their states that share a state with another customer.
-<br><h4>Output: (Note: Order of rows does not matter.)</h4>
+<li> Return the products (name) whose name contains 's' with an inventory more than the average inventory.<br>
+#### Output:
 <pre>
++-------------------------+-----------+
+| pname                   | inventory |
++-------------------------+-----------+
+| Desk                    |       100 |
+| Deluxe Sweet Collection |        83 |
++-------------------------+-----------+
 </pre>
 </li>
 
-<li> Return the shipment id and total value of the <b>entire</b> shipment (<b>price*amount</b>) ordered by the shipment values ascending.
-<br><h4>Output:</h4>
+<li> Return the products (`pid`, `pname`) that are shipped less (in terms of amount) than the average amount products are shipped. Provide the number of shipments the product is in, the total shipped amount, and the average shipped amount. Order by total shipped amount descending.<br>
+#### Output:
 <pre>
++-----+-----------------+--------------+--------------------+------------------+
+| pid | pname           | numShipments | totalShippedAmount | avgShippedAmount |
++-----+-----------------+--------------+--------------------+------------------+
+|   1 | Swiss Chocolate |            4 |                 32 |           8.0000 |
+|   3 | Teddy Bear      |            1 |                  1 |           1.0000 |
++-----+-----------------+--------------+--------------------+------------------+
 </pre>
 </li>
+
 
 </ol>
