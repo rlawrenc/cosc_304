@@ -7,10 +7,10 @@ This assignment practices writing queries in SQL.
 Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL server.** You can also use the [DDL for MySQL](ShipmentMySQL.sql) for use in your own database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
-Customer(*cid:* integer, *cname:* string, *address:* string, *city:* string, *state:* string)
-Product(<i>pid:</i> integer, <i>pname:</i> string, <i>price:</i> currency, <i>inventory:</i> integer)
-Shipment(<i>sid:</i> integer, <i>cid:</i> integer, <i>shipdate:</i> Date/Time)
-ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
+Customer(cid: integer, cname: string, address: string, city: string, state: string)
+Product(pid: integer, pname: string, price: currency, inventory: integer)
+Shipment(sid: integer, cid: integer, shipdate: DateTime)
+ShippedProduct(sid: integer, pid: integer, amount: integer)
 ```
 
 1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
