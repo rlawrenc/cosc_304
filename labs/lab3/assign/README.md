@@ -13,7 +13,8 @@ Shipment(<i>sid:</i> integer, <i>cid:</i> integer, <i>shipdate:</i> Date/Time)
 ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
-1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.<br>
+1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
+
 #### Output:
 ```
 +-----------------+-----------------+
@@ -28,22 +29,21 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------------+-----------------+
 ```
 
-
 2. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
 
 #### Output:
-<pre>
+```
 +-----------+-------------------------+
 | sumAmount | distinctProductsShipped |
 +-----------+-------------------------+
 |       121 |                       4 |
 +-----------+-------------------------+
-</pre>
-</li>
+```
 
-<li> For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
+3. For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
+
 #### Output:
-<pre>
+```
 +-------+-----------------+-----------------+--------+
 | state | cname           | pname           | amount |
 +-------+-----------------+-----------------+--------+
@@ -53,24 +53,23 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 | NJ    | Robert Dean     | Teddy Bear      |      1 |
 | NJ    | Robert Dean     | Chocolate Bar   |     10 |
 +-------+-----------------+-----------------+--------+
-</pre>
-</li>
+```
 
-<li> Return the number of shipments to customers with `street` in their address.
-<br>
+4. Return the number of shipments to customers with `street` in their address.
+
 #### Output:
-<pre>
+```
 +-----+-----------------+--------------+
 | cid | cname           | numShipments |
 +-----+-----------------+--------------+
 |   2 | Joe Smithsonian |            3 |
 +-----+-----------------+--------------+
-</pre>
-</li>
+```
 
-<li> For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.<br>
+5. For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.
+
 #### Output:
-<pre>
+```
 +-------+--------------+--------------+
 | state | numCustomers | numShipments |
 +-------+--------------+--------------+
@@ -79,27 +78,24 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 | IL    |            1 |            1 |
 | NJ    |            1 |            1 |
 +-------+--------------+--------------+
-</pre>
-</li>
+```
 
-<li> Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
-<br>
+6. Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
+
 #### Output:
-<pre>
+```
 +-----------+--------------------+
 | city      | totalShipmentValue |
 +-----------+--------------------+
 | Hollywood |            1057.68 |
 | Iowa City |            2427.80 |
 +-----------+--------------------+
+```
 
-</pre>
-</li>
+7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
 
-<li> Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
-<br>
 #### Output:
-<pre>
+```
 +-----+-----------------+----------------------+--------------------+-------------------+
 | pid | pname           | numberOfTimesShipped | totalAmountShipped | totalValueShipped |
 +-----+-----------------+----------------------+--------------------+-------------------+
@@ -107,45 +103,40 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 |   2 | Wooden Chair    |                    3 |                 50 |           2600.00 |
 |   4 | Chocolate Bar   |                    2 |                 35 |            138.25 |
 +-----+-----------------+----------------------+--------------------+-------------------+
-</pre>
-</li>
+```
 
+1. Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). 
 
-<li> Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). <br>
 #### Output:
-<pre>
+```
 +-----------------+--------------+-------------+
 | pname           | pname        | numTogether |
 +-----------------+--------------+-------------+
 | Chocolate Bar   | Teddy Bear   |           1 |
 | Swiss Chocolate | Wooden Chair |           1 |
 +-----------------+--------------+-------------+
-</pre>
-</li>
+```
 
-<li> Return the products (name) whose name contains 's' with an inventory more than the average inventory.<br>
+1. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
+
 #### Output:
-<pre>
+```
 +-------------------------+-----------+
 | pname                   | inventory |
 +-------------------------+-----------+
 | Desk                    |       100 |
 | Deluxe Sweet Collection |        83 |
 +-------------------------+-----------+
-</pre>
-</li>
+```
 
-<li> Return the products (`pid`, `pname`) that are shipped less (in terms of amount) than the average amount products are shipped. Provide the number of shipments the product is in, the total shipped amount, and the average shipped amount. Order by total shipped amount descending.<br>
+1. Return the products (`pid`, `pname`) that are shipped less (in terms of amount) than the average amount products are shipped. Provide the number of shipments the product is in, the total shipped amount, and the average shipped amount. Order by total shipped amount descending.
+
 #### Output:
-<pre>
+```
 +-----+-----------------+--------------+--------------------+------------------+
 | pid | pname           | numShipments | totalShippedAmount | avgShippedAmount |
 +-----+-----------------+--------------+--------------------+------------------+
 |   1 | Swiss Chocolate |            4 |                 32 |           8.0000 |
 |   3 | Teddy Bear      |            1 |                  1 |           1.0000 |
 +-----+-----------------+--------------+--------------------+------------------+
-</pre>
-</li>
-
-
-</ol>
+```
