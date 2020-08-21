@@ -7,7 +7,7 @@ This assignment practices writing queries in SQL.
 Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL server.** You can also use the [DDL for MySQL](ShipmentMySQL.sql) for use in your own database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
-Customer(<i>cid:</i> integer, <i>cname:</i> string, <i>address:</i> string, <i>city:</i> string, <i>state:</i> string)
+Customer(*cid:* integer, *cname:* string, *address:* string, *city:* string, *state:* string)
 Product(<i>pid:</i> integer, <i>pname:</i> string, <i>price:</i> currency, <i>inventory:</i> integer)
 Shipment(<i>sid:</i> integer, <i>cid:</i> integer, <i>shipdate:</i> Date/Time)
 ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
