@@ -64,7 +64,8 @@ WHERE F.fid = C.fid and F.fname = 'Richard Jackson'</pre></li>
 
 <li><pre>SELECT S.snum, sname
 FROM student S, course C, faculty F, enrolled E
-WHERE S.snum = E.snum AND C.cname = E.cname AND C.fid = F.fid AND C.room = 'R15' AND F.deptId = '68' AND S.standing = 'SR'</pre></li>
+WHERE S.snum = E.snum AND C.cname = E.cname AND C.fid = F.fid AND C.room = 'R15' 
+      AND F.deptId = '68' AND S.standing = 'SR'</pre></li>
 
 <li><pre>SELECT *
 FROM course
@@ -99,7 +100,8 @@ WHERE snum NOT IN (SELECT snum FROM enrolled)</pre></li>
 
 <li><pre>SELECT *
 FROM student
-WHERE major = 'Computer Science' AND age < ALL (SELECT age FROM student WHERE major = 'Psychology')</pre></li>
+WHERE major = 'Computer Science' 
+      AND age < ALL (SELECT age FROM student WHERE major = 'Psychology')</pre></li>
 </ol>
 
 
