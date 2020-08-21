@@ -105,7 +105,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----+-----------------+----------------------+--------------------+-------------------+
 ```
 
-1. Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). 
+ 1. Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). 
 
 #### Output:
 ```
@@ -117,7 +117,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------------+--------------+-------------+
 ```
 
-1. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
+ 1. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
 
 #### Output:
 ```
