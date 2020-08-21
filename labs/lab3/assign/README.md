@@ -13,10 +13,6 @@ Shipment(<i>sid:</i> integer, <i>cid:</i> integer, <i>shipdate:</i> Date/Time)
 ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
-1. Trest
-1. Test 2
-1. Test 3
-
 1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
 
 #### Output:
@@ -33,7 +29,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------------+-----------------+
 ```
 
-2. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
+1. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
 
 #### Output:
 ```
@@ -44,7 +40,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------+-------------------------+
 ```
 
-3. For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
+1. For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
 
 #### Output:
 ```
@@ -59,7 +55,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-------+-----------------+-----------------+--------+
 ```
 
-4. Return the number of shipments to customers with `street` in their address.
+1. Return the number of shipments to customers with `street` in their address.
 
 #### Output:
 ```
@@ -70,7 +66,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----+-----------------+--------------+
 ```
 
-5. For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.
+1. For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.
 
 #### Output:
 ```
@@ -84,7 +80,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-------+--------------+--------------+
 ```
 
-6. Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
+1. Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
 
 #### Output:
 ```
@@ -96,7 +92,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------+--------------------+
 ```
 
-7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
+1. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
 
 #### Output:
 ```
@@ -121,7 +117,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 +-----------------+--------------+-------------+
 ```
 
- 1. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
+1. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
 
 #### Output:
 ```
