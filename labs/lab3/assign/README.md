@@ -15,6 +15,9 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 
 1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
 
+1. Test
+1. Test
+
 #### Output:
 ```
 +-----------------+-----------------+
@@ -30,6 +33,9 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 ```
 
 1. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
+
+1. Test
+1. Test
 
 #### Output:
 ```
