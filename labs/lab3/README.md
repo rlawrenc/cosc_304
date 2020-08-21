@@ -33,7 +33,7 @@ enrolled (<u>snum</u>, <u>cname</u>)
 </pre>
 
 
-### Step #4: The SQL Questions
+### SQL Questions
 
 Here are the questions that you must answer using SQL. **You can answer them in groups.  Try to answer one challenge question and write your own for others and the next class!**
 
