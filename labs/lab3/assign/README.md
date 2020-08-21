@@ -13,7 +13,7 @@ Shipment(sid: integer, cid: integer, shipdate: DateTime)
 ShippedProduct(sid: integer, pid: integer, amount: integer)
 ```
 
-1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
+1) Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
 
 **Output:**
 ```
@@ -29,10 +29,7 @@ ShippedProduct(sid: integer, pid: integer, amount: integer)
 +-----------------+-----------------+
 ```
 
-1. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
-
-1. Test
-1. Test
+2. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
 
 #### Output:
 ```
