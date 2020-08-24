@@ -75,7 +75,7 @@ Supervisor: R. Davis
 
 1. [Download the Microsoft SQL Server driver](code/sqljdbc4.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
 
-2. Open Eclipse.  Select `File`, `New`, `Java project`. ([screenshot](img/EclipseJavaProject.png)
+2. Open Eclipse.  Select `File`, `New`, `Java project`. ([screenshot](img/EclipseJavaProject.png))
 
 3. [Download the sample file](code/TestJdbcSqlServer.java).  Save this file in your Eclipse workspace under the project folder that you just created. 
 
@@ -91,13 +91,13 @@ Change Line 7 to:	String pw = "put your password here";
 
 1. Install SQL Server pyodbc connector by following [these directions](https://docs.microsoft.com/en-us/sql/connect/python/python-driver-for-sql-server).
 
-2. Download the sample Python file](code/PythonSQLServer.py)</a> and setup in your Python environment.
+2. [Download the sample Python file](code/PythonSQLServer.py) and setup in your Python environment.
 
 3. These are the modifications you must make to get the program working:
 
 ```
 Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=sql04.ok.ubc.ca;
-							DATABASE=workson;UID=<i>yourUserId</i>;PWD=<i>yourPassword</i>""")
+							DATABASE=workson;UID=yourUserId;PWD=yourPassword""")
 ```
 
 ### Expected Output
