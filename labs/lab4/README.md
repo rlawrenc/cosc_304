@@ -13,7 +13,7 @@ This lab designs ER diagrams in UML notation using [astah](http://astah.net/edit
 <li>Each individual fish has a number of events in its life, involving a date and a note relating to the event.</li>
 </ol>
 
-<h3>Answer: <a href="FishStore.asta">UML File</a>, <a href="FishStore.png">ER diagram image</a></h3>
+<h3>Answer: <a href="img/FishStore.asta">UML File</a>, <a href="img/FishStore.png">ER diagram image</a></h3>
 
 
 
@@ -44,7 +44,7 @@ This lab designs ER diagrams in UML notation using [astah](http://astah.net/edit
 </ol>
 
 
-<h3>Answer: <a href="HotelReservationSystem.asta">UML File</a>, <a href="HotelReservationSystem.png">ER diagram image</a></h3>
+<h3>Answer: <a href="img/HotelReservationSystem.asta">UML File</a>, <a href="img/HotelReservationSystem.png">ER diagram image</a></h3>
 
 
 <h2><a href="Assign/index.html">Lab 4 Assignment</a></h2>
