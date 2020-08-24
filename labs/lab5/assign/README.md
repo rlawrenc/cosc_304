@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 5 Solution - Converting ER/UML diagrams into the relational model
+# COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
 
 
 ## Question 1 (15 marks)
