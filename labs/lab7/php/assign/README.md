@@ -31,7 +31,7 @@ CREATE TABLE dummy (
 	- [Disconnect from database](http://php.net/manual/en/function.sqlsrv-close.php)
 	- [Execute SQL](http://php.net/manual/en/function.sqlsrv-query.php)
 	- [Return first row from a query](http://php.net/manual/en/function.sqlsrv-fetch-array.php)
-- [Session Documentation](http://php.net/manual/en/book.session.ph)
+- [Session Documentation](http://php.net/manual/en/book.session.php)
 	- [session_start - start or continue session throughout the website](http://php.net/manual/en/function.session-start.php)
 	- [session_destroy - clear/reset all session variables](http://php.net/manual/en/function.session-destroy.php)
 	- [$_SESSION array](http://php.net/manual/en/reserved.variables.session.php)
