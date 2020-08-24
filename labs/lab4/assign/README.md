@@ -2,26 +2,34 @@
 
 This lab designs ER diagrams in UML notation using [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
 
-<h2>Example #1</h2>
+## Question #1 (10 marks)
 
-<p>Construct a database design in UML for a fish store where:</p>
+Construct a database design in UML for an app store described below. **Data types are not needed.**
 
 <ol>
-<li>A fish store maintains a number of aquaria (tanks), each with a number, name, volume and color.  </li>
-<li>Each tank contains a number of fish, each with an id, name, color, and weight. </li>
-<li>Each fish is of a particular species, which has a id, name, and preferred food.</li>
-<li>Each individual fish has a number of events in its life, involving a date and a note relating to the event.</li>
+
+<li>A <tt>Publisher</tt> where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)</li>
+
+<li>A <tt>Category</tt> where each ingredient has an `id`, a `name`, and may have a parent category. (2 marks)</li>
+
+<li>An <tt>App</tt> storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)</li>
+
+<li>A <tt>AppVersion</tt> stores each version of the app. An AppVersion is associated with exactly one App. Use a `version` field to identify between versions of the same App. Each AppVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)</li>
+
+<li>A <tt>AppVersionReview</tt> stores ratings for each application version. Each instance applies to a single AppVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)</li>
 </ol>
 
-<h3>Answer: <a href="img/FishStore.asta">UML File</a>, <a href="img/FishStore.png">ER diagram image</a></h3>
 
+## Question #2 (10 marks)
 
+Construct a database design in UML for a medical system described below. **Data types are not needed.**
 
-<h2>Example #2</h2>
+- There are multiple hospitals in the medical system. A hospital is identified by its name and has a location. (1 mark)</li>
 
-<p>Design and draw an ER diagram for a hotel company reservation system with the following requirements:</p>
+- A doctor is identified by his medical number and has a name. Each hospital has a single doctor as a manager, and a doctor may manage only one hospital. Doctors are located in hospitals. A doctor may be located in more than one hospital. A doctor located at a hospital and an office number and a salary paid by that hospital. (3 marks)
 
-<ol>
-<li>There are many hotels in the chain. Each hotel has a name, a street address (which is made up of a street number, street name, city, state, and postal code), a home page URL (Web address), and a primary phone number. </li>
+- A patient is identified by their health id and a name and gender. (1 mark)
 
-<li>Each hotel consists of a set of rooms arranged on various floors. Each room has an identifier which is unique within that hotel. Most of the time, rooms are numbered (e.g. 690), but they may be giv
+- A patient visits a doctor at a particular hospital. Each visit is identifed by its own id and also has a visit date. (3 marks)
+
+- At a visit one or more tests are run each with a cost and an outcome. (2 marks)
