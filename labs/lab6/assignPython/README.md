@@ -12,16 +12,9 @@ section (<u>cnum</u>, <u>secnum</u>, pname)
 enroll (<u>sid</u>, <u>cnum</u>, <u>secnum</u>, grade)
 </pre>
 
-## Initial Steps
-
-Download the [starter code](304_lab6.zip) and import into Eclipse. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestEnrollJDBC.java`, and the code file to edit called `EnrollJDBC.java`. It also contains the MySQL JDBC JAR file.
-
-![](img/importProject1.png)
-![](img/importProject2.png)
-
 ## Question 1 (35 marks)
 
-<p>Download the starter code ([Python file](EnrollPython.py), [Jupyter Notebook](EnrollPython.ipynb) and the test file ([Python file](TestEnroll.py), [Jupyter Notebook](TestEnroll.ipynb)).  There is also a <a href="university.ddl">DDL script</a> to create the database.</p>
+Download the starter code ([Python file](EnrollPython.py), [Jupyter Notebook](EnrollPython.ipynb) and the test file ([Python file](TestEnroll.py), [Jupyter Notebook](TestEnroll.ipynb)).  There is also a <a href="university.ddl">DDL script</a> to create the database.
 
 Write the code to complete the methods in `EnrollPython` (look for `TODO` items).
 
