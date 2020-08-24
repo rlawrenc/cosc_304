@@ -74,7 +74,7 @@ Build a simple web site that allows users to search for products by name, put pr
 - **checkout.jsp** - page to start the checkout.  No changes needed.
 - **order.jsp** - store a checked-out order to database. **TODO: fill-in your own code (20 marks)**
 
-2. Take a look at the sample web site which is available at [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).
+2. Take a look at the sample web site available at [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).
 
 3. Start by editing the JSP file called `listprod.jsp`.  This file is called from `shop.html` when the user begins to shop.  The file allows a customer to search for products by name.  If a customer enters "ab", then the query should be: `productName LIKE '%ab%'`.
 
@@ -86,7 +86,7 @@ Build a simple web site that allows users to search for products by name, put pr
 
 7. `addcart.jsp` calls another file that maintains a record of the shopping cart over a user's session.  This file is `showcart.jsp`.
 
-8. `When the user wants to check-out, they must enter customer information.  The file `checkout.jsp` prompts the user for a customer id and passes that information onto the JSP file `order.jsp`.
+8. When the user wants to check-out, they must enter customer information.  The file `checkout.jsp` prompts the user for a customer id and passes that information onto the JSP file `order.jsp`.
 
 9. The other file you must write is `order.jsp`. This file must save an order and all its products to the database as long as a valid customer id was entered.
 
