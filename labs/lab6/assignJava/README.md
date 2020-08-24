@@ -23,7 +23,7 @@ Download the [starter code](304_lab6.zip) and import into Eclipse. The starter c
 
 Write the code to complete the methods in `EnrollJDBC.java` (look for `TODO` items).
 
-** Your code will be graded based on it passing the JUnit tests.** You can show the TA all JUnit tests passing to receive full marks. Otherwise, submit your source code online.
+**Your code will be graded based on it passing the JUnit tests.** You can show the TA all JUnit tests passing to receive full marks. Otherwise, submit your source code online.
 
 <table>
 <tr><th>Operation</th>														<th width="100">Marks</th></tr>
