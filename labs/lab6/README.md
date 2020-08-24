@@ -133,7 +133,7 @@ Proj#	Name	Total Hours
 P3   	Budget	46
 ```
 
-**Answer:**  [Java answer file](SqlServerQuestion.java), [Python answer file](SqlServerQuestion.py)
+**Answer:**  [Java answer file](code/SqlServerQuestion.java), [Python answer file](code/SqlServerQuestion.py)
 
 ## [Lab 6 Assignment (Java)](assignJava/)
 
