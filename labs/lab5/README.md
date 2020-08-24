@@ -6,7 +6,7 @@ Convert the fish store ER diagram into the relational model:
 
 ![FishStore](img/FishStore.png)
 
-###Answer:
+### Answer:
 
 <pre>
 Fish (<u>id</u>, name, color, weight, <i>tankNumber</i>, <i>speciesId</i>)  // tankNumber is a FK to Tank, speciesId is a FK to Species
@@ -15,13 +15,13 @@ Tank (<u>number</u>, name, volume, color)
 Event (<i><u>fishId</u></i>, <u>eventDate</u>, note) // fishId is a FK to Fish
 </pre>
 
-##Example #2
+## Example #2
 
 Convert the ER diagram for hotel reservation system into the relational model:
 
 ![Hotel Reservations](img/HotelReservationSystem.png)
 
-###Answer:
+### Answer:
 
 <pre>
 Hotel (<u>name</u>, streetNumber, streetName, city, state, postalCode, webAddress, phoneNumber)
@@ -34,4 +34,4 @@ Invoice (<u>id</u>, <i>hotelName</i>, <i>customerId</i>, <i>arrivalDate</i>, ope
 InvoiceCharge (<i><u>invoiceId</u></i>, <u>transactionId</u>, chargeType, description, amount) // InvoiceId is a FK to Invoice
 </pre>
 
-##[Lab 5 Assignment](assign/)
+## [Lab 5 Assignment](assign/)
