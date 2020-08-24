@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
 
-This lab designs ER diagrams in UML notation using [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://www.draw.io/">draw.io</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
+This lab designs ER diagrams in UML notation using [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
 
 <h2>Example #1</h2>
 
