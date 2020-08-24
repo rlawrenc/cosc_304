@@ -25,7 +25,7 @@ Construct a database design in UML for a medical system described below. **Data 
 
 - A doctor is identified by his medical number and has a name. Each hospital has a single doctor as a manager, and a doctor may manage only one hospital. Doctors are located in hospitals. A doctor may be located in more than one hospital. A doctor located at a hospital has an office number and a salary paid by that hospital. (3 marks)
 
-- A patient is identified by their health id and a name and gender. (1 mark)
+- A patient is identified by their health id and also has a name and gender. (1 mark)
 
 - A patient visits a doctor at a particular hospital. Each visit is identifed by its own id and also has a visit date. (3 marks)
 
