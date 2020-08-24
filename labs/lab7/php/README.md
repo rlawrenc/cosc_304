@@ -9,7 +9,7 @@ Here is the code to show "Hello World!" using PHP:
 ```
 <html>
 <head>
-<title>Hello World in JSP</title>
+<title>Hello World in PHP</title>
 </head>
 <body>
 
