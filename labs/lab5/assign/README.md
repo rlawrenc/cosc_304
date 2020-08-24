@@ -41,12 +41,11 @@ The project will build an online store like Amazon.com selling whatever products
 
 ### Deliverables
 
-**
-1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)
+**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)**
 
-2.Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)
+**2.Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
 
-3. Determine what you are going to sell in your store. Write a mission statement (1 mark) and executive summary paragraph (2 marks) describing your idea.
+**3. Determine what you are going to sell in your store. Write a mission statement (1 mark) and executive summary paragraph (2 marks) describing your idea.
 **
 
 **Items to submit: your UML diagram (image preferred rather than astah file), a text file containing your SQL DDL, a document with your mission statement and executive summary.**
