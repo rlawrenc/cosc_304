@@ -1,84 +1,68 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using JSP
 
-This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html)</a>. SQL Server supports almost all of the
-SQL standard including foreign keys and triggers.  <b>The assignment is done in your project groups of 2, 3, or 4 people.</b> <b>If you are off campus, you must connect using VPN to access the database. <a href="https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents">Click for info</a>. The server is myvpn.ok.ubc.ca.</b></p>
+This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html)</a>. SQL Server supports most of the SQL standard including foreign keys and triggers.  **The assignment is done in your project groups of 4 people. If you are off campus, you must connect using VPN to access the database. [VPN Info](https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents). The server is myvpn.ok.ubc.ca.**</p>
 
-<p>The web store that we are going to build allows customers to enter their information, chose products by putting them into a shopping cart, and then place an order.</p>
+The web store that we are going to build allows customers to enter their information, chose products by putting them into a shopping cart, and then place an order.
 
+## Initial Steps
 
-<h2>Initial Steps</h2>
+1. If you are developing on your own laptop, you must [setup your development environment](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/JavaEE/setup.html).
 
-<ol>
+2. Download the [starter project code files](304_lab7.zip) and import into Eclipse as a Dynamic Web Server project.
 
-<li>If you are developing on your own laptop, you must setup your development environment. <a href="../../../Notes/JavaEE/setup.html">Click for instructions</a></li>
+![](img/import1.png)
+![](img/import2.png)
 
-<li>Download the <a href="304_lab7.zip">starter project code files</a> and import into Eclipse as a Dynamic Web Server project.<br>
-<p>
-<img src="import1.png" align="top" height="400">
-<img src="import2.png" height="400">
-</p>
-</li>
+3. Create the tables and load the sample data into your SQL Server database.  The file `LoadData.java` will load the database using the `data/orderdb_sql.ddl` script.  Make sure to set your own database, user id, and password.
 
-<li>Create the tables and load the sample data into your SQL Server database.  The file <tt>LoadData.java</tt> will load the database using the <tt>data/orderdb_sql.ddl</tt> script.  Make sure to set your own database, user id, and password.</li>
+4. Test your web site on your local machine.
 
-<li>Test your web site on your local machine.</li>
-
-<li><b>Optional:</b> Upload your working site to the server when completed. Before uploading, create a directory called <tt><b>Lab7</b></tt> in your <tt>public_html/tomcat</tt> directory in your home
-account on <tt>cosc304.ok.ubc.ca</tt>.  All files for this assignment will be in that directory. Use FileZilla to perform the upload (<a href="../../../Notes/filezilla/filezilla.html">instructions</a>).</li>
-
-</ol>
+5. **Optional:** Upload your working site to the server when completed. Before uploading, create a directory called `Lab7` in your `public_html/tomcat` directory in your home
+account on `cosc304.ok.ubc.ca`.  All files for this assignment will be in that directory. Use [FileZilla](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/filezilla/filezilla.html) to perform the upload.
 
 
-<h2>Databases and Autonumber Fields</h2>
+## Databases and Autonumber Fields
 
-<p>This database storing customers, orders, and products uses autonumber fields to assign a primary key value for orders.  An
-autonumber field is an integer field which is automatically assigned by the database.  The value of the counter starts
-at 1.  When a record is added, the value of the autonumber field for the new record is set to the counter and then the counter is incremented.  Thus, the values of the autonumber field for records are 1,2,3,...  Autonumber fields are useful as primary keys as they are guaranteed to be unique.  To create an autonumber field in a SQL Server create table statement use the <tt>IDENTITY</tt> keyword: </p>
+This database storing customers, orders, and products uses autonumber fields to assign a primary key value for orders.  An autonumber field is an integer field which is automatically assigned by the database.  The value of the counter starts at 1.  When a record is added, the value of the autonumber field for the new record is set to the counter and then the counter is incremented.  Thus, the values of the autonumber field for records are 1,2,3,...  Autonumber fields are useful as primary keys as they are guaranteed to be unique.  To create an autonumber field in a SQL Server create table statement use the `IDENTITY` keyword: 
 
-<pre>
+```
 CREATE TABLE dummy (
    A int NOT NULL IDENTITY,
    B VARCHAR(50),
    ....
    PRIMARY KEY (A)
 );
-</pre>
+```
+
+## Question 1 (10 marks)
+
+Modify the `listorder.jsp` so that it lists all orders currently in the database. You must list all orders and the products of those orders.
+
+#### Details:
+
+1. [Sample output](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/listorder.jsp)
+
+2. If you upload your site to the server in the folder `public_html/tomcat/Lab7` then your URL will be:
+`http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/Lab7/shop.html`.  <br>For example, my web site is at:
+`[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html)`.
+
+3. The main shop page is `[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html)`.  Feel free to change it to your shop name and style!
+
+4. Your output does not have to look exactly like the sample (feel free to make it look better!).
+
+5. A good way to get started with `listorder.jsp` is to copy some of the [sample JDBC code posted (JdbcQuery.jsp)](../code/JdbcQuery.jsp) and modify it for this particular query. **Note that the URL is now for Microsoft SQL Server not MySQL.**</li>
 
 
-<h2>Question 1 (10 marks)</h2>
+#### Marking Guide:
 
-<p>Modify the <tt><b>listorder.jsp</b></tt> so that it lists all orders currently in the database. You must list all orders and the
-products of those orders.</p>
+- **+2 marks** - for SQL Server connection information and making a successful connection
+- **+1 mark** - for using try-catch syntax
+- **+2 marks** - for displaying order summary information for each order in a table
+- **+3 marks** - for displaying items in each order in a table
+- **+1 mark** - for formatting currency values correctly (e.g. $91.70)
+- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
 
-<h4>Details:</h4>
-<ol>
-<li><a href="http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/listorder.jsp">Sample output</a></li>
-
-<li>If you upload your site to the server in the folder <tt>public_html/tomcat/Lab7</tt> then your URL will be:
-<tt>http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/Lab7/shop.html</tt>.  <br>For example, my web site is at:
-<tt><a href="http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html">http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html</a></tt>.</li>
-
-<li>The main shop page is <tt><a href="http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html">shop.html</a></tt>.  Feel free to change it to your shop name and style!</li>
-
-<li>Your output does not have to look exactly like the sample (feel free to make it look better!).</li>
-
-<li>A good way to get started with <tt>listorder.jsp</tt> is to copy some of the <a href="../../../Notes/Code/JdbcQuery.jsp">sample JDBC code posted (JdbcQuery.jsp)</a> and modify it
-for this particular query. Note that the URL is now for Microsoft SQL Server not MySQL.</li>
-
-</ol>
-
-<h4>Marking Guide:</h4>
-
-<ul>
-<li><strong>+2 marks</strong> - for SQL Server connection information and making a successful connection</li>
-<li><strong>+1 mark</strong> - for using try-catch syntax</li>
-<li><strong>+2 marks</strong> - for displaying order summary information for each order in a table</li>
-<li><strong>+3 marks</strong> - for displaying items in each order in a table</li>
-<li><strong>+1 mark</strong> - for formatting currency values correctly (e.g. $91.70)</li>
-<li><strong>+1 mark</strong> - for closing connection (either explicitly or as part of try-catch with resources syntax)</li>
-</ul>
-
-<h2>Question 2 (30 marks)</h2>
+## Question 2 (30 marks)
 
 <p>Build a simple web site that allows users to search for products by name, put
 products in their shopping cart, and place an order by checking out the items in their shopping cart.
