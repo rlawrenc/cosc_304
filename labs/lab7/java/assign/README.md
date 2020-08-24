@@ -44,9 +44,9 @@ Modify the `listorder.jsp` so that it lists all orders currently in the database
 
 2. If you upload your site to the server in the folder `public_html/tomcat/Lab7` then your URL will be:
 `http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/Lab7/shop.html`.  <br>For example, my web site is at:
-`[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html)`.
+[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).
 
-3. The main shop page is `[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html)`.  Feel free to change it to your shop name and style!
+3. The main shop page is [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).  Feel free to change it to your shop name and style!
 
 4. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
@@ -64,105 +64,76 @@ Modify the `listorder.jsp` so that it lists all orders currently in the database
 
 ## Question 2 (30 marks)
 
-<p>Build a simple web site that allows users to search for products by name, put
-products in their shopping cart, and place an order by checking out the items in their shopping cart.
-Starter code is provided. Fill in a few of the JSP files to get the application to work.  Here are the steps you should do to get started:</p>
+Build a simple web site that allows users to search for products by name, put products in their shopping cart, and place an order by checking out the items in their shopping cart. Starter code is provided. Fill in a few of the JSP files to get the application to work.  Here are the steps you should do to get started:
 
-<ol>
+1. Use the [template code](304_lab7.zip) downloaded and setup in Eclipse in Question 1. Summary of files:
 
-<li>Use the <a href="304_lab7.zip">template code</a> downloaded and setup in Eclipse in Question 1. Summary of files:
-<ul>
-<li><strong><tt>listprod.jsp</tt></strong> - lists all products.  <strong>TODO: fill-in your own code (10 marks)</strong></li>
-<li><strong><tt>addcart.jsp</tt></strong> - adds an item to the cart (stored using session variable).  No changes needed.</li>
-<li><strong><tt>showcart.jsp</tt></strong> - displays the items in the cart.  No changes needed.</li>
-<li><strong><tt>checkout.jsp</tt></strong> - page to start the checkout.  No changes needed.</li>
-<li><strong><tt>order.jsp</tt></strong> - store a checked-out order to database.  <strong>TODO: fill-in your own code (20 marks)</strong></li>
-</ul>
-</li>
+- **listprod.jsp** - lists all products.  **TODO: fill-in your own code (10 marks)**
+- **addcart.jsp** - adds an item to the cart (stored using session variable).  No changes needed.
+- **showcart.jsp** - displays the items in the cart.  No changes needed.
+- **checkout.jsp** - page to start the checkout.  No changes needed.
+- **order.jsp** - store a checked-out order to database. **TODO: fill-in your own code (20 marks)**
 
-<li>Take a look at the sample web site which is available at <A
-HREF="http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html">http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html</a>.</li>
+2. Take a look at the sample web site which is available at [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).
 
-<li>Start by editing the JSP file called <tt><b>listprod.jsp</b></tt>.  This file is called from <tt>shop.html</tt> when the
-user begins to shop.  The file allows a customer to search for products by name.  If a customer enters "ab", then the query
-should be: <tt>productName LIKE '%ab%'</tt>.</li>
+3. Start by editing the JSP file called `listprod.jsp`.  This file is called from `shop.html` when the user begins to shop.  The file allows a customer to search for products by name.  If a customer enters "ab", then the query should be: `productName LIKE '%ab%'`.
 
-<li>Start off with just being able to list products by name.  Inside <tt>listprod.jsp</tt> is a form whose GET method calls
-<tt>listprod.jsp</tt> itself.  When a user submits the form, the URL passed to <tt>listprod.jsp</tt> will contain a parameter
-<tt>productName</tt>.  Based on this parameter, construct your query.  Start with the template code and then add the required
-code to connect to the database and list the products.</li>
+4. Start off with just being able to list products by name.  Inside `listprod.jsp` is a form whose GET method calls `listprod.jsp` itself.  When a user submits the form, the URL passed to `listprod.jsp` will contain a parameter `productName`.  Based on this parameter, construct your query. Start with the template code and then add the required code to connect to the database and list the products.
 
-<li>The file <tt>listprod.jsp</tt> also allows users to add items to their cart.  This is accomplished by having a link beside
-each item.  When the user clicks on the link, another page called <b><tt>addcart.jsp</tt></b> is called with information on
-the product to add.</li>
+5. The file `listprod.jsp` also allows users to add items to their cart. This is accomplished by having a link beside each item. When the user clicks on the link, another page called `addcart.jsp` is called with information on the product to add.
 
-<li>The file <tt>addcart.jsp</tt> expects the following parameters:
-<tt>addcart.jsp?id=(productId)&name=(productName)&price=(productPrice)</tt>.  You must make sure that you create the
-appropriate links when listing your products.</li>
+6. The file `addcart.jsp` expects the following parameters: `addcart.jsp?id=(productId)&name=(productName)&price=(productPrice)`.  You must make sure that you create the appropriate links when listing your products.
 
-<li><tt>addcart.jsp</tt> calls another file that maintains a record of the shopping cart over a user's
-session.  This file is <tt>showcart.jsp</tt>.</li>
+7. `addcart.jsp` calls another file that maintains a record of the shopping cart over a user's session.  This file is `showcart.jsp`.
 
-<li>When the user wants to check-out, they must enter customer information.  The file <tt>checkout.jsp</tt> prompts the user
-for a customer id and passes that information onto the JSP file <tt>order.jsp</tt>.</li>
+8. `When the user wants to check-out, they must enter customer information.  The file `checkout.jsp` prompts the user for a customer id and passes that information onto the JSP file `order.jsp`.
 
-<li>The other file you must write is <tt>order.jsp</tt>. This file must save an order and all its products to the database as long as a valid customer id was
-entered.</li>
+9. The other file you must write is `order.jsp`. This file must save an order and all its products to the database as long as a valid customer id was entered.
 
-<li>Make sure to list the order id and all items as shown in the example.</li>
+10. Make sure to list the order id and all items as shown in the example.
 
-</ol>
 
-<h4>Marking Guide (for listprod.jsp): (10 marks total)</h4>
+#### Marking Guide (for listprod.jsp): (10 marks total)
 
-<ul>
-<li><strong>+1 mark</strong> - for SQL Server connection information and making a successful connection</li>
-<li><strong>+2 marks</strong> - for using product name parameter to filter products shown (must handle case where nothing is provided in which case all products are shown)</li>
-<li><strong>+1 mark</strong> - for using PreparedStatements</li>
-<li><strong>+2 marks</strong> - for displaying table of products</li>
-<li><strong>+3 marks</strong> - for building web link URL to allow products to be added to the cart</li>
-<li><strong>+1 mark</strong> - for closing connection (either explicitly or as part of try-catch with resources syntax)</li>
-</ul>
+- **+1 mark** - for SQL Server connection information and making a successful connection
+- **+2 marks** - for using product name parameter to filter products shown (must handle case where nothing is provided in which case all products are shown)
+- **+1 mark** - for using PreparedStatements
+- **+2 marks** - for displaying table of products
+- **+3 marks** - for building web link URL to allow products to be added to the cart
+- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
 
-<h4>Marking Guide (for order.jsp): (20 marks total)</h4>
+#### Marking Guide (for order.jsp): (20 marks total)
 
-<ul>
-<li><strong>+1 mark</strong> - for SQL Server connection information and making a successful connection</li>
-<li><strong>+3 marks</strong> - for validating that the customer id is a number and the customer id exists in the database. Display an error if customer id is invalid.</li>
-<li><strong>+1 mark</strong> - for showing error message if shopping cart is empty</li>
-<li><strong>+3 marks</strong> - for inserting into ordersummary table and retrieving auto-generated id</li>
-<li><strong>+6 marks</strong> - for traversing list of products and storing each ordered product in the orderproduct table</li>
-<li><strong>+2 marks</strong> - for updating total amount for the order in OrderSummary table</li>
-<li><strong>+2 marks</strong> - for displaying the order information including all ordered items</li>
-<li><strong>+1 mark</strong> - for clearing the shopping cart (sessional variable) after order has been successfully placed</li>
-<li><strong>+1 mark</strong> - for closing connection (either explicitly or as part of try-catch with resources syntax)</li>
-</ul>
+- **+1 mark** - for SQL Server connection information and making a successful connection
+- **+3 marks** - for validating that the customer id is a number and the customer id exists in the database. Display an error if customer id is invalid.
+- **+1 mark** - for showing error message if shopping cart is empty
+- **+3 marks** - for inserting into ordersummary table and retrieving auto-generated id
+- **+6 marks** - for traversing list of products and storing each ordered product in the orderproduct table
+- **+2 marks** - for updating total amount for the order in OrderSummary table
+- **+2 marks** - for displaying the order information including all ordered items
+- **+1 mark** - for clearing the shopping cart (sessional variable) after order has been successfully placed
+- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
 
-<h4>Bonus Marks</h4>
 
-<p>Up to 10 bonus marks can be received by going beyond the basic assignment requirements:</p>
+#### Bonus Marks<
 
-<ul>
-<li><b>+5 marks</b> - for allowing a user to remove items from their shopping cart and to change the quantity of items ordered when viewing their cart.</li>
-<li><b>+5 marks</b> - for validating a customer's password when they try to place an order.</li>
-<li><b>+5 marks</b> - your site runs on cosc304.ok.ubc.ca or another server not just on your local development machine</li>
-<li><b>Up to +5 marks</b> - for improving the looks of the site such as:
-	<ul>
-	<li><b>+2 marks</b> - for a page header with links to product page, list order, and shopping cart</li>
-	<li><strong>+3 marks</strong> - for formatting product listing page to include better formatting as well as filter by category</li>	
-	<li><strong>+3 marks</strong> - for improved formatting of cart page</li>	
-	</ul>
-</li>
-<li>Other bonus marks may be possible if discussed with the TA/instructor.</li>
-</ul>
+Up to 10 bonus marks can be received by going beyond the basic assignment requirements:
 
-<p><b>If you want to be eligible for bonus marks, please note that on your assignment and explain what you did to deserve the extra marks.  An <a href="http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/bonus/shop.html">example web site with improved features is available.</a></b></p>
+- **+5 marks** - for allowing a user to remove items from their shopping cart and to change the quantity of items ordered when viewing their cart.
+- **+5 marks** - for validating a customer's password when they try to place an order.
+- **+5 marks** - your site runs on cosc304.ok.ubc.ca or another server not just on your local development machine
+- **Up to +5 marks** - for improving the looks of the site such as:
+	- **+2 marks** - for a page header with links to product page, list order, and shopping cart
+	- **+3 marks** - for formatting product listing page to include better formatting as well as filter by category	
+	- **+3 marks** - for improved formatting of cart page		
 
-<h4>Deliverables:</h4>
+- Other bonus marks may be possible if discussed with the TA/instructor.
 
-<ol>
-<li>Option #1: Demonstrate your working site to the TA in the lab and get +2 bonus marks. No submission on Canvas is required.</li>
-<li>Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: <tt><b>listprod.jsp</b></tt>, <tt><b>listorder.jsp</b></tt> and <tt><b>order.jsp</b></tt>.</li>
-<li>You do NOT have to get the code uploaded and running on the web server cosc304.ok.ubc.ca to complete the assignment. However, if you do, you can submit the URL on the server for the TA to test your assignment.</li>
-<li>If you work in a group, only one person needs to submit the assignment. Put all partner's names and student numbers on the submission.</li>
-</ol>
+**If you want to be eligible for bonus marks, please note that on your assignment and explain what you did to deserve the extra marks.  An [example web site with improved features is available](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/bonus/shop.html).**
+
+#### Deliverables:
+
+1. Option #1: Demonstrate your working site to the TA and get +2 bonus marks. No submission on Canvas is required.
+2. Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: `listprod.jsp`, `listorder.jsp` and `order.jsp`.
+3. You do NOT have to get the code uploaded and running on the web server cosc304.ok.ubc.ca to complete the assignment. However, if you do, you can submit the URL on the server for the TA to test your assignment.
+4. Only one submission for all members fo the group. Put all partner's names and student numbers on the submission.
