@@ -47,4 +47,4 @@ This lab designs ER diagrams in UML notation using [astah](http://astah.net/edit
 <h3>Answer: <a href="img/HotelReservationSystem.asta">UML File</a>, <a href="img/HotelReservationSystem.png">ER diagram image</a></h3>
 
 
-<h2><a href="Assign/index.html">Lab 4 Assignment</a></h2>
+<h2><a href="assign/">Lab 4 Assignment</a></h2>
