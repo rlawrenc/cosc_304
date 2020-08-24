@@ -7,16 +7,16 @@
 Here is the code to show "Hello World!" using JSP:
 
 ```
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Hello World in JSP&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<html>
+<head>
+<title>Hello World in JSP</title>
+</head>
+<body>
 
-&lt;% out.println("Hello World!"); %&gt;
+<% out.println("Hello World!"); %>
 
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 ```
 
 [Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorld.jsp)
