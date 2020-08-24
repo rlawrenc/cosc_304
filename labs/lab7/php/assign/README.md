@@ -6,7 +6,7 @@ The web store that we are going to build allows customers to enter their informa
 
 ## Initial Steps
 
-1. You can either use the cosc304.ok.ubc.ca web server that supports PHP [instructions](setup/localsetup.html) or setup your own local web server for development ([instructions](setup/setup.html)). 
+1. You can either use the cosc304.ok.ubc.ca web server that supports PHP [instructions](setup/localsetup.md) or setup your own local web server for development ([instructions](setup/setup.md)). 
 
 2. Download the [starter project code files](304_lab7_starter_php.zip). Setup in your local development environment or on the cosc304 server.
 
