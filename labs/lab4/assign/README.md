@@ -6,18 +6,15 @@ This lab designs ER diagrams in UML notation using [astah](http://astah.net/edit
 
 Construct a database design in UML for an app store described below. **Data types are not needed.**
 
-<ol>
+- A <tt>Publisher</tt> where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)
 
-<li>A <tt>Publisher</tt> where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)</li>
+- A <tt>Category</tt> where each ingredient has an `id`, a `name`, and may have a parent category. (2 marks)
 
-<li>A <tt>Category</tt> where each ingredient has an `id`, a `name`, and may have a parent category. (2 marks)</li>
+- An <tt>App</tt> storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)
 
-<li>An <tt>App</tt> storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)</li>
+- A <tt>AppVersion</tt> stores each version of the app. An AppVersion is associated with exactly one App. Use a `version` field to identify between versions of the same App. Each AppVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
 
-<li>A <tt>AppVersion</tt> stores each version of the app. An AppVersion is associated with exactly one App. Use a `version` field to identify between versions of the same App. Each AppVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)</li>
-
-<li>A <tt>AppVersionReview</tt> stores ratings for each application version. Each instance applies to a single AppVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)</li>
-</ol>
+- A <tt>AppVersionReview</tt> stores ratings for each application version. Each instance applies to a single AppVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
 
 
 ## Question #2 (10 marks)
