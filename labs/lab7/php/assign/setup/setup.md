@@ -16,7 +16,7 @@ extension=php_pdo_sqlsrv_72_ts.dll</pre>
 4. Start XAMPP Control Panel
 
 5. Press Start next to <tt>Apache</tt> <br/>
-<img src="img/xampp.png"><br/><tt><b>Note:</b> If you are using an OS other than Windows, your control panel will be slightly different.<br/>Still click start next to Apache</tt></li>
+<img src="img/xampp.png"><br/><tt><b>Note:</b> If you are using an OS other than Windows, your control panel will be slightly different.<br/>Still click start next to Apache</tt>
 
 The webserver loads pages from  `<XAMPP Install Directory>\htdocs\`.
 
