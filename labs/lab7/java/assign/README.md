@@ -115,7 +115,7 @@ Build a simple web site that allows users to search for products by name, put pr
 - **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
 
 
-#### Bonus Marks<
+#### Bonus Marks
 
 Up to 10 bonus marks can be received by going beyond the basic assignment requirements:
 
