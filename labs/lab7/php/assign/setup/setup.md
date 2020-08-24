@@ -18,6 +18,6 @@ extension=php_pdo_sqlsrv_72_ts.dll</pre>
 5. Press Start next to <tt>Apache</tt> <br/>
 <img src="img/xampp.png"><br/><tt><b>Note:</b> If you are using an OS other than Windows, your control panel will be slightly different.<br/>Still click start next to Apache</tt></li>
 
-The webserver loads pages from <tt>&lt;XAMPP Install Directory&gt;\htdocs\</tt>.
+The webserver loads pages from  `<XAMPP Install Directory>\htdocs\`.
 
 MySQL drivers are already fully configured in XAMPP, and if you want to use the local MySQL server it supplies when developing your final project, the user account is `root` with no password.
