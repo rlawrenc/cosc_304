@@ -4,7 +4,7 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
 
 ## Part #1: MySQL
 
-Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.7 distribution](https://www.anaconda.com/distribution/).
+Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)).
 
 Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see <a href="http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html">Using MySQL</a>.
 
