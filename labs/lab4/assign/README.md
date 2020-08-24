@@ -29,4 +29,4 @@ Construct a database design in UML for a medical system described below. **Data 
 
 - A patient visits a doctor at a particular hospital. Each visit is identifed by its own id and also has a visit date. (3 marks)
 
-- At a visit one or more tests are run each with a cost and an outcome. Each test is identified for a particular visit by name. (2 marks)
+- At a visit zero or more tests are run each with a cost and an outcome. Each test is identified for a particular visit by name. (2 marks)
