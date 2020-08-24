@@ -1,45 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>COSC 304 Assignment 7</title>
-<link href="../../assign.css" type=text/css rel=stylesheet>
-</head>
+# COSC 304 - Introduction to Database Systems<br>Assignment 7 - Local Setup
 
-<body>
+The fastest way to do this assignment is to edit the files locally on your computer with any text editor, upload them to the server, and test them by connecting to the web page URL. An alternate way is to setup a PHP web server on your machine for testing ([instructions](setup.md)).
 
-<h1>COSC 304 - Introduction to Database Systems
-<br>Assignment 7 - Local Setup</h1>
+## Steps
 
-<p>The fastest way to do this assignment is to edit the files locally on your computer with any text editor, upload them to the server, and test them by connecting to the web page URL. An alternate way is to setup a PHP web server on your machine for testing (<a href="setup.html">instructions</a>).</p>
+1. Install a text editor. You can use Eclipse which has support for PHP or a text editor like VSCode or [Notepad++](https://notepad-plus-plus.org/download/).
+
+2. Edit the files (such as listorder.php) in the text editor and save them on your computer.
+
+3. Install a SecureFTP program to transfer the files to the cosc304.ok.ubc.ca server. Choices include [FileZilla](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/filezilla/filezilla.html) or the <a href="https://github.com/ashkulz/NppFTP/releases">NppFTP plugin</a> for Notepad++.
+
+4. Create the directory `lab7` in the `public_html` folder on `cosc304.ok.ubc.ca`. All the PHP files should be transferred into that directory.
 
 
-<h2>Steps</h2>
+### File Transfer using Notepad++ and NppFTP plugin
 
-<ol>
-
-<li>Install a text editor. You can use Eclipse which has support for PHP or a text editor like <a href="https://notepad-plus-plus.org/download/">Notepad++</a>.</li>
-<li>Edit the files (such as listorder.php) in the text editor and save them on your computer.</li>
-<li>Install a SecureFTP program to transfer the files to the cosc304.ok.ubc.ca server. Choices include <a href="../../../Notes/filezilla/filezilla.html">FileZilla</a> or the the <a href="https://github.com/ashkulz/NppFTP/releases">NppFTP plugin</a> for Notepad++.</li>
-<li>Create the directory <code>lab7</code> in the <code>public_html</code> folder on <code>cosc304.ok.ubc.ca</code>. All the PHP files should be transferred into that directory.</li>
-</ol>
-
-<h3>File Transfer using Notepad++ and NppFTP plugin</h3>
-
-<ul>
-<li>Open Notepad++ as administrator, navigate to <tt>Settings > Import > Import plugin(s)</tt>. <br/>
+- Open Notepad++ as administrator, navigate to `Settings > Import > Import plugin(s)`. <br/>
 <img src="img/import_plugin.png">
-<li>Locate plugin, and click Open.</li>
-</ol>
-<li>Connect Notepad++ to <tt>cosc304.ok.ubc.ca</tt></li>
-<ol>
-<li>In Notepad++, select <tt>Plugins > NppFTP > Show NppFTP Window</tt> (Note, it may not work directly after importing; you may need to re-open Notepad++ after installation)</li>
-<li>Select the Gear image, and choose <tt>Profile Settings</tt>. Create a new profile, SFTP, cosc304.ok.ubc.ca, and your UBC Novel login details. <br/>
-<img src="img/npp_configure_2.png"></li>
-</ul>
 
-<hr>
-<img src="../../../../../images/go-upwd.gif" alt="*" align="top" height="14" width="14"><a href="../../index.html">Home</a>
-<hr>
+- Locate plugin, and click Open.
 
-</body>
-</html>
+- Connect Notepad++ to `cosc304.ok.ubc.ca`
+
+- In Notepad++, select `Plugins > NppFTP > Show NppFTP Window` (Note, it may not work directly after importing; you may need to re-open Notepad++ after installation)
+
+- Select the Gear image, and choose `Profile Settings`. Create a new profile, SFTP, cosc304.ok.ubc.ca, and your UBC Novel login details. <br/>
+<img src="img/npp_configure_2.png">
