@@ -58,12 +58,11 @@ Modify the `listorder.php` so that it lists all orders currently in the database
 
 #### Marking Guide:
 
-- **+2 marks** - for SQL Server connection information and making a successful connection
-- **+1 mark** - for using try-catch syntax
-- **+2 marks** - for displaying order summary information for each order in a table
-- **+3 marks** - for displaying items in each order in a table
+- **+1 mark** - for SQL Server connection information and making a successful connection
+- **+3 marks** - for displaying order summary information for each order in a table
+- **+4 marks** - for displaying items in each order in a table
 - **+1 mark** - for formatting currency values correctly (e.g. $91.70)
-- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
+- **+1 mark** - for closing connection 
 
 ## Question 2 (30 marks)
 
