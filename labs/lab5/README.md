@@ -1,4 +1,4 @@
-#COSC 304 - Introduction to Database Systems<br>Lab 5: Converting ER/UML diagrams into the relational model
+# COSC 304 - Introduction to Database Systems<br>Lab 5: Converting ER/UML diagrams into the relational model
 
 ## Example #1
 
