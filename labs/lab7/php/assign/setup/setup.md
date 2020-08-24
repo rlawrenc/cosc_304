@@ -8,7 +8,7 @@ Note that Microsoft has provided [instructions on how to setup PHP 7 and Microso
 
 2. Download and install Microsoft SQL Server ODBC Drivers from: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53339">https://www.microsoft.com/en-us/download/details.aspx?id=53339</a>.
 
-3. Download PHP SQLSRV Plugin from: <a href="https://github.com/Microsoft/msphpsql/releases/">https://github.com/Microsoft/msphpsql/releases/</a>. After downloading, extract to <tt>&lt;XAMPP Install Directory&gt;\php\ext\</tt> The default location on Windows would be <tt>C:\xampp\php\ext\</tt>. After extracting, head one directory up, to the `php` folder. Open `php.ini` in a text editor, locate the text <tt>extention=</tt>, around aproximately line 915.<br/>
+3. Download PHP SQLSRV Plugin from: <a href="https://github.com/Microsoft/msphpsql/releases/">https://github.com/Microsoft/msphpsql/releases/</a>. After downloading, extract to `<XAMPP Install Directory>\php\ext\` The default location on Windows would be `C:\xampp\php\ext\`. After extracting, head one directory up, to the `php` folder. Open `php.ini` in a text editor, locate the text `extention=`, around aproximately line 915.<br/>
 Add the following at the end of the Extensions:<br/>
 <pre>extension=php_sqlsrv_72_ts.dll <!-- This will have to be updated in future years for PHP versions higher than 7.1 -->
 extension=php_pdo_sqlsrv_72_ts.dll</pre>
