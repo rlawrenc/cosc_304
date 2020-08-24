@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/JDBC/Python with MySQL and Microsoft SQL Server
+# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python with MySQL and Microsoft SQL Server
 
 This lab shows how Java and Python programs can connect to MySQL and Microsoft SQL Server.
 
