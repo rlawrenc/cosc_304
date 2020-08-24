@@ -68,7 +68,7 @@ Modify the `listorder.php` so that it lists all orders currently in the database
 
 Build a simple web site that allows users to search for products by name, put products in their shopping cart, and place an order by checking out the items in their shopping cart. Starter code is provided. Fill in a few of the PHP files to get the application to work.  Here are the steps you should do to get started:
 
-1. Use the [template code](304_lab7_starter_php.zip) downloaded and setup in Eclipse in Question 1. Summary of files:
+1. Use the [template code](304_lab7_starter_php.zip) downloaded and setup in Question 1. Summary of files:
 
 - **listprod.php** - lists all products.  **TODO: fill-in your own code (10 marks)**
 - **addcart.php** - adds an item to the cart (stored using session variable).  No changes needed.
@@ -97,24 +97,22 @@ Build a simple web site that allows users to search for products by name, put pr
 
 #### Marking Guide (for listprod.php): (10 marks total)
 
-- **+1 mark** - for SQL Server connection information and making a successful connection
 - **+2 marks** - for using product name parameter to filter products shown (must handle case where nothing is provided in which case all products are shown)
 - **+1 mark** - for using PreparedStatements
-- **+2 marks** - for displaying table of products
+- **+3 marks** - for displaying table of products
 - **+3 marks** - for building web link URL to allow products to be added to the cart
-- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
+- **+1 mark** - for closing connection
 
 #### Marking Guide (for order.php): (20 marks total)
 
-- **+1 mark** - for SQL Server connection information and making a successful connection
 - **+3 marks** - for validating that the customer id is a number and the customer id exists in the database. Display an error if customer id is invalid.
 - **+1 mark** - for showing error message if shopping cart is empty
-- **+3 marks** - for inserting into ordersummary table and retrieving auto-generated id
+- **+4 marks** - for inserting into OrderSummary table and retrieving auto-generated id
 - **+6 marks** - for traversing list of products and storing each ordered product in the orderproduct table
 - **+2 marks** - for updating total amount for the order in OrderSummary table
 - **+2 marks** - for displaying the order information including all ordered items
 - **+1 mark** - for clearing the shopping cart (sessional variable) after order has been successfully placed
-- **+1 mark** - for closing connection (either explicitly or as part of try-catch with resources syntax)
+- **+1 mark** - for closing connection
 
 
 #### Bonus Marks
