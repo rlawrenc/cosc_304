@@ -35,7 +35,7 @@ R. Davis,40000.0
 J. Jones,50000.0
 ```
 
-## Question #1<
+## Question #1
 
 Create a new program called `MyJDBC.java` or `MySQLQuestion.py`.
 
@@ -73,7 +73,7 @@ Supervisor: R. Davis
 
 ### Java Setup
 
-1. <a href="../../Notes/Code/sqljdbc4.jar">Download the Microsoft SQL Server driver</a>  and put it in your classpath or in the `lib\ext` folder of your JRE.
+1. [Download the Microsoft SQL Server driver](code/sqljdbc4.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
 
 2. Open Eclipse.  Select `File`, `New`, `Java project`. ([screenshot](img/EclipseJavaProject.png)
 
