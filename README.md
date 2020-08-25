@@ -77,7 +77,7 @@ David Ding, Devon MacNeil
 | Nov. 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
 | Nov. 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
 | Nov. 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
-| Dec. 4 (F) | **Final Exam Review** | |
+| December 4 (F) | **Final Exam Review** | |
 
 ## Labs
 
