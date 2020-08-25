@@ -5,10 +5,8 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment<br>
 **Office Location:** ASC 349 (virtual office hours)
 
-## TA
-Devon MacNeil
-David Ding
-
+## TAs
+David Ding, Devon MacNeil
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -69,7 +67,7 @@ David Ding
 | Oct. 19 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
 | Oct. 23 (F) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
 | Oct. 26 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code), [Comic - Why validation is important](http://xkcd.com/327/) |
+| Oct. 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | Nov. 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Nov. 9 (M) | **Midterm Exam #2 In-Class** | |
