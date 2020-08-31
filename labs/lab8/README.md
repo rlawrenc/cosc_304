@@ -14,3 +14,5 @@ A transaction's **isolation level** determines if it can see updates by other tr
 
 There are two options for supporting transactions in Java code. If the entire transaction can be expressed in one SQL string, you can just send the entire transaction as a single string and call `statement.execute(SQLString)`.  However, it is more common that a transaction will consist of a sequence of SQL statements, but you want to have Java code actions in between.  For instance, consider if what you wanted to do was fix an order total for an order.  To do this, you would calculate the order total and check if it does not match the required total, then update the order total if required.  In JDBC, each statement you execute is a transaction.  You must turn auto-commit off if you want to have transactions that have more than one statement.  Sample code for transactions is in the file [JdbcTransactions.java](code/JdbcTransactions.java).
 
+
+## [Lab 8 Assignment](assign/)
