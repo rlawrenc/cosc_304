@@ -2,7 +2,7 @@
 
 ### Images
 
-Images can be stored in the database or on the web server file system. Lab 8 will demonstrate both cases. Typically, storing on the web server provides higher performance, but the images may not be as easy to secure compared to storing them in the database.
+Images can be stored in the database, on the web server file system, or on a cloud service like Amazon S3. Typically, storing on the web server provides higher performance, but the images may not be as easy to secure compared to storing them in the database.
 
 ### Security
 
