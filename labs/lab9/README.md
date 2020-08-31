@@ -8,7 +8,7 @@ An XML document is a text document that contains markup in the form of tags. XML
 
 An XML document is **well-formed** if it obeys the syntax of the XML standard.  This includes having a single root element, and all elements must be properly closed and nested. An XML document is **valid** if it is well-formed and it conforms to a Document Type Definition (DTD) or an XML Schema Definition (XSD). 
 
-**XPath** allows specifying path expressions to navigate the tree-structured XML document. Path descriptors are sequences of tags separated by slashes /. The "\*" wild card operator can be used to denote any single tag. Attributes are referenced by putting a "@" in front of their name. A predicate expression is specified inside square brackets [..] following a tag. 
+**XPath** allows specifying path expressions to navigate the tree-structured XML document. Path descriptors are sequences of tags separated by slashes `/`. The `\*` wild card operator can be used to denote any single tag. Attributes are referenced by putting a `@` in front of their name. A predicate expression is specified inside square brackets `[..]` following a tag. 
 
 
 ### JSON
