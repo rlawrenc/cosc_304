@@ -38,7 +38,7 @@ David Ding, Devon MacNeil
 ## Textbook and Reference Material
  - All notes are online.
  - A textbook is not required. Students can get supplemental material from any database textbook.
- - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/)
+ - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/). [iClicker Cloud (REEF) Login](http://app.reef-education.com/)
 
 ## Expectations
  - Attend all classes and prepare before attending class. 
