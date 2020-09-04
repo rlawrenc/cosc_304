@@ -14,7 +14,7 @@ enroll (<u>sid</u>, <u>cnum</u>, <u>secnum</u>, grade)
 
 ## Question 1 (35 marks)
 
-Download the starter code ([Python file](EnrollDB.py), [Jupyter Notebook](EnrollDB.ipynb)) and the test file ([Python file](TestEnrollDB.py), [Jupyter Notebook](TestEnrollDB.ipynb)).  There is also a <a href="university.ddl">DDL script</a> to create the database.
+Download the starter code ([Python file](code/EnrollDB.py), [Jupyter Notebook](code/EnrollDB.ipynb)) and the test file ([Python file](code/TestEnrollDB.py), [Jupyter Notebook](code/TestEnrollDB.ipynb)).  There is also a <a href="university.ddl">DDL script</a> to create the database.
 
 Write the code to complete the methods in `EnrollPython` (look for `TODO` items).
 
