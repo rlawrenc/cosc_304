@@ -2,7 +2,7 @@
 
 All labs are done online with assistance from teaching assistants and instructor during session hours. The best part of the course is developing with databases in the labs. Please follow the submission guidelines.
 
-**All labs must done in groups. Labs 1, 2, 3, 4, 6, and 9 are done in pairs. Project labs 5, 7, 8, and 10 are done in groups of four.** No collaboration outside a group is allowed. The group must be setup on Canvas (contact TA/instructor) and only one submission per group is accepted.
+**All labs must be done in groups. Labs 1, 2, 3, 4, 6, and 9 are done in pairs. Project labs 5, 7, 8, and 10 are done in groups of four.** No collaboration outside a group is allowed. The group must be setup on Canvas (contact TA/instructor) and only one submission per group is accepted.
 
 ## Lab Schedule
 |  Lab  |  Date  |  Topic  |
