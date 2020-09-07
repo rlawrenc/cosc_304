@@ -6,7 +6,7 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Office Location:** ASC 349 (virtual office hours)
 
 ## TAs
-David Ding, Devon MacNeil
+David Ding, Devon MacNeil, Reece Walsh
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
