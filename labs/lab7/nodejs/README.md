@@ -1,10 +1,10 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 7: Building a Database-enabled Web Site using Node.js
 
-**For this assignment, please follow the setup instructions located in the [assign/setup\(assign/setup)] directory.**
+**For this assignment, please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
 ## Example 1
 
-Here is the code to show "Hello World!" using PHP:
+Here is the code to show "Hello World!" using Javascript:
 
 ```javascript
 const express = require('express')
