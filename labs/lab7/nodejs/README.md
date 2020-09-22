@@ -37,7 +37,7 @@ Try and change the code so that the output looks like this:
 
 ## Example 3
 
-Modify the sample PHP code for querying WorksOn such that for each department you list its projects and then its employees.  The output should look like <a href="http://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnDeptEmpProj.php">this (click here)</a>.
+Modify the sample code for querying WorksOn such that for each department you list its projects and then its employees.  The output should look like <a href="http://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnDeptEmpProj.php">this (click here)</a>.
 
 ### [Solution - WorksOnDeptEmpProj.js](code/WorksOnDeptEmpProj.js)
 
