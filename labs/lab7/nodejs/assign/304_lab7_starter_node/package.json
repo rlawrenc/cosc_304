@@ -1,0 +1,22 @@
+{
+  "name": "cosc304lab7",
+  "version": "1.0.0",
+  "description": "COSC 304 Lab 7 Node Variant",
+  "repository": "N/A",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "moment": "^2.28.0",
+    "mssql": "^6.2.1",
+    "nodemon": "^2.0.4",
+    "tedious": "^9.2.1"
+  }
+}

@@ -1,0 +1,40 @@
+version: '3.7'
+services:
+    node:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: node-app
+        depends_on:
+            - db
+        container_name: node-app
+        volumes:
+            - ./:/app/
+            - /app/node_modules
+        networks:
+            node-network:
+                aliases:
+                    - node-app
+        ports:
+            - 80:3000
+    db:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        container_name: mssql
+        restart: always
+        environment:
+            ACCEPT_EULA: 'Y'
+            SA_PASSWORD: 'YourStrong@Passw0rd'
+        ports:
+            - '1433:1433'
+        expose:
+            - '1433'
+        volumes:
+            - cosc304-db:/var/lib/mssql
+        networks:
+            node-network:
+                aliases:
+                    - cosc304-db
+volumes: 
+    cosc304-db:
+networks:
+    node-network:
