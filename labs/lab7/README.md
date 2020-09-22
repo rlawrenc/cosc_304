@@ -3,3 +3,5 @@
 ### [Lab 7 Java](java/)
 
 ### [Lab 7 PHP](php/)
+
+### [Lab 7 Node.js](nodejs/)
