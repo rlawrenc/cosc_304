@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using Node.js
 
-This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html). SQL Server supports most of the SQL standard including foreign keys and triggers.  **The assignment is done in your project groups of 4 people.
+This assignment practices web development using a commercial database system, Microsoft SQL Server. SQL Server is a widely-used, commercial database. **The assignment is done in your project groups of 4 people.**
 
 The web store that we are going to build allows customers to enter their information, choose products by putting them into a shopping cart, and then place an order.
 
