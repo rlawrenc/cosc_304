@@ -1,6 +1,10 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 7: Building a Database-enabled Web Site using JSP
 
-**For this assignment, create a directory `Lab7` on `cosc304.ok.ubc.ca` under your home directory in the folder `public_html/tomcat/`.**
+**Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
+
+**The sample code for these examples is [code/304_lab7_starter_jsp.zip](assign/304_lab7_starter_jsp.zip).**
+
+**Edit the sample code in the folder `WebContent`.**
 
 ## Example 1
 
@@ -21,11 +25,9 @@ Here is the code to show "Hello World!" using JSP:
 
 [Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorld.jsp)
 
-The URL of the JSP file is: `http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorld.jsp`
+The URL of the JSP file is: `http://localhost/shop/HelloWorld.jsp`
 
-We can modify this code either by being logged in to `cosc304.ok.ubc.ca` and editing it with `nano` or by editing the file on our local machine and transferring it to `cosc304.ok.ubc.ca`.
-
-Try and change the code so that the output looks like this:
+Modify the code using a text editor. Try and change the code so that the output looks like this:
 
 # Hello World Again!
 
