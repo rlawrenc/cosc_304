@@ -6,7 +6,7 @@ The web store that we are going to build allows customers to enter their informa
 
 ## Initial Steps
 
-1. To get started with this assignment, download the [starter project code files](304_lab7_starter_node) and follow the [setup instructions](setup/) to create your development environment.
+1. To get started with this assignment, download the [starter project code files](304_lab7_starter_node.zip) and follow the [setup instructions](setup/) to create your development environment.
 
 2. Create the tables and load the sample data into your SQL Server database.  The file `/routes/loaddata.js` will load the database using the `/data/data.ddl` script. You can run this file from the command line or by using the URL: `http://127.0.0.1/loaddata`.
 
