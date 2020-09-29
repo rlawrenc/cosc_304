@@ -24,7 +24,7 @@ This will setup a development environment using Docker on your computer.
 
     This will setup the JSP runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
 
-6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop.html). If all went well with the above steps, you should see the shop opening page.
+6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop/shop.html](http://127.0.0.1/shop/shop.html). If all went well with the above steps, you should see the shop opening page.
 
 7. Edit the files in the text editor and save them on your computer. Changes to these files should be reflected on the website.
 
