@@ -10,7 +10,7 @@ The fastest way to do this assignment is to edit the files locally on your compu
 
 <img src="imgs/open_folder.png">
 
-3. Download and install Docker ([here](https://www.docker.com/products/docker-desktop)). This is necessary for running the PHP web application and a Microsoft SQL server instance.
+3. Download and install Docker ([here](https://www.docker.com/products/docker-desktop)). This is necessary for running the web application and a Microsoft SQL server instance.
 
 4. Open a command line window and navigate to the directory of your starter code. If you are using VSCode, you can do this by pressing Ctrl + \`. If you are not using VSCode, you can use your system's terminal. On Windows, this would be `cmd.exe` and on MacOS, this would be `terminal.app`. The image below shows an instance of VSCode with the terminal open.
 
@@ -22,7 +22,7 @@ The fastest way to do this assignment is to edit the files locally on your compu
     docker-compose up
     ```
 
-    This will setup the PHP runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
+    This will setup the JSP runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
 
 6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop.html). If all went well with the above steps, you should see the shop opening page.
 
@@ -30,7 +30,7 @@ The fastest way to do this assignment is to edit the files locally on your compu
 
 ## Debugging
 
-Errors will be printed on the respective PHP page being run.
+Errors will be printed on the respective page being run.
 
 ## Shutting Down the Development Server
 
