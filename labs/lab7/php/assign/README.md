@@ -45,11 +45,9 @@ Modify the `listorder.php` so that it lists all orders currently in the database
 
 1. [Sample output](http://cosc304.ok.ubc.ca/rlawrenc/lab7_php/listorder.php)
 
-2. If you upload your site to the server in the folder `public_html/lab7` then your URL will be:
-`http://cosc304.ok.ubc.ca/(yourUnivId)/lab7/shop.html`.  <br>For example, my web site is at:
-[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab7_php/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html).
+2. The URL of your site on localhost is [http://localhost/shop.html](http://localhost/shop.html).
 
-3. The main shop page is [shop.html](http://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html).  Feel free to change it to your shop name and style!
+3. The main shop page is [shop.html](http://localhost/shop.html).  Feel free to change it to your shop name and style!
 
 4. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
