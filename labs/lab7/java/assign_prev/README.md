@@ -1,16 +1,24 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using JSP
 
-This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html)</a>. SQL Server supports most of the SQL standard including foreign keys and triggers.  **The assignment is done in your project groups of 4 people.**</p>
+This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html)</a>. SQL Server supports most of the SQL standard including foreign keys and triggers.  **The assignment is done in your project groups of 4 people. If you are off campus, you must connect using VPN to access the database. [VPN Info](https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents). The server is myvpn.ok.ubc.ca.**</p>
 
 The web store that we are going to build allows customers to enter their information, chose products by putting them into a shopping cart, and then place an order.
 
 ## Initial Steps
 
-1. Setup your own local web server for development ([instructions](setup/setup.md)). 
+1. If you are developing on your own laptop, you must [setup your development environment](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/JavaEE/setup.html).
 
-2. Download the [starter project code files](304_lab7_starter_java.zip). Setup in your local development environment or on the cosc304 server.
+2. Download the [starter project code files](304_lab7.zip) and import into Eclipse as a Dynamic Web Server project.
 
-3. Create the tables and load the sample data into your SQL Server database.  The file `WebContent/loaddata.jsp` will load the database using the `WebContent/orderdb_sql.ddl` script. You can run this file by using the URL: `http://localhost/shop/loaddata.jsp` .
+![](img/import1.png)
+![](img/import2.png)
+
+3. Create the tables and load the sample data into your SQL Server database.  The file `LoadData.java` will load the database using the `data/orderdb_sql.ddl` script.  Make sure to set your own database, user id, and password.
+
+4. Test your web site on your local machine.
+
+5. **Optional:** Upload your working site to the server when completed. Before uploading, create a directory called `Lab7` in your `public_html/tomcat` directory in your home
+account on `cosc304.ok.ubc.ca`.  All files for this assignment will be in that directory. Use [FileZilla](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/filezilla/filezilla.html) to perform the upload.
 
 
 ## Databases and Autonumber Fields
@@ -34,11 +42,15 @@ Modify the `listorder.jsp` so that it lists all orders currently in the database
 
 1. [Sample output](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/listorder.jsp)
 
-2. The main shop page is [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).  Feel free to change it to your shop name and style!
+2. If you upload your site to the server in the folder `public_html/tomcat/Lab7` then your URL will be:
+`http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/Lab7/shop.html`.  <br>For example, my web site is at:
+[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).
 
-3. Your output does not have to look exactly like the sample (feel free to make it look better!).
+3. The main shop page is [http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).  Feel free to change it to your shop name and style!
 
-4. A good way to get started with `listorder.jsp` is to copy some of the [sample JDBC code posted (JdbcQuery.jsp)](../code/JdbcQuery.jsp) and modify it for this particular query. **Note that the URL is now for Microsoft SQL Server not MySQL.**</li>
+4. Your output does not have to look exactly like the sample (feel free to make it look better!).
+
+5. A good way to get started with `listorder.jsp` is to copy some of the [sample JDBC code posted (JdbcQuery.jsp)](../code/JdbcQuery.jsp) and modify it for this particular query. **Note that the URL is now for Microsoft SQL Server not MySQL.**</li>
 
 
 #### Marking Guide:
@@ -109,6 +121,7 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 
 - **+5 marks** - for allowing a user to remove items from their shopping cart and to change the quantity of items ordered when viewing their cart.
 - **+5 marks** - for validating a customer's password when they try to place an order.
+- **+5 marks** - your site runs on cosc304.ok.ubc.ca or another server not just on your local development machine
 - **Up to +5 marks** - for improving the looks of the site such as:
 	- **+2 marks** - for a page header with links to product page, list order, and shopping cart
 	- **+3 marks** - for formatting product listing page to include better formatting as well as filter by category	
@@ -122,4 +135,5 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 
 1. Option #1: Demonstrate your working site to the TA and get +2 bonus marks. No submission on Canvas is required.
 2. Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: `listprod.jsp`, `listorder.jsp` and `order.jsp`.
-3. Only one submission for all members fo the group. Put all partner's names and student numbers on the submission.
+3. You do NOT have to get the code uploaded and running on the web server cosc304.ok.ubc.ca to complete the assignment. However, if you do, you can submit the URL on the server for the TA to test your assignment.
+4. Only one submission for all members fo the group. Put all partner's names and student numbers on the submission.
