@@ -2,7 +2,7 @@
 
 **Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
-**The sample code for these examples is [code/304_lab7_starter_php.zip](code/304_lab7_starter_php.zip).**
+**The sample code for these examples is [code/304_lab7_starter_php.zip](assign/304_lab7_starter_php.zip).**
 
 ## Example 1
 
@@ -43,7 +43,7 @@ Modify the code using a text editor. Try and change the code so that the output 
 
 ## Example 2
 
-[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query your local MySQL database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson`. To query the COSC 304 database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
+[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query the COSC 304 database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
 
 ## Example 3
 
