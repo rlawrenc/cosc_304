@@ -8,7 +8,7 @@ The web store that we are going to build allows customers to enter their informa
 
 1. Download the [starter project code files](304_lab7_starter_php.zip). 
 
-2. Setup in your local development environment ([instructions](setup/)). 
+2. Setup your local development environment ([instructions](setup/)). 
 
 3. Create the tables and load the sample data into your SQL Server database.  The file `loaddata.php` will load the database using the `data/orderdb_sql.ddl` script. You can run this file from the command line or by using the URL: `http://localhost/loaddata.php` .
 
