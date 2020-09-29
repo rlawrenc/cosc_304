@@ -6,9 +6,10 @@ The web store that we are going to build allows customers to enter their informa
 
 ## Initial Steps
 
-1. Setup your own local web server for development ([instructions](setup/setup.md)). 
 
-2. Download the [starter project code files](304_lab7_starter_java.zip). Setup in your local development environment or on the cosc304 server.
+1. Download the [starter project code files](304_lab7_starter_java.zip). 
+
+2. Setup your local development environment ([instructions](setup/)). 
 
 3. Create the tables and load the sample data into your SQL Server database.  The file `WebContent/loaddata.jsp` will load the database using the `WebContent/orderdb_sql.ddl` script. You can run this file by using the URL: `http://localhost/shop/loaddata.jsp` .
 
