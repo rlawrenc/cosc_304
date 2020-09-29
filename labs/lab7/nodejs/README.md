@@ -2,6 +2,8 @@
 
 **Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
+**The sample code for these examples is [code/304_lab7_example_node.zip](code/304_lab7_example_node.zip). **
+
 ## Example 1
 
 Here is the code to show "Hello World!" using Javascript:
