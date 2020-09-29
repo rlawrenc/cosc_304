@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Local Setup
 
-The fastest way to do this assignment is to edit the files locally on your computer and observe the changes on a locally hosted web server/database running in Docker.
+This will setup a development environment using Docker on your computer.
 
 ## Steps
 
@@ -26,7 +26,7 @@ The fastest way to do this assignment is to edit the files locally on your compu
 
 6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop.html). If all went well with the above steps, you should see the shop opening page.
 
-7. Edit the files (such as listorder.php) in the text editor and save them on your computer. Changes to these files should be reflected on the website.
+7. Edit the files in the text editor and save them on your computer. Changes to these files should be reflected on the website.
 
 ## Debugging
 
