@@ -1,10 +1,10 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 7 - Local Setup
+# COSC 304 - Introduction to Database Systems<br>Assignment 7 - Setup
 
-The fastest way to do this assignment is to edit the files locally on your computer and observe the changes on a locally hosted web server/database running in Docker.
+This will setup a development environment using Docker on your computer.
 
 ## Steps
 
-1. Install a text editor. It's highly recommended that you use VSCode ([Download Here](https://code.visualstudio.com/Download)) for this assignment due to the quality-of-life features it provides.
+1. Install a text editor. It's highly recommended that you use VSCode ([Download Here](https://code.visualstudio.com/Download)) for this assignment due to the features it provides.
 
 2. Once you've downloaded and installed your preferred text editor, extract the starter code for this project to a conveniently accessible area and open the folder in your text editor of choice. If you are using VSCode, click the "Open Folder" button and choose the folder containing the extracted starter code.
 
@@ -24,9 +24,9 @@ The fastest way to do this assignment is to edit the files locally on your compu
 
     This will setup the Java Server Pages runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
 
-6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop/shop.html). If all went well with the above steps, you should see the shop opening page.
+6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop.html). If all went well with the above steps, you should see the shop opening page.
 
-7. Edit the files (such as /WebContent/listorder.jsp) in the text editor and save them on your computer. Changes to these files should be reflected on the website.
+7. Edit the files in the text editor and save them on your computer. Changes to these files should be reflected on the website.
 
 ## Debugging
 
