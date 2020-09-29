@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 7: Building a Database-enabled Web Site using Node.js
 
-**For this assignment, please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
+**Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
 ## Example 1
 
