@@ -1,6 +1,8 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 7: Building a Database-enabled Web Site using PHP
 
-**For this assignment, create a directory `Lab7` on `cosc304.ok.ubc.ca` under your home directory in the folder `public_html`.**
+**Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
+
+**The sample code for these examples is [code/304_lab7_starter_php.zip](code/304_lab7_starter_php.zip).**
 
 ## Example 1
 
@@ -19,13 +21,11 @@ Here is the code to show "Hello World!" using PHP:
 </html>
 ```
 
-[Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorld.php)
+[Click for a demonstration of the Hello World code](http://localhost/HelloWorld.php)
 
-The URL of the PHP file is: `http://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorld.php`
+The URL of the PHP file is: `http://localhost/HelloWorld.php`
 
-We can modify this code either by being logged in to `cosc304.ok.ubc.ca` and editing it with `nano` or by editing the file on our local machine and transferring it to `cosc304.ok.ubc.ca`.
-
-Try and change the code so that the output looks like this:
+Modify the code using a text editor. Try and change the code so that the output looks like this:
 
 # Hello World Again!
 
@@ -43,7 +43,7 @@ Try and change the code so that the output looks like this:
 
 ## Example 2
 
-[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table.  Make sure that the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
+[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query your local MySQL database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson`. To query the COSC 304 database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
 
 ## Example 3
 
