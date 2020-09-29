@@ -123,4 +123,4 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 
 1. Option #1: Demonstrate your working site to the TA and get +2 bonus marks. No submission on Canvas is required.
 2. Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: `listprod.jsp`, `listorder.jsp` and `order.jsp`.
-3. Only one submission for all members fo the group. Put all partner's names and student numbers on the submission.
+3. Only one submission for all members of the group. Put all partner's names and student numbers on the submission.
