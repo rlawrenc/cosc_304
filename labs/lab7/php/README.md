@@ -2,7 +2,7 @@
 
 **Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
-**The sample code for these examples is [code/304_lab7_starter_php.zip](code/304_lab7_starter_php.zip).**
+**The sample code for these examples is [code/304_lab7_starter_php.zip](assign/304_lab7_starter_php.zip).**
 
 ## Example 1
 
