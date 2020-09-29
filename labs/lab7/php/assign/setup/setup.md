@@ -22,11 +22,11 @@ The fastest way to do this assignment is to edit the files locally on your compu
     docker-compose up
     ```
 
-    This will setup the PHP runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
+    This will setup the Java Server Pages runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
 
-6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop.html). If all went well with the above steps, you should see the shop opening page.
+6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop.html](http://127.0.0.1/shop/shop.html). If all went well with the above steps, you should see the shop opening page.
 
-7. Edit the files (such as listorder.php) in the text editor and save them on your computer. Changes to these files should be reflected on the website.
+7. Edit the files (such as /WebContent/listorder.jsp) in the text editor and save them on your computer. Changes to these files should be reflected on the website.
 
 ## Debugging
 
