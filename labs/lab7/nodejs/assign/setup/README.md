@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 7 - Local Setup
+# COSC 304 - Introduction to Database Systems<br>Assignment 7 - Setup
 
-The fastest way to do this assignment is to edit the files locally on your computer and observe the changes on a locally hosted web server/database running in Docker.
+This will setup a development environment using Docker on your computer.
 
 ## Steps
 
