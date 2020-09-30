@@ -30,10 +30,10 @@ Insert the following records into the appropriate tables.
 <li><b>App -</b> <tt>(100, 'Microsoft Excel', 1, 2, 'Spreadsheet')</tt><br>
 <tt>(200, 'Words with Friends 2', 2, 3, 'Show what you know about words!')</tt>
 </li>
-  <li><b>AppVersion - </b> <tt>(100, '1.0', '2008-09-11', 1, 3.99, 'First version')</tt><br> 
-    <tt>(100, '2.0', '2020-01-01', 5, 15.99, 'Best version for more money')</tt><br> 
-    <tt>(200, '5.0', '2018-05-23', 3, 1.99, null)</tt><br> 
-    <tt>(200, '6.1', '2020-07-11', 4, 0.99, 'Have fun!')</tt></li>
+  <li><b>AppVersion - </b> <tt>(100, '1.0', '2008-09-11', 1.0, 3.99, 'First version')</tt><br> 
+    <tt>(100, '2.0', '2020-01-01', 5.0, 15.99, 'Best version for more money')</tt><br> 
+    <tt>(200, '5.0', '2018-05-23', 3.0, 1.99, null)</tt><br> 
+    <tt>(200, '6.1', '2020-07-11', 4.0, 0.99, 'Have fun!')</tt></li>
   <li><b>AppVersionReview - </b> <tt>(100, '1.0', 'Joe', '2008-09-11 08:00:00', 1, 'First review. It sucks!')</tt><br> 
     <tt>(100, '1.0', 'Steve', '2008-09-11 08:05:00', 5, 'It is awesome!')</tt><br>
     <tt>(100, '2.0', 'Padhu', '2020-02-03 11:23:45', 3, 'Decent')</tt><br>
