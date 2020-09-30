@@ -6,18 +6,15 @@ This assignment practices creating tables with SQL DDL. We will see later how to
 
 Write the SQL DDL to create the following 5 tables for an App store: `Publisher`, `Category`, `App`, `AppVersion`, `AppVersionReview`:
 
-<ol>
+1. A `Publisher` table where each publisher is identified by an integer `id` and has a `name` (up to 40 characters). (1 mark)
 
-<li>A <tt>Publisher</tt> table where each publisher is identified by an integer <tt>id</tt> and has a `name` (up to 40 characters). (1 mark)</li>
+2. A <tt>Category</tt> table where each ingredient has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)
 
-<li>A <tt>Category</tt> table where each ingredient has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)</li>
+3. An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 40 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)
 
-<li>An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 40 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)</li>
+4. >A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)
 
-<li>A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)</li>
-
-<li>A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete. A value for the reviewDate field is always required.</i></b> (2 marks)</li>
-</ol>
+5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete. A value for the reviewDate field is always required.</i></b> (2 marks)
 
 ## Question 2 (10 marks)
 
