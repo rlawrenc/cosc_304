@@ -8,7 +8,7 @@ Write the SQL DDL to create the following 5 tables for an App store: `Publisher`
 
 1. A `Publisher` table where each publisher is identified by an integer `id` and has a `name` (up to 40 characters). (1 mark)
 
-2. A <tt>Category</tt> table where each ingredient has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)
+2. A <tt>Category</tt> table where each category has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)
 
 3. An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 40 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)
 
