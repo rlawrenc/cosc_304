@@ -48,7 +48,7 @@ public class JdbcTransactions
 		}
 		catch (SQLException ex) {
 			System.err.println("SQLException: " + ex); 
-			con.rollabck();
+			con.rollback();
 		}
 	}
 }
