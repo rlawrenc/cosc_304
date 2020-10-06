@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
 
-Modify your existing project web site with new features including a product detail page, a login feature, an administrator page, and support for transactions.
+Modify your existing project web site from lab 7 with new features including a product detail page, a login feature, an administrator page, and support for transactions.
 
 ## Project Requirements (25 marks)
 
