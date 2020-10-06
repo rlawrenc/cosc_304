@@ -47,6 +47,8 @@ public class JdbcTransactions
 			con.commit();		// Commit this transaction			
 		}
 		catch (SQLException ex) {
-			System.err.println("SQLException: " + ex); }
+			System.err.println("SQLException: " + ex); 
+			con.rollabck();
+		}
 	}
 }
