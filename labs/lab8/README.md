@@ -34,7 +34,7 @@ REVOKE [GRANT OPTION FOR]{privilegeList | ALL [PRIVILEGES]}
 
 A transaction is an atomic program that is executed completely or not at all. A database enforces a transaction in combination with the database access library. Using the database API, code indicates the start of a transaction as well as when it should be committed (saved) or rolled back (aborted). 
 
-A transaction's **isolation level** determines if it can see updates by other transactions that may not be performed during its execution. Isolation levels include serializable, repeatable read, read committed, and read uncommitted.
+A transaction's **isolation level** determines if it can see updates by other transactions that may be performed during its execution. Isolation levels include serializable, repeatable read, read committed, and read uncommitted.
 
 Transactions provide the following properties:
 - **Atomicity** -  Either all operations of the transaction are properly reflected in the database or none are.
