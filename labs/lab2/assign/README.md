@@ -49,7 +49,7 @@ Insert the following records into the appropriate tables.
 
 2. Delete all apps published by <tt>'Microsoft'</tt>. (1 mark) 
 
-3. <strong>How many rows are deleted when this statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on is either SET NULL or NO ACTION to see the difference.
+3. <strong>How many rows are deleted when the previous DELETE statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on is either SET NULL or NO ACTION to see the difference.
 
 
 ### Update (3 marks)
