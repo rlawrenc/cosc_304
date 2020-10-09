@@ -48,9 +48,18 @@ The product page will show details on the product including images. An image can
 
 #### Marking Guide (shipment page): (5 marks)
 
-- **+3 mark** -for using transactions to either process the shipment and ship all items (up to 3) or generate an error
-- **+2 marks** - for checking that there is enough of each item to ship from the warehouse. Rollback transaction if any item does not have enough inventory.
+Use transactions to take an order id and either process a shipment and ship all items or generate an error.
 
-#### Screenshot
+- **+1 mark** - verifying order id exists and is associated with a valid order with items
+- **+1 mark** - for checking if sufficient inventory from warehouse 1 for each item in order
+- **+1 mark** - for inserting a new shipment record
+- **+1 mark** - for updating inventory for each item in shipment
+- **+1 mark** - for commit of updates if all items had sufficient inventory or performing rollback if any items did not have enough inventory
 
-<img src="img/todo.png" width="300">
+#### Screenshot - Test with OrderId = 1
+
+<img src="img/shipOrder1.png" width="300">
+
+#### Screenshot - Test with OrderId = 3
+
+<img src="img/shipOrder3.png" width="300">
