@@ -8,7 +8,7 @@ Construct a database design in UML for an app store described below. **Data type
 
 - A `Publisher` where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)
 
-- A `Category` where each category an `id`, a `name`, and may have a parent category. (2 marks)
+- A `Category` where each category has an `id`, a `name`, and may have a parent category. (2 marks)
 
 - An `App` storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)
 
