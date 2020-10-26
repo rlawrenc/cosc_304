@@ -41,4 +41,7 @@ The project will build an online store like Amazon.com selling whatever products
 
 **Items to submit: your UML diagram (image preferred rather than astah file), a text file containing your SQL DDL, a document with your mission statement and executive summary.**
 
+* [Best Prior Year Projects](https://people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html)
+
+
 
