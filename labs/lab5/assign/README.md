@@ -4,8 +4,7 @@
 ## Question 1 (15 marks)
 
 **Draw the ER diagram for tracking football statistics for quarterbacks and runningbacks in college football and then
-convert it into the relational schema. Underline primary keys and note foreign keys.** The league will have multiple teams
-(11) each with a unique team name. For each game played, there is a home team, an away team, home points, away points,and a
+convert it into the relational schema. Underline primary keys and note foreign keys.** The league will have multiple teams, each with a unique team name. For each game played, there is a home team, an away team, home points, away points,and a
 date. All teams play multiple home and away games per season. The teams all have players that are identified by team
 name and jersey number. Also store a player name. The team name and
 number will be unique for each player, while their name may not be unique. Each player **ISA Runningback or ISA
