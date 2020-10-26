@@ -71,6 +71,8 @@ Supervisor: R. Davis
 
 ## Part #2: Microsoft SQL Server
 
+Your Microsoft SQL Server user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id. For more information on how to login and use Microsoft SQL Server, see [Using Microsoft SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html).
+
 ### Java Setup
 
 1. [Download the Microsoft SQL Server driver](code/sqljdbc4.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
