@@ -196,6 +196,7 @@ For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC
 * [Using FileZilla](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/filezilla/filezilla.html)
 * [Using Eclipse/JavaEE/Tomcat for Web Development](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/JavaEE/setup.html)
 * [astah Web Site](http://astah.net/editions/uml-new)
+* [Best Prior Year Projects](https://people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html)
 * Sample databases WorksOn (SQL Notes): [WorksOn](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/WorksOn.accdb), [WorksOn DDL](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql)
 
 
