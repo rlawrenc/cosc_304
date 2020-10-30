@@ -11,7 +11,7 @@ Convert the fish store ER diagram into the relational model:
 Test <u>test</u> sdfb <ins>underline</ins>
 
 <pre>
-Fish (<u>id</u>, name, color, weight, <i>tankNumber</i>, <i>speciesId</i>)  // tankNumber is a FK to Tank, speciesId is a FK to Species
+Fish (<ins>id</ins>, name, color, weight, <i>tankNumber</i>, <i>speciesId</i>)  // tankNumber is a FK to Tank, speciesId is a FK to Species
 Species (<u>id</u>, name, preferredFood)
 Tank (<u>number</u>, name, volume, color)
 Event (<i><u>fishId</u></i>, <u>eventDate</u>, note) // fishId is a FK to Fish
