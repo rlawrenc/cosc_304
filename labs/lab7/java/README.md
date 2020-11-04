@@ -2,7 +2,7 @@
 
 **Please follow the setup instructions located in the [assign/setup](assign/setup) directory.**
 
-**The sample code for these examples is [code/304_lab7_starter_jsp.zip](assign/304_lab7_starter_jsp.zip).**
+**The sample code for these examples is [code/304_lab7_example_jsp.zip](assign/304_lab7_example_jsp.zip).**
 
 **Edit the sample code in the folder `WebContent`.**
 
