@@ -45,4 +45,14 @@ E3
 | D3  | Accounting | 2        | 100000.00   |
 ---------------------------------------------
 
-2. Write a CREATE VIEW statement for workson database that ...
+2. Write a CREATE VIEW statement for workson database called `empSummary` that has the employee number, name, salary, birthdate, department, count of projects worked on for the employee and the total hours worked. Only show employees in `'D1', 'D2', or 'D3'` and with birthdate after `'1966-06-08'`.View contents:
+
+-------------------------------------------------------------------------
+| eno | ename    | salary   | bdate      | dno | totalProj | totalHours |
+| --- | -------- | -------- | ---------- | --- | --------- | ---------- |
+| E3  | A. Lee   | 40000.00 | 1966-07-05 | D2  | 2         | 58         |
+| E5  | B. Casey | 50000.00 | 1971-12-25 | D3  | 1         | 24         |
+| E7  | R. Davis | 40000.00 | 1977-09-08 | D1  | 1         | 36         |
+| E8  | J. Jones | 50000.00 | 1972-10-11 | D1  | 0         | <null>     |
+-------------------------------------------------------------------------
+
