@@ -43,6 +43,6 @@ E3
 | D1  | Management | 3        | 90000.00    |
 | D2  | Consulting | 2        | 70000.00    |
 | D3  | Accounting | 2        | 100000.00   |
---------------------------------------------|
+---------------------------------------------
 
 2. Write a CREATE VIEW statement for workson database that ...
