@@ -19,7 +19,7 @@ Write XPath expressions for the following queries. Use the Depts XML data set an
 </Dept>
 ```
 
-2. Write an XPath expression that returns all employees in the Management department that have a name greater than 'K'.
+2. Write an XPath expression that returns all employees in the Management department that have a name greater than 'K'. Output:
 
 ```
 <Emp eno="E7">
@@ -27,7 +27,7 @@ Write XPath expressions for the following queries. Use the Depts XML data set an
 </Emp>
 ```
 
-3. Write an XPath expression that returns the employee number of the 2nd employee in the Consulting department. Note: To return an attribute use `data()` such as `data(//Dept/@dno)'.
+3. Write an XPath expression that returns the employee number of the 2nd employee in the Consulting department. Note: To return an attribute use `data()` such as `data(//Dept/@dno)`. Output:
 
 ```
 E3
