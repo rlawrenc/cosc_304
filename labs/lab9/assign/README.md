@@ -32,3 +32,17 @@ Write XPath expressions for the following queries. Use the Depts XML data set an
 ```
 E3
 ```
+
+## Question 2 - Views (4 marks)
+
+1. Write a CREATE VIEW statement for the workson database called `deptSummary` that has the department number, name, count of employees in the department, and total employee salaries. View contents:
+
+---------------------------------------------
+| dno | dname      | totalEmp | totalSalary |
+| --- | ---------- | -------- | ----------- |
+| D1  | Management | 3        | 90000.00    |
+| D2  | Consulting | 2        | 70000.00    |
+| D3  | Accounting | 2        | 100000.00   |
+--------------------------------------------|
+
+2. Write a CREATE VIEW statement for workson database that ...
