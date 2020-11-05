@@ -15,5 +15,5 @@ Complete your project by adding more features. Use the [list of features with po
 
 4. **Make sure your documentation contains the URL for your site as well as user ids and passwords.**
 
-5. [List of features with points](projectFeatureMarking.pdf) ([Word version](projectFeatureMarking.docx) must be included when submitting your documentation. 
+5. [List of features with points](projectFeatureMarking.pdf) ([Word version](projectFeatureMarking.docx)) must be included when submitting your documentation. 
 
