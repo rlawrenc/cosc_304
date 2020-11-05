@@ -58,9 +58,9 @@ E3
 
 ## Question 3 - Triggers (6 marks)
 
-1. Write a trigger on MySQL with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in workson. Increase the budget by $1,000 times the number of hours worked.
+1. Write a trigger on MySQL with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in `workson` table. Increase the budget by `$1,000` times the number of hours worked.
 
-2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be $5,000 more than the average salary of employees with that title whenever an employee is inserted with a salary less than $50,000. For example, if employee E10 called 'P. Person' with title 'ME' is inserted with a salary of $35,000, then the salary should be changed to $45,000 (average salary of 'ME' employees is $40,000).
+2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
 
 
 ## Question 4 - JSON (2 marks)
