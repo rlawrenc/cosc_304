@@ -36,7 +36,7 @@ Modify the `/routes/listorder.js` file so that it lists all orders currently in 
 
 #### Details:
 
-1. [Sample output](http://cosc304.ok.ubc.ca/rlawrenc/lab7_node/listorder.js)
+1. [Sample output](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/listorder.jsp)
 
 2. The main shop page is `server.js`. Feel free to change it to your shop name and style!
 
