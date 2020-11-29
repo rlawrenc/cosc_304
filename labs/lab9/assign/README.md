@@ -42,7 +42,7 @@ E3
 | --- | ---------- | -------- | ----------- |
 | D1  | Management | 2        | 90000.00    |
 | D2  | Consulting | 2        | 70000.00    |
-| D3  | Accounting | 3        | 100000.00   |
+| D3  | Accounting | 3        | 120000.00   |
 ---------------------------------------------
 
 2. Write a CREATE VIEW statement for workson database called `empSummary` that has the employee number, name, salary, birthdate, department, count of projects worked on for the employee and the total hours worked. Only show employees in `'D1', 'D2', or 'D3'` and with birthdate after `'1966-06-08'`.View contents:
