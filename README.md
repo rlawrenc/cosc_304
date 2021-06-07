@@ -70,23 +70,22 @@ David Ding, Devon MacNeil, Reece Walsh
 | Aug. 4 (W) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Aug. 6 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
 | Aug. 10 (T) | [Normalization and Design Verification](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Aug. 12 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Aug. 11 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 
 ## Labs
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 7 – 11 |	**No Lab during First Week of Class** |
-| [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | Sept. 28 – Oct. 2 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | October 12 – 23 |Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | October 26 – 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | November 2 – 13 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | November 16 – 20 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | November 23 – 27 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | Nov. 30 – Dec. 4 | Lab 10: Project Completion |
+| [1](labs/lab1) | July 9 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | July 16 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | July 20 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | July 23 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | July 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | August 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](labs/lab8) | August 11 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | August 11 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | August 14 | Lab 10: Project Completion |
 
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
