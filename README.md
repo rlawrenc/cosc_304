@@ -59,8 +59,7 @@ David Ding, Devon MacNeil, Reece Walsh
 | July 9 (F) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
 | July 13 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
 | July 14 (W) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| July 16 (F) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) <br>
-		[ER and UML Modeling examples and questions](lectures/lecture8) | |
+| July 16 (F) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) <br> [ER and UML Modeling examples and questions](lectures/lecture8) | |
 | July 20 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
 | July 21 (W) | [Database Programming using Java/JDBC](lectures/lecture10) <br> [Database Programming using Python and R](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br>
 		| [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
