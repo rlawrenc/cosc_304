@@ -62,8 +62,7 @@ David Ding, Devon MacNeil, Reece Walsh
 | July 16 (F) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) <br>
 		[ER and UML Modeling examples and questions](lectures/lecture8) | |
 | July 20 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
-| July 21 (W) | [Database Programming using Java/JDBC](lectures/lecture10) <br>
-		[Database Programming using Python and R](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br>
+| July 21 (W) | [Database Programming using Java/JDBC](lectures/lecture10) <br> [Database Programming using Python and R](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br>
 		| [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
 | July 23 (F) | **Midterm Exam #1 In-Class** | |
 | July 27 (T) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
@@ -72,8 +71,7 @@ David Ding, Devon MacNeil, Reece Walsh
 | Aug. 3 (T) | **Midterm Exam #2 In-Class** | |
 | Aug. 4 (W) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Aug. 6 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
-| Aug. 10 (T) | [Normalization and Design Verification](lectures/lecture17) <br>
-		[Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
+| Aug. 10 (T) | [Normalization and Design Verification](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
 | Aug. 12 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 
 ## Labs
