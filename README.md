@@ -1,12 +1,12 @@
-# COSC 304 - Introduction to Databases - Winter 2020 Term 1
+# COSC 304 - Introduction to Databases - Summer 2021
 
 ## Instructor
-Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment<br>
-**Office Location:** ASC 349 (virtual office hours)
+Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445<br>
+**Office Hours:**	TBD or by appointment<br>
+**Office Location:** virtual office hours
 
 ## TAs
-David Ding, Devon MacNeil, Reece Walsh
+TBD
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -31,7 +31,7 @@ David Ding, Devon MacNeil, Reece Walsh
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 16th in class | 
 | Midterm #2 | 15% | November 9th in class | 
-| Final Exam | 35% | Cumulative, three hours ; **Exams may use Proctorio and require a web camera.**| 
+| Final Exam | 35% | Cumulative, three hours ; **Exams may require a web camera.**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
