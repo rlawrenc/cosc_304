@@ -103,8 +103,9 @@ Diagrams and figures included in lecture presentations adhere to Copyright Guide
 
 ## Grievances and Complaints Procedures
 A student who has a complaint related to this course should follow the procedures summarized below:
- - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
- - If the complaint is not resolved to the student's satisfaction, the student should go to the departmental chair John Braun at SCI 388, 807-8032 or e-mail him at john.braun@ubc.ca.  
+- The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
+- If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, 
+Dr. Yves Lucet at yves.lucet@ubc.ca  or the Department Head pro tem, Dr. Andrew Jirasek at andrew.jirasek@ubc.ca 
  
 ## Your Responsibilities
 Your responsibilities to this class and to your education as a whole include attendance and participation. You have a
