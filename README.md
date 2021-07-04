@@ -1,7 +1,7 @@
 # COSC 304 - Introduction to Databases - Summer 2021
 
 ## Instructor
-Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445<br>
+Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
 **Office Hours:**	TBD or by appointment<br>
 **Office Location:** virtual office hours
 
