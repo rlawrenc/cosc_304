@@ -7,16 +7,16 @@ All labs are done online with assistance from teaching assistants and instructor
 ## Lab Schedule
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [1](labs/lab1) | July 9 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | July 16 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | July 20 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | July 23 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | July 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | August 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | August 11 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | August 11 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | August 14 | Lab 10: Project Completion |
+| [1](lab1) | July 9 | Lab 1: Querying using Relational Algebra |
+| [2](lab2) | July 16 | Lab 2: Creating tables using SQL and MySQL |
+| [3](lab3) | July 20 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](lab4) | July 23 | Lab 4: Database Design using UML Modeling |
+| [5](lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](lab6) | July 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](lab7) | August 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](lab8) | August 11 | Lab 8: Images, Security, and Transactions |
+| [9](lab9) | August 11 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](lab10) | August 14 | Lab 10: Project Completion |
 
 ## Drop-in Session Hours
 | Day/Time |  TA/Instructor |
