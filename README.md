@@ -2,11 +2,13 @@
 
 ## Instructor
 Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
-**Office Hours:**	TBD or by appointment<br>
+**Office Hours:**	Tuesday, 1:30 pm – 2:20 pm or by appointment<br>
 **Office Location:** virtual office hours
 
 ## TAs
-TBD
+David Ding<br>
+Devon MacNeil<br>
+Reece Walsh<br>
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
