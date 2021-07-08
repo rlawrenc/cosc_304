@@ -21,8 +21,8 @@ All labs are done online with assistance from teaching assistants and instructor
 ## Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| TBD | Devon |
-| TBD | David |
+| devonwmacneil@gmail.com (Office hours:  Monday 12 PM to 4 PM) | Devon MacNeil  |
+| davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays) | David Ding| 
 | Tuesday 1:30 pm – 2:20 pm | Dr. Youry Khmelevsky |
 
 ## Submission Guidelines for Assignments
