@@ -57,21 +57,21 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
 |------------|------|-----------|
 | July 6 (T) | [**First day of classes.  Introduction to course/databases (L1&L2)**](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
 | July 7 (W) | [Relational Model - Schemas, Keys, Constraints, Integrity (L3)](lectures/lecture2) <br> [Relational Algebra - Select, Project, Set Ops, Outer Joins (L4)](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| July 9 (F) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
-| July 13 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| July 14 (W) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| July 16 (F) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) <br> [ER and UML Modeling examples and questions](lectures/lecture8) | |
-| July 20 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
-| July 21 (W) | [Database Programming using Java/JDBC](lectures/lecture10) <br> [Database Programming using Python and R](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| July 9 (F) | [SQL DDL – Create table/index, Insert/Delete/Update (L5)](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
+| July 13 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By (L6)](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| July 14 (W) | [SQL - Group By, Aggregate Functions (L7)](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| July 16 (F) | [Database Design – General Approach ; ER and UML Modeling (L8)](lectures/lecture7) <br> [ER and UML Modeling examples and questions (L9)](lectures/lecture8) | |
+| July 20 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model (L10&L11)](lectures/lecture9) | |
+| July 21 (W) | [Database Programming using Java/JDBC (L12)](lectures/lecture10) <br> [Database Programming using Python and R (L13)](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
 | July 23 (F) | **Midterm Exam #1 In-Class** | |
-| July 27 (T) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
-| July 28 (W) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| July 29 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| July 27 (T) | [Database Web Programming – Web servers, JSP/PHP (L14)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| July 28 (W) | [Advanced SQL DDL – Triggers and Views (L15)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| July 29 (F) | [Advanced SQL – Security, Transactions, Recursion (L17&L18)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Aug. 3 (T) | **Midterm Exam #2 In-Class** | |
-| Aug. 4 (W) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Aug. 6 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
-| Aug. 10 (T) | [Normalization and Design Verification](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Aug. 11 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Aug. 4 (W) | [XML and XPath (L19)](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Aug. 6 (F) | [JSON and NoSQL Databases (L20&L21)](lectures/lecture16) | |
+| Aug. 10 (T) | [Normalization and Design Verification (L22)](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling (L23)](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
+| Aug. 11 (W) | [Data warehousing and Data Mining (L24)<br>Preview of COSC 404 - Database System Implementation<br>Course Summary (L25)](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 
 ## Labs
 
