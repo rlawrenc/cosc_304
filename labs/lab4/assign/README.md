@@ -1,8 +1,15 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
 
-This lab designs ER diagrams in UML notation using [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
+This lab designs ER diagrams in UML notation. Students participating in the AutoER study can use the AutoER Designer and Evaluator software that performs real-time marking and feedback. If you have not signed up, fill out the <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_81gKQUTFum083Fc">consent form</a>. <strong>A video on how to use the AutoER system is in Canvas.</strong></p>
+
+It is also possible to use a variety of drawing software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.
+
 
 ## Question #1 (10 marks)
+
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/4">https://autoed.ok.ubc.ca/questions/4</a></h3>
+
+<h4>Question Text (if done Using astah)</h4>
 
 Construct a database design in UML for an app store described below. **Data types are not needed.**
 
@@ -18,6 +25,10 @@ Construct a database design in UML for an app store described below. **Data type
 
 
 ## Question #2 (10 marks)
+
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/5">https://autoed.ok.ubc.ca/questions/5</a></h3>
+
+<h4>Question Text (if done Using astah)</h4>
 
 Construct a database design in UML for a medical system described below. **Data types are not needed.**
 
