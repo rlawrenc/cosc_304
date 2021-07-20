@@ -87,7 +87,7 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
 | [8](labs/lab8) | August 11 | Lab 8: Images, Security, and Transactions |
 | [9](labs/lab9) | August 11 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](labs/lab10) | August 14 | Lab 10: Project Completion |
-|* The projects are labs 5, 7, 8, and 10.|
+|* The project will be in labs 5, 7, 8, and 10.|
 
 ## Grading Practices
 
