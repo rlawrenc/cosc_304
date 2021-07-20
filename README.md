@@ -80,8 +80,8 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
 | [1](labs/lab1) | July 9 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | July 16 | Lab 2: Creating tables using SQL and MySQL |
 | [3](labs/lab3) | July 20 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | July 23 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model |
+| [4](labs/lab4) | July 24 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoER, please contact Sarah Foos sarafoss@mail.ubc.ca)|
 | [6](labs/lab6) | July 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
 | [7](labs/lab7) | August 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
 | [8](labs/lab8) | August 11 | Lab 8: Images, Security, and Transactions |
