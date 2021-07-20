@@ -9,7 +9,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 
 <h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/4">https://autoed.ok.ubc.ca/questions/4</a></h3>
 
-<h4>Question Text (if done Using astah)</h4>
+<h4>Question Text (if done using astah)</h4>
 
 Construct a database design in UML for an app store described below. **Data types are not needed.**
 
@@ -28,7 +28,7 @@ Construct a database design in UML for an app store described below. **Data type
 
 <h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/5">https://autoed.ok.ubc.ca/questions/5</a></h3>
 
-<h4>Question Text (if done Using astah)</h4>
+<h4>Question Text (if done using astah)</h4>
 
 Construct a database design in UML for a medical system described below. **Data types are not needed.**
 
