@@ -24,7 +24,11 @@ convert it into the relational schema. Underline primary keys and note foreign k
 
 ## Question 2 (35 marks) - Project Deliverable
 
-The project will build an online store like Amazon.com selling whatever products you want. The first step is to develop a database design and convert that design into SQL DDL. Description:
+The project will build an online store like Amazon.com selling whatever products you want. The first step is to develop a database design and convert that design into SQL DDL. 
+
+### Note: Database design can be done using AutoER: https://autoed.ok.ubc.ca/questions/7
+
+Description:
 
 - A <strong>Customer</strong> is identified by an auto-increment id. Other attributes include first name, last name, email, phone number, street address, city, province/state, postal code, and country. A <strong>Customer</strong> also has a user id (unique) and password.
 
