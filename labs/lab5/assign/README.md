@@ -1,11 +1,18 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
 
+## Note: Due to requests from students, lab 5 has been modified to support AutoER. Students may use AutoER or Astah.
 
 ## Question 1 (15 marks)
+
+## Original Question (not AutoER)
 
 **Draw the ER diagram for tracking football statistics for quarterbacks and runningbacks in college football and then
 convert it into the relational schema. Underline primary keys and note foreign keys.** The league will have multiple teams, each with a unique team name. For each game played, there is a home team, an away team, home points, away points, and a date. All teams play multiple home and away games per season. The teams all have players that are identified by team name and jersey number. Also store a player name. The team name and number will be unique for each player, while their name may not be unique. Each player **ISA Runningback or ISA Quarterback (Add ISA constraints)**. Each running back has a type {fullback or halfback}.  Each quarterback has a status {starter, backup}. Statistics are compiled for each game for each player.  The Runningback statistics will include carries, yards, and fumbles. The quarterback statistics include passes, yards, and interceptions. In addition, each team is represented by a single coach.  A coach can coach only one team. Keep track of each coach's name and salary.
 
+## Modified Question (for AutoER)
+
+**Draw the ER diagram for tracking football statistics for quarterbacks and runningbacks in college football and then
+convert it into the relational schema. Underline primary keys and note foreign keys.** The league will have multiple teams, each with a unique team name. For each game played, there is a home team, an away team, home points, away points, and a date. All teams play multiple home and away games per season. The teams have quarterbacks and runningbacks that are identified by team name and jersey number. Also store a player name. The team name and number will be unique for each player, while their name may not be unique. Each running back has a type {fullback or halfback}.  Each quarterback has a status {starter, backup}. Statistics are compiled for each game for each player.  The Runningback statistics will include carries, yards, and fumbles. The quarterback statistics include passes, yards, and interceptions. In addition, each team is represented by a single coach.  A coach can coach only one team. Keep track of each coach's name and salary.
 
 ## Question 2 (35 marks) - Project Deliverable
 
