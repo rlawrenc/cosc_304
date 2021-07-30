@@ -66,7 +66,7 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
 | July 23 (F) | **Midterm Exam #1 In-Class** | |
 | July 27 (T) | [Database Web Programming – Web servers, JSP/PHP (L12)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | July 28 (W) | [Advanced SQL DDL – Triggers and Views (L13)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| July 29 (F) | [Advanced SQL – Security, Transactions, Recursion (L14)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| July 30 (F) | [Advanced SQL – Security, Transactions, Recursion (L14)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Aug. 3 (T) | **Midterm Exam #2 In-Class** | |
 | Aug. 4 (W) | [XML and XPath (L15)](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Aug. 6 (F) | [JSON and NoSQL Databases (L16)](lectures/lecture16) | |
