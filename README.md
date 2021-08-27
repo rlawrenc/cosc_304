@@ -5,8 +5,9 @@ Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
 **Office Hours:**	Thursday, 2:00 pm – 2:50 pm or by an appointment<br>
 **Office Location:** virtual office hours
 
+
 ## TAs
-TBA<br>
+David Ding, Devon MacNeil, Reece Walsh
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -29,9 +30,9 @@ TBA<br>
 |------|-----------|-------------|
 | Quizzes and Exercises | 10% | Online and during class time activities |
 | Assignments | 25% | Weekly assignments |
-| Midterm #1 | 15% | July 23rd in class | 
-| Midterm #2 | 15% | August 3rd in class | 
-| Final Exam | 35% | Cumulative, three hours ; **Exams may require a web camera.**| 
+| Midterm #1 | 15% | October 16th in class | 
+| Midterm #2 | 15% | November 9th in class | 
+| Final Exam | 35% | Cumulative, three hours ; **Exams may use Proctorio and require a web camera.**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -49,65 +50,63 @@ TBA<br>
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
-**Lecture:** 12:30 to 2:00 p.m. Tuesday, Thursday<br>
+**Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
 **Lab:** Drop-in virtual labs and help sessions
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
-| Sept 9 (R) | [**First day of classes.  Introduction to course/databases (L1) **](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| Sept 14 (T) | [Relational Model - Schemas, Keys, Constraints, Integrity (L2)](lectures/lecture2)| [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept 16 (R) | [Relational Algebra - Select, Project, Set Ops, Outer Joins (L3) ](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-|  | [SQL DDL – Create table/index, Insert/Delete/Update (L4) ](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
-| Sept 21 (T)| [SQL - Queries, LIKE operator, Set Operations, Order By (L5)](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| | [SQL - Group By, Aggregate Functions (L6)](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-|  | [Database Design – General Approach ; ER and UML Modeling (L7)](lectures/lecture7) <br> [ER and UML Modeling examples and questions (L8)](lectures/lecture8) | |
-|  | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model (L9)](lectures/lecture9) | |
-|  | [Database Programming using Java/JDBC (L10)](lectures/lecture10) <br> [Database Programming using Python and R (L11)](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-|  | **Midterm Exam #1 In-Class** | |
-|  | [Database Web Programming – Web servers, JSP/PHP (L12)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
-|  | [Advanced SQL DDL – Triggers and Views (L13)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| | [Advanced SQL – Security, Transactions, Recursion (L14)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-|  | **Midterm Exam #2 In-Class** | |
-|  | [XML and XPath (L15)](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-|  | [JSON and NoSQL Databases (L16)](lectures/lecture16) |[Discovering JavaScript Object Notation with Douglas Crockford](https://www.youtube.com/watch?v=kc8BAR7SHJI&list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm&index=4), [What is MapReduce?](https://www.youtube.com/watch?v=43fqzaSH0CQ), [Hadoop In 5 Minutes](https://www.youtube.com/watch?v=aReuLtY0YMI), [What is Apache Spark?](https://www.youtube.com/watch?v=SxAxAhn-BDU) |
-|  | [Normalization and Design Verification (L17)](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling (L18_1)](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-|  | [Data warehousing and Data Mining (L19_1)<br>Preview of COSC 404 - Database System Implementation<br>Course Summary (L19_2)](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Sept. 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
+| Sept. 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) |  |
+| Sept. 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| Sept. 21 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
+| Sept. 25 (F) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| Sept. 28 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| Oct. 2 (F) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
+| Oct. 5 (M) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
+| Oct. 9 (F) | [ER and UML Modeling examples and questions](lectures/lecture8) | |
+| Oct. 12 (M) | **No class due to Thanksgiving** | |
+| Oct. 16 (F) | **Midterm Exam #1 In-Class** | |
+| Oct. 19 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
+| Oct. 23 (F) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 26 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| Nov. 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| Nov. 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| Nov. 9 (M) | **Midterm Exam #2 In-Class** | |
+| Nov. 13 (F) | **No class for Term 1 midterm break** | |
+| Nov. 16 (M) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 20 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
+| Nov. 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
+| Nov. 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
+| Nov. 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| December 4 (F) | **Final Exam Review** | |
 
 ## Labs
 
-|  Lab  |  Date  |  Topic*  |
+|  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [1](labs/lab1) |  | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) |  | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) |  | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) |  | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
-| [6](labs/lab6) |  | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) |  | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) |  | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) |  | Lab 10: Project Completion |
-|||* The project will be in labs 5, 7, 8, and 10.|
-
-## Grading Practices
-
-Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014
+|  | September 7 – 11 |	**No Lab during First Week of Class** |
+| [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | Sept. 28 – Oct. 2 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | October 12 – 23 |Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | October 26 – 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | November 2 – 13 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](labs/lab8) | November 16 – 20 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | November 23 – 27 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | Nov. 30 – Dec. 4 | Lab 10: Project Completion |
 
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
-## Final Examinations
-The examination period for S2021 T- 2 is August 16 – 20, 2021.  Except in the case of examination clashes and hardships (three or more formal examinations scheduled within a 24-hour period) or unforeseen events, students will be permitted to apply for out-of-time final examinations only if they are representing the University, the province, or the country in a competition or performance; serving in the Canadian military; observing a religious rite; working to support themselves or their family; or caring for a family member.  Unforeseen events include (but may not be limited to) the following: ill health or other personal challenges that arise during a term and changes in the requirements of an ongoing job.  
-Further information on Academic Concession can be found under Policies and Regulation in the Okanagan Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0
-
 ## Copyright Disclaimer   
-Diagrams and figures included in lecture presentations adhere to Copyright Guidelines for UBC Faculty, Staff and Students http://copyright.ubc.ca/requirements/copyright-guidelines/ and UBC Fair Dealing Requirements for Faculty and Staff http://copyright.ubc.ca/requirements/fair-dealing/.  Some of these figures and images are subject to copyright and will not be posted to Canvas.   All material uploaded to Canvas that contain diagrams and figures are used with permission of the publisher; are in the public domain; are licensed by Creative Commons; meet the permitted terms of use of UBC’s library license agreements for electronic items; and/or adhere to the UBC Fair Dealing Requirements for Faculty and Staff. Access to the Canvas course site is limited to students currently registered in this course. Under no circumstance are students permitted to provide any other person with means to access this material. Anyone violating these restrictions may be subject to legal action. Permission to electronically record any course materials must be granted by the instructor. Distribution of this material to a third party is forbidden.
+Diagrams and figures included in lecture presentations adhere to Copyright Guidelines for UBC Faculty, Staff and Students http://copyright.ubc.ca/requirements/copyright-guidelines/ and UBC Fair Dealing Requirements for Faculty and Staff http://copyright.ubc.ca/requirements/fair-dealing/.  Some of these figures and images are subject to copyright and will not be posted to Connect. All material uploaded to Connect that contain diagrams and figures are used with permission of the publisher; are in the public domain; are licensed by Creative Commons; meet the permitted terms of use of UBC’s library license agreements for electronic items; and/or adhere to the UBC Fair Dealing Requirements for Faculty and Staff. Access to the Connect course site is limited to students currently registered in this course. Under no circumstance are students permitted to provide any other person with means to access this material. Anyone violating these restrictions may be subject to legal action. Permission to electronically record any course materials must be granted by the instructor. Distribution of this material to a third party is forbidden.
 
 ## Grievances and Complaints Procedures
 A student who has a complaint related to this course should follow the procedures summarized below:
-- The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
-- If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, 
-Dr. Yves Lucet at yves.lucet@ubc.ca  or the Department Head pro tem, Dr. Andrew Jirasek at andrew.jirasek@ubc.ca 
+ - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
+ - If the complaint is not resolved to the student's satisfaction, the student should go to the departmental chair John Braun at SCI 388, 807-8032 or e-mail him at john.braun@ubc.ca.  
  
 ## Your Responsibilities
 Your responsibilities to this class and to your education as a whole include attendance and participation. You have a
@@ -118,7 +117,8 @@ talking on a cell-phone, inappropriate use of profanity in classroom discussion,
 toward the instructor, a student in the class, or about other individuals or groups.
 
 ## Academic Integrity
-The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred to the President’s Advisory Committee on Student Discipline.  Careful records are kept in order to monitor and prevent recurrences.  A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
+The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating usually result in a failing grade or mark of zero on the assignment or in the course.   Careful records are kept to monitor and prevent recidivism.  A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
+
 
 ## Academic Integrity Course Policies
 Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
