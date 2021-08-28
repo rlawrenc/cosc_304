@@ -95,7 +95,7 @@ TBA
 | [7](labs/lab7) | November 1 – 12 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
 | [8](labs/lab8) | November 15 – 19 | Lab 8: Images, Security, and Transactions |
 | [9](labs/lab9) | November 22 – 26 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | Nov. 29 – Dec. 3 | Lab 10: Project Completion |
+| [10](labs/lab10) | Nov. 29 – Dec. 7 | Lab 10: Project Completion |
 
 ## Final Examinations
 The examination period for December 11-22, 2021.  Except in the case of examination clashes and hardships (three or more formal examinations scheduled within a 24-hour period) or unforeseen events, students will be permitted to apply for out-of-time final examinations only if they are representing the University, the province, or the country in a competition or performance; serving in the Canadian military; observing a religious rite; working to support themselves or their family; or caring for a family member.  Unforeseen events include (but may not be limited to) the following: ill health or other personal challenges that arise during a term and changes in the requirements of an ongoing job.  
