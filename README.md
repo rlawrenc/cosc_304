@@ -7,7 +7,9 @@ Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
 
 
 ## TAs
-TBA
+MacFarland, Will	wilmc17@student.ubc.ca <br>
+Mahato, Pradeep	pradeepmahato007@gmail.com <br>
+Anjum, Taif	tanjum@mail.ubc.ca
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
