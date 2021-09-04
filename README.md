@@ -11,7 +11,7 @@ Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
 **Calendar Course Description, from the UBCO Calendar:** http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC
 
 ## TAs
-MacFarland, Will	wilmc17@student.ubc.ca <br>
+McFarland, Will	willmcfarland17@gmail.com <br>
 Mahato, Pradeep	pradeepmahato007@gmail.com <br>
 Anjum, Taif	tanjum@mail.ubc.ca
 
