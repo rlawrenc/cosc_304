@@ -2,9 +2,13 @@
 
 ## Instructor
 Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
+**Classroom Schedule:** Tuesday/Thursday, 12:30 pm - 1:50 pm<br>
+**Mode of Delivery:** Online
 **Office Hours:**	Thursday, 2:00 pm – 2:50 pm or by an appointment<br>
 **Office Location:** virtual office hours
-
+**Course Website:** Canvas
+**Text Book:** N/A
+**Calendar Course Description, from the UBCO Calendar:** http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC
 
 ## TAs
 MacFarland, Will	wilmc17@student.ubc.ca <br>
