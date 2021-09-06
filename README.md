@@ -94,7 +94,7 @@ Anjum, Taif	tanjum@mail.ubc.ca
 |  | September 7 – 11 |	**No Lab during First Week of Class** |
 | [1](labs/lab1) | September 13 – 17 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | September 20 – 24 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | Sept. 27 – Oct. 1 | Lab 3: Writing SQL queries on a MySQL database |
+| [3](labs/lab3) | September 27 – Oct. 1 | Lab 3: Writing SQL queries on a MySQL database |
 | [4](labs/lab4) | October 4 – 8 | Lab 4: Database Design using UML Modeling |
 | [5](labs/lab5) | October 11 – 22 |Lab 5: Converting UML Diagrams into the Relational Model |
 | [6](labs/lab6) | October 25 – 29 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
