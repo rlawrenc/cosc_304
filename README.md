@@ -1,7 +1,7 @@
 # COSC 304 - Introduction to Databases - Winter W1 2021
 
 ## Instructor
-Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
+Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 **Classroom Schedule:** Tuesday/Thursday, 12:30 pm - 1:50 pm<br>
 **Mode of Delivery:** Online
 **Office Hours:**	Thursday, 2:00 pm – 2:50 pm or by an appointment<br>
