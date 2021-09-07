@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
 
-## Note: Due to requests from students, lab 5 has been modified to support AutoER. Students may use AutoER or Astah.
+## Note: Students may use AutoER or Astah.
 
 ## Question 1 (15 marks)
 
