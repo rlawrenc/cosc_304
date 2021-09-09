@@ -78,9 +78,9 @@ Anjum, Taif	tanjum@mail.ubc.ca
 | Oct. 28 (R) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | Nov. 2 (T) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 4 (R) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 9 (T) | **Midterm Exam #2 In-Class** | |
 | Nov. 11 (R) | **No class for Term 1 midterm break** | |
-| Nov. 16 (T) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 16 (T) | **Midterm Exam #2 In-Class** | |
+| Nov. 18 (R) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 18 (R) | [JSON and NoSQL Databases](lectures/lecture16) | |
 | Nov. 23 (T) | [Normalization and Design Verification](lectures/lecture17) | |
 | Nov. 25 (R) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
@@ -92,15 +92,15 @@ Anjum, Taif	tanjum@mail.ubc.ca
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
 |  | September 7 – 11 |	**No Lab during First Week of Class** |
-| [1](labs/lab1) | September 13 – 17 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 20 – 24 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | September 27 – Oct. 1 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | October 4 – 8 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | October 11 – 22 |Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | October 25 – 29 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | November 1 – 12 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | November 15 – 19 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | November 22 – 26 | Lab 9: XML, JSON, Views, and Triggers |
+| [1](labs/lab1) | September 13 – 19 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | September 20 – 26 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | September 27 – Oct. 3 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | October 4 – 10 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | October 11 – 17 |Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | October 18 – 31 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | October 1 – 7 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](labs/lab8) | November 15 – 21 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | November 22 – 28 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](labs/lab10) | November 29 – Dec. 7 | Lab 10: Project Completion |
 
 ## Final Examinations
