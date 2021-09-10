@@ -78,7 +78,7 @@ Anjum, Taif	tanjum@mail.ubc.ca
 | Oct. 28 (R) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | Nov. 2 (T) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 4 (R) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 11 (R) | **No class for Term 1 midterm break** | |
+| Nov. 8-12 | **No class for Term 1 midterm break** | |
 | Nov. 16 (T) | **Midterm Exam #2 In-Class** | |
 | Nov. 18 (R) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 18 (R) | [JSON and NoSQL Databases](lectures/lecture16) | |
