@@ -79,13 +79,7 @@ Anjum, Taif	tanjum@mail.ubc.ca
 | Nov. 2 (T) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 4 (R) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Nov. 8-12 | **No class for Term 1 midterm break** | |
-| Nov. 16 (T) | **Midterm Exam #2 In-Class** | Consent Forms:<br>
-Student Consent: https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A<br>
-Instructor and Teaching Assistant Consent: https://ubc.ca1.qualtrics.com/jfe/form/SV_6yxChQZI2lfDx8a<br>
-Surveys - Make available after Midterm 2:<br>
-Student Survey: https://ubc.ca1.qualtrics.com/jfe/form/SV_86W8svTSmCAFDrU<br>
-Instructor and Teaching Assistant Survey: https://ubc.ca1.qualtrics.com/jfe/form/SV_3l7hy3uGUjJ5WwC<br>
-|
+| Nov. 16 (T) | **Midterm Exam #2 In-Class** | Consent Forms:<br> Student Consent: https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A<br> Instructor and Teaching Assistant Consent: https://ubc.ca1.qualtrics.com/jfe/form/SV_6yxChQZI2lfDx8a<br> Surveys - Make available after Midterm 2:<br> Student Survey: https://ubc.ca1.qualtrics.com/jfe/form/SV_86W8svTSmCAFDrU<br> Instructor and Teaching Assistant Survey: https://ubc.ca1.qualtrics.com/jfe/form/SV_3l7hy3uGUjJ5WwC|
 | Nov. 18 (R) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 18 (R) | [JSON and NoSQL Databases](lectures/lecture16) | |
 | Nov. 23 (T) | [Normalization and Design Verification](lectures/lecture17) | |
