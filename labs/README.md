@@ -21,9 +21,9 @@ All labs are done online with assistance from teaching assistants and instructor
 ## Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| willmcfarland17@gmail.com (Office hours:  TBA) | McFarland, Will  |
-| pradeepmahato007@gmail.com (Office hours:  TBA) | Mahato, Pradeep   |
-|  tanjum@mail.ubc.ca (Office hours:  TBA) | Anjum, Taif |
+| willmcfarland17@gmail.com (Office hours:  Thursday 9:30-10:30) | McFarland, Will  |
+| pradeepmahato007@gmail.com (Office hours:  Tuesday 4:00 pm-5:00 pm) | Mahato, Pradeep   |
+|  tanjum@mail.ubc.ca (Office hours:  Friday 12:30 pm - 1:30 pm) | Anjum, Taif |
 | youry.khmelevsky@ubc.ca (Office hours: Thursday 2:00 pm – 2:50 pm) | Dr. Youry Khmelevsky |
 
 ## Submission Guidelines for Assignments
