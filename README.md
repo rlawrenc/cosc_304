@@ -11,9 +11,9 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 **Calendar Course Description, from the UBCO Calendar:** http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC
 
 ## TAs
-McFarland, Will	willmcfarland17@gmail.com <br>
-Mahato, Pradeep	pradeepmahato007@gmail.com <br>
-Anjum, Taif	tanjum@mail.ubc.ca
+| willmcfarland17@gmail.com (Office hours:   Wednesday 9:30am-10:30am, Thursday 9:30-10:30) | McFarland, Will  |
+| pradeepmahato007@gmail.com (Office hours:  Tuesday 4:00 pm-6:00 pm) | Mahato, Pradeep   |
+| tanjum@mail.ubc.ca (Office hours:  Friday 12:30 pm - 2:30 pm) | Anjum, Taif |
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
