@@ -103,7 +103,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | [8](labs/lab8) | November 15 – 22 | Lab 8: Images, Security, and Transactions |
 | [9](labs/lab9) | November 23 – 29 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](labs/lab10) | November 30 – Dec. 7 | Lab 10: Project Completion |
-|*|Lab 6, 7 8, and  10 | are parts of the project and must be delivered in the group of 5|
+|*|Lab 6, 7 8, and  10 | are parts of the project and must be delivered in the group of 4|
 
 ## Final Examinations
 The examination period for December 11-22, 2021.  Except in the case of examination clashes and hardships (three or more formal examinations scheduled within a 24-hour period) or unforeseen events, students will be permitted to apply for out-of-time final examinations only if they are representing the University, the province, or the country in a competition or performance; serving in the Canadian military; observing a religious rite; working to support themselves or their family; or caring for a family member.  Unforeseen events include (but may not be limited to) the following: ill health or other personal challenges that arise during a term and changes in the requirements of an ongoing job.  
