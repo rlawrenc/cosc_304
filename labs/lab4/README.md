@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
 
-This lab designs ER diagrams in UML notation. Students participating in the AutoER study can use the AutoER Designer and Evaluator software that performs real-time marking and feedback. If you have not signed up, fill out the <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A">consent form</a> (<a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_6yxChQZI2lfDx8a">Instructor and Teaching Assistant Consent consent form</a>). <strong>A video on how to use the AutoER system is in Canvas.</strong></p>
+This lab designs ER diagrams in UML notation. Students participating in the AutoER study can use the AutoER Designer and Evaluator software that performs real-time marking and feedback. If you have not signed up, fill out the <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A">consent form</a> (Instructor and Teaching Assistant <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_6yxChQZI2lfDx8a">consent form</a>). <strong>A video on how to use the AutoER system is in Canvas.</strong></p>
 
 It is also possible to use a variety of drawing software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.
 
