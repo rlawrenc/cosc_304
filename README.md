@@ -38,7 +38,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 19th in class | 
 | Midterm #2 | 15% | November 16th in class | 
-| Final Exam | 35% | Cumulative, two and half hours |
+| Final Exam | 35% | Cumulative, two and half hours, Dec. 15th |
 |**All Exams require a web camera.**|
 
 
@@ -87,6 +87,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Nov. 30 | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
 | Dec. 30&7 | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 | Dec. 7 | **Final Exam Review** | |
+| Dec. 15 | **Final Exam On-Line 2.5 hours, 8:30 am**|
 
 
 ## Labs
