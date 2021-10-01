@@ -84,9 +84,8 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Nov. 23 | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 25 | [JSON and NoSQL Databases](lectures/lecture16) | |
 | Nov. 30 | [Normalization and Design Verification](lectures/lecture17) | |
-| Dec. 2 | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Dec. 2 | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
-| Dec. 7 | **Course Summary](lectures/lecture19), Final Exam Review** | |
+| Dec. 2 | [Database hosting and data cleansing/wrangling](lectures/lecture18)<br>[Data warehousing and Data Mining](lectures/lecture19)<br>Preview of COSC 404 - Database System Implementation | [Sample D3 Code](lectures/lecture18/code)<br>[10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Dec. 7 | **Course Summary, Final Exam Review** | |
 | Dec. 15 | **Final Exam On-Line 2.5 hours, 8:30 am**|
 
 
