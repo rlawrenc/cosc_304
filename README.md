@@ -38,7 +38,9 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 19th in class | 
 | Midterm #2 | 15% | November 16th in class | 
-| Final Exam | 35% | Cumulative, two and half hours ; **Exams require a web camera.**| 
+| Final Exam | 35% | Cumulative, two and half hours |
+|**All Exams require a web camera.**|
+
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
