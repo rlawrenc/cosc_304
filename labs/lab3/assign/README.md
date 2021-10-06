@@ -17,126 +17,118 @@ ShippedProduct(sid: integer, pid: integer, amount: integer)
 
 **Output:**
 ```
-+-----------------+-----------------+
-| cname           | cityState       |
-+-----------------+-----------------+
-| Shannon Rose    | Wyandotte, MI   |
-| Fred Smith      | Springfield, IL |
-| Beth Rosebud    | Muscatine, IA   |
-| Robert Dean     | Morristown, NJ  |
-| Joe Smithsonian | Iowa City, IA   |
-| Suzanne May     | Iowa City, IA   |
-+-----------------+-----------------+
+cname            cityState           
+---------------  --------------------
+John Doe         Detroit, MI         
+Russell Johnson  Hollywood, CA       
+Scott Charles    Huntington Beach, CA
+Joe Smithsonian  Iowa City, IA       
+Suzanne May      Iowa City, IA       
+Robert Dean      Morristown, NJ      
+Beth Rosebud     Muscatine, IA       
+Fred Smith       Springfield, IL     
+Shannon Rose     Wyandotte, MI  
 ```
 
-2. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
-
-#### Output:
-```
-+-----------+-------------------------+
-| sumAmount | distinctProductsShipped |
-+-----------+-------------------------+
-|       121 |                       4 |
-+-----------+-------------------------+
-```
-
-3. For all customers in Iowa (`'IA'`) or New Jersey (`'NJ'`) list the customer name, product name, and amount for all shipments.
+2. Return the total amount of all products shipped and the distinct different items shipped (`pid`) and the distinct different shipments (`sid`).
 
 #### Output:
 ```
-+-------+-----------------+-----------------+--------+
-| state | cname           | pname           | amount |
-+-------+-----------------+-----------------+--------+
-| IA    | Joe Smithsonian | Swiss Chocolate |     20 |
-| IA    | Joe Smithsonian | Wooden Chair    |     32 |
-| IA    | Joe Smithsonian | Wooden Chair    |      2 |
-| NJ    | Robert Dean     | Teddy Bear      |      1 |
-| NJ    | Robert Dean     | Chocolate Bar   |     10 |
-+-------+-----------------+-----------------+--------+
+sumAmount  distinctProductsShipped  distinctShipments
+---------  -----------------------  -----------------
+      121                        4                 10
 ```
 
-4. Return the number of shipments to customers with `street` in their address.
+3. For all customers in Illinois (`IL`) or New Jersey (`NJ`) or California (`CA`) list the customer name, customer address, product name, and amount for all shipments.
 
 #### Output:
 ```
-+-----+-----------------+--------------+
-| cid | cname           | numShipments |
-+-----+-----------------+--------------+
-|   2 | Joe Smithsonian |            3 |
-+-----+-----------------+--------------+
+state  cname            address              pname            amount
+-----  ---------------  -------------------  ---------------  ------
+IL     Steve Stevenson  24 Michigan Ave.     Swiss Chocolate       5
+CA     Russell Johnson  1 Hollywood Drive    Wooden Chair         13
+CA     Russell Johnson  1 Hollywood Drive    Swiss Chocolate       4
+CA     Russell Johnson  1 Hollywood Drive    Wooden Chair          1
+CA     Russell Johnson  1 Hollywood Drive    Swiss Chocolate       3
+CA     Russell Johnson  1 Hollywood Drive    Chocolate Bar        25
+CA     Scott Charles    748 Mayflower        Wooden Chair          5
+NJ     Robert Dean      234 Greenwood Drive  Teddy Bear            1
+NJ     Robert Dean      234 Greenwood Drive  Chocolate Bar        10
 ```
 
-5. For each state, return the number of customers in that state and the number of shipments for customers in that state. Hint: COUNT(DISTINCT *field*) may be useful.
-
-#### Output:
-```
-+-------+--------------+--------------+
-| state | numCustomers | numShipments |
-+-------+--------------+--------------+
-| CA    |            2 |            7 |
-| IA    |            1 |            3 |
-| IL    |            1 |            1 |
-| NJ    |            1 |            1 |
-+-------+--------------+--------------+
-```
-
-6. Return a list of cities and the total value of all shipments to customers in that city. Only show cities whose total value is greater than $1000.
+4. Return the number of shipments to customers with `drive` in their address.
 
 #### Output:
 ```
-+-----------+--------------------+
-| city      | totalShipmentValue |
-+-----------+--------------------+
-| Hollywood |            1057.68 |
-| Iowa City |            2427.80 |
-+-----------+--------------------+
+cid  cname            numShipments
+---  ---------------  ------------
+  4  Russell Johnson             4
+  7  Robert Dean                 1
 ```
 
-7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2014, and only show products if they have been shipped at least twice.
+5. For each city, return the number of customers in that state and the number of shipments for customers in that city. Hint: COUNT(DISTINCT *field*) may be useful.
 
 #### Output:
 ```
-+-----+-----------------+----------------------+--------------------+-------------------+
-| pid | pname           | numberOfTimesShipped | totalAmountShipped | totalValueShipped |
-+-----+-----------------+----------------------+--------------------+-------------------+
-|   1 | Swiss Chocolate |                    2 |                  8 |            263.92 |
-|   2 | Wooden Chair    |                    3 |                 50 |           2600.00 |
-|   4 | Chocolate Bar   |                    2 |                 35 |            138.25 |
-+-----+-----------------+----------------------+--------------------+-------------------+
+city              numCustomers  numShipments
+----------------  ------------  ------------
+Chicago                      1             1
+Hollywood                    1             4
+Huntington Beach             1             3
+Iowa City                    1             3
+Morristown                   1             1
 ```
 
-8. Return pairs of products (only show a pair once) that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). 
-
-#### Output:
-```
-+-----------------+--------------+-------------+
-| pname           | pname        | numTogether |
-+-----------------+--------------+-------------+
-| Chocolate Bar   | Teddy Bear   |           1 |
-| Swiss Chocolate | Wooden Chair |           1 |
-+-----------------+--------------+-------------+
-```
-
-9. Return the products (name) whose name contains 's' with an inventory more than the average inventory.
+6. Return a list of states and the total value of all shipments to customers in that state. Only show states whose total value is less than or equal to $2000.
 
 #### Output:
 ```
-+-------------------------+-----------+
-| pname                   | inventory |
-+-------------------------+-----------+
-| Desk                    |       100 |
-| Deluxe Sweet Collection |        83 |
-+-------------------------+-----------+
+state  totalShipmentValue
+-----  ------------------
+CA                1317.68
+IL                 164.95
+NJ                  45.49
 ```
 
-10. Return the products (`pid`, `pname`) that are shipped less (in terms of amount) than the average amount products are shipped. Provide the number of shipments the product is in, the total shipped amount, and the average shipped amount. Order by total shipped amount descending.
+7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after February 4th, 2013, and only show products if they have been shipped at most five times.
 
 #### Output:
 ```
-+-----+-----------------+--------------+--------------------+------------------+
-| pid | pname           | numShipments | totalShippedAmount | avgShippedAmount |
-+-----+-----------------+--------------+--------------------+------------------+
-|   1 | Swiss Chocolate |            4 |                 32 |           8.0000 |
-|   3 | Teddy Bear      |            1 |                  1 |           1.0000 |
-+-----+-----------------+--------------+--------------------+------------------+
+pid  pname            numberOfTimesShipped  totalAmountShipped  totalValueShipped
+---  ---------------  --------------------  ------------------  -----------------
+  1  Swiss Chocolate                     4                  32            1055.68
+  2  Wooden Chair                        4                  51            2652.00
+  3  Teddy Bear                          1                   1               5.99
+  4  Chocolate Bar                       2                  35             138.25
+```
+
+8. Return pairs of products (only show a pair once) and their id ('pid') that appear together in the same shipment. Return the number of times the products appear together in a shipment ('numTogether'). 
+
+#### Output:
+```
+pname            pname         pid  pid  numTogether
+---------------  ------------  ---  ---  -----------
+Swiss Chocolate  Wooden Chair    1    2            1
+Chocolate Bar    Teddy Bear      4    3            1
+```
+
+9. Return the products (name) whose name contains 'c' with an inventory less than the average inventory.
+
+#### Output:
+```
+pname            inventory
+---------------  ---------
+Swiss Chocolate         10
+Wooden Chair             8
+Chocolate Bar           12
+```
+
+10. Return the products and price (`pid`, `pname`, `price`) that are shipped less (in terms of amount) than the average amount products are shipped. Provide the number of shipments the product is in, the total shipped amount, and the average shipped amount. Order by total shipped amount ascending.
+
+#### Output:
+```
+pid  pname            price  numShipments  totalShippedAmount  avgShippedAmount
+---  ---------------  -----  ------------  ------------------  ----------------
+  3  Teddy Bear        5.99             1                   1            1.0000
+  1  Swiss Chocolate  32.99             4                  32            8.0000
 ```
