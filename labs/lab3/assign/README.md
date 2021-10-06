@@ -30,7 +30,7 @@ Fred Smith       Springfield, IL
 Shannon Rose     Wyandotte, MI  
 ```
 
-2. Return the total amount of all products shipped and the distinct different items shipped (`pid`) and the distinct different shipments (`sid`).
+2. Return the total amount of all products shipped, the distinct different items shipped (`pid`) and the distinct different shipments (`sid`).
 
 #### Output:
 ```
@@ -66,7 +66,7 @@ cid  cname            numShipments
   7  Robert Dean                 1
 ```
 
-5. For each city, return the number of customers in that state and the number of shipments for customers in that city. Hint: COUNT(DISTINCT *field*) may be useful.
+5. For each city, return the number of customers in that city and the number of shipments for customers in that city. Hint: COUNT(DISTINCT *field*) may be useful.
 
 #### Output:
 ```
