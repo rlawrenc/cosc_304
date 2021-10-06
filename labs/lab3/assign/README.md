@@ -30,7 +30,7 @@ Fred Smith       Springfield, IL
 Shannon Rose     Wyandotte, MI  
 ```
 
-2. Return the total amount of all products shipped and the distinct different items shipped (`pid`) and the distinct different shipments ('sid).
+2. Return the total amount of all products shipped and the distinct different items shipped (`pid`) and the distinct different shipments (`sid`).
 
 #### Output:
 ```
@@ -39,7 +39,7 @@ sumAmount  distinctProductsShipped  distinctShipments
       121                        4                 10
 ```
 
-3. For all customers in Illinois (`'IL'`) or New Jersey (`NJ`) or California ('CA') list the customer name, customer address, product name, and amount for all shipments.
+3. For all customers in Illinois (`IL`) or New Jersey (`NJ`) or California (`CA`) list the customer name, customer address, product name, and amount for all shipments.
 
 #### Output:
 ```
