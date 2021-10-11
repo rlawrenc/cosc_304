@@ -11,17 +11,17 @@ It is also possible to use a variety of drawing software such as [astah](http://
 
 <h4>Question Text (if done using astah)</h4>
 
-Construct a database design in UML for an app store described below. **Data types are not needed.**
+Construct a database design in UML for an online game store described below. **Data types are not needed.**
 
-- A `Publisher` where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)
+- A `Developer` where each developer is identified by an <tt>id</tt> and has a `name`. (1 mark)
 
 - A `Category` where each category has an `id`, a `name`, and may have a parent category. (2 marks)
 
-- An `App` storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)
+- A `Game` storing each game that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. A game is created by one Developer. A Developer may publish multiple games. A Game has a Category. (3 marks)
 
-- A `AppVersion` stores each version of the app. An AppVersion is associated with exactly one App. Use a `version` field to identify between versions of the same App. Each AppVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
+- A `GameVersion` stores each version of the game. A GameVersion is associated with exactly one Game. Use a `version` field to identify between versions of the same Game. Each GameVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
 
-- A `AppVersionReview` stores ratings for each application version. Each instance applies to a single AppVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
+- A `GameVersionReview` stores ratings for each game version. Each instance applies to a single GameVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
 
 
 ## Question #2 (10 marks)
@@ -30,14 +30,14 @@ Construct a database design in UML for an app store described below. **Data type
 
 <h4>Question Text (if done using astah)</h4>
 
-Construct a database design in UML for a medical system described below. **Data types are not needed.**
+Construct a database design in UML for a School management system described below. **Data types are not needed.**
 
-- There are multiple hospitals in the medical system. A hospital is identified by its name and has a location. (1 mark)</li>
+- There are multiple schools in the school management system. A school is identified by its name and has a location. (1 mark)</li>
 
-- A doctor is identified by his medical number and has a name. Each hospital has a single doctor as a manager, and a doctor may manage only one hospital. Doctors are located in hospitals. A doctor may be located in more than one hospital. A doctor located at a hospital has an office number and a salary paid by that hospital. (3 marks)
+- A teacher is identified by their teacher number and has a name. Each school has a single teacher as a principal, and a teacher may be the principal at only one school. Teachers are located in schools. A teacher may be located in more than one school. A teacher located at a school has an office number and a salary paid by that school. (3 marks)
 
-- A patient is identified by their health id and also has a name and gender. (1 mark)
+- A student is identified by their student id and also has a name and gender. (1 mark)
 
-- A patient visits a doctor at a particular hospital. Each visit is identifed by its own id and also has a visit date. (3 marks)
+- A student takes a course with a teacher at a particular school. Each course is identifed by its own id and also has a meeting date. (3 marks)
 
-- At a visit zero or more tests are run each with a cost and an outcome. Each test is identified for a particular visit by name. (2 marks)
+- At a course, zero or more exams are taken each with a score and an outcome (Pass/Fail). Each exam is identified for a particular course by name. (2 marks)
