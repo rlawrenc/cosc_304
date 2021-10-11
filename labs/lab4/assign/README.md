@@ -40,4 +40,4 @@ Construct a database design in UML for a School management system described belo
 
 - A student takes a course with a teacher at a particular school. Each course is identifed by its own id and also has a meeting date. (3 marks)
 
-- At a course, zero or more exams are taken each with a score and an outcome (Pass/Fail). Each exam is identified for a particular course by name. (2 marks)
+- For each course, zero or more exams are taken each with a score and an outcome (Pass/Fail). Each exam is identified for a particular course by name. (2 marks)
