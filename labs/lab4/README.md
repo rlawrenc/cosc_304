@@ -15,7 +15,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 <li>Each individual fish has a number of events in its life, involving a date and a note relating to the event.</li>
 </ol>
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/2">https://autoed.ok.ubc.ca/questions/2</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/1">https://autoed.ok.ubc.ca/questions/1</a></h3>
   
 <h3>Answer: <a href="img/FishStore.asta">UML File</a>, <a href="img/FishStore.png">ER diagram image</a></h3>
 
@@ -47,7 +47,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 <li>At the bottom of each invoice is a total balance, which is the sum of the amounts in each of the line items, including both charges and payments. An invoice is considered paid if the amount is $0.00. </li>
 </ol>
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/3">https://autoed.ok.ubc.ca/questions/3</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/2">https://autoed.ok.ubc.ca/questions/2</a></h3>
 
 <h3>Answer: <a href="img/HotelReservationSystem.asta">UML File</a>, <a href="img/HotelReservationSystem.png">ER diagram image</a></h3>
 
