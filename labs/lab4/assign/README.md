@@ -34,7 +34,7 @@ Construct a database design in UML for a School management system described belo
 
 - There are multiple schools in the school management system. A school is identified by its name and has a location. (1 mark)</li>
 
-- A teacher is identified by their teacher number and has a name. Each school has a single teacher as a principal, and a teacher may be the principal at only one school. Teachers are located in schools. A teacher may be located in more than one school. A teacher located at a school has an office number and a salary paid by that school. (3 marks)
+- A teacher is identified by their teacher number and has a name. Each school is managed by a single teacher who is the principal, and a teacher may be the principal at only one school. Teachers are located in schools. A teacher may be located in more than one school. A teacher located at a school has an office number and a salary paid by that school. (3 marks)
 
 - A student is identified by their student id and also has a name and gender. (1 mark)
 
