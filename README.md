@@ -70,7 +70,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Oct. 5 | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
 | Oct. 7 | [SQL - Group By, Aggregate Functions](lectures/lecture6), SQL - Subqueries, Outer joins](lectures/lecture6)| [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
 | Oct. 12 | [Database Design – General Approach](lectures/lecture7)| |
-| Oct. 14 | [ER and UML Modeling, ER and UML Modeling examples and questions(lectures/lecture8)] | |
+| Oct. 14 | [ER and UML Modeling, ER and UML Modeling examples and questions] (lectures/lecture8) | |
 | Oct. 19 | **Midterm Exam #1 In-Class** | |
 | Oct. 21 | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9)
 | Oct. 26 | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
