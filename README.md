@@ -68,9 +68,8 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Sept. 21 | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
 | Sept. 23–28 | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
 | Oct. 5 | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| Oct. 7 | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| Oct. 12 | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
-| Oct. 14 | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
+| Oct. 7 | [SQL - Group By, Aggregate Functions](lectures/lecture6), SQL - Subqueries, Outer joins](lectures/lecture6)| [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| Oct. 12 | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7)| |
 | Oct. 14 | [ER and UML Modeling examples and questions](lectures/lecture8) | |
 | Oct. 19 | **Midterm Exam #1 In-Class** | |
 | Oct. 21 | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
