@@ -69,11 +69,12 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | Sept. 23–28 | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
 | Oct. 5 | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
 | Oct. 7 | [SQL - Group By, Aggregate Functions](lectures/lecture6), SQL - Subqueries, Outer joins](lectures/lecture6)| [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| Oct. 12 | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7)| |
-| Oct. 14 | [ER and UML Modeling examples and questions](lectures/lecture8), EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
+| Oct. 12 | [Database Design – General Approach](lectures/lecture7)| |
+| Oct. 14 | [ER and UML Modeling, ER and UML Modeling examples and questions(lectures/lecture8)] | |
 | Oct. 19 | **Midterm Exam #1 In-Class** | |
-| Oct. 21 | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| Oct. 26 | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 21 | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9)
+| Oct. 26 | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 28 | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
 | Nov. 2 | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | Nov. 4 | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 8-12 | **No class for Term 1 midterm break** | |
