@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
 
-This lab designs ER diagrams in UML notation. Students participating in the AutoER study can use the AutoER Designer and Evaluator software that performs real-time marking and feedback. If you have not signed up, fill out the <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A">consent form</a>. <strong>A video on how to use the AutoER system is in Canvas.</strong></p>
+This lab designs ER diagrams in UML notation. Students participating in the AutoER study can use the AutoER Designer and Evaluator software that performs real-time marking and feedback. If you have not signed up, fill out the <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_1YtWwaxpaX7sx1A">consent form</a> (Instructor and Teaching Assistant <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_6yxChQZI2lfDx8a">consent form</a>). <strong>A video on how to use the AutoER system is in Canvas.</strong></p>
 
 It is also possible to use a variety of drawing software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.
 
@@ -15,7 +15,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 <li>Each individual fish has a number of events in its life, involving a date and a note relating to the event.</li>
 </ol>
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/2">https://autoed.ok.ubc.ca/questions/2</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/1">https://autoed.ok.ubc.ca/questions/1</a></h3>
   
 <h3>Answer: <a href="img/FishStore.asta">UML File</a>, <a href="img/FishStore.png">ER diagram image</a></h3>
 
@@ -47,7 +47,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 <li>At the bottom of each invoice is a total balance, which is the sum of the amounts in each of the line items, including both charges and payments. An invoice is considered paid if the amount is $0.00. </li>
 </ol>
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/3">https://autoed.ok.ubc.ca/questions/3</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/2">https://autoed.ok.ubc.ca/questions/2</a></h3>
 
 <h3>Answer: <a href="img/HotelReservationSystem.asta">UML File</a>, <a href="img/HotelReservationSystem.png">ER diagram image</a></h3>
 

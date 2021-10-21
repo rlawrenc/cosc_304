@@ -7,7 +7,7 @@ It is also possible to use a variety of drawing software such as [astah](http://
 
 ## Question #1 (10 marks)
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/4">https://autoed.ok.ubc.ca/questions/4</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/8">https://autoed.ok.ubc.ca/questions/8</a></h3>
 
 <h4>Question Text (if done using astah)</h4>
 
@@ -19,16 +19,17 @@ Construct a database design in UML for an online game store described below. **D
 
 - A `Game` storing each game that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. A game is created by one Developer. A Developer may publish multiple games. A Game has a Category. (3 marks)
 
+
 - A `GameVersion` stores each version of the game. A GameVersion is associated with exactly one Game. Use a `version` field to identify between versions of the same Game. Each GameVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
 
 - A `GameVersionReview` stores ratings for each game version. Each instance applies to a single GameVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
 
-
 ## Question #2 (10 marks)
 
-<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/5">https://autoed.ok.ubc.ca/questions/5</a></h3>
+<h3>AutoER link: <a href="https://autoed.ok.ubc.ca/questions/7">https://autoed.ok.ubc.ca/questions/7</a></h3>
 
 <h4>Question Text (if done using astah)</h4>
+
 
 Construct a database design in UML for a School management system described below. **Data types are not needed.**
 
@@ -38,6 +39,6 @@ Construct a database design in UML for a School management system described belo
 
 - A student is identified by their student id and also has a name and gender. (1 mark)
 
-- A student takes a course with a teacher at a particular school. Each course is identifed by its own id and also has a meeting date. (3 marks)
+- A student takes a course with a teacher at a particular school. Each course is identified by its own id and also has a meeting date.  (3 marks)
 
-- For each course, zero or more exams are taken each with a score and an outcome (Pass/Fail). Each exam is identified for a particular course by name. (2 marks)
+- For each course, zero or more exams are taken each with a score and an outcome (Pass/Fail). Each exam is identified for a particular course by name.  (2 marks)
