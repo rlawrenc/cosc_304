@@ -26,7 +26,7 @@ convert it into the relational schema. Underline primary keys and note foreign k
 
 The project will build an online store like Amazon.com selling whatever products you want. The first step is to develop a database design and convert that design into SQL DDL. 
 
-### Note: Database design can be done using AutoER: https://autoed.ok.ubc.ca/questions/7
+### Note: Database design can be done using AutoER: https://autoed.ok.ubc.ca/questions/9
 
 Description:
 
@@ -52,7 +52,7 @@ Description:
 
 ### Deliverables
 
-**1. Draw the ER/UML diagram for this database. (21 marks)** AutoER Link: https://autoed.ok.ubc.ca/questions/7
+**1. Draw the ER/UML diagram for this database. (21 marks)** AutoER Link: https://autoed.ok.ubc.ca/questions/9
 
 **2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
 
