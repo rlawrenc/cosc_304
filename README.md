@@ -104,7 +104,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | [8](labs/lab8) | November 15 – 22 | Lab 8: Images, Security, and Transactions |
 | [9](labs/lab9) | November 23 – 29 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](labs/lab10) | November 30 – Dec. 7 | Lab 10: Project Completion |
-|*|Lab 5, 7 8, and  10 | are parts of the project and must be delivered in the group of 4|
+|*|Lab 5, 7, 8, and  10 | are parts of the project and must be delivered in the group of 4|
 
 
 ## Final Examinations
