@@ -19,10 +19,10 @@ Construct a database design in UML for an online game store described below. **D
 
 - A `Game` storing each game that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. A game is created by one Developer. A Developer may publish multiple games. A Game has a Category. (3 marks)
 
-- A `GameVersion` stores each version of the app. A GameVersion is associated with exactly one Game. Use a `version` field to identify between versions of the same Game. Each GameVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
+
+- A `GameVersion` stores each version of the game. A GameVersion is associated with exactly one Game. Use a `version` field to identify between versions of the same Game. Each GameVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
 
 - A `GameVersionReview` stores ratings for each game version. Each instance applies to a single GameVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
-
 
 ## Question #2 (10 marks)
 
@@ -30,7 +30,8 @@ Construct a database design in UML for an online game store described below. **D
 
 <h4>Question Text (if done using astah)</h4>
 
-Construct a database design in UML for a school management system described below. **Data types are not needed.**
+
+Construct a database design in UML for a School management system described below. **Data types are not needed.**
 
 - There are multiple schools in the school management system. A school is identified by its name and has a location. (1 mark)</li>
 

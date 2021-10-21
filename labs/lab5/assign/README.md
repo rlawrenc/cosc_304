@@ -11,7 +11,7 @@ convert it into the relational schema. Underline primary keys and note foreign k
 
 ## Modified Question (for AutoER)
 
-### AutoER Link: https://autoed.ok.ubc.ca/questions/6
+### AutoER Link: https://autoed.ok.ubc.ca/questions/5
 
 ### Note: In addition to AutoER diagram, submit a document containing the mapping to the relational model. SQL CREATE TABLE statements are not required. Just provide relation names, attributres, keys and foreign keys.
 
