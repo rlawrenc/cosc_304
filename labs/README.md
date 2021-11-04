@@ -14,7 +14,7 @@ All labs are done online with assistance from teaching assistants and instructor
 | [2](lab2) | September 28 – Oct. 4 | Lab 2: Creating tables using SQL and MySQL |
 | [3](lab3) | October 5 - 13 | Lab 3: Writing SQL queries on a MySQL database |
 | [4](lab4) | October 14 – 21 | Lab 4: Database Design using UML Modeling |
-| [5](lab5) | October 19 – 26 |Lab 5: Converting UML Diagrams into the Relational Model |
+| [5](lab5) | October 22 – 26 |Lab 5: Converting UML Diagrams into the Relational Model |
 | [6](lab6) | October 27 – Nov. 3 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
 | [7](lab7) | November 4 - 14 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
 | [*] | November 8 - 12 | Semester Break — No Labs |
