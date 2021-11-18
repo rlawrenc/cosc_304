@@ -18,7 +18,7 @@ All labs are done online with assistance from teaching assistants and instructor
 | [6](lab6) | October 27 – Nov. 3 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
 | [7](lab7) | November 4 - 14 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
 | [*] | November 8 - 12 | Semester Break — No Labs |
-| [8](lab8) | November 15 – 22 | Lab 8: Images, Security, and Transactions |
+| [8](lab8) | November 18 – 22 | Lab 8: Images, Security, and Transactions |
 | [9](lab9) | November 23 – 29 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](lab10) | November 30 – Dec. 7 | Lab 10: Project Completion |
 |*|Lab 5, 7, 8, and  10 | are parts of the project and must be delivered in the group of 4|
