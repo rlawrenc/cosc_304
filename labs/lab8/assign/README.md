@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
+# COSC 304 - Introduction to Database Systems<br>Lab 8: Images (optional), Security (optional), and Transactions
 
 Modify your existing project web site from lab 7 with new features including a product detail page, a login feature, an administrator page, and support for transactions.
 
@@ -17,10 +17,10 @@ The product page will show details on the product including images. An image can
 #### Marking Guide (product page): (10 marks)
 
 - **+5 marks** - for modifying product listing page to go to product detail page when click on product name
-- **+3 marks (optional) ** - for using PreparedStatement to retrieve and display product information by id
+- **+3 marks (optional)** - for using PreparedStatement to retrieve and display product information by id
 - **+2 marks (optional)** - for displaying an image using an HTML `img` tag based on `productImageURL` field
-- **+5 marks  (optional)** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
-- **+3 mark** - for adding link to "add to cart" and to "continue shopping"
+- **+5 marks (optional)** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
+- **+5 mark** - for adding link to "add to cart" and to "continue shopping"
 
 #### Screenshot
 
@@ -64,4 +64,4 @@ Use transactions to take an order id and either process a shipment and ship all 
 
 <img src="img/shipOrder3.png" width="300">
 
-##### Video clip demonstrating your working pages with the new features for about 3-4 minutes for the marking purposes: (5 marks)
+#### Please upload a video clip for about 3-4 minutes demonstrating your working pages with the new features for the marking purposes: (5 marks)
