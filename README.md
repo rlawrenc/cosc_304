@@ -99,7 +99,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
 | [4](labs/lab4) | October 14 – 21 | Lab 4: Database Design using UML Modeling |
 | [5](labs/lab5) | October 22 – 26 |Lab 5: Converting UML Diagrams into the Relational Model |
 | [6](labs/lab6) | October 27 – Nov. 3 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | November 4 - 14 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [7](labs/lab7) | November 4 - 17 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
 | [*] | November 8 - 12 | Semester Break — No Labs |
 | [8](labs/lab8) | November 18 – 22 | Lab 8: Images, Security, and Transactions |
 | [9](labs/lab9) | November 23 – 29 | Lab 9: XML, JSON, Views, and Triggers |
