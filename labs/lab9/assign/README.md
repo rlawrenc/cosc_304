@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers
 
-## Question 1 - XPath (3 marks)
+## Question 1 - XPath (3 marks - optional)
 
 Write XPath expressions for the following queries. Use the Depts XML data set and the online [XPath query tool](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html).
 
@@ -63,6 +63,6 @@ E3
 2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
 
 
-## Question 4 - JSON (2 marks)
+## Question 4 - JSON (2 marks - optional)
 
 1. Create a single, valid JSON document that stores the information of the `dept` and `proj` tables in the workson database.
