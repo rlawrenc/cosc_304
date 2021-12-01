@@ -33,7 +33,7 @@ Write XPath expressions for the following queries. Use the Depts XML data set an
 E3
 ```
 
-## Question 2 - Views (4 marks)
+## Question 2 - Views (old: 4 marks; new: 6 marks)
 
 1. Write a CREATE VIEW statement for the workson database called `deptSummary` that has the department number, name, count of employees in the department, and total employee salaries. View contents:
 
@@ -56,7 +56,7 @@ E3
 | E8  | J. Jones | 50000.00 | 1972-10-11 | D1  | 0         | <null>     |
 -------------------------------------------------------------------------
 
-## Question 3 - Triggers (6 marks)
+## Question 3 - Triggers (old: 6 marks; new: 9 marks)
 
 1. Write a trigger on MySQL with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in `workson` table. Increase the budget by `$1,000` times the number of hours worked.
 
