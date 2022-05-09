@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Databases - Winter W1 2021
+# COSC 304 - Introduction to Databases - Summer 1 2022
 
 ## Instructor
 Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca, 250-762-5445, ext. 4741<br>
