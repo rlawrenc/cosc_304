@@ -1,13 +1,12 @@
-# COSC 304 - Introduction to Databases - Summer 2021
+# COSC 304 - Introduction to Databases - Summer 2022 T1
 
 ## Instructor
 Dr. Youry Khmelevsky, YKhmelevsky@okanagan.bc.ca, 250-762-5445, ext. 4741<br>
-**Office Hours:**	Tuesday, 1:30 pm – 2:20 pm or by an appointment<br>
-**Office Location:** virtual office hours
+**Office Hours:**	Wednesday, 11 am – 12 pm or by an appointment<br>
+**Office Location:** FIPKE 310 
 
-## TAs
-Devon MacNeil devonwmacneil@gmail.com (Office hours: Monday 12 PM to 4 PM)	<br>
-David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
+## TA
+"ANJUM, TAIF" <taif.anjum@ubc.ca><br>
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -30,8 +29,8 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
 |------|-----------|-------------|
 | Quizzes and Exercises | 10% | Online and during class time activities |
 | Assignments | 25% | Weekly assignments |
-| Midterm #1 | 15% | July 23rd in class | 
-| Midterm #2 | 15% | August 3rd in class | 
+| Midterm #1 | 15% | June 3rd in class | 
+| Midterm #2 | 15% | June 14th in class | 
 | Final Exam | 35% | Cumulative, three hours ; **Exams may require a web camera.**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
@@ -50,43 +49,43 @@ David Ding davddng@gmail.com (Office hours: 9 am - 1 pm on Thursdays)	<br>
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
-**Lecture:** 2:30 to 5:00 p.m. Tuesday, Wednesday, Friday<br>
+**Lecture:** 8:30 to 11:00 a.m. Tuesday, Wednesday, Friday<br>
 **Lab:** Drop-in virtual labs and help sessions
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
-| July 6 (T) | [**First day of classes.  Introduction to course/databases (L1) **](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| July 7 (W) | [Relational Model - Schemas, Keys, Constraints, Integrity (L2)](lectures/lecture2) <br> [Relational Algebra - Select, Project, Set Ops, Outer Joins (L3) ](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| July 9 (F) | [SQL DDL – Create table/index, Insert/Delete/Update (L4) ](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
-| July 13 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By (L5)](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| July 14 (W) | [SQL - Group By, Aggregate Functions (L6)](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| July 16 (F) | [Database Design – General Approach ; ER and UML Modeling (L7)](lectures/lecture7) <br> [ER and UML Modeling examples and questions (L8)](lectures/lecture8) | |
-| July 20 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model (L9)](lectures/lecture9) | |
-| July 21 (W) | [Database Programming using Java/JDBC (L10)](lectures/lecture10) <br> [Database Programming using Python and R (L11)](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| July 23 (F) | **Midterm Exam #1 In-Class** | |
-| July 27 (T) | [Database Web Programming – Web servers, JSP/PHP (L12)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
-| July 28 (W) | [Advanced SQL DDL – Triggers and Views (L13)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| July 30 (F) | [Advanced SQL – Security, Transactions, Recursion (L14)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Aug. 3 (T) | **Midterm Exam #2 In-Class** | |
-| Aug. 4 (W) | [XML and XPath (L15)](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Aug. 6 (F) | [JSON and NoSQL Databases (L16)](lectures/lecture16) |[Discovering JavaScript Object Notation with Douglas Crockford](https://www.youtube.com/watch?v=kc8BAR7SHJI&list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm&index=4), [What is MapReduce?](https://www.youtube.com/watch?v=43fqzaSH0CQ), [Hadoop In 5 Minutes](https://www.youtube.com/watch?v=aReuLtY0YMI), [What is Apache Spark?](https://www.youtube.com/watch?v=SxAxAhn-BDU) |
-| Aug. 10 (T) | [Normalization and Design Verification (L17)](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling (L18_1)](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Aug. 11 (W) | [Data warehousing and Data Mining (L19_1)<br>Preview of COSC 404 - Database System Implementation<br>Course Summary (L19_2)](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| May 17 (T) | [**First day of classes.  Introduction to course/databases (L1) **](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
+| May 18 (W) | [Relational Model - Schemas, Keys, Constraints, Integrity (L2)](lectures/lecture2) <br> [Relational Algebra - Select, Project, Set Ops, Outer Joins (L3) ](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| May 20 (F) | [SQL DDL – Create table/index, Insert/Delete/Update (L4) ](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
+| May 24 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By (L5)](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| May 25 (W) | [SQL - Group By, Aggregate Functions (L6)](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| May 27 (F) | [Database Design – General Approach ; ER and UML Modeling (L7)](lectures/lecture7) <br> [ER and UML Modeling examples and questions (L8)](lectures/lecture8) | |
+| May 31 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model (L9)](lectures/lecture9) | |
+| June 1 (W) | [Database Programming using Java/JDBC (L10)](lectures/lecture10) <br> [Database Programming using Python and R (L11)](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| June 3 (F) | **Midterm Exam #1 In-Class** | |
+| June 7 (T) | [Database Web Programming – Web servers, JSP/PHP (L12)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| June 8 (W) | [Advanced SQL DDL – Triggers and Views (L13)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| June 10 (F) | [Advanced SQL – Security, Transactions, Recursion (L14)](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| June 14 (T) | **Midterm Exam #2 In-Class** | |
+| June 15 (W) | [XML and XPath (L15)](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| June 17 (F) | [JSON and NoSQL Databases (L16)](lectures/lecture16) |[Discovering JavaScript Object Notation with Douglas Crockford](https://www.youtube.com/watch?v=kc8BAR7SHJI&list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm&index=4), [What is MapReduce?](https://www.youtube.com/watch?v=43fqzaSH0CQ), [Hadoop In 5 Minutes](https://www.youtube.com/watch?v=aReuLtY0YMI), [What is Apache Spark?](https://www.youtube.com/watch?v=SxAxAhn-BDU) |
+| June 21 (T) | [Normalization and Design Verification (L17)](lectures/lecture17) <br> [Database hosting and data cleansing/wrangling (L18_1)](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
+| June 22 (W) | [Data warehousing and Data Mining (L19_1)<br>Preview of COSC 404 - Database System Implementation<br>Course Summary (L19_2)](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 
 ## Labs
 
 |  Lab  |  Date  |  Topic*  |
 |----|------|-------|
-| [1](labs/lab1) | July 9 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | July 16 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | July 20 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | July 24 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | July 27 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
-| [6](labs/lab6) | July 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | August 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | August 11 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | August 11 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | August 14 | Lab 10: Project Completion |
+| [1](labs/lab1) | May 22 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | May 26 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | May 23 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | May 26 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | May 30 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
+| [6](labs/lab6) | May 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | June 2 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](labs/lab8) | June 6 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | June 9 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | June 13 | Lab 10: Project Completion |
 |||* The project will be in labs 5, 7, 8, and 10.|
 
 ## Grading Practices
@@ -97,7 +96,7 @@ Faculties, departments, and schools reserve the right to scale grades in order t
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
 ## Final Examinations
-The examination period for S2021 T- 2 is August 16 – 20, 2021.  Except in the case of examination clashes and hardships (three or more formal examinations scheduled within a 24-hour period) or unforeseen events, students will be permitted to apply for out-of-time final examinations only if they are representing the University, the province, or the country in a competition or performance; serving in the Canadian military; observing a religious rite; working to support themselves or their family; or caring for a family member.  Unforeseen events include (but may not be limited to) the following: ill health or other personal challenges that arise during a term and changes in the requirements of an ongoing job.  
+The examination period for S2022 T-1 is Saturday, June 25th to Thursday, June 30, 2022.  Except in the case of examination clashes and hardships (three or more formal examinations scheduled within a 24-hour period) or unforeseen events, students will be permitted to apply for out-of-time final examinations only if they are representing the University, the province, or the country in a competition or performance; serving in the Canadian military; observing a religious rite; working to support themselves or their family; or caring for a family member.  Unforeseen events include (but may not be limited to) the following: ill health or other personal challenges that arise during a term and changes in the requirements of an ongoing job.  
 Further information on Academic Concession can be found under Policies and Regulation in the Okanagan Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0
 
 ## Copyright Disclaimer   
