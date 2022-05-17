@@ -53,7 +53,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 **Lab:** Drop-in virtual labs and help sessions
 
 |   Date | Topic  | Reading and Resources |
-|------------|------|-----------|
+|--------------|------|-----------|
 | May 17 (T) | [**First day of classes.  Introduction to course/databases (L1) **](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
 | May 18 (W) | [Relational Model - Schemas, Keys, Constraints, Integrity (L2)](lectures/lecture2) <br> [Relational Algebra - Select, Project, Set Ops, Outer Joins (L3) ](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
 | May 20 (F) | [SQL DDL – Create table/index, Insert/Delete/Update (L4) ](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
@@ -75,7 +75,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 ## Labs
 
 |  Lab  |  Date  |  Topic*  |
-|-----|------|-------|
+|-----|--------|---------|
 | [1](labs/lab1) | May 22 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | May 26 | Lab 2: Creating tables using SQL and MySQL |
 | [3](labs/lab3) | May 23 | Lab 3: Writing SQL queries on a MySQL database |
