@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Databases - Summer 2022 Term 1 (May 16, 2022 to Jun 22, 2022)
+# [COSC 304 - Introduction to Databases - Summer 2022 Term 1 (May 16, 2022 to Jun 22, 2022)](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=COSC&course=304&section=101)
 
 ## Instructor
 Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
