@@ -75,7 +75,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 ## Labs
 
 |  Lab  |  Date  |  Topic*  |
-|----|------|-------|
+|-----|------|-------|
 | [1](labs/lab1) | May 22 | Lab 1: Querying using Relational Algebra |
 | [2](labs/lab2) | May 26 | Lab 2: Creating tables using SQL and MySQL |
 | [3](labs/lab3) | May 23 | Lab 3: Writing SQL queries on a MySQL database |
