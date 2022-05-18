@@ -6,7 +6,7 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 **Office Location:** FIPKE 310 
 
 ## TA
-"ANJUM, TAIF" <taif.anjum@ubc.ca><br>
+ANJUM, TAIF <taif.anjum@ubc.ca><br>
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
