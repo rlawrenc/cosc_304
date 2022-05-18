@@ -76,16 +76,16 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 
 |  Lab  |  Date  |  Topic*  |
 |-----|--------|---------|
-| [1](labs/lab1) | May 22 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | May 26 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | May 23 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | May 26 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | May 30 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
-| [6](labs/lab6) | June 2 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | June 6 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | June 9 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | June 13 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | June 20 | Lab 10: Project Completion |
+| [1](labs/lab1) | May 21 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | May 25 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | May 28 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | June 1 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | June 4 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
+| [6](labs/lab6) | June 8 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | June 11 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [8](labs/lab8) | June 15 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | June 18 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | June 22 | Lab 10: Project Completion |
 |||* The project will be in labs 5, 7, 8, and 10.|
 
 ## Grading Practices
