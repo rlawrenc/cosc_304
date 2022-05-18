@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
 
-## Note: Due to requests from students, lab 5 has been modified to support AutoER. Students may use AutoER or Astah.
+## Note: Students may use AutoER or Astah.
 
 ## Question 1 (15 marks)
 
@@ -11,7 +11,7 @@ convert it into the relational schema. Underline primary keys and note foreign k
 
 ## Modified Question (for AutoER)
 
-### AutoER Link: https://autoed.ok.ubc.ca/questions/6
+### AutoER Link: https://autoed.ok.ubc.ca/questions/5
 
 ### Note: In addition to AutoER diagram, submit a document containing the mapping to the relational model. SQL CREATE TABLE statements are not required. Just provide relation names, attributres, keys and foreign keys.
 
@@ -26,7 +26,7 @@ convert it into the relational schema. Underline primary keys and note foreign k
 
 The project will build an online store like Amazon.com selling whatever products you want. The first step is to develop a database design and convert that design into SQL DDL. 
 
-### Note: Database design can be done using AutoER: https://autoed.ok.ubc.ca/questions/7
+### Note: Database design can be done using AutoER: https://autoed.ok.ubc.ca/questions/9
 
 Description:
 
@@ -52,7 +52,7 @@ Description:
 
 ### Deliverables
 
-**1. Draw the ER/UML diagram for this database. (21 marks)** AutoER Link: https://autoed.ok.ubc.ca/questions/7
+**1. Draw the ER/UML diagram for this database. (21 marks)** AutoER Link: https://autoed.ok.ubc.ca/questions/9
 
 **2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
 

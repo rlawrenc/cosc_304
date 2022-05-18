@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
+# COSC 304 - Introduction to Database Systems<br>Lab 8: Images (optional), Security (optional), and Transactions
 
 Modify your existing project web site from lab 7 with new features including a product detail page, a login feature, an administrator page, and support for transactions.
 
@@ -16,17 +16,17 @@ The product page will show details on the product including images. An image can
 
 #### Marking Guide (product page): (10 marks)
 
-- **+1 mark** - for modifying product listing page to go to product detail page when click on product name
-- **+3 marks** - for using PreparedStatement to retrieve and display product information by id
-- **+2 marks** - for displaying an image using an HTML `img` tag based on `productImageURL` field
-- **+3 marks** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
-- **+1 mark** - for adding link to "add to cart" and to "continue shopping"
+- **+5 marks** - for modifying product listing page to go to product detail page when click on product name
+- **+3 marks (optional)** - for using PreparedStatement to retrieve and display product information by id
+- **+2 marks (optional)** - for displaying an image using an HTML `img` tag based on `productImageURL` field
+- **+5 marks (optional)** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
+- **+5 mark** - for adding link to "add to cart" and to "continue shopping"
 
 #### Screenshot
 
 <img src="img/productPage.png" width="300">
 
-#### Marking Guide (admin and login page): (5 marks)
+#### Marking Guide (admin and login page - optional): (0 marks)
 
 - **+1 mark** - for checking user is logged in before accessing page
 - **+2 marks** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
@@ -37,7 +37,7 @@ The product page will show details on the product including images. An image can
 
 <img src="img/adminPage.png" width="300">
 
-#### Marking Guide (customer page): (5 marks)
+#### Marking Guide (customer page - optional): (0 marks)
 
 - **+1 mark** - for displaying error message if attempt to access page and not logged in
 - **+4 marks** - for retrieving customer information by id and displaying it
@@ -46,15 +46,15 @@ The product page will show details on the product including images. An image can
 
 <img src="img/customerPage.png" width="300">
 
-#### Marking Guide (shipment page): (5 marks)
+#### Marking Guide (shipment page): (10 marks)
 
 Use transactions to take an order id and either process a shipment and ship all items or generate an error.
 
-- **+1 mark** - verifying order id exists and is associated with a valid order with items
-- **+1 mark** - for checking if sufficient inventory from warehouse 1 for each item in order
-- **+1 mark** - for inserting a new shipment record
-- **+1 mark** - for updating inventory for each item in shipment
-- **+1 mark** - for commit of updates if all items had sufficient inventory or performing rollback if any items did not have enough inventory
+- **+2 mark** - verifying order id exists and is associated with a valid order with items
+- **+2 mark** - for checking if sufficient inventory from warehouse 1 for each item in order
+- **+2 mark** - for inserting a new shipment record
+- **+2 mark** - for updating inventory for each item in shipment
+- **+2 mark** - for commit of updates if all items had sufficient inventory or performing rollback if any items did not have enough inventory
 
 #### Screenshot - Test with OrderId = 1
 
@@ -63,3 +63,5 @@ Use transactions to take an order id and either process a shipment and ship all 
 #### Screenshot - Test with OrderId = 3
 
 <img src="img/shipOrder3.png" width="300">
+
+#### Please upload a video clip for about 3-4 minutes demonstrating your working pages with the new features for the marking purposes: (5 marks)

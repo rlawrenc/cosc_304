@@ -1,8 +1,8 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 10: Project Completion
 
-## Final Project Deliverable (50 marks + up to 10 bonus marks)
+## Final Project Deliverable (50 marks + up to 20 bonus marks)
 
-Complete your project by adding more features. Use the [list of features with points](projectFeatureMarking.pdf) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
+Complete your project by adding more features. Use the [list of features with points](projectFeatureMarking30Nov2021.pdf) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 20 bonus marks if you get 70 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
 
 
 #### Details:

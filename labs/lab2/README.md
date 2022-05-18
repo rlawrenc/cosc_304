@@ -43,7 +43,7 @@ As practice, here are some changes to make to the existing the database.  You ca
 #### CREATE TABLE Command
 
 <ol>
-<li>Create a new table called <tt>dept</tt> with attributes <tt>deptId</tt> (integer), <tt>deptName</tt> (varchar(40)), and <tt>deptLocation</tt> (varchar(50)).</li>
+<li>Create a new table called <tt>dept</tt> with attributes <tt>deptId</tt> (integer), <tt>deptName</tt> (varchar(30)), and <tt>deptLocation</tt> (varchar(30)).</li>
 
 <li>Create a new table called <tt>courseDept</tt> with attributes <tt>deptId</tt> (integer) and <tt>cname</tt> (varchar(40)).</li>
 </ol>
