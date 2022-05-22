@@ -104,7 +104,7 @@ fid, fname, deptId
 
 </ol>
 
-**Answers:**  <a href="labAnswers_DDL.txt">Download the answer script file</a>.</p>
+**Answers:**  <a href="labAnswers_DDL.txt">Download the MySQL answer script file here</a> or <a href="OracleLab2Answers_DDL.sql">the Oracle answer script file here</a>.</p>
 
 [Lab 2 - SQL Lab Assignment](assign/)
 
