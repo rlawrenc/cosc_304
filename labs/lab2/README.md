@@ -93,11 +93,7 @@ fid, fname, deptId
 
 </ol>
 
-<<<<<<< HEAD
-**Answers:**  <a href="labAnswers_DDL.txt">Download the MySQL answer script file</a> or <a href="OracleLab2Answers_DDL.sql">Oracle answer Script</a></p>
-=======
-**Answers:**  <a href="labAnswers_DDL.txt">Download the MySQL answer script file here</a> or <a href="OracleLab2Answers_DDL.sql">the Oracle answer script file here</a>.</p>
->>>>>>> 9c32d61f64f4bbd444dd35d177f78bcf16b5c1f9
+<a href="labAnswers_DDL.txt">Download the MySQL answer script file here</a> or <a href="OracleLab2Answers_DDL.sql">the Oracle answer script file here</a>.</p>
 
 [Lab 2 - SQL Lab Assignment](assign/)
 
