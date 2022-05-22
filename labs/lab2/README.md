@@ -6,40 +6,24 @@ This lab practices creating tables using SQL DDL on an Oracle or MySQL database.
 
 ### Step #1: Login to [https://iacademy.oracle.com](https://iacademy.oracle.com)
 
-[cosc304.ok.ubc.ca](https://iacademy.oracle.com) is an Oracle Application Server provided by Oracle Corporation. Provided accounts will have no tables or data pre-populated. Information about accessing the scripts to create tables and add data, as
-well as administration of your APEX accounts is located here. You have a home account to store program code and other course related files. Your user id is your student id for your Novell account and your initial password is the same as that account's password.  
+[https://iacademy.oracle.com](https://iacademy.oracle.com) is an Oracle Application Server provided by Oracle Corporation. Your user name is CA_A637_SQL_Snn where "nn" is from "01" to "50" (The number for your account is your LabPair number. For the projects you will use the number of your project group + 20). Provided accounts have no tables or data pre-populated. The home accounts are to store program code and run the code or/and SQL scripts.  
 
-https://iacademy.oracle.com
 
-You can directly access the MySQL command-line interface by typing:
+### Step #2: Accessing Oracle APEX using a Web Browser
 
-<pre>
-mysql -u &lt;user_id&gt; -p
-</pre>
+We will be using Safari, Firefox or Google Chrome. I tested everything using Safari. 
 
-Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see [Using MySQL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html).
-
-### Step #2: Accessing MySQL using SQuirreL SQL
-
-We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open source graphical query tool.  SQuirreL is capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
-
-Start up SQuirreL.  Register our MySQL server with the information: ([screenshot](img/squirrel_mysql_register.png)).
-
-<pre>
-Name: MySQL
-Login name: (your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
-Password: (initially your student #)
-Host name: cosc304.ok.ubc.ca
-Port: (leave blank for default)
-Database: db_(your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
-</pre>
-
+<ol>
+<li> Please login to the Oracle APEX account.
+<li> Open SQL Workshop
+<li> Choose SQL Scripts
+</ol>
 
 ### Step #3: Example SQL DDL
 
-Using SQuirreL (or MySQL command-line), create the tables for the [university database](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
+Using Oracle APEX create the tables for the  [university database in Oracle](university_Oracle_DDL.sql) (If you prefer to use MySQL, please use the [university database in MySQL](university_MySQL_DDL.txt) in your own database).  In Oracle APEX create tables and load the initial data for these tables (in the DDL script) in SQL Workshop -> SQL Scripts -> Upload and then run the uploaded script.  
 
-**Optional:** We have been using the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
+**Optional:** We have been using the [WorksOn MySQL database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [MySQL WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your MySql or database as well. The [Oracle DDL script](Oracle_WorksOn_DDL.sql) is available as well. 
 
 ### Step #4: Practice SQL DDL
 
