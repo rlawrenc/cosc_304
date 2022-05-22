@@ -12,9 +12,9 @@ Write the SQL DDL to create the following 5 tables for an App store: `Publisher`
 
 3. An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 60 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)
 
-4. A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)
+4. A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete.</i></b> (2 marks)
 
-5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete. A value for the reviewDate field is always required.</i></b> (2 marks)
+5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on delete. A value for the reviewDate field is always required.</i></b> (2 marks)
 
 ## Question 2 (10 marks)
 
@@ -52,13 +52,11 @@ Insert the following records into the appropriate tables.
 3. <strong>How many rows are deleted when the previous DELETE statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on is either SET NULL or NO ACTION to see the difference.
 
 
-### Update (3 marks)
+### Update (3 marks, 1.5 each)
 
 1. Update the `AppVersion` table so the `price` of every version of `appId 200` is `2.99`.
 
 2. Update `App` with `id 100` to have an `id` of `700`.
-
-3. Change the `app id 200 version '6.1'` to have `version='6.2'` and `releaseDate` of `August 13, 2021 at noon`.
 
 ## Submission
 
