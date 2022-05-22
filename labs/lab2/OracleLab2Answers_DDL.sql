@@ -54,7 +54,7 @@ ALTER TABLE faculty ADD FOREIGN KEY (deptId) REFERENCES dept;
 INSERT INTO courseDept
 SELECT deptId, cname
 FROM faculty, course
-WHERE faculty.fid = course.fid
+WHERE faculty.fid = course.fid;
 
 -- above is all that is needed because every course is offered by a faculty member, but if not could do this:
 
@@ -65,7 +65,7 @@ WHERE faculty.fid = course.fid)
 UNION
 (SELECT 20, cname
 FROM course
-WHERE fid is null)
+WHERE fid is null);
 
 
 -- update course name.  This is much easier with cascading UPDATE for foreign keys.
@@ -79,9 +79,9 @@ UPDATE course SET cname = 'Introduction to Database Systems' WHERE cname = 'Data
 
 -- Add studentCount attribute
 
-ALTER TABLE course ADD COLUMN studentCount integer;
+ALTER TABLE course ADD studentCount integer;
 
-UPDATE course SET studentCount = (SELECT COUNT(*) FROM enrolled WHERE course.cname = enrolled.cname) 
+UPDATE course SET studentCount = (SELECT COUNT(*) FROM enrolled WHERE course.cname = enrolled.cname);
 
 
 -- Remove student with snum = '115987938'
@@ -89,12 +89,12 @@ UPDATE course SET studentCount = (SELECT COUNT(*) FROM enrolled WHERE course.cna
 
 -- Task #1: Update studentCount for all courses this student is enrolled in
 
-UPDATE course SET studentCount = (SELECT COUNT(*)-1 FROM enrolled WHERE course.cname = enrolled.cname) 
-WHERE course.cname IN (SELECT cname FROM enrolled WHERE snum = '115987938')
+UPDATE course SET studentCount = (SELECT COUNT(*)-1 FROM enrolled WHERE course.cname = enrolled.cname)
+WHERE course.cname IN (SELECT cname FROM enrolled WHERE snum = '115987938');
 
 -- Task #2: Delete all enrolled and student records
 
 DELETE FROM enrolled WHERE snum = '115987938';
-DELETE FROM student WHERE snum = '115987938'
+DELETE FROM student WHERE snum = '115987938';
 
 -- Note: That a brute force way is to delete the records then re-calculate the studentCount for all courses as when the attribute was first setup
