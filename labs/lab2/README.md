@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating tables using SQL and MySQL
+# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating tables using SQL on Oracle APEX or MySQL
 
-This lab practices creating tables using SQL DDL on a MySQL database.
+This lab practices creating tables using SQL DDL on an Oracle or MySQL database. Note: Oracle Cloud accounts are provided by the instructor, but MySQL server should be installed by the students on their local computers. 
 
 **Note: If you are off campus, you MUST connect using <a href="https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents">VPN to UBC Okanagan</a> (use: myvpn.ok.ubc.ca) to be able to access the databases.**
 
