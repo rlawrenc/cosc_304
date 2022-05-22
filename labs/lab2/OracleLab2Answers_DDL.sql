@@ -1,6 +1,9 @@
 -- CREATE TABLE questions
 -- Note: Students must declare foreign keys (not UPDATE CASCADE though)
 
+drop table dept cascade constraints;
+drop table courseDept cascade constraints;
+
 CREATE TABLE dept (
    deptId integer,
    deptName varchar(40),
@@ -56,8 +59,8 @@ SELECT deptId, cname
 FROM faculty, course
 WHERE faculty.fid = course.fid;
 
--- above is all that is needed because every course is offered by a faculty member, but if not could do this:
-
+-- above is all that is needed because every course is offered by a faculty member, but if not could do this (YK: I didn't check it):
+/*
 INSERT INTO courseDept
 (SELECT deptId, cname
 FROM faculty, course
@@ -66,20 +69,20 @@ UNION
 (SELECT 20, cname
 FROM course
 WHERE fid is null);
+*/
 
-
--- update course name.  This is much easier with cascading UPDATE for foreign keys.
+-- This solution for My SQL only (I keep it for the consistency only) update course name.  This is much easier with cascading UPDATE for foreign keys.
 -- For courseDept: FOREIGN KEY (cname) REFERENCES course (cname)
 -- For enrolled: FOREIGN KEY (cname) REFERENCES course (cname)
 
-UPDATE courseDept SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
-UPDATE enrolled SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
-UPDATE course SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+-- UPDATE courseDept SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+-- UPDATE enrolled SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+-- UPDATE course SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
 
 
 -- Add studentCount attribute
 
-ALTER TABLE course ADD studentCount integer;
+ALTER TABLE course ADD (studentCount integer);
 
 UPDATE course SET studentCount = (SELECT COUNT(*) FROM enrolled WHERE course.cname = enrolled.cname);
 
