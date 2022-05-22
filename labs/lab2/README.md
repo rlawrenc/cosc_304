@@ -93,7 +93,7 @@ fid, fname, deptId
 
 </ol>
 
-**Answers:**  <a href="labAnswers_DDL.txt">Download the answer script file</a>.</p>
+**Answers:**  <a href="labAnswers_DDL.txt">Download the MySQL answer script file</a> or <a href="OracleLab2Answers_DDL.sql">Oracle answer Script</a></p>
 
 [Lab 2 - SQL Lab Assignment](assign/)
 

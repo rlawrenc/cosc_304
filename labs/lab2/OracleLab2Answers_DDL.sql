@@ -13,8 +13,8 @@ CREATE TABLE courseDept (
    deptId integer,
    cname varchar(40),   
    primary key (deptId, cname),
-   FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE,
-   FOREIGN KEY (deptId) REFERENCES dept (deptId) ON UPDATE CASCADE
+   FOREIGN KEY (cname) REFERENCES course (cname),
+   FOREIGN KEY (deptId) REFERENCES dept (deptId)
 );
 
 
@@ -69,8 +69,8 @@ WHERE fid is null)
 
 
 -- update course name.  This is much easier with cascading UPDATE for foreign keys.
--- For courseDept: FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE
--- For enrolled: FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE
+-- For courseDept: FOREIGN KEY (cname) REFERENCES course (cname)
+-- For enrolled: FOREIGN KEY (cname) REFERENCES course (cname)
 
 UPDATE courseDept SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
 UPDATE enrolled SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
