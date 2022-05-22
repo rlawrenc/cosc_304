@@ -1,12 +1,17 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 2: Creating tables using SQL on Oracle APEX or MySQL
 
-This lab practices creating tables using SQL DDL on an Oracle or MySQL database. Note: Oracle Cloud accounts are provided by the instructor, but MySQL server should be installed by the students on their local computers. 
+This lab practices creating tables using SQL DDL on an Oracle or MySQL database.
 
-**Note: If you are off campus, you MUST connect using <a href="https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents">VPN to UBC Okanagan</a> (use: myvpn.ok.ubc.ca) to be able to access the databases.**
+**Note:  Note: Oracle Cloud accounts are provided by the instructor, but MySQL server should be installed by the students on their local computers. **
 
-### Step #1: Login to cosc304.ok.ubc.ca using SSH
+### Step #1: Login to [https://iacademy.oracle.com](https://iacademy.oracle.com)
 
-cosc304.ok.ubc.ca is a Linux machine that has a MySQL server running. You have a home account to store program code and other course related files. Your user id is your student id for your Novell account and your initial password is the same as that account's password.  You can directly access the MySQL command-line interface by typing:
+[cosc304.ok.ubc.ca](https://iacademy.oracle.com) is an Oracle Application Server provided by Oracle Corporation. Provided accounts will have no tables or data pre-populated. Information about accessing the scripts to create tables and add data, as
+well as administration of your APEX accounts is located here. You have a home account to store program code and other course related files. Your user id is your student id for your Novell account and your initial password is the same as that account's password.  
+
+https://iacademy.oracle.com
+
+You can directly access the MySQL command-line interface by typing:
 
 <pre>
 mysql -u &lt;user_id&gt; -p
