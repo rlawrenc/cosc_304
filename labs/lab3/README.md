@@ -134,7 +134,7 @@ FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
 FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
        FROM student S JOIN enrolled E ON S.snum = E.snum
        GROUP BY S.snum, sname) T</pre></li> 
-<li>MySQL and APEX Oracle<pre>SELECT F.fid, F.fname, COUNT(*)
+<li>MySQL and APEX Oracle:<pre>SELECT F.fid, F.fname, COUNT(*)
 FROM faculty F, course C
 WHERE C.fid = F.fid
 GROUP BY F.fid, F.fname
