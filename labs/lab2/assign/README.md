@@ -18,7 +18,7 @@ Write the SQL DDL to create the following 5 tables for an App store: `Publisher`
 
 ## Question 2 (10 marks)
 
-Write the SQL DDL to perform the following modifications to the database created in Question 1.
+Write the SQL statement to insert records in the following the tables created in Question 1.
 
 ### Insert (4 marks)
 
