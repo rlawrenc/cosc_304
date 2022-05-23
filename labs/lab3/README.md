@@ -126,12 +126,15 @@ WHERE major = 'Computer Science'
 #### Answers:
 
 <ol>
-<li><pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
+<li>MySQL:<pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
 FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
        FROM student S JOIN enrolled E ON S.snum = E.snum
        GROUP BY S.snum, sname) AS T</pre></li>
-
-<li><pre>SELECT F.fid, F.fname, COUNT(*)
+<li>Oracle: <pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
+FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
+       FROM student S JOIN enrolled E ON S.snum = E.snum
+       GROUP BY S.snum, sname) T</pre></li> 
+<li>MySQL and APEX Oracle<pre>SELECT F.fid, F.fname, COUNT(*)
 FROM faculty F, course C
 WHERE C.fid = F.fid
 GROUP BY F.fid, F.fname
