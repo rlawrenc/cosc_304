@@ -1,25 +1,36 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL queries on a MySQL database
+# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL queries on a MySQL (local) or Oracle APEX (hosted at Oracle) databases
 
-This lab practices writing SQL queries on a MySQL database.
+This lab practices writing SQL queries  on a MySQL (local) or Oracle APEX (hosted at Oracle) databases.
 
-### Accessing MySQL using SQuirreL SQL
+### Accessing MySQL using SQuirreL SQL on your personal machines
 
 We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open source graphical query tool.  SQuirreL is capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
 Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see <a href="http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html">Using MySQL</a>.
 
-The sample database we will be using in this lab is `university`.
+The sample databases we will be using in this lab is <a href="https://github.com/rlawrenc/cosc_304/blob/2022SummerT1/labs/lab2/university_MySQL_DDL.txt">`university`</a> or using Oracle APEX create the tables for the <a href="https://github.com/rlawrenc/cosc_304/blob/2022SummerT1/labs/lab2/university_Oracle_DDL.sql">Oracle university database</a> in Oracle.
 
 Start up SQuirreL.  Register our MySQL server with the information:
 
 <pre>
 Name: MySQL
-Login name: (your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
+Login name: <your login name>
 Password: (initially your student #)
-Host name: cosc304.ok.ubc.ca
+Host name: localhost
 Port: (leave blank for default)
 Database: university
 </pre>
+
+### Accessing APEX Oracle using a Web Browser (Safari, Firefox or Google Chrome)
+
+The Course Cloud Database: iAcademy.oracle.com: https://iacademy.oracle.com:  (Links to an external site.)User Name and Workspace: CA_A637_SQL_Snn (where "nn" is from "01" to "50" — use your LabPair number and the project group number + 20) and the initial password is: "cHqOR52%". <b>Note:</b> You will be asked to update your password during the first login, but you can reuse the same password or use a new password. I tested everything using Safari.
+
+<ol>
+<li>Please login to the Oracle APEX account.
+<li>Open SQL Workshop
+<li>Choose SQL Scripts
+</ol>
+
 
 ### The Database Schema
 
@@ -51,7 +62,7 @@ Here are the questions that you must answer using SQL. **You can answer them in 
 </ol>
 
 
-#### Answers
+#### Answers for both MySQL and Oracle APEX
 
 <ol>
 <li><pre>SELECT sname
@@ -115,12 +126,15 @@ WHERE major = 'Computer Science'
 #### Answers:
 
 <ol>
-<li><pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
+<li>MySQL:<pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
 FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
        FROM student S JOIN enrolled E ON S.snum = E.snum
        GROUP BY S.snum, sname) AS T</pre></li>
-
-<li><pre>SELECT F.fid, F.fname, COUNT(*)
+<li>Oracle: <pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
+FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
+       FROM student S JOIN enrolled E ON S.snum = E.snum
+       GROUP BY S.snum, sname) T</pre></li> 
+<li>MySQL and APEX Oracle:<pre>SELECT F.fid, F.fname, COUNT(*)
 FROM faculty F, course C
 WHERE C.fid = F.fid
 GROUP BY F.fid, F.fname

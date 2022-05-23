@@ -57,11 +57,11 @@ ANJUM, TAIF <taif.anjum@ubc.ca><br>
 | May 17 (T) | [**First day of classes.  Introduction to course/databases (L1) **](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
 | May 18 (W) | [Relational Model - Schemas, Keys, Constraints, Integrity (L2)](lectures/lecture2) <br> [Relational Algebra - Select, Project, Set Ops, Outer Joins (L3) ](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
 | May 20 (F) | [SQL DDL – Create table/index, Insert/Delete/Update (L4) ](lectures/lecture4) | [Linux Shell Intro for MySQL lovers](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w), [Oracle Database Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/index.html), [Oracle Live SQL](https://livesql.oracle.com/), [SQL Language Reference — HTML](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/index.html), [PDF](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/sql-language-reference.pdf)|
-| May 24 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By (L5)] (lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| May 24 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By (L5)](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
 | May 25 (W) | [SQL - Group By, Aggregate Functions (L6)](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
 | May 27 (F) | [Database Design – General Approach ; ER and UML Modeling (L7)](lectures/lecture7) <br> [ER and UML Modeling examples and questions (L8)](lectures/lecture8) | |
 | May 31 (T) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model (L9)](lectures/lecture9) | |
-| June 1 (W) | [Database Programming using Java/JDBC (L10)](lectures/lecture10) <br> [Database Programming using Python and R (L11)](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| June 1 (W) | [Database Programming using Java/JDBC (L10)](lectures/lecture10) <br> [Database Programming using Python and R (L11)](lectures/lecture11) <br> [Database Programmin using APEX](lectures/lecture11) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  <br> [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html),[Oracle APEX Curricululum](https://ubcca-my.sharepoint.com/:f:/r/personal/youry_khmelevsky_ubc_ca/Documents/COSC%20304/apex-curriculum?csf=1&web=1&e=0vRb8U)  |
 | June 3 (F) | **Midterm Exam #1 In-Class** | |
 | June 7 (T) | [Database Web Programming – Web servers, JSP/PHP (L12)](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | June 8 (W) | [Advanced SQL DDL – Triggers and Views (L13)](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
@@ -77,8 +77,13 @@ ANJUM, TAIF <taif.anjum@ubc.ca><br>
 |  Lab  |  Date  |  Topic*  |
 |-----|--------|---------|
 | [1](labs/lab1) | May 21 | Lab 1: Querying using Relational Algebra |
+<<<<<<< HEAD
 | [2](labs/lab2) | May 25 | Lab 2: Creating tables using SQL in MySQL (local) or Oracle APEX (hosted at Oracle) |
 | [3](labs/lab3) | May 28 | Lab 3: Writing SQL queries on a MySQL (local) or Oracle APEX (hosted at Oracle) |
+=======
+| [2](labs/lab2) | May 25 | Lab 2: Creating tables using SQL in MySQL (local) or Oracle (online) |
+| [3](labs/lab3) | May 28 | Lab 3: Writing SQL queries on a MySQL (local) or Oracle APEX (online) database |
+>>>>>>> 2022SummerT1
 | [4](labs/lab4) | June 1 | Lab 4: Database Design using UML Modeling |
 | [5](labs/lab5) | June 4 | Lab 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
 | [6](labs/lab6) | June 8 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
