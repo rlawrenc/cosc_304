@@ -1,8 +1,8 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL queries on a MySQL database
+# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL queries on a MySQL (local) or Oracle APEX (hosted at Oracle) databases
 
-This lab practices writing SQL queries on a MySQL database.
+This lab practices writing SQL queries  on a MySQL (local) or Oracle APEX (hosted at Oracle) databases.
 
-### Accessing MySQL using SQuirreL SQL
+### Accessing MySQL using SQuirreL SQL on your personal machines
 
 We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open source graphical query tool.  SQuirreL is capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
@@ -14,12 +14,23 @@ Start up SQuirreL.  Register our MySQL server with the information:
 
 <pre>
 Name: MySQL
-Login name: (your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
+Login name: <your login name>
 Password: (initially your student #)
-Host name: cosc304.ok.ubc.ca
+Host name: localhost
 Port: (leave blank for default)
 Database: university
 </pre>
+
+### Accessing APEX Oracle using a Web Browser (Safari, Firefox or Google Chrome)
+
+The Course Cloud Database: iAcademy.oracle.com: https://iacademy.oracle.com:  (Links to an external site.)User Name and Workspace: CA_A637_SQL_Snn (where "nn" is from "01" to "50" — use your LabPair number and the project group number + 20) and the initial password is: "cHqOR52%". <b>Note:</b> You will be asked to update your password during the first login, but you can reuse the same password or use a new password. I tested everything using Safari.
+
+<ol>
+<li>Please login to the Oracle APEX account.
+<li>Open SQL Workshop
+<li>Choose SQL Scripts
+</ol>
+
 
 ### The Database Schema
 
