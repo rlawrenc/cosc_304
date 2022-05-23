@@ -8,7 +8,7 @@ We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open sour
 
 Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see <a href="http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html">Using MySQL</a>.
 
-The sample database we will be using in this lab is `university`.
+The sample databases we will be using in this lab is <a href="https://github.com/rlawrenc/cosc_304/blob/2022SummerT1/labs/lab2/university_MySQL_DDL.txt">`university`</a> or using Oracle APEX create the tables for the <a href="https://github.com/rlawrenc/cosc_304/blob/2022SummerT1/labs/lab2/university_Oracle_DDL.sql">Oracle university database</a> in Oracle.
 
 Start up SQuirreL.  Register our MySQL server with the information:
 
