@@ -13,7 +13,7 @@ Shipment(sid: integer, cid: integer, shipdate: DateTime)
 ShippedProduct(sid: integer, pid: integer, amount: integer)
 ```
 
-1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` ascending. Only show cities with name greater than `'D'`.
+1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function in MySQL and in [Oracle Concat](https://www.oracletutorial.com/oracle-string-functions/oracle-concat/). Order by `cityState` ascending. Only show cities with name greater than `'D'`.
 
 **Output:**
 ```
