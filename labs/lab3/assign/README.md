@@ -4,7 +4,7 @@ This assignment practices writing queries in SQL.
 
 ## Question 1 (20 marks)
 
-Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL server.** You can also use the [DDL for MySQL](ShipmentMySQL.sql) for use in your own database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
+Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL own and Oracle APEX online servers.** Please deploy the [DDL for MySQL](ShipmentMySQL.sql) for use in your own [DDL for Oracle APEX using script](ShipmentLab3Oracle.sql) database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
 Customer(cid: integer, cname: string, address: string, city: string, state: string)
