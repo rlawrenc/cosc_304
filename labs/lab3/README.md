@@ -62,7 +62,7 @@ Here are the questions that you must answer using SQL. **You can answer them in 
 </ol>
 
 
-#### Answers
+#### Answers for both MySQL and Oracle APEX
 
 <ol>
 <li><pre>SELECT sname
