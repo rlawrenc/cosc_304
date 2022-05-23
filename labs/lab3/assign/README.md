@@ -70,13 +70,14 @@ cid  cname            numShipments
 
 #### Output:
 ```
-city              numCustomers  numShipments
-----------------  ------------  ------------
-Chicago                      1             1
-Hollywood                    1             4
-Huntington Beach             1             3
-Iowa City                    1             3
-Morristown                   1             1
++-------+--------------+--------------+
+| state | numCustomers | numShipments |
++-------+--------------+--------------+
+| CA    |            2 |            7 |
+| IA    |            1 |            3 |
+| IL    |            1 |            1 |
+| NJ    |            1 |            1 |
++-------+--------------+--------------+
 ```
 
 6. Return a list of states and the total value of all shipments to customers in that state. Only show states whose total value is less than or equal to $2000.
@@ -106,10 +107,12 @@ pid  pname            numberOfTimesShipped  totalAmountShipped  totalValueShippe
 
 #### Output:
 ```
-pname            pname         pid  pid  numTogether
----------------  ------------  ---  ---  -----------
-Swiss Chocolate  Wooden Chair    1    2            1
-Chocolate Bar    Teddy Bear      4    3            1
++-----------------+--------------+-------------+
+| pname           | pname        | numTogether |
++-----------------+--------------+-------------+
+| Chocolate Bar   | Teddy Bear   |           1 |
+| Swiss Chocolate | Wooden Chair |           1 |
++-----------------+--------------+-------------+
 ```
 
 9. Return the products (name) whose name contains 'c' with an inventory less than the average inventory.
