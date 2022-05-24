@@ -23,7 +23,7 @@ Database: university
 
 ### Accessing APEX Oracle using a Web Browser (Safari, Firefox or Google Chrome)
 
-The Course Cloud Database: iAcademy.oracle.com: https://iacademy.oracle.com:  (Links to an external site.)User Name and Workspace: CA_A637_SQL_Snn (where "nn" is from "01" to "50" — use your LabPair number and the project group number + 20) and the initial password is: "cHqOR52%". <b>Note:</b> You will be asked to update your password during the first login, but you can reuse the same password or use a new password. I tested everything using Safari.
+The Course Cloud Database: iAcademy.oracle.com: https://iacademy.oracle.com:  (Links to an external site.)User Name and Workspace: CA_A637_SQL_Snn (where "nn" is from "01" to "50" — use your LabPair number and the project group number + 20) and the initial password (see Canvas). <b>Note:</b> You will be asked to update your password during the first login, but you can reuse the same password or use a new password. I tested everything using Safari.
 
 <ol>
 <li>Please login to the Oracle APEX account.
