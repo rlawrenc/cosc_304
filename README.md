@@ -137,14 +137,11 @@ Inappropriate classroom behavior may include: disruption of the classroom atmosp
 talking on a cell-phone, inappropriate use of profanity in classroom discussion, use of abusive or disrespectful language
 toward the instructor, a student in the class, or about other individuals or groups.
 
-## Academic Integrity Course Policies
-Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
-
-### In-Class Participation and Quizzes and Teamwork Collaboration
-#### Allowed
+## In-Class Participation and Quizzes and Teamwork Collaboration
+### Allowed
 - Collaboration in groups of up to 4 on Canvas quizzes and in-class exercises
 
-#### Not Allowed
+### Not Allowed
  - One person providing all answers for a quiz/exercise to a group of people of any size
  - Sharing, posting, or distributing answers to other students or websites for quizzes/exercises
  - Answering questions for another student or submitting answers on their behalf
