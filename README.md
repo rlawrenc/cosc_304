@@ -86,8 +86,6 @@ programming and written assignments, and a course project. Course content will b
 | [1](labs/lab1) | May 21 | Assignment 1: Querying using Relational Algebra |
 | [2](labs/lab2) | May 25 | Assignment 2: Creating tables using SQL in MySQL (local) or Oracle APEX (hosted at Oracle) |
 | [3](labs/lab3) | May 28 | Assignment 3: Writing SQL queries on a MySQL (local) or Oracle APEX (hosted at Oracle) |
-| [2](labs/lab2) | May 25 | Assignment 2: Creating tables using SQL in MySQL (local) or Oracle (online) |
-| [3](labs/lab3) | May 28 | Assignment 3: Writing SQL queries on a MySQL (local) or Oracle APEX (online) database |
 | [4](labs/lab4) | June 1 | Assignment 4: Database Design using UML Modeling |
 | [5](labs/lab5) | June 4 | Assignment 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foos sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
 | [6](labs/lab6) | June 8 | Assignment 6: Programming with Java/Python using MySQL and SQL Server (local) or online application development in APEX |
