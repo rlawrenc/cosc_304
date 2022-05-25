@@ -4,7 +4,7 @@ This course outline is subject to further change or revision, as needed, to best
 
 ## Instructor
 Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
-**Classroom Schedule:** Tue., Wed., Fri. 8:30 a.m. to 11 a.m.
+**Classroom Schedule:** Tue., Wed., Fri. 8:30 a.m. to 11 a.m.<br>
 **Office Hours:**	Wednesday, 11 am – 12 pm or by an appointment<br>
 **Office Location:** FIPKE 310 
 
