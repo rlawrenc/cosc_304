@@ -12,9 +12,9 @@ Write the SQL DDL to create the following 5 tables for an App store: `Publisher`
 
 3. An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 60 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)
 
-4. A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete.</i></b> (2 marks)
+4. A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt> in MySQL or <tt>DATE</tt> in Oracle (APEX)), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete.</i></b> In Oracle please use TO_DATE function with appropriate Date format. Examples: TO_DATE('2008-09-11','yyyy-mm-dd') or TO_DATE('2008-09-11 08:00:00','yyyy-mm-dd hh24:mi:ss').(2 marks)
 
-5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on delete. A value for the reviewDate field is always required.</i></b> (2 marks)
+5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME` in MySQL or `Date` in Oracle), `rating` (int) in MySQL or (integer) in Oracle, and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on delete. A value for the reviewDate field is always required.</i></b> (2 marks)
 
 ## Question 2 (10 marks)
 
