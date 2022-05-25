@@ -7,7 +7,8 @@ Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
 **Classroom Schedule:** Tue., Wed., Fri. 8:30 a.m. to 11 a.m.<br>
 **Location:** EME 1151
 **Office Hours:**	Wednesday, 11 am – 12 pm or by an appointment<br>
-**Office Location:** FIPKE 310 
+**Office Location:** EME 1151 (after the class)
+**Course Website:** [https://github.com/rlawrenc/cosc_304](https://github.com/rlawrenc/cosc_304)
 
 ## TA
 ANJUM, TAIF <taif.anjum@ubc.ca><br>
