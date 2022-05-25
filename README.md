@@ -4,11 +4,19 @@ This course outline is subject to further change or revision, as needed, to best
 
 ## Instructor
 Dr. Youry Khmelevsky, youry.khmelevsky@ubc.ca<br>
-**Classroom Schedule:** Tue., Wed., Fri. 8:30 a.m. to 11 a.m.<br>
 **Location:** EME 1151
 **Office Hours:**	Wednesday, 11 am – 12 pm or by an appointment<br>
-**Office Location:** EME 1151 (after the class)
-**Course Website:** [https://github.com/rlawrenc/cosc_304](https://github.com/rlawrenc/cosc_304)
+**Office Location:** EME 1151 (after the class)<br>
+**Course Website:** [https://github.com/rlawrenc/cosc_304](https://github.com/rlawrenc/cosc_304)<br>
+## Schedule
+**Lecture:** 8:30 to 11:00 a.m. Tuesday, Wednesday, Friday<br>
+**Lab:** No labs, but two assignments per week<br>
+
+## Textbook and Reference Material
+ - All notes are online.
+ - A textbook is not required. Students can get supplemental material from any database textbook.
+ - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/). [iClicker Cloud (REEF) Login](http://app.reef-education.com/)
+
 
 ## TA
 ANJUM, TAIF <taif.anjum@ubc.ca><br>
@@ -17,10 +25,10 @@ ANJUM, TAIF <taif.anjum@ubc.ca><br>
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
 
-**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last part involves database and web programming with Java, JDBC, JSP, Python, and PHP. Students completing the course have experience with current database technologies, and the ability to use and develop databases and associated applications.
+**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last part involves database and web programming with Java, JDBC, JSP, Python, PHP and using Oracle Application Express (APEX). Students completing the course have experience with current database technologies, and the ability to use and develop databases and associated applications.
 
 ## Course Objectives
-**Course Format:** Interactive online classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
+**Course Format:** Interactive in-person classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
 
 **Learning Outcomes:**
  - Understand the use case for databases and the relational model for data storage.
@@ -36,26 +44,17 @@ ANJUM, TAIF <taif.anjum@ubc.ca><br>
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | June 3rd in class | 
 | Midterm #2 | 15% | June 14th in class | 
-| Final Exam | 35% | Cumulative, three hours ; **Exams may require a web camera.**| 
+| Final Exam | 35% | Cumulative, 2.5 hours| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
-## Textbook and Reference Material
- - All notes are online.
- - A textbook is not required. Students can get supplemental material from any database textbook.
- - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/). [iClicker Cloud (REEF) Login](http://app.reef-education.com/)
-
 ## Expectations
  - Attend all classes and prepare before attending class. 
- - Read the notes before the class time. **Expect to spend about five hours per week in out-of-class preparation.**
+ - Read the notes before the class time. **Expect to spend about ten hours per week in out-of-class preparation.**
  - Learn the material in the course by completing all assignments. **No late assignments are accepted.**
- - Enjoy attending class activities and participate according to your personality.  Ask questions by posting on chat or raising your hand.
+ - Enjoy attending class activities and participate according to your personality.  Ask questions in class or raising your hand.
  - Please actively participate in class discussions, questions, and problem solving exercises.
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
-
-## Schedule
-**Lecture:** 8:30 to 11:00 a.m. Tuesday, Wednesday, Friday<br>
-**Lab:** Drop-in virtual labs and help sessions
 
 |   Date | Topic  | Reading and Resources |
 |--------------|------|-----------|
