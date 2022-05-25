@@ -103,6 +103,8 @@ Faculties, departments, and schools reserve the right to scale grades in order t
 
 [http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014](http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014)
 
+If you have any questions about how academic integrity applies to this course, please consult with your professor.
+
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
@@ -172,9 +174,6 @@ Academic integrity is critical to being a professional developer and a respected
 - Posting or providing answers to students who have not yet completed the exam
 - Requesting help from other people or web services for open book exams
 - Posting or providing exam questions and answers after exam has been completed
-
-### Grading Practices   
-Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
 
 ### Disability Assistance
 The Disability Resource Centre ensures educational equity for students with disabilities, injuries or illness. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, visit our website for more information: http://students.ok.ubc.ca/drc/welcome.html or contact the DRC at:   drc.questions@ubc.ca 
