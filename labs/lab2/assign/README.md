@@ -56,11 +56,7 @@ Insert the following records into the appropriate tables.
 
 1. Update the `AppVersion` table so the `price` of every version of `appId 200` is `2.99`.
 
-<<<<<<< HEAD
 2. Update `App` with `id 100` to have an `id` of `700`. (-- This task was removed, because Oracle dosen't ON UPDATE CASCADE)
-=======
-2. Update `App` with `id 100` to have an `id` of `700`. (-- Removed this task, because Oracle dosen't ON UPDATE CASCADE)
->>>>>>> 2022SummerT1
 
 ## Submission
 
