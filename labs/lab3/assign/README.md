@@ -56,7 +56,7 @@ NJ     Robert Dean      234 Greenwood Drive  Teddy Bear            1
 NJ     Robert Dean      234 Greenwood Drive  Chocolate Bar        10
 ```
 
-4. Return the number of shipments to customers with `drive` in their address.
+4. Return the number of shipments to customers with `Drive` in their address.
 
 #### Output:
 ```
@@ -70,14 +70,13 @@ cid  cname            numShipments
 
 #### Output:
 ```
-+-------+--------------+--------------+
-| state | numCustomers | numShipments |
-+-------+--------------+--------------+
-| CA    |            2 |            7 |
-| IA    |            1 |            3 |
-| IL    |            1 |            1 |
-| NJ    |            1 |            1 |
-+-------+--------------+--------------+
+CITY	            NUMCUSTOMERS	NUMSHIPMENTS
+Huntington Beach	1	            3
+Morristown	      1	            1
+Chicago	      1	            1
+Iowa City	      1	            3
+Hollywood	      1	            4           
+
 ```
 
 6. Return a list of states and the total value of all shipments to customers in that state. Only show states whose total value is less than or equal to $2000.
