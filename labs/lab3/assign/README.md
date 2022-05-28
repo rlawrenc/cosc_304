@@ -71,11 +71,11 @@ cid  cname            numShipments
 #### Output:
 ```
 CITY	            NUMCUSTOMERS	NUMSHIPMENTS
-Huntington Beach	1	            3
-Morristown	      1	            1
-Chicago	      1	            1
-Iowa City	      1	            3
-Hollywood	      1	            4           
+Huntington Beach  1                 3
+Morristown        1                 1
+Chicago           1                 1
+Iowa City         1                 3
+Hollywood         1                 4           
 
 ```
 
