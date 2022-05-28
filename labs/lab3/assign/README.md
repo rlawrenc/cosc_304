@@ -114,7 +114,7 @@ pid  pname            numberOfTimesShipped  totalAmountShipped  totalValueShippe
 +-----------------+--------------+-------------+
 ```
 
-9. Return the products (name) whose name contains 'c' with an inventory less than the average inventory.
+9. Return the products (name) whose name contains 'C' with an inventory less than the average inventory.
 
 #### Output:
 ```
