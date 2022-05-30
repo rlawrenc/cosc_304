@@ -1,4 +1,4 @@
-# [COSC 304 - Introduction to Databases Course Outline -  S2022 T-1 (May 16, 2022 to Jun 22, 2022)](https://courses.students.ubc.ca/cs/courseschedule?tname=subj-section&course=304&section=101&campuscd=UBCO&dept=COSC&pname=subjarea)<br>
+# [COSC 304 - Introduction to Databases Course Outline - S-2022 T-1 (May 16, 2022 to Jun 22, 2022)](https://courses.students.ubc.ca/cs/courseschedule?tname=subj-section&course=304&section=101&campuscd=UBCO&dept=COSC&pname=subjarea)<br>
 
 This course outline is subject to further change or revision, as needed, to best realize the educational goals of the course. Necessary revisions will be announced in class or on course materials with fair prior notice.
 
@@ -169,31 +169,6 @@ toward the instructor, a student in the class, or about other individuals or gro
 - Posting or providing answers to students who have not yet completed the exam
 - Requesting help from other people or web services for open book exams
 - Posting or providing exam questions and answers after exam has been completed
-
-### Disability Assistance
-The Disability Resource Centre ensures educational equity for students with disabilities, injuries or illness. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, visit our website for more information: http://students.ok.ubc.ca/drc/welcome.html or contact the DRC at:   drc.questions@ubc.ca 
-
-### Equity, Human Rights, Discrimination and Harassment
-UBC Okanagan is a place where every student, staff and faculty member should be able to study and work in an environment that is free from human rights based discrimination and harassment.  If you require assistance related to an issue of equity, discrimination or harassment, please contact the Equity Office, your administrative head of unit, and/or your unit’s equity representative.   
-UBC Okanagan Equity Advisor:   ph. 250-807-9291; 
-E-mail:  equity.ubco@ubc.ca    			Web:  https://equity.ok.ubc.ca/
-
-### Health & Wellness
-At UBC Okanagan health services to students are provided by Health and Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Health and Wellness for more information or to book an appointment.
-UNC 337  Email: healthwellness.okanagan@ubc.ca  	Web:www.students.ok.ubc.ca/health-wellness
-
-### Sexual Violence Prevention and Response Office (SVPRO)
-A safe and confidential place for UBC students, staff and faculty who have experienced sexual   violence regardless of when or where it took place. Just want to talk? We are here to listen and help you explore your options. We can help you find a safe place to stay, explain your reporting options (UBC or police), accompany you to the hospital, or support you with academic accommodations. You have the right to choose what happens next. We support your decision, whatever you decide. Visit svpro.ok.ubc.ca or call us at 250.807.9640
- 
-### Independent Investigations Office (IIO)
-If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO via email: director.of.investigations@ubc.ca or by calling 604.827.2060 or online by visiting investigationsoffice.ubc.ca
-
-### The Hub
-The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. For more information, please visit the Hub’s website (https://students.ok.ubc.ca/student-learning-hub/) or call 250-807-9185.
-
-### SAFEWALK
-Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
-For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC SAFE – Okanagan app.
 
 
 ## Reference Material
