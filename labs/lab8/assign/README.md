@@ -4,7 +4,7 @@ Modify your existing project web site from lab 7 with new features including a p
 
 ## Project Requirements (25 marks)
 
-1. [Sample web site](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
+1. [Sample web site (is down now)](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
 2. Start with the setup for lab 7 for either [Java](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/java/assign/setup), [PHP](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/php/assign/setup), or [Node.js](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/nodejs/assign/setup). **If you have an existing Docker container for lab 7, you do not need to download and setup lab 7 again.**
 
