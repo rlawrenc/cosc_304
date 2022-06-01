@@ -2,7 +2,7 @@
 
 ## Question 1 - XPath (3 marks - optional)
 
-Write XPath expressions for the following queries. Use the Depts XML data set and the online [XPath query tool](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html).
+Write XPath expressions for the following queries. Use the Depts XML data set and the online [XPath query tool (is down now)](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html).
 
 1. Write an XPath expression that returns all departments with a budget less than $400,000. Output:
 
