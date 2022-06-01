@@ -54,7 +54,7 @@ Description:
 
 **1. Draw the ER/UML diagram for this database. (21 marks)** AutoER Link: https://autoed.ok.ubc.ca/questions/9
 
-**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL, Microsoft SQL Server or Oracle APEX (prefferable). (11 marks)**
+**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL, Microsoft SQL Server or Oracle APEX (preferable). (11 marks)**
 
 **3. Determine what you are going to sell in your store. Write a mission statement (1 mark) and executive summary paragraph (2 marks) describing your idea.**
 
