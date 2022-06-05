@@ -20,7 +20,17 @@ To make the Python program work:
 Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
-To make a report please use the following SQL statement in APEX apps: "SELECT ename,salary FROM emp;"
+To make a the APEX app work in APEX, please do the following: 
+1. Select App Builer
+2. Select "Create"
+3. "New Application"
+4. Add Name "Lab 6 Part 1" and then press "Create Application"
+5. Press "Create Page"
+6. Choose "Report" and then "Classic Report" and press "Next"
+7.  Page Name "Emp"
+8.  Next
+9. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
+10. "Save and Run Page". 
 
 The result of the program is this:
 
@@ -37,7 +47,7 @@ J. Jones,50000.0
 
 ## Question #1
 
-Create a new program called `MyJDBC.java` or `MySQLQuestion.py`.
+Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or MySQLQuestion app in APEX.
 
 Note: With Python to have multiple cursors on a connection, set the cursor to buffering like this: `cursor = cnx.cursor(buffered=True)`.
 
