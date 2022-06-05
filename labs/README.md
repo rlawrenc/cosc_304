@@ -12,8 +12,8 @@ All labs are done online with assistance from teaching assistants and instructor
 | [3](lab3) | May 28 | Lab 3: Writing SQL queries on a MySQL database |
 | [4](lab4) | June 1 | Lab 4: Database Design using UML Modeling |
 | [5](lab5) | June 4 | Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](lab6) | June 8 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](lab7) | June 11 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [6](lab6) | June 8 | Lab 6: Programming with Java/Python/Oracle APEX using MySQL, SQL Server or Oracle Express Edition (EX) |
+| [7](lab7) | June 11 | Lab 7: Building a Database-enabled Web Site using JSP/PHP/APEX |
 | [8](lab8) | June 15 | Lab 8: Images, Security, and Transactions |
 | [9](lab9) | June 18 | Lab 9: XML, JSON, Views, and Triggers |
 | [10](lab10) | June 22 | Lab 10: Project Completion |
