@@ -158,7 +158,7 @@ Web: https://investigationsoffice.ubc.ca/ E-mail: director.of.investigations@ubc
 ### The Hub
 The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. <br>
 
-Web: (https://students.ok.ubc.ca/student-learning-hub/) Ph: 250-807-9185.
+Web: https://students.ok.ubc.ca/student-learning-hub/ Ph: 250-807-9185.
 
 ### SAFEWALK
 Download the UBC SAFE – Okanagan app.<br>
