@@ -96,7 +96,7 @@ Change Line 7 to:	String pw = "put your password here";
 3. These are the modifications you must make to get the program working:
 
 ```
-Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=sql04.ok.ubc.ca;
+Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
 							DATABASE=workson;UID=yourUserId;PWD=yourPassword""")
 ```
 
