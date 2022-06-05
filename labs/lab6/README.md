@@ -108,10 +108,21 @@ Supervisor: R. Davis
 **Answer:**  [Java answer file](code/MyJDBC.java), [Python answer file](code/MySQLQuestion.py)
 
 **Apex:**
-``select (select l.Ename from EMP l where l.ENO = m.supereno) as SUPERVISOR, ename, salary from EMP m
-``
+Create a new page with interactive reprot and use the following quesry:
 
-
+```select (select l.Ename from EMP l where l.ENO = m.supereno) as SUPERVISOR, ename, salary from EMP m
+```
+### Expected Output
+```
+B. Casey	M. Smith	50,000
+J. Jones	B. Casey	50,000
+J. Jones	R. Davis	40,000
+L. Chu		J. Miller	20,000
+M. Smith	J. Doe		30,000
+R. Davis	A. Lee		40,000
+R. Davis	L. Chu		30,000
+-		J. Jones	50,000
+```
 
 ## Part #2: Microsoft SQL Server
 
