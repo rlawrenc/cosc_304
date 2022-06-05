@@ -21,7 +21,7 @@ To make the Python program work:
 Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
-### The result of the program is this:###
+### The result of the program is this:
 
 ```
 Employee Name,Salary
@@ -34,26 +34,32 @@ R. Davis,40000.0
 J. Jones,50000.0
 ```
 
-To make a the APEX app work in APEX, please do the following: 
-1. Select "App Builder"
-2. Select "Create"
-3. Select "New Application"
-4. Add Name "COSC 304 Summer T1 Lab 6 Part 1" and then press "Create Application"
-5. Press "Create Page"
-6. Choose "Report" and then "Classic Report" and press "Next"
-7. Add "Emp Report" to Page Name 
-8. Select Breadcrumb in Breadcrumb. Parent Entry is Home (Page 1)
-9. Next
-10. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
-11. Create
-12. Press "Save and Run Page"
-13. Use your login and password and press "Sing In" and see the result
-14. Close the browser tab
-15. Go back to application in the top left corner
-16. Chose "Delete this Application" to delete this test application and "Delete Premanently This Application".
+###To make a the APEX app work in APEX, please do the following: 
+
+*Connect to Oracle APEX online account: https://iacademy.oracle.com*
+
+*[Download the sample Oracle file](code/OracleDML_APEX.sql) and setup in your Oracle APEX environment.*
+
+1. Login to the course Oracle APEX account
+2. Select "App Builder"
+3. Select "Create"
+4. Select "New Application"
+5. Add Name "COSC 304 Summer T1 Lab 6 Part 1" and then press "Create Application"
+6. Press "Create Page"
+7. Choose "Report" and then "Classic Report" and press "Next"
+8. Add "Emp Report" to Page Name 
+9. Select Breadcrumb in Breadcrumb. Parent Entry is Home (Page 1)
+10. Next
+11. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
+12. Create
+13. Press "Save and Run Page"
+14. Use your login and password and press "Sing In" and see the result
+15. Close the browser tab
+16. Go back to application in the top left corner
+17. Chose "Delete this Application" to delete this test application and "Delete Premanently This Application".
 
 
-### In Apex result is the following:###
+### In Apex result is the following:
 ```
 Emp Report
 Report 1
@@ -69,7 +75,7 @@ R. Davis	40000
 ```
 ## Question #1
 
-Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or 'MySQLQuestion' app in APEX.
+Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or `MySQLQuestion` app in APEX.
 
 Note: With Python to have multiple cursors on a connection, set the cursor to buffering like this: `cursor = cnx.cursor(buffered=True)`.
 
@@ -147,14 +153,7 @@ R. Davis,40000.0
 J. Jones,50000.0
 ```
 
-## Part #3: Oracle APEX
-
-
-1. Connect to Oracle APEX online account: https://iacademy.oracle.com
-
-2. [Download the sample Oracle file](code/OracleDML_APEX.sql) and setup in your Oracle APEX environment.
-
-3. These are the modifications you must make to get the program working:
+These are the modifications you must make to get the program working.
 
 ```
 Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
