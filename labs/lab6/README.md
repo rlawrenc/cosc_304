@@ -21,23 +21,7 @@ To make the Python program work:
 Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
-To make a the APEX app work in APEX, please do the following: 
-1. Select "App Builder"
-2. Select "Create"
-3. Select "New Application"
-4. Add Name "Lab 6 Part 1" and then press "Create Application"
-5. Press "Create Page"
-6. Choose "Report" and then "Classic Report" and press "Next"
-7. Page Name "Emp Report"
-8. Next
-9. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
-10. Press "Save and Run Page"
-11. Use your login and password and press "Sing In" and see the result
-12. Close the browser tab
-13. Go back to application in the top left corner
-14. Chose "Delete this Application" to delete this test application and "Delete Premanently This Application".
-
-The result of the program is this (sroting can be different):
+### The result of the program is this:###
 
 ```
 Employee Name,Salary
@@ -49,6 +33,38 @@ L. Chu,30000.0
 R. Davis,40000.0
 J. Jones,50000.0
 ```
+
+To make a the APEX app work in APEX, please do the following: 
+1. Select "App Builder"
+2. Select "Create"
+3. Select "New Application"
+4. Add Name "COSC 304 Summer T1 Lab 6 Part 1" and then press "Create Application"
+5. Press "Create Page"
+6. Choose "Report" and then "Classic Report" and press "Next"
+7. Add "Emp Report" to Page Name 
+8. Select Breadcrumb in Breadcrumb. Parent Entry is Home (Page 1)
+9. Next
+10. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
+11. Create
+12. Press "Save and Run Page"
+13. Use your login and password and press "Sing In" and see the result
+14. Close the browser tab
+15. Go back to application in the top left corner
+16. Chose "Delete this Application" to delete this test application and "Delete Premanently This Application".
+
+
+### In Apex result is the following:###
+Emp Report
+Report 1
+Ename		Salary
+A. Lee		40000
+B. Casey	50000
+J. Doe		30000
+J. Jones	50000
+J. Miller	20000
+L. Chu		30000
+M. Smith	50000
+R. Davis	40000
 
 ## Question #1
 
