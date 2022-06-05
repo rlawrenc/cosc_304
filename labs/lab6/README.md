@@ -1,10 +1,10 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python/Oracle APEX with MySQL, Microsoft SQL Server and Oracle Express Edition (EX)
 
-This lab shows how Java, Python and Apex programs can connect to MySQL, Microsoft SQL Server or APEX.
+This lab shows how Java, Python programs can connect to MySQL, Microsoft SQL Server or how to use Apex framwork Oracle Experess RDBMS.
 
 ## Part #1: MySQL
 
-Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use Oracle APEX online access to APEX. 
+Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a [WorksOn](../../labs/lab2/) database hosted by MySQL or Oracle APEX online. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use Oracle APEX online access to APEX. 
 
 To make the Java and Python work program please use your local MySQL DBMS system installation:
 
