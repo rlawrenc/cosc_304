@@ -4,14 +4,12 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
 
 ## Part #1: MySQL
 
-Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)).
+Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use the online connection to APEX. 
 
-Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see <a href="http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html">Using MySQL</a>.
-
-To make the Java program work:
+To make the Java and Python work program please use your local MySQL DBMS system installation:
 
 ```
-Change Line 5 to:	String url = "jdbc:mysql://cosc304.ok.ubc.ca/workson";
+Change Line 5 to:	String url = "jdbc:mysql://localhost/workson";
 Change Line 6 to:	String uid = "put your user id here";
 Change Line 7 to:	String pw = "put your password here";
 ```
@@ -19,7 +17,7 @@ Change Line 7 to:	String pw = "put your password here";
 To make the Python program work:
 
 ```
-Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='cosc304.ok.ubc.ca', database='workson')
+Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
 The result of the program is this:
