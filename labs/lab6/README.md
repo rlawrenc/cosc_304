@@ -4,7 +4,7 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
 
 ## Part #1: MySQL
 
-Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use the online connection to APEX. 
+Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use Oracle APEX online access to APEX. 
 
 To make the Java and Python work program please use your local MySQL DBMS system installation:
 
@@ -82,7 +82,7 @@ Your Microsoft SQL Server user id is the first letter in your first name followe
 4. These are the modifications you must make to get the program working:
 
 ```
-Change Line 5 to:	String url = "jdbc:sqlserver://sql04.ok.ubc.ca;DatabaseName=WorksOn;";
+Change Line 5 to:	String url = "jdbc:sqlserver://localhost;DatabaseName=WorksOn;";
 Change Line 6 to:	String uid = "put your user id here";
 Change Line 7 to:	String pw = "put your password here";
 ```
