@@ -218,3 +218,20 @@ P3   	Budget	46
 ## [Lab 6 Assignment (Java)](assignJava/)
 
 ## [Lab 6 Assignment (Python)](assignPython/)
+
+## APEX
+** Expected output**
+```
+Dno Dname Pno Sum Hours
+D1	Management	P1	36
+D2	Consulting	P2	30
+D2	Consulting	P4	71
+D3	Accounting	P3	46
+```
+SQL Query: 
+```
+SELECT D.dno, dname, P.pno, pname, hours FROM Dept D, Proj P, WorksOn W 
+	WHERE D.dno = P.dno AND P.pno = W.pno		
+	ORDER BY D.dno ASC;
+```
+Please create a new page with interactive report and then use grouping in the report. 
