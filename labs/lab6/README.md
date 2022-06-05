@@ -1,4 +1,5 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python/Oracle APEX with MySQL, Microsoft SQL Server and Oracle Express Edition (EX)
+# COSC 304 - Introduction to Database Systems<br>
+## Lab 6: Using Java/Python/Oracle APEX with MySQL, Microsoft SQL Server and Oracle Express Edition (EX)
 
 This lab shows how Java, Python programs can connect to MySQL, Microsoft SQL Server or how to use Apex framwork Oracle Experess RDBMS.
 
@@ -21,18 +22,22 @@ Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', pa
 ```
 
 To make a the APEX app work in APEX, please do the following: 
-1. Select App Builer
+1. Select "App Builder"
 2. Select "Create"
-3. "New Application"
+3. Select "New Application"
 4. Add Name "Lab 6 Part 1" and then press "Create Application"
 5. Press "Create Page"
 6. Choose "Report" and then "Classic Report" and press "Next"
-7.  Page Name "Emp"
-8.  Next
+7. Page Name "Emp Report"
+8. Next
 9. Choose "SQL Query": "SELECT ename, salary FROM emp;" 
-10. "Save and Run Page". 
+10. Press "Save and Run Page"
+11. Use your login and password and press "Sing In" and see the result
+12. Close the browser tab
+13. Go back to application in the top left corner
+14. Chose "Delete this Application" to delete this test application and "Delete Premanently This Application".
 
-The result of the program is this:
+The result of the program is this (sroting can be different):
 
 ```
 Employee Name,Salary
@@ -47,7 +52,7 @@ J. Jones,50000.0
 
 ## Question #1
 
-Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or MySQLQuestion app in APEX.
+Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or 'MySQLQuestion' app in APEX.
 
 Note: With Python to have multiple cursors on a connection, set the cursor to buffering like this: `cursor = cnx.cursor(buffered=True)`.
 
