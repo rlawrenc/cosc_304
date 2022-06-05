@@ -14,7 +14,7 @@ enroll (<u>sid</u>, <u>cnum</u>, <u>secnum</u>, grade)
 
 ## Question 1 (35 marks)
 
-There is also a [Oracle EnrollDB DDL script](code/COSC304L6APEXuniversity.ddl) to create the database.
+There is also a [Oracle EnrollDB DDL script](COSC304APEXlab6code/COSC304L6APEXuniversity.ddl) to create the database.
 
 Create an Oracle APEX Application COSC304Lab6EnrollDB to complete the forms in `EnrollDB` (look for `TODO` items below).
 
