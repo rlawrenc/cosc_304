@@ -20,6 +20,8 @@ To make the Python program work:
 Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
+To make a report please use the following SQL statement in APEX apps: "SELECT ename,salary FROM emp;"
+
 The result of the program is this:
 
 ```
