@@ -54,6 +54,7 @@ To make a the APEX app work in APEX, please do the following:
 
 
 ### In Apex result is the following:###
+```
 Emp Report
 Report 1
 Ename		Salary
@@ -65,7 +66,7 @@ J. Miller	20000
 L. Chu		30000
 M. Smith	50000
 R. Davis	40000
-
+```
 ## Question #1
 
 Create a new program called `MyJDBC.java` or `MySQLQuestion.py` or 'MySQLQuestion' app in APEX.
