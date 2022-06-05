@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python with MySQL and Microsoft SQL Server
+# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python/Oracle APEX with MySQL, Microsoft SQL Server and Oracle Express Edition (EX)
 
 This lab shows how Java and Python programs can connect to MySQL and Microsoft SQL Server.
 
