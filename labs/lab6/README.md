@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/Python/Oracle APEX with MySQL, Microsoft SQL Server and Oracle Express Edition (EX)
 
-This lab shows how Java and Python programs can connect to MySQL and Microsoft SQL Server.
+This lab shows how Java, Python and Apex programs can connect to MySQL, Microsoft SQL Server or APEX.
 
 ## Part #1: MySQL
 
@@ -112,6 +112,38 @@ L. Chu,30000.0
 R. Davis,40000.0
 J. Jones,50000.0
 ```
+
+## Part #3: Oracle APEX
+
+
+1. Connect to Oracle APEX online account: https://iacademy.oracle.com
+
+2. [Download the sample Oracle file](code/OracleDML_APEX.sql) and setup in your Oracle APEX environment.
+
+3. These are the modifications you must make to get the program working:
+
+```
+Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
+							DATABASE=workson;UID=yourUserId;PWD=yourPassword""")
+```
+
+### Expected Output
+
+```
+Employee Name,Salary
+M. Smith,50000.0
+A. Lee,40000.0
+J. Miller,20000.0
+B. Casey,50000.0
+L. Chu,30000.0
+R. Davis,40000.0
+J. Jones,50000.0
+```
+
+
+
+
+
 
 ## Question #2
 
