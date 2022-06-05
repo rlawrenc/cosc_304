@@ -34,11 +34,11 @@ R. Davis,40000.0
 J. Jones,50000.0
 ```
 
-###To make a the APEX app work in APEX, please do the following: 
+### To make a the APEX app work in APEX, please do the following: 
 
-*Connect to Oracle APEX online account: https://iacademy.oracle.com*
+* Connect to Oracle APEX online account: https://iacademy.oracle.com *
 
-*[Download the sample Oracle file](code/OracleDML_APEX.sql) and setup in your Oracle APEX environment.*
+* [Download the sample Oracle file](code/OracleDML_APEX.sql) and setup in your Oracle APEX environment. *
 
 1. Login to the course Oracle APEX account
 2. Select "App Builder"
