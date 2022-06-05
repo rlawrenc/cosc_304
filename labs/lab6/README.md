@@ -110,7 +110,9 @@ Supervisor: R. Davis
 **Apex:**
 Create a new page with interactive reprot and use the following quesry:
 
-```select (select l.Ename from EMP l where l.ENO = m.supereno) as SUPERVISOR, ename, salary from EMP m
+```select 
+	(select l.Ename from EMP l where l.ENO = m.supereno) as SUPERVISOR, 
+	ename, salary from EMP m
 ```
 ### Expected Output
 ```
@@ -189,10 +191,6 @@ L. Chu,30000.0
 R. Davis,40000.0
 J. Jones,50000.0
 ```
-
-
-
-
 
 
 ## Question #2
