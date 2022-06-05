@@ -215,12 +215,8 @@ P3   	Budget	46
 
 **Answer:**  [Java answer file](code/SqlServerQuestion.java), [Python answer file](code/SqlServerQuestion.py)
 
-## [Lab 6 Assignment (Java)](assignJava/)
-
-## [Lab 6 Assignment (Python)](assignPython/)
-
-## APEX
-** Expected output**
+**APEX:**
+**Expected output**
 ```
 Dno Dname Pno Sum Hours
 D1	Management	P1	36
@@ -235,3 +231,11 @@ SELECT D.dno, dname, P.pno, pname, hours FROM Dept D, Proj P, WorksOn W
 	ORDER BY D.dno ASC;
 ```
 Please create a new page with interactive report and then use grouping in the report. 
+
+## [Lab 6 Assignment (Java)](assignJava/)
+
+## [Lab 6 Assignment (Python)](assignPython/)
+
+## [Lab 6 Assignment (APEX — TBA)](assignAPEX/)
+
+
