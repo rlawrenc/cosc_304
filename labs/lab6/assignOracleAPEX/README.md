@@ -23,10 +23,10 @@ Create an Oracle APEX Application COSC304Lab6EnrollDB to complete the forms in `
 <table>
 <tr><th>Operation in a new page of APEX's COSC304Lab6EnrollDB application</th>														<th width="100">Marks</th></tr>
 <tr><td>
-<tr><td>List all students in the database <tt>listAllStudents</tt> page</td>			<td> 1 mark</td></tr>
-<tr><td>List all professors in a department <tt>listDeptProfessors</tt> page</td>		<td>2 marks</td></tr>
-<tr><td>List all students in a course <tt>listCourseStudents</tt> page</td>			<td> 2 marks</td></tr>
-<tr><td>Compute student GPA <tt>computeGPA</tt> page</td>								<td>2 marks</td></tr>
+<tr><td>List all students in the database <tt>listAllStudents</tt> page.<br> <b>Hint:</b> Use Classic Report</td>			<td> 1 mark</td></tr>
+<tr><td>List all professors in a department <tt>listDeptProfessors</tt> page <br> <b>Hint:</b> Use Classic Report</td>		<td>2 marks</td></tr>
+<tr><td>List all students on a course <tt>listCourseStudents</tt> page. <br> <b>Hint:</b> Use Classic Report</td>			<td> 2 marks</td></tr>
+<tr><td>Compute student GPA <tt>computeGPA</tt> page. <br> <b>Hints:</b> (1) Use Classic Report; (2) Use Group By statement; (3) Use oracle round function to round to 2 decimal places (ROUND(AVG(grade), 2)). </td>								<td>2 marks</td></tr>
 <tr><td>Add a student <tt>addStudent</tt> page</td>									<td>2 marks</td></tr>
 <tr><td>Delete a student <tt>deleteStudent</tt>  page(Make sure to also delete all courses enrolled in).</td>	<td>2 marks </td></tr>
 <tr><td>Update a student <tt>updateStudent</tt> page</td>								<td>2 marks</td></tr>
