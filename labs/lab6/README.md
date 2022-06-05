@@ -236,6 +236,6 @@ Please create a new page with interactive report and then use grouping in the re
 
 ## [Lab 6 Assignment (Python)](assignPython/)
 
-## [Lab 6 Assignment (APEX — TBA)](assignOracleAPEX/)
+## [Lab 6 Assignment (APEX — Under Testing Jun 5th, 2022)](assignOracleAPEX/)
 
 
