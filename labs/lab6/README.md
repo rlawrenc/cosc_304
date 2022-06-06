@@ -232,10 +232,10 @@ SELECT D.dno, dname, P.pno, pname, hours FROM Dept D, Proj P, WorksOn W
 ```
 Please create a new page with interactive report and then use grouping in the report. 
 
+## [Lab 6 Assignment (APEX)](assignOracleAPEX/) — recommended
+
 ## [Lab 6 Assignment (Java)](assignJava/)
 
 ## [Lab 6 Assignment (Python)](assignPython/)
-
-## [Lab 6 Assignment (APEX)](assignOracleAPEX/)
 
 
