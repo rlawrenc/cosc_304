@@ -232,6 +232,25 @@ SELECT D.dno, dname, P.pno, pname, hours FROM Dept D, Proj P, WorksOn W
 ```
 Please create a new page with interactive report and then use grouping in the report. 
 
+
+**Output result after grouping in interactive report:**
+```
+GoActions
+Report Settings
+Edit Group By
+
+DnoAscending
+Dname
+Sum Hours
+DnoAscending
+Dname
+Sum Hours
+D1	Management	36
+D2	Consulting	101
+D3	Accounting	46
+1 - 3
+```
+
 ## [Lab 6 Assignment (APEX)](assignOracleAPEX/) — recommended
 
 ## [Lab 6 Assignment (Java)](assignJava/)
