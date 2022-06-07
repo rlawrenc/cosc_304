@@ -3,7 +3,7 @@
 
 This lab shows how Java, Python programs can connect to MySQL, Microsoft SQL Server or how to use Apex framwork Oracle Experess RDBMS.
 
-## Part #1: MySQL
+## Part #1: MySQL, Microsoft SQL Server or Apex framwork on the top Oracle Experess RDBMS
 
 Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a [WorksOn](../../labs/lab2/) database hosted by MySQL or Oracle APEX online. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)). For Oracle APEX (default for COSC 304 Summer T1 2022), use Oracle APEX online access to APEX. 
 
