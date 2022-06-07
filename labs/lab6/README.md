@@ -38,7 +38,7 @@ J. Jones,50000.0
 
 * Connect to Oracle APEX online account: https://iacademy.oracle.com 
 
-* [Download the sample Oracle file][WorksOn](../../labs/lab2/) and setup in your Oracle APEX environment. 
+* [Download the sample Oracle file WorksOn](../../labs/lab2/) and setup in your Oracle APEX environment. 
 
 1. Login to the course Oracle APEX account
 2. Select "App Builder"
