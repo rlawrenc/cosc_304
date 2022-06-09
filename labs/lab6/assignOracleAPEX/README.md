@@ -49,7 +49,13 @@ A good video for master/detail form: <a href=https://www.youtube.com/watch?v=CAl
 
 <tr><td><strong>13. Query 2:</strong> Create a page <tt>Query 2</tt> which will return for each student their id and name, number of course sections registered in (called numcourses), and gpa (average of grades). Return only students born after March 15, 1992. A student is also only in the result if their gpa is above 3.1 or registered in 0 courses. Order by GPA descending then student name ascending.</td><td>3 marks</td></tr>
 
-<tr><td><strong>14.Query 3:</strong> Create a page <tt> Query 3</tt> which will return  for each course the number of sections (numsections), total number of students enrolled (numstudents), average grade (avggrade), and number of distinct professors who taught the course (numprofs). Only show courses in Chemistry or Computer Science department. Make sure to show courses even if they have no students. Do not show a course if there are no professors teaching that course.</td><td>4 marks</td></tr>
+<tr><td><strong>14.Query 3:</strong> Create a page <tt> Query 3</tt> which will return  for each course the number of sections (numsections), total number of students enrolled (numstudents), average grade (avggrade), and number of distinct professors who taught the course (numprofs). Only show courses in Chemistry or Computer Science department. Make sure to show courses even if they have no students. Do not show a course if there are no professors teaching that course.<br>
+
+<br>Sample output: 
+<ul>
+<li>CNUM, NUMSECTIONS, NUMSTUDENTS, AVGGRADE, NUMPROFS<li>CHEM 111, 2, 22, 2.67, 2<li>CHEM 113, 4, 33, 2.94, 2<li>COSC 222, 2, 16, 3.12, 1<li>COSC 304, 1, 9, 3.29, 1<li>COSC 310, 1, 10, 3.1, 1<li>COSC 499, 1, 0, - , 1</ul>
+
+</td><td>4 marks</td></tr>
 
 <tr><td><strong>15. Query 4:</strong> Create a page <tt> Query 4</tt> which will return the students who received a higher grade than their course section average in at least two courses. Order by number of courses higher than the average and only show top 5.<br>
 Hints: (1) You should use a subquery to find the average grade; (2) don't use sorting and rows restrictions but use Interactive Report in Apex to restrict the number of lines and sort them; (3) test query in SQL command at first and then add it to the Interactive Report. 
