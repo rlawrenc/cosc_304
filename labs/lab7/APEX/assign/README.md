@@ -136,7 +136,7 @@ In this lab, you use a spreadsheet to create a database application.
 13.	Your application should look like the screenshot below:
 14.	Review the Budget App application that you just created. Check out all the pages that were created by default.
 
-##Unit 4: Managing Pages in Page Designer (10 points)
+## Unit 4: Managing Pages in Page Designer (10 points)
 
 In this lab, you create a dashboard by adding a new component to the Home page of the Demo Projects application. You open the home page in page designer, navigate through and review the page designer panes, add a chart region and edit the chart attributes.
 
