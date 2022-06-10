@@ -395,13 +395,13 @@ Then enter I and see that the values are further refreshed.
 25.	Click Save and Run Page.
 26.	On the report page, scroll down to the Salary facet. Notice that the range values are now updated.
 
-##Unit 6: Managing and Customizing Interactive Reports (10 points)
+## Unit 6: Managing and Customizing Interactive Reports (10 points)
 
 This exercise includes two sets of hands-on labs. Both HOL 6-1 and HOL 6-2 utilize the Hardware application that you created in HOL 5-2.
 
 
 
-###HOL 6-1: Using an Interactive Report: In this lab, you customize and use an interactive report as an end-user (3 points).
+### HOL 6-1: Using an Interactive Report: In this lab, you customize and use an interactive report as an end-user (3 points).
 
 1.	First, you run the Hardware application.  Navigate to App Builder. If you are in the report view, click the Run button for Hardware. 
 
