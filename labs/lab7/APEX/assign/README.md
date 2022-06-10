@@ -325,7 +325,7 @@ In this lab, you create an interactive report on the HARDWARE table. You created
 	Enter your Workspace username and password. Click Sign In. 
 9.	In the Developer Toolbar, click Home.
 
-###HOL 5-3 Creating an Interactive Grid: In this hands-on lab, you use the Create Page wizard and add an interactive grid page in the Budget App application (2.5 points).
+### HOL 5-3 Creating an Interactive Grid: In this hands-on lab, you use the Create Page wizard and add an interactive grid page in the Budget App application (2.5 points).
 
 In this lab, you create an interactive grid on the PROJECT_BUDGET table. You already created the Budget App application in HOL 3-2. Now, you create an interactive grid in the Budget App application.
 
