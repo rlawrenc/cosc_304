@@ -962,9 +962,10 @@ In this lab, you will reconfigure which columns are to be displayed in the Demo 
 	Select Primary for Default Report Type. Click Apply. The default report is now saved for all users.
 
 9.	Your DEMO_PROJ_TASKS page might look like this.
+	
 
-#### Marking Guide (for APEX see points above): (40 points total)
+## Marking Guide (for APEX see points above): (40 points total)
 
-#### Deliverables:
+### Deliverables:
 
 1. You should submit the unit MS Word or PDF documents with the Unit screenshots, URL to your project application with the user name and password. 
