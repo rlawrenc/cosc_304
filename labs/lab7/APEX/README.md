@@ -138,7 +138,7 @@ Browser.
 replicate users entering in records. It is not important that you understand the PL/SQL code in this package, as you will not normally have to populate data in this matter. Generally, you would create the tables with no data and then use the application you build to insert the records.
 
 
-###HOL 2-2: Creating a Lookup Table
+### HOL 2-2: Creating a Lookup Table
 In this hands-on-lab, you use the Data Workshop utility to create a table and 
 populate the table with data. Once this table is created, you also create a 
 lookup table.
@@ -157,7 +157,7 @@ Table or use the object browser.
 
 	a) Click Table. Click Create Lookup Table.
 
-	b) 	(**Skip**) Select DEPARTMENT for Column (it's already created). Click Next.
+	b) (**Skip**) Select DEPARTMENT for Column (it's already created). Click Next.
 
 	c) (**Skip**) Accept the defaults on this page and click Next.
 
