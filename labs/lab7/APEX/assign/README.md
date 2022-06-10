@@ -2,9 +2,9 @@
 
 **General Note:** To get points for your submissions, each new page and project must have your group number, your team member names, and the following text: **COSC 304, Summer T1 2022, Lab 7 Assignment, Unit \<number\>, HOL \<number\>**.
 
-##Unit 3: Creating a Database Application (10 points)
+## Unit 3: Creating a Database Application (10 points)
 
-###HOL 3-1 Creating a Database Application from Scratch: In this hands-on-lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
+### HOL 3-1 Creating a Database Application from Scratch: In this hands-on-lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
 
 In this lab, you create the initial application using the Create Application wizard to define multiple pages. Now that you have created the underlying tables, you are ready to create a desktop application. You add reports and forms for the tables you created.
 
@@ -105,7 +105,7 @@ Navigate to App Builder and then click Create.
 
 
 
-###HOL 3-2 Creating a Database Application from a Spreadsheet: In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points).
+### HOL 3-2 Creating a Database Application from a Spreadsheet: In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points).
 
 In this lab, you use a spreadsheet to create a database application.
 
@@ -250,7 +250,7 @@ order by 5
 	This exercise includes three hands-on labs.
 
 
-###HOL 5-1 Creating a Classic Report: In this hands-on lab, you create a classic report region on the Dashboard page of the Demo Projects application (2.5 points).
+### HOL 5-1 Creating a Classic Report: In this hands-on lab, you create a classic report region on the Dashboard page of the Demo Projects application (2.5 points).
 
 In the Demo Projects application, you create a report that allows each Team Member to see their outstanding tasks.
 
@@ -289,7 +289,7 @@ order by t.end_date
 11.	Your Dashboard (see the MS Word document). 
 12.	In the Developer Toolbar, click Home.
 
-###HOL 5-2 Creating an Interactive Report: In this hands-on lab, you create a new database application and then using the Create Page wizard, you add an interactive report page (2.5 points).
+### HOL 5-2 Creating an Interactive Report: In this hands-on lab, you create a new database application and then using the Create Page wizard, you add an interactive report page (2.5 points).
 
 In this lab, you create an interactive report on the HARDWARE table. You created this table in HOL 2-2. First, you create a database application and then you create the interactive report page.
 
@@ -746,9 +746,9 @@ In this lab, you edit an interactive report in page designer and customize it fo
 
 15.	From the Reports drop-down list, select Primary Report.
 
-**Labs HOL 6-3 through HOL 6-6 use the Demo Projects application.**
+	**Labs HOL 6-3 through HOL 6-6 use the Demo Projects application.**
 
-###HOL 6-3: Saving the Team Members Interactive Report: In this lab, as a developer, you save the Demo Proj Team Members interactive report as the alternative default report (1 point).
+### HOL 6-3: Saving the Team Members Interactive Report: In this lab, as a developer, you save the Demo Proj Team Members interactive report as the alternative default report (1 point).
 
 In this lab, you create an alternative default report for the Demo Proj Team Members interactive report.
 
@@ -865,7 +865,7 @@ Click OK.
 24.	Click Save and Run Page. The Demo Projects interactive report might now look like in the word document. 
 
 
-###HOL 6-5: Customizing the Milestones Interactive Report: In this lab, you modify the source query, and customize the Demo Proj Milestones interactive report (1 point).
+### HOL 6-5: Customizing the Milestones Interactive Report: In this lab, you modify the source query, and customize the Demo Proj Milestones interactive report (1 point).
 In this lab, you modify the interactive grid source query. Then, you customize the interactive grid by hiding columns that need not be displayed and sorting the interactive grid on the Due Date column. You also create an aggregation on the Tasks column and save the customizations made to the Primary interactive grid.
 
 1.	You are in the application runtime environment. In the navigation menu, click Demo Proj Milestones. In the Developer Toolbar, click Edit Page 6.
@@ -920,7 +920,7 @@ from "DEMO_PROJ_MILESTONES" m
 13.	Your DEMO_PROJ_MILESTONES page might look like this.
 
 
-###HOL 6-6: Customizing the Tasks Interactive Report: In this lab, you customize the display of the Demo Proj Tasks interactive report (1 point).
+### HOL 6-6: Customizing the Tasks Interactive Report: In this lab, you customize the display of the Demo Proj Tasks interactive report (1 point).
 
 In this lab, you will reconfigure which columns are to be displayed in the Demo Proj Tasks interactive report. Then, you will create a control break on two columns, and sort the rows in the ascending order of Start Date. Finally, you will save the default report for all users.
 
