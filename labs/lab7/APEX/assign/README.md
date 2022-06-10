@@ -212,27 +212,28 @@ In this lab, you create a dashboard by adding a new component to the Home page o
 20.	For SQL Query, copy and paste the following code, click the validate icon and then click OK.
 
 	```
-select p.id
-, p.name as label
-, (select count('x') from demo_proj_tasks t 
-where p.id = t.project_id 
-and nvl(t.is_complete_yn,'N') = 'Y'
-) value
-, 'Completed Tasks' series
-, p.created
-from demo_projects p
-UNION ALL
-select p.id
-, p.name as label
-, (select count('x') from demo_proj_tasks t 
-where p.id = t.project_id 
-and nvl(t.is_complete_yn,'N') = 'N'
-) value
-, 'Incomplete Tasks' series
-, p.created
-from demo_projects p
-order by 5
-```
+	select p.id
+	, p.name as label
+	, (select count('x') from demo_proj_tasks t 
+	where p.id = t.project_id 
+	and nvl(t.is_complete_yn,'N') = 'Y'
+	) value
+	, 'Completed Tasks' series
+	, p.created
+	from demo_projects p
+	UNION ALL
+	select p.id
+	, p.name as label
+	, (select count('x') from demo_proj_tasks t 
+	where p.id = t.project_id 
+	and nvl(t.is_complete_yn,'N') = 'N'
+	) value
+	, 'Incomplete Tasks' series
+	, p.created
+	from demo_projects p
+	order by 5
+	```
+
 21.	Under Column Mapping, select:
 	- Series Name: SERIES
 	- Label: LABEL
@@ -240,16 +241,11 @@ order by 5
 
 	Click Save and Run Page.
 	
-	22.	You might have to log in using Workspace username and password. 
+22.	You might have to log in using Workspace username and password. 
 	
-	
-	
-	##Unit 5: Developing Reports (10 points)
-	
+## Unit 5: Developing Reports (10 points)
 	
 	This exercise includes three hands-on labs.
-
-
 ### HOL 5-1 Creating a Classic Report: In this hands-on lab, you create a classic report region on the Dashboard page of the Demo Projects application (2.5 points).
 
 In the Demo Projects application, you create a report that allows each Team Member to see their outstanding tasks.
@@ -260,18 +256,18 @@ In the Demo Projects application, you create a report that allows each Team Memb
 4.	In the property editor, under Source, select SQL Query for Type. Then, copy and paste the following code for SQL Query.
 	
 	```
-select p.name project
-, t.name task
-, t.end_date
-from demo_proj_tasks t
-, demo_projects p
-, demo_proj_milestones m
-, demo_proj_team_members tm
-where p.id = t.project_id
-and m.id = t.milestone_id (+)
-and tm.id = t.assignee and nvl(t.is_complete_yn, 'N') = 'N'
-and upper(tm.username) = upper(:APP_USER)
-order by t.end_date
+	select p.name project
+	, t.name task
+	, t.end_date
+	from demo_proj_tasks t
+	, demo_projects p
+	, demo_proj_milestones m
+	, demo_proj_team_members tm
+	where p.id = t.project_id
+	and m.id = t.milestone_id (+)
+	and tm.id = t.assignee and nvl(t.is_complete_yn, 'N') = 'N'
+	and upper(tm.username) = upper(:APP_USER)
+	order by t.end_date
 	```
 
 	**Note:** The where the condition of username = :APP_USER restricts the records to those assigned to the person running the application.
@@ -355,7 +351,7 @@ In this lab, you create an interactive grid on the PROJECT_BUDGET table. You alr
 
 8.	In the Developer Toolbar, click Home.
 
-###HOL 5-4 Creating a Faceted Search Page (doesn't work, but use interactive dynamic report): In this hands-on lab, you create and use a Faceted Search Page (2.5 points) - To Be Updated.
+### HOL 5-4 Creating a Faceted Search Page (doesn't work, but use interactive dynamic report): In this hands-on lab, you create and use a Faceted Search Page (2.5 points) - To Be Updated.
 
 In this lab, you create an application by loading the sample EMP / DEPT data. The application includes a faceted search page. You review this report and perform some filtering of the data. Later, you edit the page and modify the facet properties.
 
@@ -478,7 +474,7 @@ This exercise includes two sets of hands-on labs. Both HOL 6-1 and HOL 6-2 utili
     click >= under Functions / Operators. Enter 5330.
 
     Click Apply.
-```
+	```
 	c) The row filter is applied now. Click the Remove Filter icon to remove the filter.
 
 
@@ -664,7 +660,7 @@ Click Apply.
       The primary report is now restored to default settings. The customizations you made to your private reports are available.
 
 
-###HOL 6-2: Customizing an Interactive Report as a Developer: In this lab, as a developer, you customize an interactive report for your end-users (2 points).
+### HOL 6-2: Customizing an Interactive Report as a Developer: In this lab, as a developer, you customize an interactive report for your end-users (2 points).
 
 In this lab, you edit an interactive report in page designer and customize it for end-users.
 
@@ -764,7 +760,7 @@ In this lab, you create an alternative default report for the Demo Proj Team Mem
 
 6.	The alternative default report is now saved for all users. Select Primary Report from the list.
 
-###HOL 6-4: Customizing the Projects Interactive Report: In this lab, as a developer, you modify the source query, create a new column link, and customize the display of the Demo Projects interactive report (2  points).
+### HOL 6-4: Customizing the Projects Interactive Report: In this lab, as a developer, you modify the source query, create a new column link, and customize the display of the Demo Projects interactive report (2  points).
 In this lab, you update the report source query and remove the column link defined on the ID column. Then, you customize the interactive grid by hiding the columns that need not be displayed and creating an aggregation on the Tasks column. You save these customizations for all the users. Navigating back to the page designer, you define a column link on the NAME column.
 
 1.	If you are in the application runtime environment, click Demo Projects in the navigation menu. Then, in the Developer Toolbar, click Edit Page 4.
@@ -877,22 +873,23 @@ In this lab, you modify the interactive grid source query. Then, you customize t
 4.	In the Property Editor, click the Code Editor: SQL Query button, and copy and paste the following SQL:
 
 	```
-select
-"ID",
-"PROJECT_ID",
-"NAME",
-"DESCRIPTION",
-"DUE_DATE",
-"CREATED",
-"CREATED_BY",
-"UPDATED",
-"UPDATED_BY",
-(select count('x')
- from demo_proj_tasks t
- where t.milestone_id = m.id
-) tasks
-from "DEMO_PROJ_MILESTONES" m
+	select
+	"ID",
+	"PROJECT_ID",
+	"NAME",
+	"DESCRIPTION",
+	"DUE_DATE",
+	"CREATED",
+	"CREATED_BY",
+	"UPDATED",
+	"UPDATED_BY",
+	(select count('x')
+	 from demo_proj_tasks t
+	 where t.milestone_id = m.id
+	) tasks
+	from "DEMO_PROJ_MILESTONES" m
 	```
+	
 5.	Click on Validate icon. Then, Click OK.
 
 6.	Click Save and Run Page.
