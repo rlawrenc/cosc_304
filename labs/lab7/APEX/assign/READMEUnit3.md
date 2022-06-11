@@ -4,7 +4,7 @@
 
 ## Unit 3: Creating a Database Application (10 points)
 
-### HOL 3-1 Creating a Database Application from Scratch: In this hands-on-lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
+### HOL 3-1 Creating a Database Application from Scratch: In this hands-on lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
 
 In this lab, you create the initial application using the Create Application wizard to define multiple pages. Now that you have created the underlying tables, you are ready to create a desktop application. You add reports and forms for the tables you created.
 
@@ -105,13 +105,13 @@ Navigate to App Builder and then click Create.
 
 
 
-### HOL 3-2 Creating a Database Application from a Spreadsheet: In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points).
+### HOL 3-2 Creating a Database Application loading data using SQL DDL and DML scripts (not a spreadsheet, because it's blocked by Oracle in the Cloud): In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points).
 
-In this lab, you use a spreadsheet to create a database application.
+In this lab, you use SQL DDL and DML scripts to create a database application.
 
-1.	Navigate to App Builder and click Create.
-2.	Select From a File.
-3.	Navigate to your working directory. Drag budget.csv and drop it into the Load Data dialogue.
+1.	Navigate to SWL Workshop and click SQL Scripts.
+2.	Select From a File [budget_app_tablesYK](budget_app_tablesYK.sql) and press upload button. 
+3.	In the SQL Scripts window find just the uploaded script and run it. 
 4.	Enter Project_Budget for Table Name. 
 
 	Click in the Error Table Name field. Notice that the error table name is automatically populated.
