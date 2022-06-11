@@ -109,29 +109,17 @@ Navigate to App Builder and then click Create.
 
 In this lab, you use SQL DDL and DML scripts to create a database application.
 
-1.	Navigate to SWL Workshop and click SQL Scripts.
-2.	Select From a File [budget_app_tablesYK](budget_app_tablesYK.sql) and press upload button. 
-3.	In the SQL Scripts window find just the uploaded script and run it. 
-4.	Enter Project_Budget for Table Name. 
-
-	Click in the Error Table Name field. Notice that the error table name is automatically populated.
-
-5.	Click Configure. 
-
-	You now see Columns to Load. Verify the data types for each of the columns. For example, make sure that START_DATE and END_DATE columns have DATE Data Type. 
-
-	You do not have any changes to save. Click X to close the Configure dialogue.
-
-6.	Now, click Load Data.
-
-7.	The PROJECT_BUDGET table is created with 73 rows. Now, click Create Application.
-8.	For Name, enter Budget App.
-
-	Notice that the Home, Dashboard, Faceted Search, Interactive Report with Form, and Calendar pages are created by default.
-
-9.	For Features, click Check All. 
-10.	Now, click Create Application.
-11.	Click Run Application.
-12.	Enter your Workspace Username and Password. Click Sign In.
-13.	Your application should look like the screenshot below:
+1.	Navigate to SQL Workshop and click SQL Scripts.
+2.	Select `Upload`, then `Choose File` and then choose the [budget\_app\_tablesYK](budget_app_tablesYK.sql) from the location where you keep assignment files and press the `upload` button and again `upload` button. 
+3.	In the SQL Scripts window find just the uploaded script and run it. Check for errors and then in the same way upload and run the script with the data [budget\_app\data](budget_app_data.sql)
+4.	If you don't have errors after you complete the script, please choose `Create App from Script`.
+5.	Add name `COSC 304, Summer T1 2022, Lab 7 HOL 3-2 Budget App`.
+6.	Now, click `Check All` in Features. Run the `Create Application` button. 
+7.	Press `Create Page` and then choose `Dashboard` and then add Page Name `COSC 304, Summer T1 2022, Lab 7 HOL 3-2 Budget App Dashboard`, `Breadcrumb`, `Home (Page1)` for the Parent Entry > `Create a new Navigation menue entry` choose `Home` >  choose `Grid of 4 Charts` and press `Create`.
+8.	Run the application to see the results.
+9.	Create a new page in the Page Designer, choose `Report` > `Interactive Report` > `Next` >  and add the name `Project Budget Search`, `Breadcrumb`, `Home (Page1)` for the Parent Entry > `Create a new Navigation menue entry` choose `Home` > `Next` > Choose `project_budget (table)` for Table/View Name.  
+10.	Now, click `Create` and run the application to check the results.
+11.	Create a new page in the Page Designer, choose `Report` > `Classic Report` > `Next` >  and add the name `Project Budget Report`, `Breadcrumb`, `Home (Page1)` for the Parent Entry > `Create a new Navigation menue entry` choose `Home` > `Next` > Choose `project_budget (table)` for Table/View Name > `Create`.
+12.	Create a new page in the Page Designer, choose `Calendar` > add page name `Calendar`, `Breadcrumb`, `Home (Page1)` for the Parent Entry, `Administration` for the Page Group > `Create a new Navigation menue entry` choose `Home` > `Next` > Choose `project_budget (table)` for Table/View Name and choose column `Project` > `Start_Date` and `End_Date` for the Start and End Date Columns > `Create`.
+13.	Run your application. Calendar data are from April 2017. 
 14.	Review the Budget App application that you just created. Check out all the pages that were created by default.
