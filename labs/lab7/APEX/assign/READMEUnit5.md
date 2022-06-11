@@ -10,10 +10,10 @@
 
 In the Demo Projects application, you create a report that allows each Team Member to see their outstanding tasks.
 
-1.	View the Dashboard page in the page designer. If you are on the Dashboard page, then click Edit Page <n> in the Developer Toolbar.
+1.	View the Dashboard page in the page designer. If you are on the Dashboard page, click Edit Page <n> in the Developer Toolbar.
 2.	In the Rendering tree, right-click Content Body and select Create Region.
-3.	In the property editor, under Identification, enter My Outstanding Tasks for Title. Select Classic Report for Type.
-4.	In the property editor, under Source, select SQL Query for Type. Then, copy and paste the following code for SQL Query.
+3.	In the property editor, under Identification, enter My Outstanding Tasks for Title—select Classic Report for Type.
+4.	In the property editor, select SQL Query for Type under Source. Then, copy and paste the following code for SQL Query.
 	
 	```
 	select p.name project
@@ -30,11 +30,11 @@ In the Demo Projects application, you create a report that allows each Team Memb
 	order by t.end_date
 	```
 
-	**Note:** The where the condition of username = :APP_USER restricts the records to those assigned to the person running the application.
+	**Note:** The where the username condition = :APP_USER restricts the records to those assigned to the person running the application.
 
 
 5.	In the Property Editor, locate Appearance > Template Options and click Use Template Defaults, Scroll - Default.
-6.	For General, enable Remove Body Padding, and for Body Height select 480px. Click OK.
+6.	For General, enable Remove Body Padding, and for Body Height, select 480px. Click OK.
 7.	Locate the Rendering tree. Under the My Outstanding Tasks region, click Attributes.
 8.	In the Property Editor, under Attributes, locate Appearance > Template Options and click Use Template Defaults, Enable, Enable.
 9.	For General, enable Stretch Report, and for Report Border, select No Outer Borders. Click OK.
@@ -45,9 +45,9 @@ In the Demo Projects application, you create a report that allows each Team Memb
 11.	Your Dashboard (see the MS Word document). 
 12.	In the Developer Toolbar, click Home.
 
-### HOL 5-2 Creating an Interactive Report: In this hands-on lab, you create a new database application and then using the Create Page wizard, you add an interactive report page (2.5 points).
+### HOL 5-2 Creating an Interactive Report: In this hands-on lab, you create a new database application and then, using the Create Page wizard, add an interactive report page (2.5 points).
 
-In this lab, you create an interactive report on the HARDWARE table. You created this table in HOL 2-2. First, you create a database application and then you create the interactive report page.
+In this lab, you create an interactive report on the HARDWARE table. You created this table in HOL 2-2. First, you create a database application and then the interactive report page.
 
 1.	Create a database application. Perform the following steps:
 
@@ -91,7 +91,7 @@ In this lab, you create an interactive grid on the PROJECT_BUDGET table. You alr
 
 1.	Navigate to App Builder. Select Budget App. If you are in the View Report mode, select Budget App under Name.
 2.	Click Create Page.
-3.	Select Report and on the next page select Interactive Grid.
+3.	Select Report and on the next page, select Interactive Grid.
 4.	For Page Attributes, Enter Project Budget Interactive Grid for Page Name and click Next.
 5.	For Navigation Menu:
 
@@ -111,46 +111,25 @@ In this lab, you create an interactive grid on the PROJECT_BUDGET table. You alr
 
 8.	In the Developer Toolbar, click Home.
 
-### HOL 5-4 Creating a Faceted Search Page (doesn't work, but use interactive dynamic report): In this hands-on lab, you create and use a Faceted Search Page (2.5 points) - To Be Updated.
+### HOL 5-4 Creating a Faceted Search Page (doesn't work, but use interactive report (default in APEX V19.1), as we discussed during the lectures): In this hands-on lab, you create and use an interactive report (but not Faceted Search Page) (2.5 points).
 
-In this lab, you create an application by loading the sample EMP / DEPT data. The application includes a faceted search page. You review this report and perform some filtering of the data. Later, you edit the page and modify the facet properties.
+In this lab, you create an application by loading the sample EMP / DEPT data. The application includes an interactive report search page. You review this report and perform some filtering of the data. Later, you edit the page and modify the facet properties.
 
 
 1.	Navigate to your Workspace home page. Navigate to SQL Workshop > Utilities > Sample Datasets.
+2.	Click Install for EMP / DEPT. This installs the generic EMP and DEPT tables.
 3.	Click Next.
 4.	Click Install Dataset.
 5.	Click Create Application.
-6.	Enter Employees Search App for Name.
+6.	Enter "Employees Search App COSC 304 Summer T1 2022 Youry Group Number <your team members names>" for Name.
 
 	Click Create Application.
 
 7.	The application is now successfully created. Click Run Application.
 8.	Login using your Workspace username and password.
-9.	In the left navigation menu, click Employees. The faceted search page is displayed.
-10.	Under Manager, select the King checkbox. Notice that the report is filtered and refreshed. Notice that based on this selection, values for other facets are also adjusted.
-11.	Click Clear to remove the filter.
-12.	Now, under Job, select CLERK. Then, under Salary, select 900 – 1300. Notice that the report is filtered and refreshed.
+9.	In the Action drop-down menu choose Filter. In Filter select in Column Ename, Operator contains. 
+10.	Add King in Expression: Mgr. The Employees Interactive Report search page is displayed (three Enames: Blake, Clark, Jones).
+11.	Click the filter check box with "Mgr contains 'King'" to  Clear to remove the filter.
+12.	Now, do the same for Job, select CLERK. Then, add a new filter Salary in the Actions and choose Column Sal, Operator between, Expression between  950 – 1300. Notice that the report is filtered and refreshed (you will see Adams, James, Miller).
 13.	Click Clear for both Salary and Job.
-14.	In the Developer Toolbar, click Edit Page 3.
-15.	Under Rendering, expand Facets and select P3_MGR.
-16.	In the property editor, navigate to List Entries and click to enable Client-side Filtering and Show Selected First.
-
-	Click Save and Run Page.
-
-17.	Under Manager, select KING. Notice that the report is filtered and refreshed.  Also, under the Manager facet, you see KING appears first.
-18.	Click Clear for Manager.
-19.	Under Manager, enter K in the Filter Manager box. Notice that the facets’ values are updated.
-
-Then enter I and see that the values are further refreshed. 
-
-20.	Clear the Filter Manager text box.
-21.	In the Developer Toolbar, click Edit Page 3.
-22.	Under Rendering, expand Facets and select P3_SAL.
-24.	In the Static Values dialogue, adjust the display and return values and click OK.
-
-	•	Display Value: 900 – 1500 ;  Return Value: 900|1500
-
-	•	Display Value: 1500 – 2000 ; Return Value: 1500|2000
-
-25.	Click Save and Run Page.
-26.	On the report page, scroll down to the Salary facet. Notice that the range values are now updated.
+14. That's it. Please skip all other tasks related to the Faceted Search. 
