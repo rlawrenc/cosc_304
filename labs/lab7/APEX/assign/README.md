@@ -7,7 +7,7 @@
 ### HOL 3-1 Creating a Database Application from Scratch: In this hands-on lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
 
 
-### HOL 3-2 Creating a Database Application loading data using SQL DDL and DML scripts (not a spreadsheet, because it's blocked by Oracle in the Cloud): In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points). (5 points).
+### HOL 3-2 Creating a Database Application loading data using SQL DDL and DML scripts (not a spreadsheet, because it's blocked by Oracle in the Cloud): In this hands-on lab, you will use a spreadsheet to create a database Web application, Budget App. You do not extend this application but will use it in a later exercise (5 points).
 
 
 ## [Unit 4:](READMEUnit4.md) Managing Pages in Page Designer (10 points)
