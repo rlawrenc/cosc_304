@@ -4,7 +4,7 @@
 
 ## Unit 3: Creating a Database Application (10 points)
 
-### HOL 3-1 Creating a Database Application from Scratch: In this hands-on-lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
+### HOL 3-1 Creating a Database Application from Scratch: In this hands-on lab, you will create a database Web application, Demo Projects. You will extend and improve this application later (5 points)
 
 In this lab, you create the initial application using the Create Application wizard to define multiple pages. Now that you have created the underlying tables, you are ready to create a desktop application. You add reports and forms for the tables you created.
 
@@ -15,7 +15,7 @@ Generally, when developing an application, you will not know all of the pages re
 1.	Using the Create Application Wizard, create the Demo Projects application. 
 Navigate to App Builder and then click Create.
 2.	You want to create a new application. Click New Application.
-3. For Name, enter Demo Projects. For Appearance, click the Set Appearance icon.
+3. For Name, enter "COSC 304 Summer T1 2022 Demo Projects Goup \<your group number and your team member names\>". For Appearance, click the Set Appearance icon.
 4. In the Appearance dialogue, perform the following steps:
 
 	a)	For Theme Style, select Vita – Red.
