@@ -18,3 +18,5 @@
 ### Unit 10: Adding Computations, Processes, and Validations (8 points)
 
 #### HOL 10-1 Implementing Validations on the Maintain Project Page: In this lab, you create and use validations on the Maintain Project page (2 points).#### HOL 10-2 Creating and Using a Computation: In this lab, you create a computation that changes the value of a field entered using the form to uppercase after the page is submitted (2 points).#### HOL 10-3 Creating and Using a Process: This lab covers creating an After Submit process on the Project Budget form page (2 points).#### HOL 10-4 Creating and Using Validations: In this hands-on lab, you create a not null validation and a validation to ensure that the item is numeric (2 points).
+
+**Submission requirements:** Please submit an MS Word or PDF file with your screenshots. 

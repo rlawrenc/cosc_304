@@ -146,3 +146,5 @@ Click Save.
 28.	In the Report – Save As dialogue, select Private for Type. Enter My Custom Report for Name. Then, click Save.
 
 29.	The report is now saved under Private in the Reports drop-down list. Click the Grid icon.
+
+**Submission requirements:** Please submit an MS Word or PDF file with your screenshots. 
