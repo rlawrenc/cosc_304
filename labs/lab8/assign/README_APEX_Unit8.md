@@ -5,7 +5,7 @@
 ## Project Requirements (25 marks):
 
 
-### Unit 8: Creating and Using Forms (5 points)
+### Unit 8: Creating and Using Forms (6 points)
 
 #### HOL 8-1 Updating the Form Pages in the Demo Projects Application: In this hands-on lab, you update the default form pages in the Demo Projects application (3 points).
 In the Demo Projects application, you create a report that allows each Team Member to see their outstanding tasks.
@@ -56,7 +56,7 @@ Then, click the Edit icon (pencil) next to a team member's name to view the moda
 
 19.	Scroll down to Navigation and select the First item on the page for Cursor Focus.
 Then, click Save.
-	#### HOL 8-2 Creating a Form on a Table and Linking a Report: In this hands-on lab, you create a form on the PROJECT_BUDGET table. Then, you create a classic report on the PROJECT_BUDGET table and link this report to the form. This lab utilizes the Budget App application (2 points).
+	#### HOL 8-2 Creating a Form on a Table and Linking a Report: In this hands-on lab, you create a form on the PROJECT_BUDGET table. Then, you create a classic report on the PROJECT_BUDGET table and link this report to the form. This lab utilizes the Budget App application (3 points).
 
 You first create a classic report on the PROJECT_BUDGET table in this lab. Then, you create a form on the PROJECT_BUDGET table. Finally, you link the classic report to the form.
 
