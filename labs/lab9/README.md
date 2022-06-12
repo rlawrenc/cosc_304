@@ -10,7 +10,7 @@ An XML document is **well-formed** if it obeys the syntax of the XML standard.  
 
 **XPath** allows specifying path expressions to navigate the tree-structured XML document. Path descriptors are sequences of tags separated by slashes `/`. The `*` wild card operator can be used to denote any single tag. Attributes are referenced by putting a `@` in front of their name. A predicate expression is specified inside square brackets `[..]` following a tag. 
 
-Use the [XML Practice Query Page](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries.
+Use the [XPath Tester - Evaluator](https://www.freeformatter.com/xpath-tester.html) to practice writing some XPath queries.
 
 ### JSON
 
@@ -34,6 +34,6 @@ Triggers are also called event-condition-action (ECA) rules. When an event occur
 
 There are statement level triggers (execute once per statement) and row level triggers (execute once per row). Row level triggers use `FOR EACH ROW` clause. A trigger may fire `BEFORE`, `AFTER`, or `INSTEAD OF` and `INSERT`, `DELETE`, or `UPDATE` event.
 
-Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html) and [SQL Server](http://msdn2.microsoft.com/en-us/library/ms189799.aspx). The trigger syntax varies between database systems.
+Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html) or APEX online [iacademy.oracle.com](https://iacademy.oracle.com/ords/f?p=4550:1:16205704763912:::::). The trigger syntax varies between database systems.
 
-## [Lab 9 Assignment](assign/)
+## [Lab 9 Assignment](assign/README.md)

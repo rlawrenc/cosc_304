@@ -1,0 +1,22 @@
+<root>
+<Dept dno="D2" mgr="E7">
+<name>Consulting</name>
+<Emp eno="E6">
+  <name>L. Chu</name>
+</Emp>
+<Emp eno="E3">
+  <name>A. Lee</name>
+</Emp>
+<budget>350000</budget>
+</Dept>
+<Dept dno="D3" mgr="E9">
+<name>Management</name>
+<Emp eno="E8">
+  <name>R. Davis</name>
+</Emp>
+<Emp eno="E10">
+  <name>John. Smith</name>
+</Emp>
+<budget>450000</budget>
+</Dept>
+</root>

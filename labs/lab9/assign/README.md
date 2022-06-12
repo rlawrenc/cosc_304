@@ -1,39 +1,43 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers
 
-## Question 1 - XPath (3 marks - optional)
+## Question 1 - XPath (3 marks)
 
-Write XPath expressions for the following queries. Use the Depts XML data set and the online [XPath query tool (is down now)](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html). You can use [XPath Tester / Evaluator online tool](https://www.freeformatter.com/xpath-tester.html).
+Write XPath expressions for the following queries. Use the Depts XML data set and the online [XML file for XPath query](Assgn9XMLfile.xml). You can use [XPath Tester / Evaluator online tool](https://www.freeformatter.com/xpath-tester.html).
 
 1. Write an XPath expression that returns all departments with a budget less than $400,000. Output:
 
-```
-<Dept dno="D2" mgr="E7">
-   <name>Consulting</name>
-   <Emp eno="E6">
+	```
+	<Dept dno="D2" mgr="E7">
+   	<name>Consulting</name>
+   	<Emp eno="E6">
       <name>L. Chu</name>
-   </Emp>
-   <Emp eno="E3">
+   	</Emp>
+   	<Emp eno="E3">
       <name>A. Lee</name>
-   </Emp>
-   <budget>350000</budget>
-</Dept>
-```
+   	</Emp>
+   	<budget>350000</budget>
+	</Dept>
+	```
 
 2. Write an XPath expression that returns all employees in the Management department that have a name greater than 'K'. Output:
 
-```
-<Emp eno="E7">
-   <name>R. Davis</name>
-</Emp>
-```
+	```
+	<Emp eno="E7">
+   	<name>R. Davis</name>
+	</Emp>
+	```
 
 3. Write an XPath expression that returns the employee number of the 2nd employee in the Consulting department. Note: To return an attribute use `data()` such as `data(//Dept/@dno)`. Output:
 
-```
-E3
-```
+	```
+	E3
+	```
+	or
 
-## Question 2 - Views (old: 4 marks; new: 6 marks)
+	```
+	UntypedAtomic='E3'
+	```
+## Question 2 - Views (4 marks)
 
 1. Write a CREATE VIEW statement for the workson database called `deptSummary` that has the department number, name, count of employees in the department, and total employee salaries. View contents:
 
@@ -56,13 +60,13 @@ E3
 | E8  | J. Jones | 50000.00 | 1972-10-11 | D1  | 0         | <null>     |
 -------------------------------------------------------------------------
 
-## Question 3 - Triggers (old: 6 marks; new: 9 marks)
+## Question 3 - Triggers (6 marks)
 
-1. Write a trigger on MySQL with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in `workson` table. Increase the budget by `$1,000` times the number of hours worked.
+1. Write a trigger on MySQL or APEX with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in `workson` table. Increase the budget by `$1,000`.
 
-2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
+2. Write a trigger on MySQL or APEX with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
 
 
-## Question 4 - JSON (2 marks - optional)
+## Question 4 - JSON (2 marks)
 
 1. Create a single, valid JSON document that stores the information of the `dept` and `proj` tables in the workson database.
