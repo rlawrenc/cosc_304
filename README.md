@@ -90,10 +90,10 @@ programming and written assignments, and a course project. Course content will b
 | [4](labs/lab4) | June 1 | Assignment 4: Database Design using UML Modeling <strong>[Consent](https://ubc.ca1.qualtrics.com/jfe/form/SV_56kKBoxF28OxHTg)</strong> |
 | [5](labs/lab5) | June 4 | Assignment 5: Converting UML Diagrams into the Relational Model (if you have any questions regarding AutoED, please contact Sarah Foss sarafoss@mail.ubc.ca. login is your first initial and Last name, password is SID)|
 | [6](labs/lab6) | June 8 | Assignment 6: Programming with Java/Python using MySQ/SQL Server (local) or online in APEX (application) |
-| [7](labs/lab7) | June 11 | Assignment 7: Building a Database-enabled Web Site using JSP/PHP (locally) or online in APEX |
-| [8](labs/lab8) | June 15 | Assignment 8: Images, Security, and Transactions |
+| [7](labs/lab7) | June 11 | Assignment 7: Building a Database-enabled Web Site using JSP/PHP (locally) or online in APEX (Unit 3-6: CreatingDBApplication, ManagingPages, DevelopingReports, InteractiveReports, CustomizInteractiveGrids) |
+| [8](labs/lab8) | June 15 | Assignment 8: Building a Database-enabled Web Site: Images, Security, and Transactions using JSP/PHP (locally) or online in APEX (Unit 7-10: CreatingUsingForms, CreatingApplPageControls, AddingComputProcessValidations) |
 | [9](labs/lab9) | June 18 | Assignment 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | June 22 | Assignment 10: Project Completion (local version) or online in APEX|
+| [10](labs/lab10) | June 22 | Assignment 10: Project Completion (local version) or online in APEX (Unit 11-14: NavigationInApplication, ThemesStyles, Security, AdditionalPages)|
 |||* The project will be in Assignments 5, 7, 8, and 10.|
 
 ## Grading Practices

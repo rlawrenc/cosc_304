@@ -6,11 +6,11 @@ Images can be stored in the database, on the web server file system, or on a clo
 
 ### Security
 
-Security in SQL is based on authorization identifiers, ownership, and privileges. An authorization identifier (or user id) is associated with each user as well as a password. The authorization identifier is used to determine which database objects the user has access to.
+Security in SQL is based on authorization identifiers, ownership, and privileges. An authorization identifier (or user-id) is associated with each user as well as a password. The authorization identifier is used to determine which database objects the user has access to.
 
 Privileges give users the right to perform operations on database objects.  Some example privileges:
-- `SELECT` - the user can retrieve data from table
-- `INSERT` - the user can insert data into table
+- `SELECT` - the user can retrieve data from the table
+- `INSERT` - the user can insert data into the table
 - `UPDATE` - the user can modify data in the table
 - `DELETE` - the user can delete data (rows) from the table
 
@@ -51,4 +51,5 @@ In SQL, a transaction begins implicitly. A transaction in SQL ends by:
 There are two options for supporting transactions in Java code. If the entire transaction can be expressed in one SQL string, you can just send the entire transaction as a single string and call `statement.execute(SQLString)`.  However, it is more common that a transaction will consist of a sequence of SQL statements, but you want to have Java code actions in between.  For instance, consider if what you wanted to do was fix an order total for an order.  To do this, you would calculate the order total and check if it does not match the required total, then update the order total if required.  In JDBC, each statement you execute is a transaction.  You must turn auto-commit off if you want to have transactions that have more than one statement.  Sample code for transactions is in the file [JdbcTransactions.java](code/JdbcTransactions.java).
 
 
-## [Lab 8 Assignment](assign/)
+## [Lab 8 APEX Assignment](assign/README_APEX.md) — Preferable
+## [Lab 8 JAVA/PHP Assignment](assign/)
