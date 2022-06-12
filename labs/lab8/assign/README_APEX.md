@@ -1,5 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): Unit 7-10: CreatingUsingForms, CreatingApplPageControls, AddingComputProcessValidations
 
+**General Note:** To get points for your submissions, each new page and project must have your group number, your team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit <number>, HOL <number>.
 
 ## Project Requirements (25 marks):
 
