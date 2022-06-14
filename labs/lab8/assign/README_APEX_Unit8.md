@@ -1,11 +1,9 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): Unit 7-10: CreatingUsingForms, CreatingApplPageControls, AddingComputProcessValidations
+# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): 
 
-**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit <number>, HOL <number>.
+## Unit 8: Creating and Using Forms. See more information here: [hol08CreatingUsingForms.docs](https://canvas.ubc.ca/courses/95492/modules/items/4509669) (6 points)
 
-## Project Requirements (25 marks):
+**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit \<number\>, HOL \<number>\.
 
-
-### Unit 8: Creating and Using Forms (6 points)
 
 #### HOL 8-1 Updating the Form Pages in the Demo Projects Application: In this hands-on lab, you update the default form pages in the Demo Projects application (3 points).
 In the Demo Projects application, you create a report that allows each Team Member to see their outstanding tasks.

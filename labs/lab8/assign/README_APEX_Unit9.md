@@ -1,10 +1,9 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): Unit 7-10: CreatingUsingForms, CreatingApplPageControls, AddingComputProcessValidations
+# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): 
 
+### Unit 9: Creating Application Page Controls. For more information see[hol09CreatingApplPageControls.docx](https://canvas.ubc.ca/courses/95492/modules/items/4509675) (4 points)
 
-## Project Requirements (25 marks):
+**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit \<number\>, HOL \<number>\.
 
-
-### Unit 9: Creating Application Page Controls (4 points)
 
 #### HOL 9-1 Updating the Team Members Pages: In this hands-on lab, you update the page items on the form and create a new collapsible sub-region to include the audit details (3 points).In this lab, you update the page items on the form page. You create an Audit Details collapsible sub-region on the form page. You make the form page visually appealing. This lab also covers updating the button properties and adjusting the button display on the interactive report.
 
@@ -59,9 +58,9 @@ Click Save.
 	Notice the Add Team Member button.
 
 	Select a team member’s record in the report to view the improved modal dialogue.
-#### HOL 9-2 Updating the Projects Pages: In this hands-on lab, you update the page items on the form and create a new collapsible sub-region by copying it from another page in the application. You will also create and use a dynamic list of values (skipped, because the `List of Values` feature is not available in this version).#### HOL 9-3 Updating the Milestones Pages: This hands-on lab covers updating item properties and creating and using a dynamic and static list of values (skipped, because the `List of Values` feature is not available in this version).
+#### HOL 9-2 Updating the Projects Pages: In this hands-on lab, you update the page items on the form and create a new collapsible sub-region by copying it from another page in the application. You will also create and use a dynamic list of values (skipped because the `List of Values` feature is unavailable in this version).#### HOL 9-3 Updating the Milestones Pages: This hands-on lab covers updating item properties and creating and using a dynamic and static list of values (skipped because the `List of Values` feature is unavailable in this version).
 
-#### HOL 9-4 Updating the Tasks Pages: In this hands-on lab, you create a new page item, update existing items on the form, and create a collapsible sub-region. You will also use the list of values created as shared components (skipped, because the `List of Values` feature is not available in this version).
+#### HOL 9-4 Updating the Tasks Pages: In this hands-on lab, you create a new page item, update existing items on the form, and create a collapsible sub-region. You will also use the list of values created as shared components (skipped because the `List of Values` feature is unavailable in this version).
 
 
 

@@ -1,0 +1,12 @@
+Midterm II Practice Q8 result
+
+Dno	Eno&total Employees	Ename&name	Salary&Total Salary
+D1   	E7   	R. Davis	40000
+D1   	E8   	J. Jones	50000
+D1   	2	Management	90000
+D2   	E6   	L. Chu	30000
+D2   	E3   	A. Lee	40000
+D2   	2	Consulting	70000
+D3   	E5   	B. Casey	50000
+D3   	E2   	M. Smith	50000
+D3   	2	Accounting	100000

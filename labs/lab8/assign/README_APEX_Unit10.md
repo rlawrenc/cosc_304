@@ -1,9 +1,9 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): Unit 7-10: CreatingUsingForms, CreatingApplPageControls, AddingComputProcessValidations
+# COSC 304 - Introduction to Database Systems<br>Lab 8 (APEX): 
+### Unit 10: Adding Computations, Processes, and Validations. For more information see[hol10AddingComputProcessValidations.docx](https://canvas.ubc.ca/courses/95492/modules/items/4509668) (9 points)
+
+**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit \<number\>, HOL \<number>\.
 
 
-## Project Requirements (25 marks):
-
-### Unit 10: Adding Computations, Processes, and Validations (9 points)
 
 #### HOL 10-1 Implementing Validations on the Maintain Project Page: You create and use validations on the Maintain Project page (3 points) in this lab.
 
