@@ -125,7 +125,9 @@ Right-click Validating and select Create Validation.
     constraint  "AUDIT_DETAILS_PK" primary key ("ID")
 )
 	```
-	
+
+	**Note:** In my case the table was already created. You don't need to recreate it now. 
+
 	c) The table is created. Now, navigate to the window or tab of the Budget App application runtime  
     environment.
     
@@ -144,6 +146,8 @@ Navigate to Processing, right-click Processes and select Create Process.
       INSERT INTO audit_details VALUES(:P5_ID,:APP_USER,
       sysdate);
 	```
+	**Note** Please use the correct variable for the page. In my case I had Page 5, but not 4. In my case I had to use VALUES(:P4_ID,:APP_USER, sysdate); — not :P5_ID
+	
 	- Execution Options > Sequence: Enter 40
 	- Success Message > Success Message: Enter Success!
 	- Error > Error Message: Enter Error!
@@ -160,8 +164,8 @@ Navigate to Processing, right-click Processes and select Create Process.
 7.	In the Budget dialog, enter values for each of the fields and click Create.
 	- Project: New Packaged App
 	- Task Name: Prepare requirements doc
-	- Start Date: 11/1/2019
-	- End Date: 11/25/2019
+	- Start Date: 11/1/2019 (I used different format 01-Nov-19)
+	- End Date: 11/25/2019 (I used different format 25-Nov-19)
 	- Status: Open
 	- Assigned To: Pam King
 	- Cost: 500
@@ -193,7 +197,7 @@ Right-click Validating and select Create Validation.
 3.	In the property editor:
 	- Identification > Name: Enter Project is not null
 	- Validation > Type: Select Item is NOT NULL
-	- Validation > Item: Select P5_PROJECT
+	- Validation > Item: Select P5_PROJECT (In my case I used P4_PROJECT, because it was page 4)
 	- Error > Error Message: Enter Project is not null!
 	- Error > Display Location: Select Inline in Notification
 
