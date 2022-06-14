@@ -2,7 +2,7 @@
 #Lab 8 (APEX): Part 1 (out of 4) — Unit 7: Managing and Customizing Interactive Grids. See [hol07CustomizInteractiveGrids.docx](https://canvas.ubc.ca/courses/95492/files/21214371?module_item_id=4509676) for more information (6 points)
 
 
-**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit <number>, HOL <number>.
+**General Note:** To get points for your submissions, each new page and project must have your group number, team member names, and the following text: COSC 304, Summer T1 2022, Lab 8 Assignment, Unit \<number\>, HOL \<number\>.
 
 
 #### HOL 7-1: Customizing an Interactive Grid as a Developer: In this lab, you customize the Project Budget Interactive Grid for your end-users (3 points).This lab uses the Budget App application. In this lab, you customize the interactive grid for end users. You create column groups, set pagination type, and set the report downloadable formats that should be available for end-users. You also enable end-users to save the report as Public interactive grids and convert a read-only interactive grid to an editable one.
