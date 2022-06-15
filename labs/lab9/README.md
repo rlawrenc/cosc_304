@@ -36,4 +36,11 @@ There are statement level triggers (execute once per statement) and row level tr
 
 Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html) or APEX online [iacademy.oracle.com](https://iacademy.oracle.com/ords/f?p=4550:1:16205704763912:::::). The trigger syntax varies between database systems.
 
+**Sample Oracle code**
+
+```
+-- Trigger Demo: update salary in emp table for all employees by 10% 
+-- with $10,000+ in the same group create or replace  TRIGGER updateTopSalary	BEFORE INSERT ON emp	FOR EACH ROW	BEGIN     IF :NEW.salary > 10000 THEN       update emp SET salary = (SELECT max(salary) FROM emp 
+       WHERE emp.title = :NEW.title)*1.1 where emp.title = :NEW.title;     END IF;   END;--Test code:select * from  emp;insert into emp (eno, ename, title, salary) VALUES ('E11', 'J. Smith', 'ME', 10001);select * from  emp;delete from emp where eno = 'E11';
+```
 ## [Lab 9 Assignment](assign/README.md)
