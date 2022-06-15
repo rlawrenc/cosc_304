@@ -40,7 +40,24 @@ Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/5.7/en/creat
 
 ```
 -- Trigger Demo: update salary in emp table for all employees by 10% 
--- with $10,000+ in the same group create or replace  TRIGGER updateTopSalary	BEFORE INSERT ON emp	FOR EACH ROW	BEGIN     IF :NEW.salary > 10000 THEN       update emp SET salary = (SELECT max(salary) FROM emp 
-       WHERE emp.title = :NEW.title)*1.1 where emp.title = :NEW.title;     END IF;   END;--Test code:select * from  emp;insert into emp (eno, ename, title, salary) VALUES ('E11', 'J. Smith', 'ME', 10001);select * from  emp;delete from emp where eno = 'E11';
+-- in the same group when we hire somebody with a salary $10,000+
+
+create or replace  TRIGGER updateTopSalary
+	BEFORE INSERT ON emp
+	FOR EACH ROW
+	BEGIN
+     IF :NEW.salary > 10000 THEN
+       update emp SET salary = 
+       (SELECT max(salary) FROM emp WHERE emp.title = :NEW.title)*1.1 
+       where emp.title = :NEW.title;
+     END IF;
+   END;
+
+--Test code:
+
+select * from  emp;
+insert into emp (eno, ename, title, salary) VALUES ('E11', 'J. Smith', 'ME', 10001);
+select * from  emp;
+delete from emp where eno = 'E11';
 ```
 ## [Lab 9 Assignment](assign/README.md)
