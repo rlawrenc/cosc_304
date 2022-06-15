@@ -2,7 +2,7 @@
 
 Modify your existing project web site from lab 7 with new features including a product detail page, a login feature, an administrator page, and support for transactions.
 
-## Project Requirements (5 marks)
+## Project Requirements (25 marks)
 
 1. [Sample web site (is down now)](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
@@ -16,11 +16,11 @@ The product page will show details on the product including images. An image can
 
 #### Marking Guide (product page): (5 marks)
 
-- **+5 marks** - for modifying product listing page to go to product detail page when click on product name
-- **+3 marks (optional)** - for using PreparedStatement to retrieve and display product information by id
-- **+2 marks (optional)** - for displaying an image using an HTML `img` tag based on `productImageURL` field
-- **+5 marks (optional)** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
-- **+5 mark** - for adding link to "add to cart" and to "continue shopping"
+- **+1 mark1** - for modifying product listing page to go to product detail page when click on product name
+- **+1 mark1** - for using PreparedStatement to retrieve and display product information by id
+- **+1 mark1** - for displaying an image using an HTML `img` tag based on `productImageURL` field
+- **+1 mark1** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
+- **+1 mark** - for adding link to "add to cart" and to "continue shopping"
 
 #### Screenshot
 
@@ -29,9 +29,9 @@ The product page will show details on the product including images. An image can
 #### Marking Guide (admin and login page): (5 marks)
 
 - **+1 mark** - for checking user is logged in before accessing page
-- **+2 marks** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
+- **+2 mark** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
 - **+1 mark** - for displaying current user on main page (`index.jsp/php`)
-- **+2 marks** - for modifying `validateLogin` to check correct user id and password
+- **+1 mark** - for modifying `validateLogin` to check correct user id and password
 
 #### Screenshot
 
@@ -39,8 +39,8 @@ The product page will show details on the product including images. An image can
 
 #### Marking Guide (customer page): (5 marks)
 
-- **+1 mark** - for displaying error message if attempt to access page and not logged in
-- **+4 marks** - for retrieving customer information by id and displaying it
+- **+2 marks** - for displaying error message if attempt to access page and not logged in
+- **+3 marks** - for retrieving customer information by id and displaying it
 
 #### Screenshot
 
@@ -50,11 +50,11 @@ The product page will show details on the product including images. An image can
 
 Use transactions to take an order id and either process a shipment and ship all items or generate an error.
 
-- **+2 mark** - verifying order id exists and is associated with a valid order with items
-- **+2 mark** - for checking if sufficient inventory from warehouse 1 for each item in order
-- **+2 mark** - for inserting a new shipment record
-- **+2 mark** - for updating inventory for each item in shipment
-- **+2 mark** - for commit of updates if all items had sufficient inventory or performing rollback if any items did not have enough inventory
+- **+1 mark** - verifying order id exists and is associated with a valid order with items
+- **+1 mark** - for checking if sufficient inventory from warehouse 1 for each item in order
+- **+1 mark** - for inserting a new shipment record
+- **+1 mark** - for updating inventory for each item in shipment
+- **+1 mark** - for commit of updates if all items had sufficient inventory or performing rollback if any items did not have enough inventory
 
 #### Screenshot - Test with OrderId = 1
 
