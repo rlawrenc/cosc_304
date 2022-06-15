@@ -14,12 +14,12 @@ Modify your existing project web site from lab 7 with new features including a p
 
 The product page will show details on the product including images. An image can be retrieved from a local folder using a URL or stored as a binary object in the database.
 
-#### Marking Guide (product page): (5 marks)
+#### Marking Guide (product page): (10 marks)
 
-- **+1 mark1** - for modifying product listing page to go to product detail page when click on product name
-- **+1 mark1** - for using PreparedStatement to retrieve and display product information by id
-- **+1 mark1** - for displaying an image using an HTML `img` tag based on `productImageURL` field
-- **+1 mark1** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
+- **+1 mark** - for modifying product listing page to go to product detail page when click on product name
+- **+3 mark** - for using PreparedStatement to retrieve and display product information by id
+- **+2 mark** - for displaying an image using an HTML `img` tag based on `productImageURL` field
+- **+3 mark** - for displaying an image from the binary field `productImage` by providing an `img` tag and modifying the `displayImage.jsp/php` file.
 - **+1 mark** - for adding link to "add to cart" and to "continue shopping"
 
 #### Screenshot
@@ -29,9 +29,9 @@ The product page will show details on the product including images. An image can
 #### Marking Guide (admin and login page): (5 marks)
 
 - **+1 mark** - for checking user is logged in before accessing page
-- **+2 mark** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
-- **+1 mark** - for displaying current user on main page (`index.jsp/php`)
-- **+1 mark** - for modifying `validateLogin` to check correct user id and password
+- **+2 marks** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
+- **+1 marks** - for displaying current user on main page (`index.jsp/php`)
+- **+2 marks** - for modifying `validateLogin` to check correct user id and password
 
 #### Screenshot
 
@@ -39,8 +39,8 @@ The product page will show details on the product including images. An image can
 
 #### Marking Guide (customer page): (5 marks)
 
-- **+2 marks** - for displaying error message if attempt to access page and not logged in
-- **+3 marks** - for retrieving customer information by id and displaying it
+- **+1 mark** - for displaying error message if attempt to access page and not logged in
+- **+4 marks** - for retrieving customer information by id and displaying it
 
 #### Screenshot
 
