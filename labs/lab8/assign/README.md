@@ -1,8 +1,8 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8: Images (optional), Security (optional), and Transactions
+# COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
 
 Modify your existing project web site from lab 7 with new features including a product detail page, a login feature, an administrator page, and support for transactions.
 
-## Project Requirements (25 marks)
+## Project Requirements (5 marks)
 
 1. [Sample web site (is down now)](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
@@ -14,7 +14,7 @@ Modify your existing project web site from lab 7 with new features including a p
 
 The product page will show details on the product including images. An image can be retrieved from a local folder using a URL or stored as a binary object in the database.
 
-#### Marking Guide (product page): (10 marks)
+#### Marking Guide (product page): (5 marks)
 
 - **+5 marks** - for modifying product listing page to go to product detail page when click on product name
 - **+3 marks (optional)** - for using PreparedStatement to retrieve and display product information by id
@@ -26,7 +26,7 @@ The product page will show details on the product including images. An image can
 
 <img src="img/productPage.png" width="300">
 
-#### Marking Guide (admin and login page - optional): (0 marks)
+#### Marking Guide (admin and login page): (5 marks)
 
 - **+1 mark** - for checking user is logged in before accessing page
 - **+2 marks** - for displaying a report that list the total sales for each day. Hint: May need to use date functions like `year`, `month`, `day`.
@@ -37,7 +37,7 @@ The product page will show details on the product including images. An image can
 
 <img src="img/adminPage.png" width="300">
 
-#### Marking Guide (customer page - optional): (0 marks)
+#### Marking Guide (customer page): (5 marks)
 
 - **+1 mark** - for displaying error message if attempt to access page and not logged in
 - **+4 marks** - for retrieving customer information by id and displaying it
@@ -46,7 +46,7 @@ The product page will show details on the product including images. An image can
 
 <img src="img/customerPage.png" width="300">
 
-#### Marking Guide (shipment page): (10 marks)
+#### Marking Guide (shipment page): (5 marks)
 
 Use transactions to take an order id and either process a shipment and ship all items or generate an error.
 
@@ -64,4 +64,4 @@ Use transactions to take an order id and either process a shipment and ship all 
 
 <img src="img/shipOrder3.png" width="300">
 
-#### Please upload a video clip for about 3-4 minutes demonstrating your working pages with the new features for the marking purposes: (5 marks)
+#### Please upload a video clip for about 3-4 minutes demonstrating your working pages with the new features for the marking purposes.
