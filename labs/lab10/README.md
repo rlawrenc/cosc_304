@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 10: Project Completion
+# COSC 304 - Introduction to Database Systems<br>Lab 10: Project Completion  (50 marks)
 
-## (Option 1) Final Project Deliverable (50 marks + up to 20 bonus marks)
+## (Option 1) Final Project Deliverable
 
 Complete your project by adding more features. Use the [list of features with points](projectFeatureMarking30Nov2021.pdf) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 20 bonus marks if you get 70 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough are very important for markers to test your website.
 
@@ -17,9 +17,10 @@ Complete your project by adding more features. Use the [list of features with po
 
 5. [List of features with points](projectFeatureMarking.pdf) ([Word version](projectFeatureMarking.docx)) must be included when submitting your documentation. 
 
-## (Option 2) Final Project Tasks (APEX only):
+## (Option 2) Final Project Tasks in APEX:
 
 ### [Unit 11: Implementing Navigation in your Application](README_Unit11.md)
 ### [Unit 12: Using Themes and Theme Styles](README_Unit12.md)
 ### [Unit 13: Implementing Security in your Application](README_Unit13.md)
 ### [Unit 14: Adding Additional Pages to your Application](README_Unit14.md)
+### [Unit 15: Creating and Using Dynamic Actions and Plug-ins](README_Unit15.md)
