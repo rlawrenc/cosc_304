@@ -20,6 +20,6 @@ Complete your project by adding more features. Use the [list of features with po
 ## (Option 2) Final Project Tasks (APEX only):
 
 ### [Unit 11: Implementing Navigation in your Application](README_Unit11.md)
-### Unit 12: Using Themes and Theme Styles
+### [Unit 12: Using Themes and Theme Styles](README_Unit12.md)
 ### Unit 13: Implementing Security in your Application
 ### Unit 14: Adding Additional Pages to your Application
