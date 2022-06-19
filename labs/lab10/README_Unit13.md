@@ -63,7 +63,9 @@ where upper(username) = upper(:APP_USER)
 
 	Click Apply Changes.
 
-9.	In order to test the authorization scheme, it is necessary to create a new user account.
+9.	 In order to test the authorization scheme, it is necessary to create a new user account (**Skip the testing ##9-14, because Oracle disabled new users**).
+
+	**Note:** I keep the following steps for consistency and if you want to test it using your own Oracle APEX installation.  
 
 	In the Application Express toolbar, click Administration, identified by a user icon with a spanner, then select Manage Users and Groups.
 
