@@ -63,10 +63,10 @@ where upper(username) = upper(:APP_USER)
 
 	Click Apply Changes.
 
-9.	 In order to test the authorization scheme, it is necessary to create a new user account (**Skip the testing ##9-14, because Oracle disabled new users**).
+9.	 In order to test the authorization scheme, it is necessary to create a new user account.
 
-	**Note:** I keep the following steps for consistency and if you want to test it using your own Oracle APEX installation.  
-
+ **You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment:** CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: "cHqOR52%".
+ 
 	In the Application Express toolbar, click Administration, identified by a user icon with a spanner, then select Manage Users and Groups.
 
 10.	Click Create User.
@@ -148,6 +148,8 @@ If you are already logged in, then click Sign Out to perform the next step.
 
 In this hands-on lab, you first create an access control page and set the application mode to restrict access. Then, you create the access control list and assign the Budget App application components to an authorization scheme.
 
+**Notes:** You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment: CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: "cHqOR52%".
+
 1.	If you are in the application runtime environment, switch to the window or tab for App Builder environment.
 
 2.	In the Application Express toolbar, click Administration and select Manage Users and Groups.
@@ -163,7 +165,7 @@ In this hands-on lab, you first create an access control page and set the applic
 4.	Enter the following information and click Create and Create Another.
 
 	- Username: apex_admin
-	- Email Address: apex.admin@oracle.com
+	- Email Address: <<your@email.address>>
 	- Select Yes for User is a workspace administrator
 	- Password: apexadmin123$
 	- Confirm Password: apexadmin123$
@@ -174,7 +176,7 @@ In this hands-on lab, you first create an access control page and set the applic
 
 
 	- Username: apex_dev
-	- Email Address: apex.dev@oracle.com
+	- Email Address: <<your@email.address>>
 	- Select No for User is a workspace administrator
 	- Select Yes for User is a developer
 	- Password: apexdev123$
@@ -186,7 +188,7 @@ In this hands-on lab, you first create an access control page and set the applic
 6.	Enter the following information and click Create User.
 
 	- Username: apex_user
-	- Email Address: apex.user@oracle.com
+	- Email Address: <<your@email.address>>
 	- Select No for User is a workspace administrator
 	- Select No for User is a developer
 	- Password: lowcode123$
