@@ -2,18 +2,23 @@
 
 ## Unit 13: Implementing Security in your Application
 
-Application security is very important in the majority of applications, except for "Public" applications. You must ensure users enter valid credentials, generally username and password (Authentication), and that once logged in that each user has appropriate rights within the application (Authorization).
-This exercise includes three hands-on-labs.
+Application security is very important in most applications, except for "Public" applications. You must ensure users enter valid credentials, generally username and password (Authentication), and that once logged in, each user has appropriate rights within the application (Authorization).
+This exercise includes three hands-on labs.
 
 - HOL 13-1 uses the Demo Projects application.
 - HOL 13-2 and 13-3 use the Budget App application.
 
 
-- HOL 13-1 Creating and Using an Authorization Scheme: In this lab, you create an authorization scheme to ensure only people entered as Team Members can log into the Demo Projects application. You also create a user and verify if the user can access the application.
+### HOL 13-1 Creating and Using an Authorization Scheme: 
+In this lab, you create an authorization scheme to ensure only people entered as Team Members can log into the Demo Projects application. You also create a user and verify if the user can access the application.
 
-- HOL 13-2 Creating and Using an Authentication Scheme: In this hands-on lab, you create an Open Door Credentials authentication scheme and make it current. You test the authentication scheme and then switch back to the default Application Express Authentication scheme.
+### HOL 13-2 Creating and Using an Authentication Scheme: 
+In this hands-on lab, you create an Open Door Credentials authentication scheme and make it current. You test the authentication scheme and switch back to the default Application Express Authentication scheme.
 
-- HOL 13-3 Controlling User Access by Using the Access Control Administration: In this hands-on lab, you create three different users as Administrator, Developer and End User. You create an Access Control Administration page, set the application mode to restrict access and add these users to the Access Control list. Finally, you apply the authorization scheme to pages and verify if users are allowed or denied access.
+### HOL 13-3 Controlling User Access by Using the Access Control Administration: 
+In this hands-on lab, you create three different users Administrator, Developer and End User. You create an Access Control Administration page, set the application mode to restrict access and add these users to the Access Control list. Finally, you apply the authorization scheme to pages and verify if users are allowed or denied access.
+
+++++++++++
 
 ### HOL 13-1: Creating and Using an Authorization Scheme
 
@@ -41,11 +46,11 @@ from demo_proj_team_members
 where upper(username) = upper(:APP_USER)
 	```
 	
-	- Identify error message displayed when scheme violated - enter You must be a team member to use this application.
+	- Identify error message displayed when scheme violated - enter. You must be a team member to use this application.
 
 	Click Create Authorization Scheme.
 
-	**Note:** :APP\_USER is a built-in application item that returns the username of the currently logged in user.
+	**Note:** :APP\_USER is a built-in application item that returns the username of the currently logged-in user.
 
 6.	The Team Members authorization scheme is created now.
 
@@ -53,7 +58,7 @@ where upper(username) = upper(:APP_USER)
 	
 	Click the Shared Components breadcrumb entry.
 
-	Alternatively, on the toolbar, click the Shared Components button, which is located in the top-right and contains a triangle, circle, and square in its icon.
+	Alternatively, click the Shared Components button on the toolbar, which is located in the top-right and contains a triangle, circle, and square in its icon.
 
 7.	Under Security, click Security Attributes.
 
@@ -63,9 +68,9 @@ where upper(username) = upper(:APP_USER)
 
 	Click Apply Changes.
 
-9.	 In order to test the authorization scheme, it is necessary to create a new user account.
+9.	 To test the authorization scheme, creating a new user account is necessary.
 
- **You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment:** CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: "cHqOR52%".
+ **You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment:** CA\_A637\_SQL\_Snn\_ADMIN. The password is the same as you have for your main student account (`See Canvas`).
  
 	In the Application Express toolbar, click Administration, identified by a user icon with a spanner, then select Manage Users and Groups.
 
@@ -83,7 +88,7 @@ where upper(username) = upper(:APP_USER)
 
 11.	Navigate to the runtime environment (tab or window). Click Sign Out in the navigation bar (top right).
 
-12.	On the Log In page, for Username enter unauthorized, and for Password enter unauthorized.
+12.	On the Log In page, for Username, enter unauthorized, and for Password, enter unauthorized.
 Click Sign In.
 
 13.	Verify the access denied message is displayed.
@@ -96,9 +101,9 @@ Click Sign In.
 
 ###HOL 13-2: Creating and Using an Authentication Scheme
 
-In this hands-on lab, you create an authentication scheme named Open Door Credentials in the Budget App application. Upon creation, this scheme becomes Current Scheme by default. You test this scheme by logging in to the application. Finally, you switch back to Application Express Authentication scheme.
+In this hands-on lab, you create an authentication scheme named Open Door Credentials in the Budget App application. Upon creation, this scheme becomes the Current Scheme by default. You test this scheme by logging in to the application. Finally, you switch back to the Application Express Authentication scheme.
 
-1.	In the App Builder, click Budget App application.
+1.	In the App Builder, click the Budget App application.
 
 2.	Navigate to Shared Components.
 Under Security, click Authentication Schemes.
@@ -114,7 +119,7 @@ For Scheme Type, select Open Door Credentials from the list.
 
 
 6.	In the toolbar, click the Run Page icon.
-If you are already logged in, then click Sign Out to perform the next step.
+If you are already logged in, click Sign Out to perform the next step.
 
 7.	Enter your Username and click Login.
 
@@ -126,7 +131,7 @@ If you are already logged in, then click Sign Out to perform the next step.
 
 9.	You want to switch back to the Application Express Authentication scheme.
 
-	In the application home page, click Shared Components.
+	On the application home page, click Shared Components.
 
 10.	Under Security, click Authentication Schemes.
 
@@ -136,7 +141,7 @@ If you are already logged in, then click Sign Out to perform the next step.
 
 13.	Click OK.
 
-14.	The Application Express Authentication scheme is now activated as current authentication scheme.
+14.	The Application Express Authentication scheme is now activated as the current authentication scheme.
 
 
 15.	In the toolbar, click the Run Page icon. Then, click Sign Out.
@@ -150,7 +155,7 @@ In this hands-on lab, you first create an access control page and set the applic
 
 **Notes:** You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment: CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: "cHqOR52%".
 
-1.	If you are in the application runtime environment, switch to the window or tab for App Builder environment.
+1.	If you are in the application runtime environment, switch to the window or tab for the App Builder environment.
 
 2.	In the Application Express toolbar, click Administration and select Manage Users and Groups.
 
@@ -217,9 +222,9 @@ In this hands-on lab, you first create an access control page and set the applic
 
 	h)	Click Delete Build Option.
 
-	i)	Click Application <n> link to navigate to the application home page.
+	i)	Click the `Application <n>` link to navigate to the application home page.
 
-10.	In the application home page, click Create Page.
+10.	On the application home page, click Create Page.
 
 11.	Select Feature.
 
@@ -240,11 +245,11 @@ In this hands-on lab, you first create an access control page and set the applic
 
 16.	The Access Control page is displayed. Only users defined in the access control list may access this application.
 
-17.	Now, add users to the access control list. You add the three users you created in a previous step and also your workspace administrator username.
+17.	Now, add users to the access control list. You add the three users you created in a previous step and your workspace administrator username.
 
-	- apex_admin is the administrator and so can modify anything including the user privileges
+	- apex_admin is the administrator and so can modify anything, including the user privileges
 	- apex_dev is the developer and is allowed to edit application data. However, this user cannot change the application administration settings
-	- apex_user is the end user and can only view the application but cannot make any changes to the data
+	- apex_user is the end-user and can only view the application but cannot make any changes to the data
 	- < your username > is the administrator.
 Click Users.
 
@@ -260,7 +265,7 @@ Click Users.
 
 	Enter apex_user for Username, select Reader for Role and click Add User.
 
-22.	Notice that < your username > is already listed as Administrator. You can now close the dialog.
+22.	Notice that < your username > is already listed as Administrator. You can now close the dialogue.
 
 23.	Now, you are ready to define and apply the authorization schemes to each application component.
 
@@ -274,23 +279,23 @@ Click Users.
 
 24.	Under Rendering, expand Regions. Under the Project Budget region, select Attributes.
 
-	In the property editor, locate Authorization Scheme and make sure that Contribution Rights is selected from the list.
+	In the property editor, locate Authorization Scheme and ensure that Contribution Rights are selected from the list.
 
 
 25.	You want the Create Button to appear only if the user has either the Contributor or Administrator role. Under Rendering, locate Region Buttons and select CREATE.
-In the property editor, navigate to Security and make sure that Contribution Rights is selected for Authorization Scheme.
+In the property editor, navigate to Security and ensure that Contribution Rights is selected for Authorization Scheme.
 Click Save.
 
 
-26.	You also want to protect against direct access to the Project Budget form dialog page. Though you restrict end users from editing the interactive report on the Home page, they can still access the Project Budget form page by entering the correct URL in the browser. To avoid this, you must restrict the Form page access to only users with the Contributor and Administrator roles.
+26.	You also want to protect against direct access to the Project Budget form dialogue page. Though you restrict end-users from editing the interactive report on the Home page, they can still access the Project Budget form page by entering the correct URL in the browser. To avoid this, you must restrict the Form page access to only users with the Contributor and Administrator roles.
       
       In the page designer, click Navigate to Next Page arrow in the toolbar.
       
-      You are now viewing the Project Budget form page in page designer.
+      You are now viewing the Project Budget form page in the page designer.
 
 27.	Under Rendering, select Page 5: Project Budget.
 
-	In the Property Editor, navigate to Security and make sure Contribution Rights is selected for Authorization Scheme.
+	In the Property Editor, navigate to Security and ensure Contribution Rights is selected for Authorization Scheme.
 
 	Click Save.
 
@@ -298,13 +303,13 @@ Click Save.
 
 29.	In the page designer, click Save and Run Page.
 
-	If you are logged in, click Sign Out before performing the next step.
+	If logged in, click Sign Out before performing the next step.
 
 30.	Enter apex_dev for Username and apexdev123$ for Password and click Sign In.
 
 31.	In the navigation menu, click Project Budget Report.
 
-	Notice that apex_dev can edit the interactive report, and also create a new project.
+	Notice that apex_dev can edit the interactive report and create a new project.
 
 32.	In the navigation menu, click Access Control.
 
@@ -324,7 +329,7 @@ Click Save.
 
 39.	In the navigation menu, click Budget.
 
-40.	Notice that you can now edit the interactive report, and also create a project.
+40.	Notice that you can now edit the interactive report and create a project.
 In the navigation menu, click Access Control.
 
 41.	As you have the Administrator privilege, you can access the Access Control Administration page.

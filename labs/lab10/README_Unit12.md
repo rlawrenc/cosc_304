@@ -1,14 +1,18 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 10: Project Completion
 
-### Unit 12: Using Themes and Theme Styles
+## Unit 12: Using Themes and Theme Styles
 
 This exercise includes two hands-on labs.
 
-- HOL 12-1 Updating the Team Members Pages: In this hands-on lab, you create a Classic Report region and update the report template to use Cards. You also specify template options.
+### HOL 12-1 Updating the Team Members Pages: 
+In this hands-on lab, you create a Classic Report region and update the report template to use Cards. You also specify template options.
 
-- HOL 12-2 Creating and Using Theme Styles: In this hands-on lab, you use the Budget App application. You use the Theme Roller to save the changes made to the Theme Style and then enable users to apply this Theme Style in the running application.
+### HOL 12-2 Creating and Using Theme Styles: 
+In this hands-on lab, you use the Budget App application. You use the Theme Roller to save the changes made to the Theme Style and then enable users to apply this Theme Style in the running application.
 
-#### HOL 12-1: Updating the Team Member Pages
++++++++
+
+### HOL 12-1: Updating the Team Member Pages
 
 In this lab, you update the Team Member pages by replacing the interactive report with a card region. This provides a directory of your team members' contact information and roles as though you had a stack of their business cards at hand.
 
@@ -76,7 +80,7 @@ Click Template Options.
 9.	Click Save and Run Page to see the new cards.
 
 
-#### HOL 12-2: Using Themes and Theme Styles
+### HOL 12-2: Using Themes and Theme Styles
 
 In this hands-on lab, you use the Theme Roller to save a Theme Style. Then, you enable end-users to apply this style while running the application.
 
