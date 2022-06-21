@@ -28,7 +28,7 @@ In this lab, you update the Dashboard page of the Demo Projects application. The
 ### HOL 15-8 Updating the Home Page: 
 In this lab, you update the navigation menu of the Demo Projects application and also update the List region on the Home page.
 
-### HOL 15-9 Making the Music Video Report Searchable: 
+### HOL 15-9 Making the Music Video Report Searchable (Doesn't work. Skip it): 
 In this lab, you use the APEX and REST application that you created in HOL 11-2. You expand the music video report and make it dynamically searchable.
 
 +++++++++++++
@@ -114,7 +114,7 @@ In the Property Editor, for Item(s) select `P5_COMPLETED_DATE`.
 
 	Click the `Cancel` button.
 
-### HOL 15-2: Creating and Using a Dynamic Action on the Maintain Task Page
+### HOL 15-2: Creating and Using a Dynamic Action on the Maintain Task Page (the result is different from the MS Word screenshots)
 
 In this hands-on lab, you add a dynamic action on the Maintain Task page to populate the Due Date whenever the Milestone is changed.
 
@@ -132,7 +132,7 @@ In this hands-on lab, you add a dynamic action on the Maintain Task page to popu
 
 5.	For the new Dynamic Action, in the Property Editor, for Name enter Get Due Date.
 
-6.	In the Rendering tree, under the P9_MILESTONE_ID item, select the Action under the True node (currently labeled X Show).
+6.	In the Rendering tree, under the P9_MILESTONE_ID item, select the Action under the True node (currently labelled X Show).
 
 	In the Property Editor:
 	- Identification: Action - select Set Value
@@ -148,6 +148,8 @@ where id = :P9_MILESTONE_ID
 	- Settings: Items to Submit - select `P9_MILESTONE_ID`
 
 	Click `Save`.
+	
+	- Affected Elements: Item(s) - select `P9_MILESTONE_DUE_DATE` (I didn't find this attribute — use `P9_END_DATE`.
 
 7.	Navigate to Demo Projects application runtime environment.
 
@@ -424,7 +426,7 @@ Click `Next`.
 
 29.	Accept the defaults and click `Copy`.
 
-30.	Now, click `Utilities` and select `Delete Page`.
+30.	Now, click `My Outstanding Tasks` (corrected) and select `Delete Page`.
 
 31.	On the Confirm Page Delete page, select `Yes – Delete corresponding list entries` for Cascade Delete.
 
@@ -713,7 +715,7 @@ In this lab, you update the navigation menu of the Demo Projects application. Yo
 15.	Now you see the updated Home page.
 
 
-### HOL 15-9: Making the Music Video Report Searchable
+### HOL 15-9: Making the Music Video Report Searchable (Doesn't work. Skip it)
 
 In the HOL 11-2, you have produced a nice report that shows all of Beyoncé’s videos on iTunes, and it fetches these results dynamically via the iTunes Search API on the internet. The last remaining step is to make this report searchable, so that the end user can search for any video, not just Beyoncé’s.
 

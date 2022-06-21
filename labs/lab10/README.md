@@ -23,4 +23,4 @@ Complete your project by adding more features. Use the [list of features with po
 ### [Unit 12: Using Themes and Theme Styles](README_Unit12.md) — HOL 12-1 & 12-2
 ### [Unit 13: Implementing Security in your Application](README_Unit13.md) - HOL 13-1 - HOL 13-3
 ### [Unit 14: Adding Additional Pages to your Application](README_Unit14.md) - HOL 14-1 - HOL 14-6
-### [Unit 15: Creating and Using Dynamic Actions and Plug-ins](README_Unit15.md) - HOL 15-1 - 15-9
+### [Unit 15: Creating and Using Dynamic Actions and Plug-ins](README_Unit15.md) - HOL 15-1 - 15-8 (HOL 15-9 doesn't work)
