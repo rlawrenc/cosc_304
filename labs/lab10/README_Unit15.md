@@ -57,7 +57,7 @@ Status. In this lab, you add a dynamic action on the page to show or hide the Co
 select description d, cd r
 from demo_proj_status
 order by display_order
-   ```   
+   	```   
 
 	Click `Next`.
 
