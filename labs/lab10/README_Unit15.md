@@ -54,9 +54,9 @@ Status. In this lab, you add a dynamic action on the page to show or hide the Co
 7.	In List of Values Source, for Source Type select SQL Query, and for Query, copy and paste the following SQL:
 
 	```
-select description d, cd r
-from demo_proj_status
-order by display_order
+	select description d, cd r
+	from demo_proj_status
+	order by display_order
    	```   
 
 	Click `Next`.
