@@ -372,7 +372,7 @@ In this hands-on lab, you create the Project Tree. You also create a blank page 
 
 	Under Source, make sure `Local Database` for Location is selected and select `SQL Query` for Type.
 
-	The apex-course-labs.zip file includes Project\_Tree.sql file. On your local folder, navigate to the location where you unzipped the zip file and open `Project\Tree.sql`.
+	The apex-course-labs.zip file includes Project\_Tree.sql file. On your local folder, navigate to the location where you unzipped the zip file and open [Project_Tree.sql](Project_Tree.sql).
 
 	Copy the SQL code from this file and then paste it into `Source > SQL Query` in the page designer.
 
