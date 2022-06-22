@@ -154,7 +154,7 @@ If you are already logged in, click Sign Out to perform the next step.
 
 In this hands-on lab, you first create an access control page and set the application mode to restrict access. Then, you create the access control list and assign the Budget App application components to an authorization scheme.
 
-**Notes:** You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment: CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: "cHqOR52%".
+**Notes:** You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment: CA\_A637\_SQL\_Snn\_ADMIN. The password is the same: <same password – see Canvas>.
 
 1.	If you are in the application runtime environment, switch to the window or tab for the App Builder environment.
 
