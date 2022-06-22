@@ -100,7 +100,7 @@ Click Sign In.
 	Click Log In.
 
 
-###HOL 13-2: Creating and Using an Authentication Scheme
+### HOL 13-2: Creating and Using an Authentication Scheme
 
 In this hands-on lab, you create an authentication scheme named Open Door Credentials in the Budget App application. Upon creation, this scheme becomes the Current Scheme by default. You test this scheme by logging in to the application. Finally, you switch back to the Application Express Authentication scheme.
 
@@ -150,7 +150,7 @@ If you are already logged in, click Sign Out to perform the next step.
 16.	Notice that the authentication scheme has changed. Enter your username and password and click Sign In.
 
 
-###HOL 13-3: Controlling User Access by Using the Access Control Administration
+### HOL 13-3: Controlling User Access by Using the Access Control Administration
 
 In this hands-on lab, you first create an access control page and set the application mode to restrict access. Then, you create the access control list and assign the Budget App application components to an authorization scheme.
 
