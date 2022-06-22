@@ -70,7 +70,8 @@ In the Developer Toolbar, click Application < n >.
 
 9.	 To test the authorization scheme, creating a new user account is necessary.
 
- 	**You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment:** `CA\A637\SQL\Snn\ADMIN`. The password is the same as you have for your main student account (`See Canvas`).
+ 	**You must use the Administrator's account for your lab account on iacademy.oracle.com in the assignment:** `CA\A637\SQL\Snn\ADMIN`. 
+	The password is the same as you have for your main student account (`See Canvas`).
  
 	In the Application Express toolbar, click Administration, identified by a user icon with a spanner, then select Manage Users and Groups.
 
