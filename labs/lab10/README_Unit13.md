@@ -41,9 +41,9 @@ In the Developer Toolbar, click Application < n >.
 	- SQL Query - copy and paste the following:
 
 	```
-select 1
-from demo_proj_team_members
-where upper(username) = upper(:APP_USER)
+	select 1
+	from demo_proj_team_members
+	where upper(username) = upper(:APP_USER)
 	```
 	
 	- Identify error message displayed when scheme violated - enter. You must be a team member to use this application.
