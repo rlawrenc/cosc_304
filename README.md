@@ -62,12 +62,12 @@ TBD
 | Sept. 19 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/5_sql_ddl) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
 | Sept. 21 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/6_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
 | Sept. 26 (M) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
-| Sept. 28 (W) | [SQL - Subqueries, Outer joins](topics/8_db_design) | |
-| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](topics/9_er_design) | |
-| Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/10_eer_design) | |
+| Sept. 28 (W) | [SQL - Subqueries, Outer joins](topics/7_sql_aggregation) | |
+| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](topics/8_db_design) | |
+| Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/9_er_design) | |
 | Oct. 10 (M) | **No class due to Thanksgiving** | |
 | Oct. 12 (W) | **Midterm Exam #1 In-Class** | |
-| Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
+| Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
 | Oct. 19 (W) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
 | Oct. 24 (M) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
 | Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming) | [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
