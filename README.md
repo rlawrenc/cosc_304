@@ -57,30 +57,30 @@ TBD
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
 | Sept. 7 (W) | [**First day of classes.  Introduction to course**](topics/1_introduction)<br> [Introduction to databases](topics/2_database_introduction) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| Sept. 12 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) |  |
-| Sept. 14 (W) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept. 19 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
-| Sept. 21 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| Sept. 26 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| Sept. 28 (W) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
-| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
-| Oct. 5 (W) | [ER and UML Modeling examples and questions](lectures/lecture8) | |
+| Sept. 12 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/3_relational_model) |  |
+| Sept. 14 (W) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/4_relational_algebra) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| Sept. 19 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/5_sql_ddl) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
+| Sept. 21 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/6_sql) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| Sept. 26 (M) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| Sept. 28 (W) | [SQL - Subqueries, Outer joins](topics/8_db_design) | |
+| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](topics/9_er_design) | |
+| Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/10_eer_design) | |
 | Oct. 10 (M) | **No class due to Thanksgiving** | |
 | Oct. 12 (W) | **Midterm Exam #1 In-Class** | |
-| Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
-| Oct. 19 (W) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| Oct. 24 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
-| Oct. 31 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
+| Oct. 19 (W) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 24 (M) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming) | [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| Oct. 31 (M) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
 | Nov. 2 (W) | **Midterm Exam #2 In-Class** | |
 | Nov. 7 (M) | **No class for Term 1 midterm break** | |
 | Nov. 9 (W) | **No class for Term 1 midterm break** | |
-| Nov. 14 (M) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 16 (W) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Nov. 21 (M) | [JSON and NoSQL Databases](lectures/lecture16) | |
-| Nov. 23 (W) | [Normalization and Design Verification](lectures/lecture17) | |
-| Nov. 28 (M) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Nov. 30 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Nov. 14 (M) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| Nov. 16 (W) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 21 (M) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
+| Nov. 23 (W) | [Normalization and Design Verification](topics/22_normalization) | |
+| Nov. 28 (M) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
+| Nov. 30 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing]<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 | December 5 (M) | Project completion | |
 | December 7 (W) | **Final Exam Review** | |
 
