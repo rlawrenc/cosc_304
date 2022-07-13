@@ -80,7 +80,7 @@ TBD
 | Nov. 21 (M) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
 | Nov. 23 (W) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (M) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
-| Nov. 30 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing]<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| Nov. 30 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 | December 5 (M) | Project completion | |
 | December 7 (W) | **Final Exam Review** | |
 
