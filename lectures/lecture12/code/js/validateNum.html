@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Number Field Validation</title>
+</head>
+
+<body bgcolor="white">
+
+<script type="text/javascript">
+function validate(num){
+	if (parseInt(num))
+		alert("You entered a valid number: " + parseInt(num));
+	else {
+		alert("Invalid number entered: " + num);
+	}
+}
+</script>
+
+Enter a number:
+<form name="input">
+	<input type="text" name="numField" onchange="validate(this.value)">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Province/State for Canada/US</title>
+</head>
+
+<body bgcolor="white">
+
+<form name="input">
+	Country: <select id="country" onchange="changeCountry()">
+		<option value="CA">Canada</option>
+		<option value="US">United States</option>
+	</select><br>
+	<p id='stateText'>State: </p><select id="state"></select>		
+</form>
+
+<script>
+var xmlhttp = new XMLHttpRequest();	
+
+function changeCountry_callBack()
+{
+	if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+	{			
+		var text = xmlhttp.responseText;	
+		if (text != "INVALID")
+		{	var stateList = document.getElementById("state");			
+			// Remove all current items in list
+		    	for (var i = stateList.length-1; i >= 0; i--)		    
+		        	stateList.remove(i);
+		    
+			var values = text.split(',');
+			for (var i=0; i < values.length; i++)
+			{	var stateCode = values[i];						
+			 	var newOpt = document.createElement('option');
+		  		newOpt.text = stateCode;
+		  		newOpt.value = stateCode;
+		  		
+		  		try {
+		  		    stateList.add(newOpt, null); // standards compliant; doesn't work in IE
+		  		}
+		  		catch(ex) {
+		  		    stateList.add(newOpt); // IE only 
+		  		}
+			}
+		}
+	}	
+}
+
+function changeCountry(){
+	var countryList = document.getElementById("country");	
+	var stateText = document.getElementById("stateText");
+	
+	if (countryList.selectedIndex == 1) 
+		stateText.innerHTML = "State: ";	
+	else
+		stateText.innerHTML = "Province:";	
+		
+	xmlhttp.open("GET","provinceState.jsp?country="+countryList.value,true);	
+	xmlhttp.onreadystatechange = changeCountry_callBack;	
+	xmlhttp.send(null);	// Asynchronous version	
+}
+
+changeCountry();
+</script>
+</body>
+</html>

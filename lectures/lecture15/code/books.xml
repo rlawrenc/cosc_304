@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?> 
+
+<!DOCTYPE Bookstore [
+   <!ELEMENT Bookstore (Book | Magazine)*>
+   <!ELEMENT Book (Title, Authors, Remark?)>
+   <!ATTLIST Book ISBN CDATA #REQUIRED
+                  Price CDATA #REQUIRED
+                  Edition CDATA #IMPLIED>
+   <!ELEMENT Magazine (Title)>
+   <!ATTLIST Magazine Month CDATA #REQUIRED Year CDATA #REQUIRED> 
+   <!ELEMENT Title (#PCDATA)>
+   <!ELEMENT Authors (Author+)>
+   <!ELEMENT Remark (#PCDATA)>
+   <!ELEMENT Author (First_Name, Last_Name)>
+   <!ELEMENT First_Name (#PCDATA)>
+   <!ELEMENT Last_Name (#PCDATA)>
+]>
+
+<Bookstore> 
+	<Book ISBN="ISBN-0-201-70857-4" Price="65" Edition="3rd"> 
+	<Title>Database Systems</Title> 
+	<Authors> 
+	     <Author> <First_Name>Thomas</First_Name> <Last_Name>Connolly</Last_Name> </Author>
+ 	     <Author> <First_Name>Carolyn</First_Name> <Last_Name>Begg</Last_Name></Author>
+	 </Authors> 
+	</Book> 
+	<Book ISBN="ISBN-0-13-031995-3" Price="75">
+	<Title>Database Systems: The Complete Book</Title>
+	<Authors> 
+	    <Author> <First_Name>Hector</First_Name><Last_Name>Garcia-Molina</Last_Name></Author>
+	    <Author> <First_Name>Jeffrey</First_Name> <Last_Name>Ullman</Last_Name> </Author>
+        <Author> <First_Name>Jennifer</First_Name> <Last_Name>Widom</Last_Name> </Author>
+	</Authors> 
+	<Remark> Amazon.com says: Buy these books together for a great deal!</Remark>
+ 	</Book> 
+</Bookstore> 

@@ -1,0 +1,100 @@
+-- CREATE TABLE questions
+-- Note: Students must declare foreign keys (not UPDATE CASCADE though)
+
+CREATE TABLE dept (
+   deptId integer,
+   deptName varchar(40),
+   deptLocation varchar(50),
+   primary key (deptId)
+) ENGINE=InnoDB;
+
+
+CREATE TABLE courseDept (
+   deptId integer,
+   cname varchar(40),   
+   primary key (deptId, cname),
+   FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE,
+   FOREIGN KEY (deptId) REFERENCES dept (deptId) ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+
+-- INSERT commands
+
+INSERT INTO dept VALUES (11,'Law', 'Arts 333');
+INSERT INTO dept VALUES (12,'Fine Arts', 'Arts 333');
+INSERT INTO dept VALUES (20,'Computer Science', 'Arts 333');
+INSERT INTO dept VALUES (33,'Mathematics', 'Science 234');
+INSERT INTO dept VALUES (68,'Engineering', 'SSC 100');
+
+
+INSERT INTO faculty VALUES ('111111111','Yves Lucet',20);
+INSERT INTO faculty VALUES ('222222222','Yong Gao',20);
+INSERT INTO faculty VALUES ('333333333','Ramon Lawrence',20);
+
+
+-- DELETE commands
+
+DELETE FROM student WHERE snum = '318548912';
+
+
+-- UPDATE commands
+
+UPDATE student SET sname = 'Steven Yellow', age = 20 WHERE sname = 'Steven Green';
+
+
+-- ALTER TABLE commands
+
+ALTER TABLE faculty ADD FOREIGN KEY (deptId) REFERENCES dept;
+
+
+-- Various commands
+
+-- Populate courseDept
+
+INSERT INTO courseDept
+SELECT deptId, cname
+FROM faculty, course
+WHERE faculty.fid = course.fid
+
+-- above is all that is needed because every course is offered by a faculty member, but if not could do this:
+
+INSERT INTO courseDept
+(SELECT deptId, cname
+FROM faculty, course
+WHERE faculty.fid = course.fid)
+UNION
+(SELECT 20, cname
+FROM course
+WHERE fid is null)
+
+
+-- update course name.  This is much easier with cascading UPDATE for foreign keys.
+-- For courseDept: FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE
+-- For enrolled: FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE
+
+UPDATE courseDept SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+UPDATE enrolled SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+UPDATE course SET cname = 'Introduction to Database Systems' WHERE cname = 'Database Systems';
+
+
+-- Add studentCount attribute
+
+ALTER TABLE course ADD COLUMN studentCount integer;
+
+UPDATE course SET studentCount = (SELECT COUNT(*) FROM enrolled WHERE course.cname = enrolled.cname) 
+
+
+-- Remove student with snum = '115987938'
+-- This question would be easier with ON DELETE CASCADE for enrolled except that the studentCount field must be updated
+
+-- Task #1: Update studentCount for all courses this student is enrolled in
+
+UPDATE course SET studentCount = (SELECT COUNT(*)-1 FROM enrolled WHERE course.cname = enrolled.cname) 
+WHERE course.cname IN (SELECT cname FROM enrolled WHERE snum = '115987938')
+
+-- Task #2: Delete all enrolled and student records
+
+DELETE FROM enrolled WHERE snum = '115987938';
+DELETE FROM student WHERE snum = '115987938'
+
+-- Note: That a brute force way is to delete the records then re-calculate the studentCount for all courses as when the attribute was first setup
