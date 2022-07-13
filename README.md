@@ -1,12 +1,12 @@
-# COSC 304 - Introduction to Databases - Winter 2020 Term 1
+# COSC 304 - Introduction to Databases - Winter 2022 Term 1
 
 ## Instructor
 Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Office Hours:**	9:30 to 11:30 a.m. Friday or by appointment<br>
-**Office Location:** ASC 349 (virtual office hours)
+**Office Hours:**	2 to 4 p.m. Thursdays or by appointment<br>
+**Office Location:** ASC 349 and virtual office hours on Zoom
 
 ## TAs
-David Ding, Devon MacNeil, Reece Walsh
+TBD
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -29,9 +29,9 @@ David Ding, Devon MacNeil, Reece Walsh
 |------|-----------|-------------|
 | Quizzes and Exercises | 10% | Online and during class time activities |
 | Assignments | 25% | Weekly assignments |
-| Midterm #1 | 15% | October 16th in class | 
-| Midterm #2 | 15% | November 9th in class | 
-| Final Exam | 35% | Cumulative, three hours ; **Exams may use Proctorio and require a web camera.**| 
+| Midterm #1 | 15% | October 12th in class | 
+| Midterm #2 | 15% | November 2nd in class | 
+| Final Exam | 35% | Cumulative, three hours, **exams require a laptop**| 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -49,52 +49,56 @@ David Ding, Devon MacNeil, Reece Walsh
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
-**Lecture:** 2:30 to 4:00 p.m. Monday, 8:00 to 9:30 a.m. Friday<br>
+**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday<br>
 **Lab:** Drop-in virtual labs and help sessions
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
-| Sept. 11 (F) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
-| Sept. 14 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) |  |
-| Sept. 18 (F) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept. 21 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
-| Sept. 25 (F) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
-| Sept. 28 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
-| Oct. 2 (F) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
-| Oct. 5 (M) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
-| Oct. 9 (F) | [ER and UML Modeling examples and questions](lectures/lecture8) | |
-| Oct. 12 (M) | **No class due to Thanksgiving** | |
-| Oct. 16 (F) | **Midterm Exam #1 In-Class** | |
-| Oct. 19 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
-| Oct. 23 (F) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| Oct. 26 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 30 (F) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
-| Nov. 2 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
-| Nov. 6 (F) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 9 (M) | **Midterm Exam #2 In-Class** | |
-| Nov. 13 (F) | **No class for Term 1 midterm break** | |
-| Nov. 16 (M) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Nov. 20 (F) | [JSON and NoSQL Databases](lectures/lecture16) | |
-| Nov. 23 (M) | [Normalization and Design Verification](lectures/lecture17) | |
-| Nov. 27 (F) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
-| Nov. 30 (M) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
-| December 4 (F) | **Final Exam Review** | |
+| Sept. 7 (W) | [**First day of classes.  Introduction to course/databases**](lectures/lecture1) | [SQL for Web Nerds: SQL Introduction](http://philip.greenspun.com/sql/introduction.html) |
+| Sept. 12 (M) | [Relational Model - Schemas, Keys, Constraints, Integrity](lectures/lecture2) |  |
+| Sept. 14 (W) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](lectures/lecture3) | [Online Relational Algebra Tool](http://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| Sept. 19 (M) | [SQL DDL – Create table/index, Insert/Delete/Update](lectures/lecture4) | [Linux Shell Intro](https://drive.google.com/open?id=1ij785M5nfCkfsiYbCgXc5fmuRq790mJJv08VYJ1bE4w) |
+| Sept. 21 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](lectures/lecture5) | [SQL for Web Nerds: SQL Queries](http://philip.greenspun.com/sql/queries.html) |
+| Sept. 26 (M) | [SQL - Group By, Aggregate Functions](lectures/lecture6) | [SQL for Web Nerds: SQL Complex Queries](http://philip.greenspun.com/sql/complex-queries.html) |
+| Sept. 28 (W) | [SQL - Subqueries, Outer joins](lectures/lecture6) | |
+| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](lectures/lecture7) | |
+| Oct. 5 (W) | [ER and UML Modeling examples and questions](lectures/lecture8) | |
+| Oct. 10 (M) | **No class due to Thanksgiving** | |
+| Oct. 12 (W) | **Midterm Exam #1 In-Class** | |
+| Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation<br>ER/EER Mapping to Relational model](lectures/lecture9) | |
+| Oct. 19 (W) | [Database Programming using Java/JDBC](lectures/lecture10) | [Sample Java Code](lectures/lecture10/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 24 (M) | [Database Programming using Python and R](lectures/lecture11) | [Sample Python Code](lectures/lecture11/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](lectures/lecture12) | [Sample JSP/PHP Code](lectures/lecture12/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| Oct. 31 (M) | [Advanced SQL DDL – Triggers and Views](lectures/lecture13) | [SQL for Web Nerds: SQL Triggers](http://philip.greenspun.com/sql/triggers.html) |
+| Nov. 2 (W) | **Midterm Exam #2 In-Class** | |
+| Nov. 7 (M) | **No class for Term 1 midterm break** | |
+| Nov. 9 (W) | **No class for Term 1 midterm break** | |
+| Nov. 14 (M) | [Advanced SQL – Security, Transactions, Recursion](lectures/lecture14) | [MySQL Recursive Query](http://www.mysqltutorial.org/mysql-recursive-cte/) |
+| Nov. 16 (W) | [XML and XPath](lectures/lecture15) |  [Sample XML Code](lectures/lecture15/code), [Intro to XML/XML Reference](http://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 21 (M) | [JSON and NoSQL Databases](lectures/lecture16) | |
+| Nov. 23 (W) | [Normalization and Design Verification](lectures/lecture17) | |
+| Nov. 28 (M) | [Database hosting and data cleansing/wrangling](lectures/lecture18) | [Sample D3 Code](lectures/lecture18/code) |
+| Nov. 30 (W) | [Data warehousing and Data Mining<br>Preview of COSC 404 - Database System Implementation<br>Course Summary](lectures/lecture19) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
+| December 5 (M) | Project completion | |
+| December 7 (W) | **Final Exam Review** | |
+
 
 ## Labs
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 7 – 11 |	**No Lab during First Week of Class** |
-| [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 21 – 25 | Lab 2: Creating tables using SQL and MySQL |
-| [3](labs/lab3) | Sept. 28 – Oct. 2 | Lab 3: Writing SQL queries on a MySQL database |
-| [4](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | October 12 – 23 |Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | October 26 – 30 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
-| [7](labs/lab7) | November 2 – 13 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | November 16 – 20 | Lab 8: Images, Security, and Transactions |
-| [9](labs/lab9) | November 23 – 27 | Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | Nov. 30 – Dec. 4 | Lab 10: Project Completion |
+|  | September 5 – 9 |	**No Lab during First Week of Class** |
+| [1](labs/lab1) | September 12 – 16 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | September 19 – 23 | Lab 2: Creating tables using SQL and MySQL |
+| [3](labs/lab3) | September 26 – 30 | Lab 3: Writing SQL queries on a MySQL database |
+| [4](labs/lab4) | October 3 – 7 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | October 10 – 21 |Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | October 24 – 28 | Lab 6: Programming with Java/Python using MySQL and SQL Server |
+| [7](labs/lab7) | Oct. 31 – Nov. 4 | Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+|  | November 7 - 11 |	**No Lab during Midterm Break** |
+| [8](labs/lab8) | November 14 – 18 | Lab 8: Images, Security, and Transactions |
+| [9](labs/lab9) | November 21 – 25 | Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | Nov. 28 – Dec. 2 | Lab 10: Project Completion |
 
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
