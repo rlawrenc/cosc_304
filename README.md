@@ -193,15 +193,11 @@ For more information:  https://security.ok.ubc.ca/safewalk/  or download the UBC
 
 
 ## Reference Material
-* [SQL for Web Nerds](http://philip.greenspun.com/sql/index.html)
-* [SQL Tutorial by Software Carpentry](http://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
+* [SQL for Web Nerds](https://philip.greenspun.com/sql/index.html)
+* [SQL Tutorial by Software Carpentry](https://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * [Using MySQL](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html)
-* [Using SQL Server](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/sqlserver.html)
-* [Using FileZilla](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/filezilla/filezilla.html)
-* [Using Eclipse/JavaEE/Tomcat for Web Development](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/JavaEE/setup.html)
-* [astah Web Site](http://astah.net/editions/uml-new)
 * Sample databases WorksOn (SQL Notes): [WorksOn](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/WorksOn.accdb), [WorksOn DDL](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql)
 
 
