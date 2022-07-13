@@ -1,5 +1,8 @@
 # COSC 304 - Introduction to Databases - Winter 2022 Term 1
 
+**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday in ART 366 and live-stream on Zoom<br>
+**Lab:** Drop-in virtual labs and help sessions
+
 ## Instructor
 Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Office Hours:**	2 to 4 p.m. Thursdays or by appointment<br>
@@ -49,8 +52,7 @@ TBD
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
 ## Schedule
-**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday<br>
-**Lab:** Drop-in virtual labs and help sessions
+
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
