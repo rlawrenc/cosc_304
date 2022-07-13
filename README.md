@@ -63,7 +63,7 @@ TBD
 | Sept. 21 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/6_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
 | Sept. 26 (M) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
 | Sept. 28 (W) | [SQL - Subqueries, Outer joins](topics/7_sql_aggregation) | |
-| Oct. 3 (M) | [Database Design – General Approach ; ER and UML Modeling](topics/8_db_design) | |
+| Oct. 3 (M) | [Database Design – General Approach](topics/8_db_design)<br>[ER and UML Modeling](topics/9_er_design) | |
 | Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/9_er_design) | |
 | Oct. 10 (M) | **No class due to Thanksgiving** | |
 | Oct. 12 (W) | **Midterm Exam #1 In-Class** | |
