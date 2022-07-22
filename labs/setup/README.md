@@ -8,7 +8,7 @@ Most of the lab assignments require running a database on your computer. These d
 
 ## Install VSCode
 
-Although you may use any text editor, the officially supported editor is [VSCode](https://code.visualstudio.com/Download)).
+Although you may use any text editor, the officially supported editor is [VSCode](https://code.visualstudio.com/Download).
 
 ## Install Java
 
