@@ -2,39 +2,36 @@
 
 This lab practices creating tables using SQL DDL on a MySQL database.
 
-**Note: If you are off campus, you MUST connect using <a href="https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents">VPN to UBC Okanagan</a> (use: myvpn.ok.ubc.ca) to be able to access the databases.**
+**Make sure your computer is setup to run Docker by following these [setup instructions](../setup).**
 
-### Step #1: Login to cosc304.ok.ubc.ca using SSH
+### Step #1: Setup MySQL Docker Container
 
-cosc304.ok.ubc.ca is a Linux machine that has a MySQL server running. You have a home account to store program code and other course related files. Your user id is your student id for your Novell account and your initial password is the same as that account's password.  You can directly access the MySQL command-line interface by typing:
-
-<pre>
-mysql -u &lt;user_id&gt; -p
-</pre>
-
-Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see [Using MySQL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html).
+ - Create a directory `cosc304_lab2`.
+ - Download the `docker-compose.yml` file into the `cosc304_lab2' directory.
+ - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
+ - Run the command `docker-compose up`
+ - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
 
 ### Step #2: Accessing MySQL using SQuirreL SQL
 
-We will be using [SQuirreL](http://squirrel-sql.sourceforge.net) as an open source graphical query tool.  SQuirreL is capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
+[SQuirreL](http://squirrel-sql.sourceforge.net) is an open source graphical query tool capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
-Start up SQuirreL.  Register our MySQL server with the information: ([screenshot](img/squirrel_mysql_register.png)).
+Start up SQuirreL.  Register our MySQL server with the information: 
 
 <pre>
 Name: MySQL
-Login name: (your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
-Password: (initially your student #)
-Host name: cosc304.ok.ubc.ca
+Login name: testuser
+Password: 304testpw
+Host name: localhost
 Port: (leave blank for default)
-Database: db_(your MySQL user id - the first letter of your first name followed by up to 7 letters of your last name)
+Database: testuser
 </pre>
-
 
 ### Step #3: Example SQL DDL
 
-Using SQuirreL (or MySQL command-line), create the tables for the [university database](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
+Using SQuirreL, create the tables for the [university database](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
 
-**Optional:** We have been using the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
+**Optional:** We use the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
 
 ### Step #4: Practice SQL DDL
 
