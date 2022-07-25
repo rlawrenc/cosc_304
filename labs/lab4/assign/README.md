@@ -2,7 +2,7 @@
 
 This lab designs ER diagrams in UML notation. The AutoER auto-grading software is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
 
-## Question #1 (10 marks)
+## Question #1 - Stock Market Database (10 marks)
 
 <h3>AutoER link: TODO</h3>
 
@@ -21,7 +21,7 @@ Construct a database design in UML for a stock market tracking database. **Data 
 - `News events`are tracked for companies. A `news event` has an identifying `eventId` and has additional details on the event `text` and the `release date`. A `news event` may be associated with multiple companies, and a company may have many news events.
 
 
-## Question #2 (10 marks)
+## Question #2 - Question Database(10 marks)
 
 <h3>AutoER link: TODO</h3>
 
