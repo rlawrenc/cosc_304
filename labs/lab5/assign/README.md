@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
+# COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the Relational Model
 
 
 ## Question 1 - Pet Daycare Database (15 marks)
