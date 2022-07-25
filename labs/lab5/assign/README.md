@@ -1,19 +1,19 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the relational model
 
 
-## Question 1 (15 marks)
+## Question 1 - Pet Daycare Database (15 marks)
 
-**Draw the ER diagram for tracking football statistics for quarterbacks and runningbacks in college football and then
-convert it into the relational schema. Underline primary keys and note foreign keys.** The league will have multiple teams
-(11) each with a unique team name. For each game played, there is a home team, an away team, home points, away points,and a
-date. All teams play multiple home and away games per season. The teams all have players that are identified by team
-name and jersey number. Also store a player name. The team name and
-number will be unique for each player, while their name may not be unique. Each player **ISA Runningback or ISA
-Quarterback (Add ISA constraints)**. Each running back has a type {fullback or halfback}.  Each quarterback has a status
-{starter, backup}. Statistics are compiled for each game for each player.  The Runningback statistics will include carries,
-yards, and fumbles. The quarterback statistics include passes, yards, and interceptions. In addition, each team is represented
-by a single coach.  A coach can coach only one team. Keep track of each coach's name and salary.
+Build a pet daycare database that tracks information on owners and their pets when they stay at a pet daycare. There are three components to do:
 
+1) Build an ER/UML diagram. (7 marks) This can be done using AutoER (link: TODO) or using Astah.
+2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). (1 mark)
+3) Convert the diagram into the relational model. (7 marks) SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to be clear the FK direction.
+
+On Canvas submit a single document that contains a screenshot of the UML design (part 1), the subclass info (part 2), and the conversion to the relational model (part 3). If you used AutoER, make sure the screenshot shows the user name of one student in your group and the mark received.
+
+### Question Description
+
+A pet daycare
 
 ## Question 2 (35 marks) - Project Deliverable
 
