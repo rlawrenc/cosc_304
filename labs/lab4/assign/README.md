@@ -1,23 +1,27 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
 
-This lab designs ER diagrams in UML notation using [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
+This lab designs ER diagrams in UML notation. The AutoER auto-grading software is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
 
 ## Question #1 (10 marks)
 
-Construct a database design in UML for an app store described below. **Data types are not needed.**
+<h3>AutoER link: TODO</h3>
 
-- A `Publisher` where each publisher is identified by an <tt>id</tt> and has a `name`. (1 mark)
+Construct a database design in UML for a stock market tracking database. **Data types are not needed.**
 
-- A `Category` where each ingredient has an `id`, a `name`, and may have a parent category. (2 marks)
+- The database tracks companies, where a `company` has a `name` and is identified by its `ticker symbol`.
 
-- An `App` storing each app that is identified by a field called <tt>id</tt> and other attributes include `name` and `description`. An App is created by one Publisher. A Publisher may publish multiple Apps. An App has a Category. (3 marks)
+- Each company participates in a particular `industry`. An `industry` has an identifying `name` and also a `description`.
 
-- A `AppVersion` stores each version of the app. An AppVersion is associated with exactly one App. Use a `version` field to identify between versions of the same App. Each AppVersion has a `releaseDate`, a `rating`, a `price`, and a `description` (2 marks)
+- Stock market `analysts` cover stocks and produce `recommendations`. `Analysts` are distinguished from each other by the name of their `firm` and their `name`. Analysis also have a `accuracy rating` that measures the accuracy of their `recommendations`.
 
-- A `AppVersionReview` stores ratings for each application version. Each instance applies to a single AppVersion, and different reviews are identified by `reviewer` attribute (which is name of reviewer). There is also a `reviewDate`, `rating`, and `review`. (2 marks)
+- Each `recommendation` is from a particular `analyst` on a certain `company`. A `recommendation` includes a predicted `price` in the next 12 months and a `rating` for the stock (buy, hold, sell).
+
+- The database includes a `daily summary` for each company with a `closing price`, `volume`, `low price`, and `high price`. Daily summaries are identified by the company it is associated with and the `summary date`.
 
 
 ## Question #2 (10 marks)
+
+<h3>AutoER link: TODO</h3>
 
 Construct a database design in UML for a medical system described below. **Data types are not needed.**
 
