@@ -25,14 +25,16 @@ Construct a database design in UML for a stock market tracking database. **Data 
 
 <h3>AutoER link: TODO</h3>
 
-Construct a database design in UML for a medical system described below. **Data types are not needed.**
+Construct a database design in UML for a question databank. **Data types are not needed.**
 
-- There are multiple hospitals in the medical system. A hospital is identified by its name and has a location. (1 mark)</li>
+- A `course` is identified by its `course number` and has a `course name` and `year`.
 
-- A doctor is identified by his medical number and has a name. Each hospital has a single doctor as a manager, and a doctor may manage only one hospital. Doctors are located in hospitals. A doctor may be located in more than one hospital. A doctor located at a hospital has an office number and a salary paid by that hospital. (3 marks)
+- Different `course offerings` are distinguished from each other by the `starting date` of the course. A `course offering` stores the `number of students` in the course and also has an `ending date`.
 
-- A patient is identified by their health id and also has a name and gender. (1 mark)
+- Every `course` has one or more `learning outcomes` that are `material` and `skills` that `students` should learn after `completing` the course. A `learning outcome` (identified by `outcomeId`) may be achieved in many courses or in no current courses.
 
-- A patient visits a doctor at a particular hospital. Each visit is identifed by its own id and also has a visit date. (3 marks)
+- A `question` is used in a `course offering` to test student `knowledge`. A `question` is identified by its `questionId` and also contains a `questionName`, `questionText`, and `questionAnswer`.
 
-- At a visit zero or more tests are run each with a cost and an outcome. Each test is identified for a particular visit by name. (2 marks)
+- `Questions` must have at least one `learning outcome` and may have many. Each `question` has one `topic`. A `topic` has a unique `topicName` and may have multiple `subtopics`.
+
+- A `question` can be used in multiple `course offerings`, and in each offering the `mark` associated with the `question` may be different.
