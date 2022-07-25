@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL queries on a MySQL database
+# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL Queries on a MySQL Database
 
-This lab practices writing SQL queries on a MySQL database.
+This lab practices writing SQL ueries on a MySQL database.
 
 ### Accessing MySQL using SQuirreL SQL
 
