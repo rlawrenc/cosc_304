@@ -1,19 +1,19 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML diagrams into the Relational Model
+# COSC 304 - Introduction to Database Systems<br>Assignment 5 - Converting ER/UML Diagrams into the Relational Model
 
 
 ## Question 1 - Pet Daycare Database (15 marks)
 
-Build a pet daycare database that tracks information on owners and their pets when they stay at a pet daycare. There are three components to do:
+Build a pet daycare database that tracks information on owners and their pets when they stay at a pet daycare. There are three components:
 
-1) Build an ER/UML diagram. (7 marks) This can be done using AutoER (link: TODO) or using Astah.
-2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). (1 mark)
-3) Convert the diagram into the relational model. (7 marks) SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to be clear the FK direction.
+1) Build an ER/UML diagram. **(7 marks)** This can be done using AutoER (link: TODO) or using Astah.
+2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). **(1 mark)**
+3) Convert the diagram into the relational model. **(7 marks)** SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to clearly indicate the FK direction.
 
-On Canvas submit a single document that contains a screenshot of the UML design (part 1), the subclass info (part 2), and the conversion to the relational model (part 3). If you used AutoER, make sure the screenshot shows the user name of one student in your group and the mark received.
+On Canvas submit a single document that contains a screenshot of the UML design (part 1), the subclass info (part 2), and the conversion to the relational model (part 3). **If you used AutoER, make sure the screenshot shows the user name of one student in your group and the mark received.**
 
 ### Question Description
 
-A pet daycare
+A pet daycare stores information about `pets` that belong to `owners`. An `owner` is identified by an `id`, and their `first name`, `last name`, and `address` are also stored. `Pets` are identified by their `name` and their `owner`. For each pet, record their `age` and a `description`.  Our pet daycare specializes in `cats` and `dogs` so specific information is stored for each of these types of pets. For `cats` note if they `have claws` and `are social`. For `dogs` we need to know their `size` and if they are `barkers`. Our company supports animals besides cats and dogs. For other types of animals, information about them and their type are stored in the `description` of the `pet`. Our facility has several `buildings` that have an identifying `id` and also a `building name` and `year built`. Each `building` contains multiple `rooms` with a `room number` that is unique within a building. Rooms also have a specific `size`.  When a pet `stays` at the day care, the `start date` distinguishes between particular stays for that pet. Additional infromation is the `end date` and `cost`.
 
 ## Question 2 (35 marks) - Project Deliverable
 
@@ -26,7 +26,6 @@ The project will build an online store like Amazon.com selling whatever products
 - An <strong>Order</strong> is placed by one customer. A customer may have multiple orders. An <strong>Order</strong> has an auto-increment id, order date, and total order amount (e.g. $55.75). Also store the shipment address, city, state, country, and postal code. Use <strong>OrderSummary</strong> as entity/table name as <strong>Order</strong> is a keyword in SQL.
 
 - The store sells products. A <strong>Product</strong> has an auto-increment id, name, price, image URL (string), image (BLOB), and description.
-
 - A product has a category. A category has one or more Products. A <strong>Category</strong> has an auto-increment id and name.
 
 - Products are part of an order. An order may have one or more products. For each product in an order track the quantity and price.
