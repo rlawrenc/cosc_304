@@ -21,7 +21,7 @@ Construct a database design in UML for a stock market tracking database. **Data 
 - `News events`are tracked for companies. A `news event` has an identifying `eventId` and has additional details on the event `text` and the `release date`. A `news event` may be associated with multiple companies, and a company may have many news events.
 
 
-## Question #2 - Question Database(10 marks)
+## Question #2 - Question Database (10 marks)
 
 <h3>AutoER link: TODO</h3>
 
