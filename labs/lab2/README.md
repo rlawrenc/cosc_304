@@ -7,7 +7,7 @@ This lab practices creating tables using SQL DDL on a MySQL database.
 ### Step #1: Setup MySQL Docker Container
 
  - Create a directory `cosc304_lab2`.
- - Download the `docker-compose.yml` file into the `cosc304_lab2' directory.
+ - Download the `docker-compose.yml` file into the `cosc304_lab2` directory.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
  - Run the command `docker-compose up`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
@@ -29,7 +29,7 @@ Database: testuser
 
 ### Step #3: Example SQL DDL
 
-Using SQuirreL, create the tables for the [university database](university_MySQL_DDL.txt) in your own database.  Load the initial data for these tables (in the DDL script).  
+Using SQuirreL, create the tables and load the data for the [university database using this DDL script](university_MySQL_DDL.txt).  
 
 **Optional:** We use the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
 
