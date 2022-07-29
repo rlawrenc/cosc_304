@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating tables using SQL and MySQL
+# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating Tables using SQL and MySQL
 
 This lab practices creating tables using SQL DDL on a MySQL database.
 
@@ -8,7 +8,7 @@ This lab practices creating tables using SQL DDL on a MySQL database.
 
  - Create a directory `cosc304_lab2`.
  - Download the `docker-compose.yml` file into the `cosc304_lab2` directory. 
- - Create a folder `ddl` in `cosc304_lab2` directory. Download the contents of the `ddl' folder into the `cosc304_lab2\ddl` folder.
+ - Create a folder `ddl` in `cosc304_lab2` directory. Download the contents of the `ddl` folder into the `cosc304_lab2\ddl` folder.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
  - Run the command `docker-compose up -d`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
@@ -16,7 +16,7 @@ This lab practices creating tables using SQL DDL on a MySQL database.
 
 ## Step #2: Access MySQL using Command Interface
 
-MySQL commands can be running using the command line with the Docker container. Run the command:
+MySQL commands can be running using the command line within the Docker container. Run the command:
 
 ```
 docker exec -it cosc304-mysql bash
@@ -27,16 +27,20 @@ This will start a command line session. Connect to MySQL using:
 ```
 mysql -u root -p
 ```
+OR
+```
+mysql -u testuser -p
+```
 
-The password is given in the `docker-compose.yml` file (which you are **encouraged to change**). Note that all commands are terminated with a semi-colon (;). Some useful commands are:
+The password is given in the `docker-compose.yml` file (which you are **encouraged to change**). Note that all commands are terminated with a semi-colon (`;`). Some useful commands are:
 
-| Function  | Command Header |
+| Function  | Command |
 | ------------- | ------------- |
-| Listing all databases	  | ``show databases;`  |
+| Listing all databases	  | `show databases;`  |
 | Use database `dbname`  | `use dbname;`  |
 | List all tables  | `show tables;`  |
 
-[img/commandline.png](Connecting using MySQL Command Line)
+![Connecting using MySQL Command Line](img/commandline.png)
 
 ### Step #2: Accessing MySQL using SQuirreL SQL
 
@@ -46,20 +50,18 @@ Start up SQuirreL.  Register our MySQL server with the information:
 
 <pre>
 Name: MySQL
-Login name: testuser
-Password: 304testpw
+Login name: root
+Password: (see docker-compose.yml file)
 Host name: localhost
 Port: (leave blank for default)
-Database: testuser
+Database: mydb
 </pre>
 
-[img/squirrel-mysql.png](MySQL Connection Setup in SQuirreL)
+<img src="img/squirrel-mysql.png" width="400" alt="MySQL Connection Setup in SQuirreL">
 
 ### Step #3: Example SQL DDL
 
-Using SQuirreL, create the tables and load the data for the [university database using this DDL script](university_MySQL_DDL.txt).  
-
-**Optional:** We use the [WorksOn database](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) in class.  This database contains information about employees and the projects that they work on. You can also use the [WorksOn DDL](http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql) to create those tables in your database as well.
+The university dadtabase should already be loaded. If you have any issues, using SQuirreL, create the tables and load the data for the [university database using this DDL script](ddl/university_MySQL_DDL.txt).  
 
 ### Step #4: Practice SQL DDL
 
@@ -67,11 +69,9 @@ As practice, here are some changes to make to the existing the database.  You ca
 
 #### CREATE TABLE Command
 
-<ol>
-<li>Create a new table called <tt>dept</tt> with attributes <tt>deptId</tt> (integer), <tt>deptName</tt> (varchar(40)), and <tt>deptLocation</tt> (varchar(50)).</li>
+1. Create a new table called `dept` with attributes `deptId INTEGER`, `deptName VARCHAR(40)`, and `deptLocation VARCHAR(50)`.
 
-<li>Create a new table called <tt>courseDept</tt> with attributes <tt>deptId</tt> (integer) and <tt>cname</tt> (varchar(40)).</li>
-</ol>
+2. Create a new table called `courseDept` with attributes `deptId INTEGER` and `cname VARCHAR(40)`.
 
 #### INSERT Command
 
