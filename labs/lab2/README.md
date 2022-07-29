@@ -61,7 +61,7 @@ Database: mydb
 
 ### Step #3: Example SQL DDL
 
-The university dadtabase should already be loaded. If you have any issues, using SQuirreL, create the tables and load the data for the [university database using this DDL script](ddl/university_MySQL_DDL.txt).  
+The university dadtabase should already be loaded. If you have any issues, using SQuirreL, create the tables and load the data for the [university database using this DDL script](ddl/university_MySQL_DDL.sql).  
 
 ### Step #4: Practice SQL DDL
 
@@ -129,7 +129,7 @@ fid, fname, deptId
 
 </ol>
 
-**Answers:**  <a href="labAnswers_DDL.txt">Download the answer script file</a>.</p>
+**Answers:**  <a href="labAnswers_DDL.sql">Download the answer script file</a>.</p>
 
 [Lab 2 - SQL Lab Assignment](assign/)
 
