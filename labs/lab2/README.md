@@ -12,6 +12,31 @@ This lab practices creating tables using SQL DDL on a MySQL database.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
  - Run the command `docker-compose up -d`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
+ - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
+
+## Step #2: Access MySQL using Command Interface
+
+MySQL commands can be running using the command line with the Docker container. Run the command:
+
+```
+docker exec -it cosc304-mysql bash
+```
+
+This will start a command line session. Connect to MySQL using:
+
+```
+mysql -u root -p
+```
+
+The password is given in the `docker-compose.yml` file (which you are **encouraged to change**). Note that all commands are terminated with a semi-colon (;). Some useful commands are:
+
+| Function  | Command Header |
+| ------------- | ------------- |
+| Listing all databases	  | ``show databases;`  |
+| Use database `dbname`  | `use dbname;`  |
+| List all tables  | `show tables;`  |
+
+[img/commandline.png](Connecting using MySQL Command Line)
 
 ### Step #2: Accessing MySQL using SQuirreL SQL
 
@@ -27,6 +52,8 @@ Host name: localhost
 Port: (leave blank for default)
 Database: testuser
 </pre>
+
+[img/squirrel-mysql.png](MySQL Connection Setup in SQuirreL)
 
 ### Step #3: Example SQL DDL
 
