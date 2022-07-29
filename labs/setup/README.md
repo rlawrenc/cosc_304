@@ -24,7 +24,7 @@ For assignments that use Docker, a GitHub repository or zip file will be provide
 
 To start a Docker container, go to the directory containing the `docker-compose.yml` file and run the command:
 
-```docker-compose up```
+```docker-compose up -d```
 
 To stop a Docker container, run:
 
