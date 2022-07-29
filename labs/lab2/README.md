@@ -7,9 +7,10 @@ This lab practices creating tables using SQL DDL on a MySQL database.
 ### Step #1: Setup MySQL Docker Container
 
  - Create a directory `cosc304_lab2`.
- - Download the `docker-compose.yml` file into the `cosc304_lab2` directory.
+ - Download the `docker-compose.yml` file into the `cosc304_lab2` directory. 
+ - Create a folder `ddl` in `cosc304_lab2` directory. Download the contents of the `ddl' folder into the `cosc304_lab2\ddl` folder.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
- - Run the command `docker-compose up`
+ - Run the command `docker-compose up -d`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
 
 ### Step #2: Accessing MySQL using SQuirreL SQL
