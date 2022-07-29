@@ -129,7 +129,7 @@ fid, fname, deptId
 
 </ol>
 
-**Answers:**  <a href="labAnswers_DDL.sql">Download the answer script file</a>.</p>
+**Answers:**  <a href="labAnswers_DDL.txt">Download the answer script file</a>.</p>
 
 [Lab 2 - SQL Lab Assignment](assign/)
 
