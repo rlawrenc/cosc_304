@@ -1,6 +1,15 @@
-create database university;
+CREATE DATABASE IF NOT EXISTS university;
 
-create table student(
+USE university;
+
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE IF EXISTS student;
+DROP TABLE IF EXISTS faculty;
+DROP TABLE IF EXISTS course;
+DROP TABLE IF EXISTS enrolled;
+SET FOREIGN_KEY_CHECKS = 1;
+
+CREATE TABLE student(
 	snum integer,
 	sname varchar(30),
 	major varchar(25),
@@ -10,14 +19,14 @@ create table student(
 ) ENGINE=InnoDB;
 
 
-create table faculty(
+CREATE TABLE faculty(
 	fid integer,
 	fname varchar(30),
 	deptid integer,
 	primary key (fid)
 ) ENGINE=InnoDB;
 
-create table course(
+CREATE TABLE course(
 	cname varchar(40),
 	meets_at varchar(20),
 	room varchar(10),
@@ -26,7 +35,7 @@ create table course(
 	foreign key (fid) references faculty(fid)
 ) ENGINE=InnoDB;
 
-create table enrolled(
+CREATE TABLE enrolled(
 	snum integer,
 	cname varchar(40),
 	primary key (snum,cname),
@@ -75,27 +84,27 @@ INSERT INTO faculty VALUES( 619023588,'Jennifer Thomas',11);
 INSERT INTO faculty VALUES( 489221823,'Richard Jackson',33);
 INSERT INTO faculty VALUES( 548977562,'Ulysses Teach',20);
 
-INSERT INTO course Values('Data Structures','MWF 10','R128',489456522);
-INSERT INTO course Values('Database Systems','MWF 12:30-1:45','1320 DCL',142519864);
-INSERT INTO course Values('Operating System Design','TuTh 12-1:20','20 AVW',489456522);
-INSERT INTO course Values('Archaeology of the Incas','MWF 3-4:15','R128',248965255);
-INSERT INTO course Values('Aviation Accident Investigation','TuTh 1-2:50','Q3',011564812);
-INSERT INTO course Values('Air Quality Engineering','TuTh 10:30-11:45','R15',011564812);
-INSERT INTO course Values('Introductory Latin','MWF 3-4:15','R12',248965255);
-INSERT INTO course Values('American Political Parties','TuTh 2-3:15','20 AVW',619023588);
-INSERT INTO course Values('Social Cognition','Tu 6:30-8:40','R15',159542516);
-INSERT INTO course Values('Perception','MTuWTh 3','Q3',489221823);
-INSERT INTO course Values('Multivariate Analysis','TuTh 2-3:15','R15',090873519);
-INSERT INTO course Values('Patent Law','F 1-2:50','R128',090873519);
-INSERT INTO course Values('Urban Economics','MWF 11','20 AVW',489221823);
-INSERT INTO course Values('Organic Chemistry','TuTh 12:30-1:45','R12',489221823);
-INSERT INTO course Values('Marketing Research','MW 10-11:15','1320 DCL',489221823);
-INSERT INTO course Values('Seminar in American Art','M 4','R15',489221823);
-INSERT INTO course Values('Orbital Mechanics','MWF 8','1320 DCL',011564812);
-INSERT INTO course Values('Dairy Herd Management','TuTh 12:30-1:45','R128',356187925);
-INSERT INTO course Values('Communication Networks','MW 9:30-10:45','20 AVW',141582651);
-INSERT INTO course Values('Optical Electronics','TuTh 12:30-1:45','R15',254099823);
-INSERT INTO course Values('Intoduction to Math','TuTh 8-9:30','R128',489221823);
+INSERT INTO course VALUES('Data Structures','MWF 10','R128',489456522);
+INSERT INTO course VALUES('Database Systems','MWF 12:30-1:45','1320 DCL',142519864);
+INSERT INTO course VALUES('Operating System Design','TuTh 12-1:20','20 AVW',489456522);
+INSERT INTO course VALUES('Archaeology of the Incas','MWF 3-4:15','R128',248965255);
+INSERT INTO course VALUES('Aviation Accident Investigation','TuTh 1-2:50','Q3',011564812);
+INSERT INTO course VALUES('Air Quality Engineering','TuTh 10:30-11:45','R15',011564812);
+INSERT INTO course VALUES('Introductory Latin','MWF 3-4:15','R12',248965255);
+INSERT INTO course VALUES('American Political Parties','TuTh 2-3:15','20 AVW',619023588);
+INSERT INTO course VALUES('Social Cognition','Tu 6:30-8:40','R15',159542516);
+INSERT INTO course VALUES('Perception','MTuWTh 3','Q3',489221823);
+INSERT INTO course VALUES('Multivariate Analysis','TuTh 2-3:15','R15',090873519);
+INSERT INTO course VALUES('Patent Law','F 1-2:50','R128',090873519);
+INSERT INTO course VALUES('Urban Economics','MWF 11','20 AVW',489221823);
+INSERT INTO course VALUES('Organic Chemistry','TuTh 12:30-1:45','R12',489221823);
+INSERT INTO course VALUES('Marketing Research','MW 10-11:15','1320 DCL',489221823);
+INSERT INTO course VALUES('Seminar in American Art','M 4','R15',489221823);
+INSERT INTO course VALUES('Orbital Mechanics','MWF 8','1320 DCL',011564812);
+INSERT INTO course VALUES('Dairy Herd Management','TuTh 12:30-1:45','R128',356187925);
+INSERT INTO course VALUES('Communication Networks','MW 9:30-10:45','20 AVW',141582651);
+INSERT INTO course VALUES('Optical Electronics','TuTh 12:30-1:45','R15',254099823);
+INSERT INTO course VALUES('Intoduction to Math','TuTh 8-9:30','R128',489221823);
 
 INSERT INTO enrolled VALUES( 112348546,'Database Systems');
 INSERT INTO enrolled VALUES(115987938,'Database Systems');
