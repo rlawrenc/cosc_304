@@ -5,7 +5,7 @@
 
 ## Instructor
 Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Office Hours:**	2 to 4 p.m. Thursdays or by appointment<br>
+**Office Hours:**	1 to 3 p.m. Mondays or by appointment<br>
 **Office Location:** ASC 349 and virtual office hours on Zoom
 
 ## TAs
