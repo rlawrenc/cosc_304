@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Databases - Winter 2022 Term 1
 
-**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday in ART 366 and live-stream on Zoom<br>
+**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday in ASC 140 and live-stream on Zoom<br>
 **Lab:** Drop-in virtual labs and help sessions
 
 ## Instructor
