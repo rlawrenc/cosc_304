@@ -8,8 +8,18 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Office Hours:**	1 to 3 p.m. Mondays or by appointment<br>
 **Office Location:** ASC 349 and virtual office hours on Zoom
 
-## TAs
-TBD
+## TAs Drop-in Session Hours
+| Day/Time |  TA/Instructor |
+|----------|----------------|
+| Monday 9 to 11 a.m.  | 	Eranga Desaa |
+| Monday 1 to 3 p.m. | Dr. Ramon Lawrence |
+| Monday 6:30 to 8 p.m. (class time)	| Eranga Desaa |
+| Tuesday 2 to 4 p.m.	| Ivan Carvalho |
+| Wednesday 9 to 11 a.m.	| Omar Abdelaziz |
+| Wednesday 6:30 to 8 p.m. (class time)	| Devon MacNeil |
+| Thursday 9 to 11 a.m. |	Omar Abdelaziz |
+| Thursday 2 to 4 p.m. |	Ivan Carvalho |
+| Friday 1 to 5 p.m. |	Devon MacNeil |
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
