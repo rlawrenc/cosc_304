@@ -6,8 +6,6 @@
 
 ![](img/lab1_loadGist.png)
 
-**This lab has a quiz on Canvas and relational algebra questions that should be done on RelaX and submitted on Canvas.**
-
 ## Relational Algebra Questions (10 marks - 2 marks each)
 
 Given the following relational schema, write queries in **relational algebra** to answer the English questions using the <a href="http://dbis-uibk.github.io/relax/">online relational algebra tool</a>. The database definition is available as a [Shipment database GIST: 585ee1836abb142a461d137e12dd14a3](https://gist.github.com/rlawrenc/585ee1836abb142a461d137e12dd14a3). The database is also available as an <a href="Shipment.sql">DDL file.</a></p>
