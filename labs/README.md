@@ -6,6 +6,8 @@ All lab assignments are done online with assistance from teaching assistants and
 
 **Many assignments use Docker to run databases on your computer. Follow the [setup instructions](setup) to get started.**
 
+**Bonus for early submission: 10% bonus for certain labs if show answer to instructor/TA before Monday 3 p.m. the week assignment is due. 5% bonus if show answer to instructor/TA before Wednesday 5 p.m.**
+
 ## Lab Schedule
 
 |  Lab  |  Date  |  Topic  |
