@@ -3,7 +3,7 @@
 ## [RelaX - Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/)
 
 [RelaX](https://dbis-uibk.github.io/relax/) is an online relational algebra tool that we will use for the assignments. It allows entering relational algebra expressions and executing them to get results. The data set can be loaded from a GitHub Gist including the [Bookstore data set GIST: 367f41bb51110ef3c84bb5f906f2fb87](https://gist.github.com/rlawrenc/367f41bb51110ef3c84bb5f906f2fb87) used for sample relational algebra queries in this lab, and the [Shipment database GIST: 585ee1836abb142a461d137e12dd14a3](https://gist.github.com/rlawrenc/585ee1836abb142a461d137e12dd14a3) used in the lab questions.
-
+ 
 ![](img/lab1_loadGist.png)
 
 ## Relational Algebra Questions (10 marks - 2 marks each)
