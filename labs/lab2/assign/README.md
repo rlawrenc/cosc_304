@@ -59,7 +59,7 @@ Insert the following records into the appropriate tables.
 
 ### Update (2 marks)
 
-1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'10B'` rather than the current `'2B'`.
+1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'2B'` rather than the current `'1A'`.
 
 2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax `DATE_ADD(your date field, INTERVAL 1 HOUR)`.
 
