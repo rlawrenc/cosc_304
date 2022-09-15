@@ -1,52 +1,75 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 2 - Creating tables using SQL and MySQL
 
-This assignment practices creating tables with SQL DDL. We will see later how to determine the relational table structure including fields and attributes. For this assignment, you will be given what the table should look like, and you need to write the SQL DDL.
+This assignment practices creating tables with SQL DDL. We will see later how to design the relational table structure. For this assignment, you are given what the table should look like, and you need to write the SQL DDL.
 
 ## Question 1 (10 marks)
 
 Write the SQL DDL to create the following 5 tables describing airports, airplanes, passengers, and flights:
 
-- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufacture date`.
+- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufacture date`. (1 mark)
 
-- An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters).
+- An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters). (1.5 marks)
 
-- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departure date/time` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport and arrives at another. Besides the departure date/time, there is an expected arrival date/time, and actual departure and arrival date/times. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.***
+- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departure date/time` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrival date/time`, and `actual departure` and `arrival date/times`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
 
-- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `first name` and `last name` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars).
+- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `first name` and `last name` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
 
-- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passenger id`, `flight number`, `flight departure date/time`, and a `seat number` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.***
+- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passenger id`, `flight number`, `flight departure date/time`, and a `seat number` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
 
 
 ## Question 2 (10 marks)
 
 Write the SQL DDL to perform the following modifications to the database created in Question 1.
 
-### Insert (4 marks)
+### Insert (5 marks)
 
 Insert the following records into the appropriate tables.
 
-Airplane - ('AC911','Boeing 747', '2001-01-25') ; ('WJ455', 'Airbus A380', '2008-11-15')
-Airport - ('YLW','Kelowna Airport','Kelowna','British Columbia', 'Canada') ; ('YWG','Winnipeg Airport','Winnipeg','Manitoba', 'Canada')
-Flight - ('AC35', 'YLW', 'YWG', 'AC911', '2009-03-14 07:00:00', '2009-03-14 15:00:00', '2009-03-14 07:05:00', '2009-03-14 15:30:00')
-('WJ111', 'YWG', 'YLW', 'WJ455', '2009-03-15 10:00:00', '2009-03-15 12:00:00', '2009-03-15 09:55:00', '2009-03-14 11:49:55')
-Passenger - (1, 'Joe', 'Smith', '1970-12-15', '1350 Springfield Road', 'Kelowna', 'British Columbia', 'Canada')
+#### Airplane
+```
+('AC911','Boeing 747', '2001-01-25')
+('WJ455', 'Airbus A380', '2008-11-15')
+```
+
+#### Airport 
+```
+('YLW','Kelowna Airport','Kelowna','British Columbia', 'Canada')
+('YWG','Winnipeg Airport','Winnipeg','Manitoba', 'Canada')
+```
+
+#### Flight 
+```
+('AC35', 'YLW', 'YWG', 'AC911', '2022-09-14 07:00:00', '2022-09-14 15:00:00', '2022-09-14 07:05:00', '2022-09-14 15:30:00')
+('WJ111', 'YWG', 'YLW', 'WJ455', '2022-09-15 10:00:00', '2022-09-15 12:00:00', '2022-09-15 09:55:00', '2022-09-14 11:49:55')
+```
+
+#### Passenger
+```
+(1, 'Joe', 'Smith', '1970-12-15', '1350 Springfield Road', 'Kelowna', 'British Columbia', 'Canada')
 (2, 'Fred', 'Brothers', '1950-01-02', '22 Pembina Highway', 'Winnipeg', 'Manitoba', 'Canada')
-OnFlight - (1, 'AC35', '2009-03-14 07:00:00', '1A')
-(1, 'WJ111', '2009-03-15 10:00:00', '10C')
-(2, 'AC35', '2009-03-14 07:00:00', '2A')
-(2, 'WJ111', '2009-03-15 10:00:00', '10D')
+```
 
-### Update (3 marks)
+#### OnFlight 
+```
+(1, 'AC35', '2022-03-14 07:00:00', '1A')
+(1, 'WJ111', '2022-03-15 10:00:00', '10C')
+(2, 'AC35', '2022-03-14 07:00:00', '2A')
+(2, 'WJ111', '2022-03-15 10:00:00', '10D')
+```
 
-1. 
+### Update (2 marks)
 
-2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax DATE_ADD(your date field, INTERVAL 1 HOUR).
+1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'10B'` rather than the current `'2B'`.
+
+2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax `DATE_ADD(your date field, INTERVAL 1 HOUR)`.
 
 ### Delete (3 marks)
 
-1. Test question
+1. The Kelowna airport is destroyed! Remove it from the `Airport` table. Note the changes to the flight table due to `SET NULL` foreign key action.
 
-2. Delete all on flight records for 'Fred Brothers'. Note: You do not have to use a subquery for this question but try if you can!
+2. Remove the unruly passenger `2` from flight `'WJ111'` on the `10 a.m.` flight on `'2022-09-15'`.
+
+3. Delete all on flight records for `'Fred Brothers'`. Note: You do not have to use a subquery for this question but try if you can!
 
 ## Submission
 
