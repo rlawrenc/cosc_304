@@ -4,17 +4,18 @@ This assignment practices creating tables with SQL DDL. We will see later how to
 
 ## Question 1 (10 marks)
 
-Write the SQL DDL to create the following 5 tables for an App store: `Publisher`, `Category`, `App`, `AppVersion`, `AppVersionReview`:
+Write the SQL DDL to create the following 5 tables describing airports, airplanes, passengers, and flights:
 
-1. A `Publisher` table where each publisher is identified by an integer `id` and has a `name` (up to 40 characters). (1 mark)
+- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufacture date`.
 
-2. A <tt>Category</tt> table where each category has an `id` (integer), a `name` (up to 50 characters), and a `parentId` to identify its parent category. The `parentId` should be a foreign key to the `Category` table. (1.5 marks)
+- An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters).
 
-3. An <tt>App</tt> table storing each app that is identified by a field called <tt>id</tt> that is an integer.  Other attributes include `name` (string up to 40 characters), `publisherId` (integer), `categoryId` (integer), and `description` (string up to 255 characters).  <b><i>Make all foreign keys set to null on delete and no action (generate error) on update.</i></b> (2 marks)
+- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departure date/time` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport and arrives at another. Besides the departure date/time, there is an expected arrival date/time, and actual departure and arrival date/times. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.***
 
-4. A <tt>AppVersion</tt> table that stores each version of the app. The primary key is the `appId` and `version` (exactly 10 characters). Each release has a `releaseDate` (<tt>DATETIME</tt>), an integer `rating`, a `price` (up to 10 digits with 2 decimals), and a `description` (up to 500 characters). <b><i>Make all foreign keys set to perform cascade on delete and cascade on update.</i></b> (2 marks)
+- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `first name` and `last name` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars).
 
-5. A <tt>AppVersionReview</tt> table that stores ratings for each application version. The primary key is the `appId`, `version`, and `reviewer` (exactly 20 characters). There is also a `reviewDate` (`DATETIME`), `rating` (int), and `review` (up to 1000 characters). <b><i>Make all foreign keys set to cascade on both update and delete. A value for the reviewDate field is always required.</i></b> (2 marks)
+- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passenger id`, `flight number`, `flight departure date/time`, and a `seat number` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.***
+
 
 ## Question 2 (10 marks)
 
@@ -24,40 +25,29 @@ Write the SQL DDL to perform the following modifications to the database created
 
 Insert the following records into the appropriate tables.
 
-<ol>
-  <li><b>Publisher -</b> <tt>(1,'Microsoft')</tt>  <br> <tt>(2,'Zynga')</tt></li>
-<li><b>Category -</b> <tt>(1,'Office Productivity',null)</tt> <br> <tt>(2,'Spreadsheets and Calculation Programs',1)</tt> <br> <tt>(3,'Games',null)</tt> <br> <tt>(4,'Strategy Games',3)</tt></li>
-<li><b>App -</b> <tt>(100, 'Microsoft Excel', 1, 2, 'Spreadsheet')</tt><br>
-<tt>(200, 'Words with Friends 2', 2, 3, 'Show what you know about words!')</tt>
-</li>
-  <li><b>AppVersion - </b> <tt>(100, '1.0', '2008-09-11', 1, 3.99, 'First version')</tt><br> 
-    <tt>(100, '2.0', '2020-01-01', 5, 15.99, 'Best version for more money')</tt><br> 
-    <tt>(200, '5.0', '2018-05-23', 3, 1.99, null)</tt><br> 
-    <tt>(200, '6.1', '2020-07-11', 5, 0.99, 'Have fun!')</tt></li>
-  <li><b>AppVersionReview - </b> <tt>(100, '1.0', 'Joe', '2008-09-11 08:00:00', 1, 'First review. It sucks!')</tt><br> 
-    <tt>(100, '1.0', 'Steve', '2008-09-11 08:05:00', 5, 'It is awesome!')</tt><br>
-    <tt>(100, '2.0', 'Padhu', '2020-02-03 11:23:45', 3, 'Decent')</tt><br>
-    <tt>(100, '2.0', 'Chen', '2020-05-19 18:25:00', 4, 'Much improved');</tt><br>
-    <tt>(200, '5.0', 'Amy', '2018-09-17 09:00:00', 3, 'Okay')</tt><br>
-    <tt>(200, '6.1', 'Astra', '2020-11-22 10:03:00', 5, 'Addictive!')</tt></li>
-</ol>
-
-
-### Delete (3 marks)
-
-1. Delete any `AppVersionReview` where the `rating` is less than or equal to `3`. (1 mark)
-
-2. Delete all apps published by <tt>'Microsoft'</tt>. (1 mark) <strong>How many rows are deleted when this statement is run? (1 mark)</strong> Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on Recipe is either SET NULL or NO ACTION to see the difference.
-
+Airplane - ('AC911','Boeing 747', '2001-01-25') ; ('WJ455', 'Airbus A380', '2008-11-15')
+Airport - ('YLW','Kelowna Airport','Kelowna','British Columbia', 'Canada') ; ('YWG','Winnipeg Airport','Winnipeg','Manitoba', 'Canada')
+Flight - ('AC35', 'YLW', 'YWG', 'AC911', '2009-03-14 07:00:00', '2009-03-14 15:00:00', '2009-03-14 07:05:00', '2009-03-14 15:30:00')
+('WJ111', 'YWG', 'YLW', 'WJ455', '2009-03-15 10:00:00', '2009-03-15 12:00:00', '2009-03-15 09:55:00', '2009-03-14 11:49:55')
+Passenger - (1, 'Joe', 'Smith', '1970-12-15', '1350 Springfield Road', 'Kelowna', 'British Columbia', 'Canada')
+(2, 'Fred', 'Brothers', '1950-01-02', '22 Pembina Highway', 'Winnipeg', 'Manitoba', 'Canada')
+OnFlight - (1, 'AC35', '2009-03-14 07:00:00', '1A')
+(1, 'WJ111', '2009-03-15 10:00:00', '10C')
+(2, 'AC35', '2009-03-14 07:00:00', '2A')
+(2, 'WJ111', '2009-03-15 10:00:00', '10D')
 
 ### Update (3 marks)
 
-1. Update the `AppVersion` table so the `price` of every version of `appId 200` is `2.99`.
+1. 
 
-2. Update `App` with `id 100` to have an `id` of `300`.
+2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax DATE_ADD(your date field, INTERVAL 1 HOUR).
 
-3. Change the `app id 200 version '6.1'` to have `version='6.2'` and `releaseDate` of `August 12, 2020 at noon`.
+### Delete (3 marks)
+
+1. Test question
+
+2. Delete all on flight records for 'Fred Brothers'. Note: You do not have to use a subquery for this question but try if you can!
 
 ## Submission
 
-Submit on Canvas a complete DDL file with all commands.
+Submit on Canvas a complete DDL file with all commands or show the TA during virtual office hours.
