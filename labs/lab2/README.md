@@ -131,5 +131,5 @@ fid, fname, deptId
 
 **Answers:**  <a href="labAnswers_DDL.txt">Download the answer script file</a>.</p>
 
-[Lab 2 - SQL Lab Assignment](assign/)
+# [Lab 2 - SQL Lab Assignment](assign/)
 
