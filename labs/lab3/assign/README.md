@@ -67,14 +67,26 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 
 #### Output:
 ```
-+-----+-----------------+--------------+
-| cid | cname           | numShipments |
-+-----+-----------------+--------------+
-|   2 | Joe Smithsonian |            3 |
-+-----+-----------------+--------------+
++------------------+-------+
+| city             | state |
++------------------+-------+
+| Morristown       | NJ    |
+| Detroit          | MI    |
+| Wyandotte        | MI    |
+| Chicago          | IL    |
+| Springfield      | IL    |
+| Iowa City        | IA    |
+| Muscatine        | IA    |
+| Hollywood        | CA    |
+| Huntington Beach | CA    |
+| Kelowna          | BC    |
+| Lake Country     | BC    |
+| Vernon           | BC    |
+| Calgary          | AB    |
++------------------+-------+
 ```
 
-5. For each city, return the number of customers in that city and the number of shipments for customers in that city. Hint: COUNT(DISTINCT *field*) may be useful. Only show cities with at least 2 shipments. Order by number of shipments descending.
+5. For each city, return the number of customers in that city and the number of shipments for customers in that city. **Hint: COUNT(DISTINCT *field*) may be useful.** Only show cities with at least 2 shipments. Order by number of shipments descending.
 
 #### Output:
 ```
@@ -90,7 +102,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +------------------+--------------+--------------+
 ```
 
-6. Return the top 5 products for state `'BC'` based on shipment revenue (`amount*price`) for the year 2021. 
+6. Return the top 5 products for state `'BC'` based on shipment revenue (`amount*price`) for the year `2021`. 
 
 #### Output:
 ```
@@ -105,7 +117,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-------+------+-------------------------+-----------+
 ```
 
-7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after March 10th, 2022, and only show products if they have been shipped at least twice. Order by `totalValueShipped` descending.
+7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after `March 10th, 2022`, and only show products if they have been shipped at least twice. Order by `totalValueShipped` descending.
 
 #### Output:
 ```
@@ -145,17 +157,25 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-------------------------+-------------------------+-------------+
 ```
 
-9. Return a complete list of  products (`pid`, `pname`), the total number of shipments, and total shipped amount that they have been shipped to customers in 'IA'. 
+9. Return a complete list of  products (`pid`, `pname`), the total number of shipments, and total shipped amount that they have been shipped to customers in `'IA'`. 
 **Hint: Start by writing a query to determine total shipments and amount for all products. Not all products will appear. To get all products, need a special join using a subquery that you just produced.**
 
 #### Output:
 ```
-+-----+-----------------+--------------+--------------------+------------------+
-| pid | pname           | numShipments | totalShippedAmount | avgShippedAmount |
-+-----+-----------------+--------------+--------------------+------------------+
-|   1 | Swiss Chocolate |            4 |                 32 |           8.0000 |
-|   3 | Teddy Bear      |            1 |                  1 |           1.0000 |
-+-----+-----------------+--------------+--------------------+------------------+
++-----+-------------------------+--------------+--------------------+
+| pid | pname                   | numShipments | totalShippedAmount |
++-----+-------------------------+--------------+--------------------+
+|   1 | Swiss Chocolate         |            2 |                 24 |
+|   2 | Wooden Chair            |            2 |                 34 |
+|   3 | Teddy Bear              |         NULL |               NULL |
+|   4 | Chocolate Bar           |         NULL |               NULL |
+|   5 | Desk                    |         NULL |               NULL |
+|   6 | Table                   |            1 |                  5 |
+|   7 | Deluxe Sweet Collection |         NULL |               NULL |
+|   8 | Table                   |            1 |                 25 |
+|   9 | Sports Car              |         NULL |               NULL |
+|  10 | Textbook                |            1 |                  2 |
++-----+-------------------------+--------------+--------------------+
 ```
 
 10. Return the customers who have more shipments than the average number of shipments per customer. **Note: Hard question. May need more than one subquery including using subquery in FROM and HAVING clause.***
