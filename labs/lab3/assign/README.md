@@ -30,7 +30,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-------------------------+-----------+-----------+----------------+
 ```
 
-2. Return the customer id, name, shipment date, and state for all customers in `'BC'` or `'IA'` that have had a shipment in `2022`. Note you can use [YEAR() function](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year) to get the year form the shipment date or use date comparisons. Order by `shipdate` descending.
+2. Return the customer id, name, state, and shipment date for all customers in `'BC'` or `'IA'` that have had a shipment in `2022`. Note you can use [YEAR() function](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year) to get the year form the shipment date or use date comparisons. Order by `shipdate` descending.
 
 #### Output:
 ```
