@@ -40,6 +40,8 @@ The password is given in the `docker-compose.yml` file (which you are **encourag
 | Use database `dbname`  | `use dbname;`  |
 | List all tables  | `show tables;`  |
 
+**Note that if any of the DDL scripts fail to run to setup your database. Then either run them using SQuirreL SQL or login to mysql command prompt and use `source` command such as: `source /docker-entrypoint-initdb.d/ShipmentMySQL.sql`.**
+
 ![Connecting using MySQL Command Line](img/commandline.png)
 
 ### Step #2: Accessing MySQL using SQuirreL SQL
