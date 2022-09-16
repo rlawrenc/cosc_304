@@ -1,35 +1,36 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 3 - SQL
 
-This assignment practices writing queries in SQL.
+This assignment practices writing queries in SQL. **Before starting the assignment, complete the [database setup using Docker](../)**.
 
 ## Question 1 (20 marks)
 
-Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on the MySQL server.** You can also use the [DDL for MySQL](ShipmentMySQL.sql) for use in your own database. **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
+Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on MySQL.** [DDL is available](ShipmentMySQL.sql). **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
-Customer(cid: integer, cname: string, address: string, city: string, state: string)
-Product(pid: integer, pname: string, price: currency, inventory: integer)
-Shipment(sid: integer, cid: integer, shipdate: DateTime)
-ShippedProduct(sid: integer, pid: integer, amount: integer)
+customer(cid: integer, cname: string, address: string, city: string, state: string)
+product(pid: integer, pname: string, price: currency, inventory: integer)
+shipment(sid: integer, cid: integer, shipdate: DateTime)
+shippedproduct(sid: integer, pid: integer, amount: integer)
 ```
 
-1. Return the customer name and city/state combined into one field called `cityState`. Use the [CONCAT](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat) function is MySQL. Order by `cityState` descending.
+1. Return the product names, price, inventory, and inventory value of each product (`price*inventory`) (rename as `inventoryValue`) for products with price greater than `$20`. Order by product name ascending.
 
 **Output:**
 ```
-+-----------------+-----------------+
-| cname           | cityState       |
-+-----------------+-----------------+
-| Shannon Rose    | Wyandotte, MI   |
-| Fred Smith      | Springfield, IL |
-| Beth Rosebud    | Muscatine, IA   |
-| Robert Dean     | Morristown, NJ  |
-| Joe Smithsonian | Iowa City, IA   |
-| Suzanne May     | Iowa City, IA   |
-+-----------------+-----------------+
++-------------------------+-----------+-----------+----------------+
+| pname                   | price     | inventory | inventoryValue |
++-------------------------+-----------+-----------+----------------+
+| Deluxe Sweet Collection |     32.65 |        83 |        2709.95 |
+| Desk                    |    250.99 |       100 |       25099.00 |
+| Sports Car              | 123500.00 |         0 |           0.00 |
+| Swiss Chocolate         |     32.99 |        40 |        1319.60 |
+| Table                   |    500.00 |        44 |       22000.00 |
+| Textbook                |    250.00 |        23 |        5750.00 |
+| Wooden Chair            |     99.99 |        12 |        1199.88 |
++-------------------------+-----------+-----------+----------------+
 ```
 
-2. Return the total amount of all products shipped and the distinct different items shipped (`pid`).
+2. Return the customer id, name, shipment date, and state for all customers in `'BC'` or `'IA'` that have had a shipment in `2022`. Note you can use [YEAR() function](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year) to get the year form the shipment date or use date comparisons. Order by `shipdate` descending.
 
 #### Output:
 ```
