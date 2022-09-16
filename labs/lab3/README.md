@@ -98,16 +98,16 @@ Here are the questions that you must answer using SQL. **You can answer them in 
 <ol>
 <li><pre>SELECT sname
 FROM student
-WHERE (standing = 'JR' OR standing = 'SO') AND major = 'Computer Science'</pre></li>
+WHERE (standing = 'JR' OR standing = 'SO') AND major = 'Computer Science';</pre></li>
 
 <li><pre>SELECT *
 FROM faculty F, course C
-WHERE F.fid = C.fid and F.fname = 'Richard Jackson'</pre></li>
+WHERE F.fid = C.fid and F.fname = 'Richard Jackson';</pre></li>
 
 <li><pre>SELECT S.snum, sname
 FROM student S, course C, faculty F, enrolled E
 WHERE S.snum = E.snum AND C.cname = E.cname AND C.fid = F.fid AND C.room = 'R15' 
-      AND F.deptId = '68' AND S.standing = 'SR'</pre></li>
+      AND F.deptId = '68' AND S.standing = 'SR';</pre></li>
 
 <li><pre>SELECT *
 FROM course
@@ -118,12 +118,12 @@ ORDER BY cname;</pre></li>
 FROM faculty F, course C
 WHERE F.fid = C.fid
 GROUP by deptId
-ORDER BY CoursesOffered DESC</pre></li>
+ORDER BY CoursesOffered DESC;</pre></li>
 
 <li><pre>SELECT S.snum, sname, COUNT(cname)
 FROM student S LEFT OUTER JOIN enrolled E ON S.snum = E.snum
 GROUP BY S.snum, sname
-ORDER BY COUNT(cname) DESC</pre></li>
+ORDER BY COUNT(cname) DESC;</pre></li>
 
 <li><pre>SELECT C.cname, COUNT(*)
 FROM course C, enrolled E, faculty F
@@ -133,17 +133,17 @@ HAVING COUNT(*) >= 2;</pre></li>
 
 <li><pre>SELECT *
 FROM student
-WHERE age > (SELECT AVG(age) FROM student)
+WHERE age > (SELECT AVG(age) FROM student);
 </pre></li>
 
 <li><pre>SELECT *
 FROM student
-WHERE snum NOT IN (SELECT snum FROM enrolled)</pre></li>
+WHERE snum NOT IN (SELECT snum FROM enrolled);</pre></li>
 
 <li><pre>SELECT *
 FROM student
 WHERE major = 'Computer Science' 
-      AND age < ALL (SELECT age FROM student WHERE major = 'Psychology')</pre></li>
+      AND age < ALL (SELECT age FROM student WHERE major = 'Psychology');</pre></li>
 </ol>
 
 
@@ -160,13 +160,13 @@ WHERE major = 'Computer Science'
 <li><pre>SELECT MAX(NumCourses), MIN(NumCourses), AVG(NumCourses)
 FROM (SELECT S.snum, sname, COUNT(*) as NumCourses
        FROM student S JOIN enrolled E ON S.snum = E.snum
-       GROUP BY S.snum, sname) AS T</pre></li>
+       GROUP BY S.snum, sname) AS T;</pre></li>
 
 <li><pre>SELECT F.fid, F.fname, COUNT(*)
 FROM faculty F, course C
 WHERE C.fid = F.fid
 GROUP BY F.fid, F.fname
-HAVING COUNT(*) >= ALL(SELECT COUNT(*) FROM course GROUP BY fid)</pre></li>
+HAVING COUNT(*) >= ALL(SELECT COUNT(*) FROM course GROUP BY fid);</pre></li>
 </ol>
 
 ## [Lab 3 - SQL Lab Assignment](assign/)
