@@ -92,6 +92,3 @@ INSERT INTO workson VALUES ('E4','P2','Programmer',18);
 INSERT INTO workson VALUES ('E5','P2','Manager',24);
 INSERT INTO workson VALUES ('E6','P4','Manager',48);
 INSERT INTO workson VALUES ('E7','P3','Engineer',36);
-
-USE workson;
-GRANT ALL privileges ON workson.* TO testuser;

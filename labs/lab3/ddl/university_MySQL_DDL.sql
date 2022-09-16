@@ -127,5 +127,3 @@ INSERT INTO enrolled VALUES(556784565,'Air Quality Engineering');
 INSERT INTO enrolled VALUES(099354543,'Patent Law');
 INSERT INTO enrolled VALUES(574489456,'Urban Economics');
 
-USE university;
-GRANT ALL privileges ON university.* TO testuser;
