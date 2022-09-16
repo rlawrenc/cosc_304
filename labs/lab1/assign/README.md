@@ -20,7 +20,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 <ol>
 <li> Return the customer id,  name, address, and state where the customer is either in the state of Iowa ('IA') or California ('CA'). <br>Expected output:<br><img src="img/ra_q1.png" width="500"></li>
 
-<li> Return the shipment id, date, shipped amount, product id, product name, and inventory for products that have 10 or less current inventory and have been in a shipment with a shipment amount over 3.  <br>Expected output:<br><img src="img/ra_q2.png" width="600"></li>
+<li> Return the shipment id, shipped amount, product id, product name, and inventory for products that have 10 or less current inventory and have been in a shipment with a shipment amount over 3.  <br>Expected output:<br><img src="img/ra_q2.png" width="600"></li>
 
 <li> Return a list of all the product id, name, and price that have been in a shipment before May 17, 2014. The product price must be less than $50, and the shipped amount < 5. <br>Expected output:<br><img src="img/ra_q3.png" width="350"></li>
 
