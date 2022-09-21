@@ -46,6 +46,8 @@ The password is given in the `docker-compose.yml` file (which you are **encourag
 
 [SQuirreL](http://squirrel-sql.sourceforge.net) is an open source graphical query tool capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
+[Download and install MySQL JDBC driver](mysql-connector-java-8.0.27.jar) and put it in the SQuirreL `lib` folder.
+
 Start up SQuirreL.  Register our MySQL server with the information: 
 
 <pre>
