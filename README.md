@@ -74,13 +74,13 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Sept. 26 (M) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
 | Sept. 28 (W) | [SQL - Subqueries, Outer joins](topics/7_sql_aggregation) | |
 | Oct. 3 (M) | [Database Design – General Approach](topics/8_db_design)<br>[ER and UML Modeling](topics/9_er_design) | |
-| Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/9_er_design) | |
+| Oct. 5 (W) | [ER and UML Modeling examples and questions](topics/9_er_design) <br>(**TA will deliver class.**) | |
 | Oct. 10 (M) | **No class due to Thanksgiving** | |
 | Oct. 12 (W) | **Midterm Exam #1 In-Class** | |
 | Oct. 17 (M) | [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
 | Oct. 19 (W) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
 | Oct. 24 (M) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming) | [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
+| Oct. 26 (W) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming) <br>(**TA will deliver class.**) | [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](http://xkcd.com/327/) |
 | Oct. 31 (M) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](https://philip.greenspun.com/sql/triggers.html) |
 | Nov. 2 (W) | **Midterm Exam #2 In-Class** | |
 | Nov. 7 (M) | **No class for Term 1 midterm break** | |
