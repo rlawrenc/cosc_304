@@ -4,7 +4,7 @@ This lab designs ER diagrams in UML notation. The AutoER auto-grading software i
 
 ## Question #1 - Stock Market Database (10 marks)
 
-<h3>AutoER link: TODO</h3>
+<h3>AutoER link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/5</h3>
 
 Construct a database design in UML for a stock market tracking database. **Data types are not needed.**
 
@@ -23,7 +23,7 @@ Construct a database design in UML for a stock market tracking database. **Data 
 
 ## Question #2 - Question Database (10 marks)
 
-<h3>AutoER link: TODO</h3>
+<h3>AutoER link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/5</h3>
 
 Construct a database design in UML for a question databank. **Data types are not needed.**
 
