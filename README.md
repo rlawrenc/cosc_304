@@ -11,11 +11,11 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 ## TAs Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 9 to 11 a.m.  | 	Eranga Desaa |
+| Monday 9 to 11 a.m.  | 	Eranga Desaa / Ivan Carvalho / Omar Abdelaziz |
 | Monday 1 to 3 p.m. | Dr. Ramon Lawrence |
 | Monday 6:30 to 8 p.m. (class time)	| Eranga Desaa |
-| Tuesday 2 to 4 p.m.	| Ivan Carvalho |
-| Wednesday 9 to 11 a.m.	| Omar Abdelaziz |
+| Tuesday 2 to 4 p.m.	| Ivan Carvalho / Devon MacNeil |
+| Wednesday 9 to 11 a.m.	| Omar Abdelaziz / Eranga Desaa |
 | Wednesday 6:30 to 8 p.m. (class time)	| Devon MacNeil |
 | Thursday 9 to 11 a.m. |	Omar Abdelaziz |
 | Thursday 2 to 4 p.m. |	Ivan Carvalho |
