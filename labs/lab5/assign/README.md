@@ -40,7 +40,7 @@ The project will build an online store like Amazon.com selling whatever products
 
 ### Deliverables
 
-**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)**
+**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks) You can use AutoER to check your work (link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/9), but your design needs to include data types so it must be in Astah or another tool. **
 
 **2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
 
