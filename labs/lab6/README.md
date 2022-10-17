@@ -2,16 +2,44 @@
 
 This lab shows how Java and Python programs can connect to MySQL and Microsoft SQL Server.
 
+**Make sure your computer is setup to run Docker by following these [setup instructions](../setup).**
+
+### Setup MySQL and SQL Server Docker Container
+
+ - Create a directory `cosc304_lab6`.
+ - Download the `docker-compose.yml` file into the `cosc304_lab6` directory. 
+ - Create a folder `ddl` in `cosc304_lab6` directory. Download the contents of the `ddl` folder into the `cosc304_lab6\ddl` folder.
+ - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab6`.
+ - Run the command `docker-compose up -d`
+ - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
+ - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
+ - Microsoft SQL Server will be running on port 1433.
+ 
 ## Part #1: MySQL
 
-Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. If running Java, setup your Eclipse project. For Python, setup your Python environment using Jupyter Notebook or an editor like Spyder (install with [Anaconda Python 3.8 distribution](https://www.anaconda.com/distribution/)).
+Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. 
+The user id and password information is in the `docker-compose.yml` file.
 
-Your MySQL user id is the first letter in your first name followed by up to 7 letters of your last name and your initial password is your student id.  For more information on how to login and use MySQL, see <a href="http://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/mysql.html">Using MySQL</a>.
+MySQL commands can be running using the command line within the Docker container. Run the command:
+
+```
+docker exec -it cosc304-mysql bash
+```
+
+This will start a command line session. Connect to MySQL using:
+
+```
+mysql -u root -p
+```
+OR
+```
+mysql -u testuser -p
+```
 
 To make the Java program work:
 
 ```
-Change Line 5 to:	String url = "jdbc:mysql://cosc304.ok.ubc.ca/workson";
+Change Line 5 to:	String url = "jdbc:mysql://localhost/workson";
 Change Line 6 to:	String uid = "put your user id here";
 Change Line 7 to:	String pw = "put your password here";
 ```
@@ -19,7 +47,7 @@ Change Line 7 to:	String pw = "put your password here";
 To make the Python program work:
 
 ```
-Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='cosc304.ok.ubc.ca', database='workson')
+Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
 ```
 
 The result of the program is this:
@@ -73,7 +101,7 @@ Supervisor: R. Davis
 
 ### Java Setup
 
-1. [Download the Microsoft SQL Server driver](code/sqljdbc4.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
+1. [Download the Microsoft SQL Server driver](code/mssql-jdbc-11.2.0.jre11.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
 
 2. Open Eclipse.  Select `File`, `New`, `Java project`. ([screenshot](img/EclipseJavaProject.png))
 
