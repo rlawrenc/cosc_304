@@ -34,7 +34,7 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
  - Understand the use case for databases and the relational model for data storage.
  - Proficiency in creating queries on relational databases using relational algebra and SQL.
  - Read existing database designs, design new databases using ER/UML modeling, and convert to the relational model.
- - Construct programs that access a database to read data, perform analysis, and output results.
+ - Construct programs and web sites that access a database to read data, perform analysis, and display output.
  - Exposure to database technologies like NoSQL, JSON, XML, and cloud databases.
 
 ## Marking and Evaluation
