@@ -101,18 +101,18 @@ Supervisor: R. Davis
 
 ### Java Setup
 
-1. [Download the Microsoft SQL Server driver](code/mssql-jdbc-11.2.0.jre11.jar) and put it in your classpath or in the `lib\ext` folder of your JRE.
+1. Make sure the [Microsoft SQL Server JDBC driver](code/mssql-jdbc-11.2.0.jre11.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
 
-2. Open Eclipse.  Select `File`, `New`, `Java project`. ([screenshot](img/EclipseJavaProject.png))
+2. You must connect to SQL Server using SQuirreL or command line to create the workson database. 
 
-3. [Download the sample file](code/TestJdbcSqlServer.java).  Save this file in your Eclipse workspace under the project folder that you just created. 
+3. [Download the sample file](code/TestJdbcSqlServer.java).  Save this file in your `cosc304_lab6` folder that you just created. 
 
 4. These are the modifications you must make to get the program working:
 
 ```
-Change Line 5 to:	String url = "jdbc:sqlserver://sql04.ok.ubc.ca;DatabaseName=WorksOn;";
-Change Line 6 to:	String uid = "put your user id here";
-Change Line 7 to:	String pw = "put your password here";
+Change Line 5 to:	String url = "jdbc:sqlserver://localhost;DatabaseName=WorksOn;;TrustServerCertificate=True";
+Change Line 6 to:	String uid = "sa";
+Change Line 7 to:	String pw = "put password here";
 ```
 
 ### Python Setup
@@ -124,8 +124,8 @@ Change Line 7 to:	String pw = "put your password here";
 3. These are the modifications you must make to get the program working:
 
 ```
-Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=sql04.ok.ubc.ca;
-							DATABASE=workson;UID=yourUserId;PWD=yourPassword""")
+Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
+							DATABASE=workson;UID=sa;PWD=yourPassword""")
 ```
 
 ### Expected Output
