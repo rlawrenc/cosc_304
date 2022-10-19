@@ -31,11 +31,13 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Course Format:** Interactive classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
 
 **Learning Outcomes:**
- - Understand the use case for databases and the relational model for data storage.
- - Proficiency in creating queries on relational databases using relational algebra and SQL.
- - Read existing database designs, design new databases using ER/UML modeling, and convert to the relational model.
- - Construct programs and web sites that access a database to read data, perform analysis, and display output.
- - Exposure to database technologies like NoSQL, JSON, XML, and cloud databases.
+ - Describe how databases provide data abstraction and simplify writing programs to store and manipulate data.
+ - Create relational algebra queries on relational databases using selection, projection, join, and set operators.
+ - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries with multiple joins, aggregation, grouping, and subqueries. Explain the translation of a SQL query into relational algebra operators.
+ - Analyze and understand existing database designs, design new databases using ER/UML modeling, and convert designs to the relational model including proper modeling of primary and foreign keys.
+ - Develop programs and web sites that access a database to read data, perform analysis, and display output.
+ - Use JSON and XML for data exchange and representation.
+ - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
 
 ## Marking and Evaluation
 | Item | Weighting | Description |
