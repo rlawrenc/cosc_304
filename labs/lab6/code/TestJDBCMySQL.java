@@ -2,8 +2,8 @@ import java.sql.*;
 
 public class TestJDBCMySQL
 {   public static void main(String[] args)
-    {   String url = "jdbc:mysql://cosc304.ok.ubc.ca/workson";
-        String uid = "rlawrenc";
+    {   String url = "jdbc:mysql://localhost/workson";
+        String uid = "testuser";
         String pw = "todo";              
               
         try ( Connection con = DriverManager.getConnection(url, uid, pw);

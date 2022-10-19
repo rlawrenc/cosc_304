@@ -1,6 +1,6 @@
 import mysql.connector
 try:
-    cnx = mysql.connector.connect(user='rlawrenc', password='todo', host='cosc304.ok.ubc.ca', database='workson')
+    cnx = mysql.connector.connect(user='testuser', password='todo', host='localhost', database='workson')
     cursor = cnx.cursor(buffered=True)
     query = "SELECT eno, ename FROM emp WHERE eno IN (SELECT supereno FROM emp) ORDER BY ename"
     cursor.execute(query)

@@ -1,7 +1,7 @@
 import pyodbc 
 try:
-    cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=sql04.ok.ubc.ca;
-                        DATABASE=workson;UID=rlawrenc;PWD=todo""")
+    cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
+                        DATABASE=workson;UID=sa;PWD=todo""")
     cursor = cnx.cursor()
     sql = """SELECT D.dno, dname, P.pno, pname, SUM(hours)
              FROM Dept D, Proj P, WorksOn W
