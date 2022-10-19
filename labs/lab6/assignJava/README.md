@@ -14,10 +14,9 @@ enroll (<u>sid</u>, <u>cnum</u>, <u>secnum</u>, grade)
 
 ## Initial Steps
 
-Download the [starter code](304_lab6.zip) and import into Eclipse. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestEnrollJDBC.java`, and the code file to edit called `EnrollJDBC.java`. It also contains the MySQL JDBC JAR file.
+Download the [starter code](304_lab6.zip) and unzip. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestEnrollJDBC.java`, and the code file to edit called `EnrollJDBC.java`. It also contains the MySQL JDBC JAR file.
 
-![](img/importProject1.png)
-![](img/importProject2.png)
+Use VSCode to edit the code files. You will need to install the Java extension to compile and run.
 
 ## Question 1 (35 marks)
 
