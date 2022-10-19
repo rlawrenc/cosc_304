@@ -38,6 +38,7 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
  - Develop programs and web sites that access a database to read data, perform analysis, and display output.
  - Use JSON and XML for data exchange and representation.
  - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
+<!-- - Implement database security using user accounts/passwords and managing SQL privileges using GRANT and REVOKE. -->
 
 ## Marking and Evaluation
 | Item | Weighting | Description |
