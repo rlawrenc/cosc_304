@@ -283,7 +283,7 @@ class TestEnrollDB(unittest.TestCase):
         # Re-initialize database
         self.enrollDB.init()
         
-        print("\nTest new enrroll:\n")
+        print("\nTest new enroll:\n")
     
         
         # Add an enroll with a student

@@ -8,7 +8,7 @@ class EnrollDB:
         try:
             # TODO: Fill in your connection information
             print("Connecting to database.")
-            self.cnx = mysql.connector.connect(user='todo', password='todo', host='cosc304.ok.ubc.ca', database='db_todo')
+            self.cnx = mysql.connector.connect(user='testuser', password='todo', host='localhost', database='testuser')
             return self.cnx
         except mysql.connector.Error as err:  
             print(err)   
