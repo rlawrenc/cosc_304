@@ -9,7 +9,7 @@ import java.sql.*;
 
 public class ExecuteSqlScript {
 	public static void main(String []argv)
-	{	String inFileName = "A3_data.sql";
+	{	String inFileName = "script.sql";
 		BufferedReader myReader = null;
 		String sql = "";
 
