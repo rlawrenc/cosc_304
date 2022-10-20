@@ -24,8 +24,7 @@ public class GetMetaData
 				
 				rs2 = stmt.executeQuery("SELECT COUNT(*) FROM "+tblName);
 				rs2.next();
-				System.out.println("Table: "+tblName+" # records: "+
-											rs2.getInt(1));
+				System.out.println("Table: "+tblName+" # records: "+ rs2.getInt(1));
 				rs5 = dmd.getColumns(null,null,tblName,"%");
 				System.out.println("  Attributes: ");
 

@@ -8,7 +8,7 @@ public class TestJdbcSqlServer
 			
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);
 	          Statement stmt = con.createStatement();) 
-	    {			
+		{			
 			ResultSet rst = stmt.executeQuery("SELECT ename,salary FROM emp");
 			System.out.println("Employee Name,Salary");
 			while (rst.next())
