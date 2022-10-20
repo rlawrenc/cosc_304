@@ -13,7 +13,8 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
  - Run the command `docker-compose up -d`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
  - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
- - Microsoft SQL Server will be running on port 1433.
+ - Microsoft SQL Server will be running on port 1433. Note SQL Server is not supported on the Apple M1 chip. However, there is an alternate version that is. In the docker-compose.yml file, change: `image: mcr.microsoft.com/mssql/server:2019-latest` to this: `image: mcr.microsoft.com/azure-sql-edge`.
+
  
 ## Part #1: MySQL
 
