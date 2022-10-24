@@ -28,7 +28,31 @@ services:
         expose:
             - '1433'
         volumes:
-            - cosc304-db:/var/lib/mssql
+            - cosc304-db:/var/lib/mssql            
+            - ./ddl:/scripts
+        command:
+            - /bin/bash
+            - -c
+            - |
+               /opt/mssql/bin/sqlservr &
+               pid=$$!
+               echo "Waiting for MS SQL to be available"
+               /opt/mssql-tools/bin/sqlcmd -l 30 -S localhost -h-1 -V1 -U sa -P $$SA_PASSWORD -Q "SET NOCOUNT ON SELECT \"YAY WE ARE UP\" , @@servername"
+               is_up=$$?
+               while [ $$is_up -ne 0 ] ; do 
+                 echo -e $$(date) 
+                 /opt/mssql-tools/bin/sqlcmd -l 30 -S localhost -h-1 -V1 -U sa -P $$SA_PASSWORD -Q "SET NOCOUNT ON SELECT \"YAY WE ARE UP\" , @@servername"
+                 is_up=$$?
+                 sleep 5 
+               done
+               for foo in /scripts/SQLServer*.ddl
+                 do /opt/mssql-tools/bin/sqlcmd -U sa -P $$SA_PASSWORD -l 30 -e -i $$foo
+               done
+               trap "kill -15 $$pid" SIGTERM
+               wait $$pid
+               exit 0
 volumes: 
     cosc304-db:
     mysql-db:
+
+

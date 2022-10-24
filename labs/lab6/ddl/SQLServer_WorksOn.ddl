@@ -1,8 +1,17 @@
-DROP TABLE Emp;
-DROP TABLE Dept;
-DROP TABLE Proj;
-DROP TABLE WorksOn;
+CREATE DATABASE workson;
+go
 
+USE workson;
+go
+
+-- Drop all tables ignoring foreign key constraints
+exec sp_MSforeachtable "declare @name nvarchar(max); set @name = parsename('?', 1); exec sp_MSdropconstraints @name";
+exec sp_MSforeachtable "drop table ?";
+
+-- DROP TABLE IF EXISTS Emp;
+-- DROP TABLE IF EXISTS Dept;
+-- DROP TABLE IF EXISTS Proj;
+-- DROP TABLE IF EXISTS WorksOn;
 
 CREATE TABLE Emp (
  eno CHAR(5) NOT NULL,
@@ -15,6 +24,7 @@ CREATE TABLE Emp (
  PRIMARY KEY (eno),
 );
 
+
 CREATE TABLE Dept (
  dno CHAR(5) NOT NULL,
  dname VARCHAR(40),
@@ -24,7 +34,6 @@ CREATE TABLE Dept (
 
 ALTER TABLE Emp ADD CONSTRAINT FK_Emp_Dept FOREIGN KEY (dno) REFERENCES Dept(dno); 
  
-
 CREATE TABLE Proj (
  pno CHAR(5) NOT NULL,
  pname VARCHAR(40),
@@ -33,7 +42,6 @@ CREATE TABLE Proj (
  PRIMARY KEY (pno),
  CONSTRAINT FK_Proj_Dept FOREIGN KEY (dno) REFERENCES Dept(dno));
  
-
 CREATE TABLE WorksOn (
  eno  CHAR(5) NOT NULL,
  pno  CHAR(5) NOT NULL,
