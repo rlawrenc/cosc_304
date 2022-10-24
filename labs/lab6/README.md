@@ -111,7 +111,7 @@ Supervisor: R. Davis
 4. These are the modifications you must make to get the program working:
 
 ```
-Change Line 5 to:	String url = "jdbc:sqlserver://localhost;DatabaseName=WorksOn;;TrustServerCertificate=True";
+Change Line 5 to:	String url = "jdbc:sqlserver://localhost;DatabaseName=workson;TrustServerCertificate=True";
 Change Line 6 to:	String uid = "sa";
 Change Line 7 to:	String pw = "put password here";
 ```
