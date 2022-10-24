@@ -104,7 +104,7 @@ Supervisor: R. Davis
 
 1. Make sure the [Microsoft SQL Server JDBC driver](code/mssql-jdbc-11.2.0.jre11.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
 
-2. You must connect to SQL Server using SQuirreL or command line to create the workson database. 
+2. If the workson database was not automatically created, you must connect to SQL Server using SQuirreL or command line to create the workson database. 
 
 3. [Download the sample file](code/TestJdbcSqlServer.java).  Save this file in your `cosc304_lab6` folder that you just created. 
 
