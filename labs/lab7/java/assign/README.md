@@ -39,7 +39,7 @@ Modify the `listorder.jsp` so that it lists all orders currently in the database
 
 3. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
-4. A good way to get started with `listorder.jsp` is to copy some of the [sample JDBC code posted (JdbcQuery.jsp)](../code/JdbcQuery.jsp) and modify it for this particular query. **Note that the URL is now for Microsoft SQL Server not MySQL.**</li>
+4. A good way to get started with `listorder.jsp` is to copy some of the [sample SQL Server JDBC code](https://github.com/rlawrenc/cosc_304/blob/main/labs/lab6/code/TestJdbcSqlServer.java) and modify it for this particular query. **Note that the URL is for Microsoft SQL Server not MySQL.**</li>
 
 
 #### Marking Guide:
