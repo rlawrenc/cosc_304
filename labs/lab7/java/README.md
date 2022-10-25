@@ -39,7 +39,7 @@ Modify the code using a text editor. Try and change the code so that the output 
 5
 </pre>
 
-[Click here for a demonstration of the Hello World Again code](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorldAgain.jsp)
+[Click here for a demonstration of the Hello World Again code](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorldAgain.jsp)
 
 ### [Solution - HelloWorldAgain.jsp](code/HelloWorldAgain.jsp)
 
