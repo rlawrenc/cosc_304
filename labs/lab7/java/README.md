@@ -23,7 +23,7 @@ Here is the code to show "Hello World!" using JSP:
 </html>
 ```
 
-[Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorld.jsp)
+[Click for a demonstration of the Hello World code](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/HelloWorld.jsp)
 
 The URL of the JSP file is: `http://localhost/shop/HelloWorld.jsp`
 
