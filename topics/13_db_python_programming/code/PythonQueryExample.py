@@ -1,6 +1,7 @@
 import mysql.connector
 try:
-    cnx = mysql.connector.connect(user='rlawrenc', password='todo', host='cosc304.ok.ubc.ca', database='workson', ssl_disabled='True')
+    # cnx = mysql.connector.connect(user='testuser', password='304testpw', host='localhost', auth_plugin='mysql_native_password', database='workson', ssl_disabled='True')
+    cnx = mysql.connector.connect(user='testuser', password='304testpw', host='localhost', database='workson')
     cursor = cnx.cursor()
     query = "SELECT ename, salary FROM emp"                
     cursor.execute(query)
