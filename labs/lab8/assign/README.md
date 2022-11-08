@@ -6,11 +6,7 @@ Modify your existing project web site with new features including a product deta
 
 1. [Sample web site](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
-2. If you upload your site to the server in the folder `public_html/tomcat/lab8` then your URL will be:
-`http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/lab8/index.jsp`.  <br>For example, my web site is at:
-`[http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)`.
-
-3. Download starter code for [Java](304_lab8_java.zip) or [PHP](304_lab8_php.zip). These code files should be **ADDED** to your existing lab 7 project. Note that `orderdb_sql.ddl` has been modified to include new SQL statements at the end. There is a new main page (`index.jsp/php`), an administrator page (`admin.jsp/php`), and images in the `img` folder. The four new code files to change: `validateLogin.jsp/php`, `product.jsp/php`, `admin.jsp/php`, and `ship.jsp/php`.
+2. Download starter code for [Java](304_lab8_java.zip) or [PHP](304_lab8_php.zip). These code files should be **ADDED** to your existing lab 7 project. Note that `orderdb_sql.ddl` has been modified to include new SQL statements at the end. There is a new main page (`index.jsp/php`), an administrator page (`admin.jsp/php`), and images in the `img` folder. The four new code files to change: `validateLogin.jsp/php`, `product.jsp/php`, `admin.jsp/php`, and `ship.jsp/php`.
 
 4. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
