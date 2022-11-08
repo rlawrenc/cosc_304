@@ -36,3 +36,4 @@ There are statement level triggers (execute once per statement) and row level tr
 
 Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-trigger.html) and [SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16). The trigger syntax varies between database systems.
 
+## [Lab 9 Assignment](assign/)
