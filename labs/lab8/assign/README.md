@@ -49,6 +49,10 @@ The product page will show details on the product including images. An image can
 - **+3 mark** -for using transactions to either process the shipment and ship all items (up to 3) or generate an error
 - **+2 marks** - for checking that there is enough of each item to ship from the warehouse. Rollback transaction if any item does not have enough inventory.
 
-#### Screenshot
+#### Screenshot - Successful Shipment with orderId=1
 
-<img src="img/todo.png" width="300">
+<img src="img/shipmentPage1.png" width="300">
+
+#### Screenshot - Unsuccessful Shipment with orderId=3
+
+<img src="img/shipmentPage2.png" width="300">
