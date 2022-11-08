@@ -2,7 +2,7 @@
 
 ## Question 1 - XPath (3 marks)
 
-Write XPath expressions for the following queries. Use the Depts XML data set and the online [XML file for XPath query](Assgn9XMLfile.xml). You can use [XPath Tester / Evaluator online tool](https://www.freeformatter.com/xpath-tester.html).
+Write XPath expressions for the following queries. Use the [XML Practice Query Page](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries or use the [XPath Tester / Evaluator online tool](https://www.freeformatter.com/xpath-tester.html) with the [depts.xml](depts.xml) XML data set.
 
 1. Write an XPath expression that returns all departments with a budget less than $400,000. Output:
 
