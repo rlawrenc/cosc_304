@@ -52,7 +52,7 @@ The product page will show details on the product including images. An image can
 
 #### Screenshot - Successful Shipment with orderId=1
 
-<img src="img/shipmentPage1.png" width="400">
+<img src="img/shipmentPage1.png" width="500">
 
 #### Screenshot - Unsuccessful Shipment with orderId=3
 
