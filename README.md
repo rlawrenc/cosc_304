@@ -47,7 +47,7 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Assignments | 25% | Weekly assignments |
 | Midterm #1 | 15% | October 12th in class | 
 | Midterm #2 | 15% | November 2nd in class | 
-| Final Exam | 35% | Cumulative, three hours, **exams require a laptop** <br> **December 14, 2022 at 7:00PM in COM 201** | 
+| Final Exam | 35% | Cumulative, 2.5 hours, **exams require a laptop** <br> **December 14, 2022 at 7:00PM in COM 201** | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
