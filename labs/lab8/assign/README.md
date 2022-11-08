@@ -4,7 +4,7 @@ Modify your existing project web site with new features including a product deta
 
 ## Project Requirements (25 marks)
 
-1. [Sample web site](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
+1. [Sample web site](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
 2. If you upload your site to the server in the folder `public_html/tomcat/lab8` then your URL will be:
 `http://cosc304.ok.ubc.ca/(yourUnivId)/tomcat/lab8/index.jsp`.  <br>For example, my web site is at:
