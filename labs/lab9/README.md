@@ -10,7 +10,7 @@ An XML document is **well-formed** if it obeys the syntax of the XML standard.  
 
 **XPath** allows specifying path expressions to navigate the tree-structured XML document. Path descriptors are sequences of tags separated by slashes `/`. The `*` wild card operator can be used to denote any single tag. Attributes are referenced by putting a `@` in front of their name. A predicate expression is specified inside square brackets `[..]` following a tag. 
 
-Use the [XML Practice Query Page](http://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries.
+Use the [XML Practice Query Page](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries.
 
 ### JSON
 
