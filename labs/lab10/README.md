@@ -7,7 +7,7 @@ Complete your project by adding more features. Use the [list of features with po
 
 #### Details:
 
-1. Your web site should run on cosc304 or another server.
+1. Your web site should ideally run on a public cloud server.
 
 2. Get inspired for your store and the products it sells by reviewing some of the [best past projects](https://people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html). You should sell different products than the sample products provided in lab 7.
 
