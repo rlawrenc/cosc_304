@@ -13,8 +13,8 @@ import java.sql.*;
 
 public class JdbcTransactions
 {	public static void main(String[] args)
-	{	String url = "jdbc:sqlserver://sql04.ok.ubc.ca;databaseName=db_rlawrenc;";
-		String uid = "rlawrenc";
+	{	String url = "jdbc:sqlserver:/localhost;databaseName=WorksOn;TrustServerCertificate=True";
+		String uid = "sa";
 		String pw = "todo";
 
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);)
