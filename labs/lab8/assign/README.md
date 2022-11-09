@@ -6,7 +6,9 @@ Modify your existing project web site with new features including a product deta
 
 1. [Sample web site](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/lab8/index.jsp)
 
-2. Download starter code for [Java](304_lab8_java.zip) or [PHP](304_lab8_php.zip). These code files should be **ADDED** to your existing lab 7 project. Note that `orderdb_sql.ddl` has been modified to include new SQL statements at the end. There is a new main page (`index.jsp/php`), an administrator page (`admin.jsp/php`), and images in the `img` folder. The four new code files to change: `validateLogin.jsp/php`, `product.jsp/php`, `admin.jsp/php`, and `ship.jsp/php`.
+2. Start with the setup for lab 7 for either [Java](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/java/assign/setup), [PHP](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/php/assign/setup), or [Node.js](https://github.com/rlawrenc/cosc_304/blob/master/labs/lab7/nodejs/assign/setup). **If you have an existing Docker container for lab 7, you do not need to download and setup lab 7 again.**
+
+3. Download starter code for [Java](304_lab8_java.zip), [PHP](304_lab8_php.zip), or [Node.js](304_lab8_node_starter.zip). These code files should be **ADDED** to your existing lab 7 project. Note that `orderdb_sql.ddl` has been modified to include new SQL statements at the end. There is a new main page (`index.jsp/php`), an administrator page (`admin.jsp/php`), and images in the `img` folder. The four new code files to change: `validateLogin.jsp/php`, `product.jsp/php`, `admin.jsp/php`, and `ship.jsp/php`.
 
 4. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
@@ -57,3 +59,5 @@ The product page will show details on the product including images. An image can
 #### Screenshot - Unsuccessful Shipment with orderId=3
 
 <img src="img/shipmentPage2.png" width="500">
+
+### If you do not demonstrate live to the TA in virtual office hours, please upload a video clip demonstrating your working pages with the new features.
