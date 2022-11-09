@@ -7,7 +7,7 @@ Complete your project by adding more features. Use the [list of features with po
 
 #### Details:
 
-1. Get inspired for your store and the products it sells by reviewing some of the [best past projects](https://people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html). You should sell different products than the sample products provided in lab 7.
+1. Get inspired for your store and the products it sells by reviewing some of the [best past projects](https://cmps-people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html). You should sell different products than the sample products provided in lab 7.
 
 2. Submit documentation with your walkthrough on Canvas. Submit a zip file of all your code on Canvas as well.
 
