@@ -21,7 +21,7 @@ Here is the code to show "Hello World!" using PHP:
 </html>
 ```
 
-[Click for a demonstration of the Hello World code](http://localhost/HelloWorld.php)
+[Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorld.php)
 
 The URL of the PHP file is: `http://localhost/HelloWorld.php`
 
