@@ -47,7 +47,7 @@ Modify the code using a text editor. Try and change the code so that the output 
 
 ## Example 3
 
-Modify the sample PHP code for querying WorksOn such that for each department you list its projects and then its employees.  The output should look like <a href="http://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnDeptEmpProj.php">this (click here)</a>.
+Modify the sample PHP code for querying WorksOn such that for each department you list its projects and then its employees.  The output should look like <a href="https://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnDeptEmpProj.php">this (click here)</a>.
 
 ### [Solution - WorksOnDeptEmpProj.php](code/WorksOnDeptEmpProj.php)
 
@@ -63,7 +63,7 @@ You can pass and receive parameters between PHP pages.  An example is to create 
 
 ## Example 5
 
-Create your own query form for the WorksOn database. Your form should have boxes for the Employee name and Project name that accept partial matches (using `LIKE '%queryString%'`).  The PHP file should receive the parameters and create a query that lists all WorksOn records where the employee name and project name are as specified.  Show the count of the # of records at the bottom of the page.  An [example query form and system](http://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnQuery.html) is available.
+Create your own query form for the WorksOn database. Your form should have boxes for the Employee name and Project name that accept partial matches (using `LIKE '%queryString%'`).  The PHP file should receive the parameters and create a query that lists all WorksOn records where the employee name and project name are as specified.  Show the count of the # of records at the bottom of the page.  An [example query form and system](https://cosc304.ok.ubc.ca/rlawrenc/Lab7/WorksOnQuery.html) is available.
 
 ### [Solution - HTML File](code/WorksOnQuery.html)
 
