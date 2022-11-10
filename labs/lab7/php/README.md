@@ -43,7 +43,7 @@ Modify the code using a text editor. Try and change the code so that the output 
 
 ## Example 2
 
-[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query the COSC 304 database, the url is host = `cosc304_sqlserver`, database = `workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
+[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query the COSC 304 database, the url is host = `cosc304_mysql`, database = `workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
 
 ## Example 3
 
