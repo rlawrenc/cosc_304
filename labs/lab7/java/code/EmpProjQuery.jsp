@@ -8,15 +8,15 @@
 <%		
 	try 
 	{	// Load driver class
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 	}
 	catch (java.lang.ClassNotFoundException e) {
 		System.err.println("ClassNotFoundException: " +e);	
 	}
 
-	String url = "jdbc:mysql://localhost/workson";
-	String uid = "fill-in";
-	String pw = "fill-in";
+	String url = "jdbc:mysql://cosc304_mysql/workson";
+	String uid = "testuser";
+	String pw = "304testpw";
 
 	// Get parameters from request
 	String empName = request.getParameter("empname");

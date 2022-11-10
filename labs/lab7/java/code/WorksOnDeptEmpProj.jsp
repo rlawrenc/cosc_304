@@ -14,7 +14,7 @@ catch (java.lang.ClassNotFoundException e) {
 	System.err.println("ClassNotFoundException: " +e);	
 }
 
-String url = "jdbc:mysql://localhost/workson";
+String url = "jdbc:mysql://cosc304_mysql/workson";
 String uid = "fill-in";
 String pw = "fill-in";
 
