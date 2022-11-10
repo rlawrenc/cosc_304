@@ -8,8 +8,8 @@
 <?php 
 	$host = "cosc304_mysql";
 	$database = "workson";
-	$uid = "rlawrenc";
-	$pw = "todo";
+	$uid = "testuser";
+	$pw = "304testpw";
 
 	$mysqli = new mysqli($host, $uid, $pw, $database);
 	if ($mysqli->connect_errno) {
