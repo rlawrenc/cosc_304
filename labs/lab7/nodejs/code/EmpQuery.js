@@ -3,14 +3,20 @@ const sql = require('mssql');
 const router = express.Router();
 
 // This DB Config is accessible globally
-dbConfig = {
-    user: 'fill-in',
-    password: 'fill-in',
-    server: 'sql04.ok.ubc.ca',
-    database: 'WorksOn',
-    options: {
-      'enableArithAbort': true,
-      'encrypt': false,
+dbConfig = {    
+    server: 'cosc304_sqlserver',
+    database: 'workson',
+    authentication: {
+        type: 'default',
+        options: {
+            userName: 'sa', 
+            password: '304#sa#pw'
+        }
+    },   
+    options: {      
+      encrypt: false,      
+      enableArithAbort:false,
+      database: 'workson'
     }
 }
 
@@ -20,27 +26,29 @@ router.get('/', function (req, res) {
         try {
             let pool = await sql.connect(dbConfig);
 
-            $sql = "SELECT ename, salary, dno FROM emp ";
-
-            let sqlQuery = false;
+            sqlQuery = "SELECT ename, salary, dno FROM emp ";
+            
             let results = false;
-            if (req.query.empName && req.query.deptNum) {
+            let empName = req.query.empname;
+            let deptNum = req.query.deptnum;
+     
+            if (empName && deptNum) {
                 sqlQuery = sqlQuery + "WHERE dno = @dno AND ename LIKE @ename";
                 results = await pool.request()
-                    .input('dno', sql.Int, req.query.deptNum)
-                    .input('ename', sql.VarChar, "%" + req.query.empName + "%")
+                    .input('dno', sql.VarChar, deptNum)
+                    .input('ename', sql.VarChar, "%" + empName + "%")
                     .query(sqlQuery);
 
-            } else if (req.query.deptNum) {
+            } else if (deptNum) {
                 sqlQuery = sqlQuery + "WHERE dno = @dno";
                 results = await pool.request()
-                    .input('dno', sql.Int, req.query.deptNum)
+                    .input('dno', sql.VarChar, deptNum)
                     .query(sqlQuery);
 
-            } else if (req.query.empName) {
-                sqlQuery = sqlQuery + "ename LIKE @ename";
+            } else if (empName) {
+                sqlQuery = sqlQuery + "WHERE ename LIKE @ename";
                 results = await pool.request()
-                    .input('ename', sql.VarChar, "%" + req.query.empName + "%")
+                    .input('ename', sql.VarChar, "%" + empName + "%")
                     .query(sqlQuery);
 
             } else {
@@ -51,16 +59,17 @@ router.get('/', function (req, res) {
             res.write("<h2>SQL Query: " + sqlQuery + "</h2>");
 
             res.write("<table><tr><th>Name</th><th>Salary</th><th>dno</th></tr>");
+           
             for (let i = 0; i < results.recordset.length; i++) {
-                let result = results.recordset[i]
-                echo("<tr><td>" + result.ename + "</td><td>" + result.salary + "</td><td>" + result.dno + "</td></tr>");
+                let result = results.recordset[i];
+                res.write("<tr><td>" + result.ename + "</td><td>" + result.salary + "</td><td>" + result.dno + "</td></tr>");
             }
             res.write("</table>");
 
             res.end();
         } catch(err) {
             console.dir(err);
-            res.write(err)
+            res.write(JSON.stringify(err));
             res.end();
         }
     })();

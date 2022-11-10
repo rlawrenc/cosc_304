@@ -3,16 +3,22 @@ const sql = require('mssql');
 const app = express();
 
 // This DB Config is accessible globally
-dbConfig = {
-    user: 'fill-in',
-    password: 'fill-in',
-    server: 'sql04.ok.ubc.ca',
-    database: 'WorksOn',
-    options: {
-      'enableArithAbort': true,
-      'encrypt': false,
+dbConfig = {    
+    server: 'cosc304_sqlserver',
+    database: 'workson',
+    authentication: {
+        type: 'default',
+        options: {
+            userName: 'sa', 
+            password: '304#sa#pw'
+        }
+    },   
+    options: {      
+      encrypt: false,      
+      enableArithAbort:false,
+      database: 'workson'
     }
-  }
+}
 
 app.get('/', function (req, res) {
     res.setHeader('Content-Type', 'text/html');
@@ -34,7 +40,7 @@ app.get('/', function (req, res) {
             res.end();
         } catch(err) {
             console.dir(err);
-            res.write(err)
+            res.write(JSON.stringify(err));
             res.end();
         }
     })();

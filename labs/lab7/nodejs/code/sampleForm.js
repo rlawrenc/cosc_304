@@ -12,7 +12,7 @@ app.use('/EmpQuery', empQuery);
 app.get('/', function (req, res) {
     res.setHeader('Content-Type', 'text/html');
 
-    res.write("<title>Querying Using PHP and Forms</title>");
+    res.write("<title>Querying Using Node.js and Forms</title>");
     res.write("<h1>Enter the name and/or department to search for:</h1>");
     res.write('<form method="get" action="EmpQuery">');
     res.write('Employee name: <input type="text" name="empname" size="25">');
