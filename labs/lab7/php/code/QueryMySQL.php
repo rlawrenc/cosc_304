@@ -6,7 +6,7 @@
 <body>
 
 <?php 
-	$host = "cosc304.ok.ubc.ca";
+	$host = "cosc304_mysql";
 	$database = "workson";
 	$uid = "rlawrenc";
 	$pw = "todo";
