@@ -74,7 +74,7 @@ Build a simple web site that allows users to search for products by name, put pr
 - **checkout.php** - page to start the checkout.  No changes needed.
 - **order.php** - store a checked-out order to database. **TODO: fill-in your own code (20 marks)**
 
-2. Take a look at the sample web site available at [https://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html](http://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html).
+2. Take a look at the sample web site available at [https://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html](https://cosc304.ok.ubc.ca/rlawrenc/lab7_php/shop.html).
 
 3. Start by editing the PHP file called `listprod.php`.  This file is called from `shop.html` when the user begins to shop.  The file allows a customer to search for products by name.  If a customer enters "ab", then the query should be: `productName LIKE '%ab%'`.
 
