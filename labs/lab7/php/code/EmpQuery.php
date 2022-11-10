@@ -6,10 +6,10 @@
 <body>
 
 <?php
-	$host = "cosc304.ok.ubc.ca";
+	$host = "cosc304_mysql";
 	$database = "workson";
-	$uid = "fill-in";
-	$pw = "fill-in";
+	$uid = "testuser";
+	$pw = "304testpw";
 	$mysqli = new mysqli($host, $uid, $pw, $database);
 		
 	// Get parameters from request

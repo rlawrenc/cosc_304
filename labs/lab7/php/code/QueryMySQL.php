@@ -6,14 +6,15 @@
 <body>
 
 <?php 
-	$host = "cosc304_mysql";
+	$host = "cosc304_mysql";   
 	$database = "workson";
-	$uid = "testuser";
+	$uid = "testuser";              // TODO: Update user id and password to your account
 	$pw = "304testpw";
 
 	$mysqli = new mysqli($host, $uid, $pw, $database);
 	if ($mysqli->connect_errno) {
 	    echo "<p>Failed to connect to MySQL: " . $mysqli->connect_error . "</p>";
+		exit;
 	}
 	
 	$sql = "SELECT ename,salary FROM emp";

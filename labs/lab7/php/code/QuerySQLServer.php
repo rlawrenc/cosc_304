@@ -4,16 +4,13 @@
 </head>
 
 <body>
-<!--
-Note: Requires to be run on Linux and PHP 7.
-Install details at: https://www.microsoft.com/en-us/sql-server/developer-get-started/php/rhel/step/2.html
- -->
 <?php
-	$username = "fill-in";
-	$password = "fill-in";
-	$database = "WorksOn";
-	$server = "sql04.ok.ubc.ca";
-	$connectionInfo = array( "Database"=>$database, "UID"=>$username, "PWD"=>$password, "CharacterSet" => "UTF-8");
+	$username = "sa";
+	$password = "304#sa#pw";
+	$database = "workson";
+	$server = "cosc304_sqlserver";
+	$connectionInfo = array( "Database"=>$database, "UID"=>$username, "PWD"=>$password, "CharacterSet" => "UTF-8", 
+								"TrustServerCertificate"=>"yes");
 
 	$con = sqlsrv_connect($server, $connectionInfo);
 	if( $con === false ) {
