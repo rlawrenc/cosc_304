@@ -35,7 +35,7 @@ Modify the `listorder.jsp` so that it lists all orders currently in the database
 
 1. [Sample output](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/listorder.jsp)
 
-2. The main shop page is [https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).  Feel free to change it to your shop name and style!
+2. The main shop page is [http://localhost/shop/shop.html](http://localhost/shop/shop.html) and a sample is at [https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/Lab7/shop.html).  Feel free to change it to your shop name and style!
 
 3. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
