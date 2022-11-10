@@ -45,7 +45,7 @@ Modify the code using a text editor. Try and change the code so that the output 
 
 ## Example 2
 
-[Example code](code/JdbcQuery.jsp) to query the workson database and return some answers in a table.  Make sure that the url is `jdbc:mysql://localhost/workson` and put in your user id and password.
+[Example code](code/JdbcQuery.jsp) to query the workson database and return some answers in a table.  Make sure that the url is `jdbc:mysql://cosc304_mysql/workson` and put in your user id and password. Note the URL is not `localhost` as the JSP file is running in a container that does not contain the MySQL database server.
 
 ## Example 3
 
