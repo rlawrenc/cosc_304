@@ -21,7 +21,7 @@ Here is the code to show "Hello World!" using PHP:
 </html>
 ```
 
-[Click for a demonstration of the Hello World code](http://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorld.php)
+[Click for a demonstration of the Hello World code](https://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorld.php)
 
 The URL of the PHP file is: `http://localhost/HelloWorld.php`
 
@@ -37,13 +37,13 @@ Modify the code using a text editor. Try and change the code so that the output 
 5
 </pre>
 
-[Click here for a demonstration of the Hello World Again code](http://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorldAgain.php)
+[Click here for a demonstration of the Hello World Again code](https://cosc304.ok.ubc.ca/rlawrenc/Lab7/HelloWorldAgain.php)
 
 ### [Solution - HelloWorldAgain.php](code/HelloWorldAgain.php)
 
 ## Example 2
 
-[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query the COSC 304 database, the url is `jdbc:mysql://cosc304.ok.ubc.ca/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
+[Example code](code/QueryMySQL.php) to query the workson database and return some answers in a table. To query the COSC 304 database, the url is `jdbc:mysql://cosc304_sqlserver/workson` and put in your user id and password. There is also [sample code for SQL Server](code/QuerySQLServer.php).
 
 ## Example 3
 
