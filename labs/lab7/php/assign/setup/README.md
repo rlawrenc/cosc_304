@@ -19,7 +19,7 @@ This will setup a development environment using Docker on your computer.
 5. Type the following command in your terminal and press enter:
 
     ```
-    docker-compose up
+    docker-compose up -d
     ```
 
     This will setup the Java Server Pages runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
