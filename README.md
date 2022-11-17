@@ -96,7 +96,7 @@ Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Nov. 30 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 | December 5 (M) | Project completion | |
 | December 7 (W) | **Final Exam Review** | |
-
+| Dec. 14 (W) | **Final Exam at 7:00PM in COM 201.<br>Cumulative, 2.5 hours, requires a laptop.** | 
 
 ## Labs
 
