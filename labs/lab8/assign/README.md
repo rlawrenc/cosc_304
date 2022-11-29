@@ -50,7 +50,7 @@ The product page will show details on the product including images. An image can
 
 - **+3 mark** -for using transactions to either process the shipment and ship all items (up to 3) or generate an error
 - **+2 marks** - for checking that there is enough of each item to ship from the warehouse. Rollback transaction if any item does not have enough inventory.
-- Test by entering URL like: http://localhost:8080/ship.jsp?orderId=1
+- Test by entering URL like: http://localhost/ship.jsp?orderId=1
 
 #### Screenshot - Successful Shipment with orderId=1
 
