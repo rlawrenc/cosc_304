@@ -113,18 +113,22 @@ User id: **your student number**  Password: **your student number**
 | [6](labs/lab6) | October 23 – 27 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
 
 ### Development Stream
+|  Lab  |  Date  |  Topic  |
+|----|------|-------|
 | [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP |
-| [8](labs/lab8) | November 20 – 24 	| Lab 8: Images, Security, and Transactions |
+| [8](labs/lab8) | November 6 – 10 	| Lab 8: Images, Security, and Transactions |
 |  | November 13 - 17 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | Nov. 27 – Dec. 1 	| Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | December 4 – 8 	| Lab 10: Project Completion |
+| [9](labs/lab9) | November 20 - 24 	| Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | Nov. 27 - Dec. 7	| Lab 10: Project Completion |
 
 ### Analysis Stream
+|  Lab  |  Date  |  Topic  |
+|----|------|-------|
 | [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7:  |
+| [8](labs/lab8) | November 6 – 10 	| Lab 8:  |
 |  | November 13 - 17 			| **No Lab during Midterm Break** |
-| [8](labs/lab8) | November 20 – 24 	| Lab 8:  |
-| [9](labs/lab9) | Nov. 27 – Dec. 1 	| Lab 9:  |
-| [10](labs/lab10) | December 4 – 8 	| Lab 10: Project Completion |
+| [9](labs/lab9) | November 20 - 24  	| Lab 9:  |
+| [10](labs/lab10) | Nov. 27 - Dec. 7 	| Lab 10: Project Completion |
 
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
