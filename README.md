@@ -1,25 +1,28 @@
-# COSC 304 - Introduction to Databases - Winter 2022 Term 1
-
-**Lecture:** 6:30 to 8:00 p.m. Monday/Wednesday in ASC 140 and live-stream on Zoom<br>
-**Lab:** Drop-in virtual labs and help sessions
+# COSC 304 - Introduction to Databases - September 2023
 
 ## Instructor
-Dr. Ramon Lawrence, ASC 349, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Office Hours:**	1 to 3 p.m. Mondays or by appointment<br>
-**Office Location:** ASC 349 and virtual office hours on Zoom
+Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
+**Live Classroom Schedule:** 	11:00 a.m. to 12:30 p.m Tuesday/Thursday<br>
+**Mode of Delivery:** 		FIP 204 and live-stream on Zoom<br>
+**Office Hours:**		Thursdays 2 to 4 p.m. (in-person and online)<br>
+**Office Location:** 		ASC 349<br>
+**Calendar Course Description, from the UBCO Calendar:** [http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosc)
 
 ## TAs Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 9 to 11 a.m.  | 	Eranga Desaa / Ivan Carvalho / Omar Abdelaziz |
-| Monday 1 to 3 p.m. | Dr. Ramon Lawrence |
-| Monday 6:30 to 8 p.m. (class time)	| Eranga Desaa |
-| Tuesday 2 to 4 p.m.	| Ivan Carvalho / Devon MacNeil |
-| Wednesday 9 to 11 a.m.	| Omar Abdelaziz / Eranga Desaa |
-| Wednesday 6:30 to 8 p.m. (class time)	| Devon MacNeil |
-| Thursday 9 to 11 a.m. |	Omar Abdelaziz |
-| Thursday 2 to 4 p.m. |	Ivan Carvalho |
-| Friday 1 to 5 p.m. |	Devon MacNeil |
+| Monday 9 to 11 a.m.  	| TBD |
+| Monday 2 to 4 p.m. 	| TBD |
+| Tuesday 11 a.m. to 12:30 p.m. (class time)	| TBD |
+| Tuesday 2 to 4 p.m.	| TBD |
+| Wednesday 2 to 4 p.m. | TBD |
+| Thursday 11 a.m. to 12:30 p.m. (class time)	| TBD |
+| Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence|
+| Friday 1 to 5 p.m. 	| TBD |
+
+For support, create a ticket on HelpMe system at: https://help.cosc304.ok.ubc.ca/
+
+User id: **your student number**  Password: **your student number**
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
