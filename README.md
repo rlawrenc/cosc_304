@@ -141,7 +141,7 @@ Diagrams and figures included in lecture presentations adhere to Copyright Guide
 ## Grievances and Complaints Procedures
 A student who has a complaint related to this course should follow the procedures summarized below:
  - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
- - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, Dr. Yves Lucet at yves.lucet@ubc.ca or the Department Head, Dr. John Braun at cmps.depthead@ubc.ca.
+ - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Department Head, Dr. Sylvie Desjardins, sylvie.desjardins@ubc.ca. 
  
 ## Your Responsibilities
 Your responsibilities to this class and to your education as a whole include attendance and participation. You have a
@@ -154,6 +154,7 @@ toward the instructor, a student in the class, or about other individuals or gro
 ## Academic Integrity
 The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred to the President’s Advisory Committee on Student Discipline.  Careful records are kept in order to monitor and prevent recurrences. A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
 
+**The use of artificial intelligence (AI) assistance, such as ChatGPT or GitHub Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor.**
 
 ## Academic Integrity Course Policies
 Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
@@ -180,14 +181,16 @@ Academic integrity is critical to being a professional developer and a respected
  - Working on an individual assignment with a group of people and submitting minor variations of work developed together
  - For group assignment, completing all work independently and providing answer to rest of group
  - Sharing solutions to assignments with other students or on the Internet	
- - Receiving solutions to assignments from other sources (students, web, tutors)	
+ - Receiving solutions to assignments from other sources (students, web, tutors, AI)	
 	
 ### Exams
 #### Allowed
-- Using course material including assignments, notes, and quizzes in an open book exam
+- Using approved material for the given exam format:
+    - **open book:** all course material including assignments, notes, and quizzes. No online/AI resources. No use of Google Docs. No secondary devices.
+    - **closed book:** one page (two sides) personal notes on paper
 
 #### Not Allowed
-- Using any non-approved resource (people, web, etc.) for exams **(severe)**
+- Using any non-approved resource (people, AI, web, etc.) for exams **(severe)**
 - Allowing another person to write or complete any part of any exam **(severe)**
 - Posting or providing answers to students who have not yet completed the exam
 - Requesting help from other people or web services for open book exams
@@ -197,13 +200,13 @@ Academic integrity is critical to being a professional developer and a respected
 Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
 
 ### Disability Resource Centre
-The Disability Resource Centre ensures educational equity for students with disabilities and chronic medical conditions. If you are disabled, have an injury or illness and require academic accommodations to meet the course objectives, please contact Earllene Roberts, the Diversity Advisor for the Disability Resource Centre located in the University Centre building (UNC 215). Ph: 250.807.9263 Email: earllene.roberts@ubc.ca  Web: [https://students.ok.ubc.ca/drc](https://students.ok.ubc.ca/drc)
+The Disability Resource Centre (DRC) facilitates disability-related accommodations and programming initiatives that ameliorate barriers for students with disabilities and/or ongoing medical conditions. If you require academic accommodations to achieve the objectives of a course, please contact the DRC at: University Centre building (UNC 215). Ph: 250.807.8053 Email: drc.questions@ubc.ca  Web: [https://students.ok.ubc.ca/drc](https://students.ok.ubc.ca/academic-success/disability-resources/)
 
 ### Equity and Inclusion Office
 Through leadership, vision, and collaborative action, the Equity & Inclusion Office (EIO) develops action strategies in support of efforts to embed equity and inclusion in the daily operations across the campus. The EIO provides education and training from cultivating respectful, inclusive spaces and communities to understanding unconscious/implicit bias and its operation within in campus environments. UBC Policy 3 prohibits discrimination and harassment on the basis of BC’s Human Rights Code. If you require assistance related to an issue of equity, educational programs, discrimination or harassment please contact the EIO. Office: UNC 325H Ph: 250.807.9291 Email: equity.ubco@ubc.ca  Web: [https://equity.ok.ubc.ca](https://equity.ok.ubc.ca)
 
 ### Office of the Ombudsperson for Students  
-The Office of the Ombudsperson for Students is an independent, confidential and impartial resource to ensure students are treated fairly. The Ombuds Office helps students navigate campus-related fairness concerns. They work with UBC community members individually and at the systemic level to ensure students are treated fairly and can learn, work and live in a fair, equitable and respectful environment. Ombuds helps students gain clarity on UBC policies and procedures, explore options, identify next steps, recommend resources, plan strategies and receive objective feedback to promote constructive problem solving. If you require assistance, please feel free to reach out for more information or to arrange an appointment.  Office: UNC 328 Ph: 250.807.9818 Email: ombuds.office.ok@ubc.ca   
+The Office of the Ombudsperson for Students is an independent, confidential and impartial resource to ensure students are treated fairly. The Ombuds Office helps students navigate campus-related fairness concerns. They work with UBC community members individually and at the systemic level to ensure students are treated fairly and can learn, work and live in a fair, equitable and respectful environment. Ombuds helps students gain clarity on UBC policies and procedures, explore options, identify next steps, recommend resources, plan strategies and receive objective feedback to promote constructive problem solving. If you require assistance, please feel free to reach out for more information or to arrange an appointment.  Office: UNC 217 Ph: 250.807.9818 Email: ombuds.office.ok@ubc.ca   
 Web: [https://ombudsoffice.ubc.ca](https://ombudsoffice.ubc.ca)
 
 ### Sexual Violence Prevention and Response Office (SVPRO)
@@ -213,13 +216,13 @@ A safe and confidential place for UBC students, staff and faculty who have exper
 If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO by calling 604-827-2060. Web:  [https://investigationsoffice.ubc.ca](https://investigationsoffice.ubc.ca) E-mail: director.of.investigations@ubc.ca  
 
 ### Student Learning Hub  
-The Student Learning Hub (LIB 237) is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with study skills and learning strategies. For more information, please visit the Hub’s website [https://students.ok.ubc.ca/student-learning-hub](https://students.ok.ubc.ca/student-learning-hub) or call 250-807-9185.  
+The Student Learning Hub is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with academic integrity, study skills and learning strategies. Students are encouraged to visit often and early to build the skills, strategies and behaviours that are essential to being a confident and independent learner. For more information, please visit the Hub’s website. LIB 237. Ph: 250.807.8491 Email: learning.hub@ubc.ca [https://students.ok.ubc.ca/student-learning-hub](https://students.ok.ubc.ca/academic-success/learning-hub/)
  
 ### Student Wellness   
-At UBC Okanagan health services to students are provided by Student Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Student Wellness for more information or to book an appointment.  
+At UBC Okanagan health services to students are provided by Student Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Student Wellness for more information or to book an appointment.
 
 UNC 337 250.807.9270  
-email: healthwellness.okanagan@ubc.ca  
+Email: healthwellness.okanagan@ubc.ca  
 Web: [https://students.ok.ubc.ca/health-wellness](https://students.ok.ubc.ca/health-wellness)  
 
 ### SAFEWALK
