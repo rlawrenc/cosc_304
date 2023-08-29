@@ -6,9 +6,9 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Mode of Delivery:** 		FIP 204 and live-stream on Zoom<br>
 **Office Hours:**		Thursdays 2 to 4 p.m. (in-person and online)<br>
 **Office Location:** 		ASC 349<br>
-**Calendar Course Description, from the UBCO Calendar:** [http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosc)
+**Calendar Course Description from the UBCO Calendar:** [http://www.calendar.ubc.ca/okanagan/courses.cfm?go=name&code=COSC](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosc)
 
-## TAs Drop-in Session Hours
+## Virtual Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
 | Monday 9 to 11 a.m.  	| TBD |
@@ -17,7 +17,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Tuesday 2 to 4 p.m.	| TBD |
 | Wednesday 2 to 4 p.m. | TBD |
 | Thursday 11 a.m. to 12:30 p.m. (class time)	| TBD |
-| Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence|
+| Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
 | Friday 1 to 5 p.m. 	| TBD |
 
 For support, create a ticket on HelpMe system at: https://help.cosc304.ok.ubc.ca/
@@ -28,10 +28,10 @@ User id: **your student number**  Password: **your student number**
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
 
-**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last part involves database and web programming with Java, JDBC, JSP, Python, and PHP. Students completing the course have experience with current database technologies, and the ability to use and develop databases and associated applications.
+**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last component involves experential learning on real-world use cases of databases for software development and data analytics. Technologies used include Java, JDBC, JSP, Python, and PHP. Students completing the course have experience with current database technologies, and the ability to use databases, analyze the contained data, and develop programs to automate data analysis and presentation.
 
 ## Course Objectives
-**Course Format:** Interactive classes consisting of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics covered in assignments as well as practice using industrial database systems and software.
+**Course Format:** Interactive classes consist of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics are covered in assignments as well as practice using industrial database systems and software.
 
 **Learning Outcomes:**
  - Describe how databases provide data abstraction and simplify writing programs to store and manipulate data.
@@ -39,6 +39,7 @@ User id: **your student number**  Password: **your student number**
  - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries with multiple joins, aggregation, grouping, and subqueries. Explain the translation of a SQL query into relational algebra operators.
  - Analyze and understand existing database designs, design new databases using ER/UML modeling, and convert designs to the relational model including proper modeling of primary and foreign keys.
  - Develop programs and web sites that access a database to read data, perform analysis, and display output.
+ - Perform data analysis, reporting, and visualization using data extracted from databases.
  - Use JSON and XML for data exchange and representation.
  - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
  - Implement database security using user accounts/passwords and managing SQL privileges using GRANT and REVOKE.
@@ -57,13 +58,13 @@ User id: **your student number**  Password: **your student number**
 ## Textbook and Reference Material
  - All notes are online.
  - A textbook is not required. Students can get supplemental material from any database textbook.
- - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/). [iClicker Cloud (REEF) Login](http://app.reef-education.com/)
+ - The course uses iClicker Cloud (free). [Setup instructions for iClicker Cloud Student Account](https://lthub.ubc.ca/guides/iclicker-cloud-student-guide/). [iClicker Cloud Login](https://student.iclicker.com/#/login)
 
 ## Expectations
  - Attend all classes and prepare before attending class. 
  - Read the notes before the class time. **Expect to spend about five hours per week in out-of-class preparation.**
  - Learn the material in the course by completing all assignments. **No late assignments are accepted.**
- - Enjoy attending class activities and participate according to your personality.  Ask questions by posting on chat or raising your hand.
+ - Enjoy attending class activities and participating according to your personality.  Ask questions by posting on chat or raising your hand.
  - Please actively participate in class discussions, questions, and problem solving exercises.
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
@@ -75,7 +76,7 @@ User id: **your student number**  Password: **your student number**
 | Sept. 5 (T) | [**First day of classes.  Introduction to course**](topics/1_introduction)<br> [Introduction to databases](topics/2_database_introduction) | [SQL for Web Nerds: SQL Introduction](https://philip.greenspun.com/sql/introduction.html) |
 | Sept. 7 (TH) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/3_relational_model) |  |
 | Sept. 12 (T) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/4_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept. 14 (TH) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/5_sql_ddl)<br> **No class due to national day of mourning** | |
+| Sept. 14 (TH) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/5_sql_ddl) | |
 | Sept. 19 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/6_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
 | Sept. 21 (TH) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
 | Sept. 26 (T) | [SQL - Subqueries, Outer joins](topics/7_sql_aggregation) | |
