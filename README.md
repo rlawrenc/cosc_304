@@ -126,10 +126,10 @@ User id: **your student number**  Password: **your student number**
 ### Analysis Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7:  |
-| [8](labs/lab8) | November 6 – 10 	| Lab 8:  |
+| [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7: Using Databases with Analysis Software (Excel) |
+| [8](labs/lab8) | November 6 – 10 	| Lab 8: Data Prediction, Forecasing, and Visualization |
 |  | November 13 - 17 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 20 - 24  	| Lab 9:  |
+| [9](labs/lab9) | November 20 - 24  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
 | [10](labs/lab10) | Nov. 27 - Dec. 7 	| Lab 10: Project Completion |
 
 ## Missing an Exam
