@@ -120,5 +120,3 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 
 </ol>
-
-### [Lab 1 - Relational Algebra Assignment](assign)
