@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 1: Querying using Relational Algebra
+# COSC 304 - Introduction to Database Systems<br>Lab 1: Querying using Relational Algebra (Practice)
 
 ## [RelaX - Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/)
 
@@ -6,7 +6,7 @@
 
 ## Relational Algebra Practice
 
-**This lab has a practice component that is not graded and an [assignment component](assign).**
+**These are practice questions that are not graded.**
 
 The lab practices writing queries in relational algebra using a [book database schema (GIST: 367f41bb51110ef3c84bb5f906f2fb87)](https://gist.github.com/rlawrenc/367f41bb51110ef3c84bb5f906f2fb87):
 
