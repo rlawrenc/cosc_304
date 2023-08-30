@@ -117,7 +117,7 @@ User id: **your student number**  Password: **your student number**
 ### Development Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP |
+| [7](labs/lab7) | Oct. 30 – Nov. 3 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP/Node |
 | [8](labs/lab8) | November 6 – 10 	| Lab 8: Images, Security, and Transactions |
 |  | November 13 - 17 			| **No Lab during Midterm Break** |
 | [9](labs/lab9) | November 20 - 24 	| Lab 9: XML, JSON, Views, and Triggers |
