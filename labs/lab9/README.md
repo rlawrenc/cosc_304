@@ -1,4 +1,18 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers
+# COSC 304 - Introduction to Database Systems<br>Lab 9
+
+## [Development](develop/) Stream - Building a Database-enabled Web Site using JSP/PHP/Node
+
+Build an online store with a database and web interface. Three choices for language: [Java](java/), [PHP](php/), [Node.js](nodejs/).
+
+## [Analysis](analyze/) Stream - Handling Data Formats (CSV, XML, JSON)
+
+Process data in other formats and connect it with relational data.
+
+## [Assignment](assign/) - XML, JSON, Views, and Triggers
+
+Both paths complete a PrairieLearn assessment on these topics.
+
+## Reference Material
 
 ### XML
 
@@ -36,4 +50,3 @@ There are statement level triggers (execute once per statement) and row level tr
 
 Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-trigger.html) and [SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16). The trigger syntax varies between database systems.
 
-## [Lab 9 Assignment](assign/)
