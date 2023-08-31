@@ -6,5 +6,5 @@ Build an online store with a database and web interface. Three choices for langu
 
 ## Analysis Stream - Using Databases with Analysis Software (Excel)
 
-Perform reporting on a company database using Excel for analysis and visualization.
+Perform reporting on a company database using Excel for [analysis and visualization](analysis/).
 
