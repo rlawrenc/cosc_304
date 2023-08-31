@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 2 - Creating tables using SQL and MySQL
 
-This assignment practices creating tables with SQL DDL. We will see later how to design the relational table structure. For this assignment, you are given what the table should look like, and you need to write the SQL DDL.
+This assignment practices SQL DDL. These are the same questions as on PrairieLearn but allow you to test them on your own database on your computer.
 
 ## Question 1 (10 marks)
 
@@ -73,4 +73,4 @@ Insert the following records into the appropriate tables.
 
 ## Submission
 
-Submit on Canvas a complete DDL file with all commands or show the TA during virtual office hours.
+Submission is done on PrairieLearn.
