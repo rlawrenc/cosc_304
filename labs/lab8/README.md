@@ -4,7 +4,7 @@
 
 Add images and more features to your online store. 
 
-## [Analysis](analysis/) Stream - Data Prediction, Forecasting, and Visualization
+## [Analysis](analyze/) Stream - Data Prediction, Forecasting, and Visualization
 
 Extend the analysis to perform forecasting and prediction. Add improved visualizations and charts.
 
