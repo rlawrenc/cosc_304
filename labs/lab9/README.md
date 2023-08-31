@@ -1,8 +1,8 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 9
 
-## [Development](develop/) Stream - Building a Database-enabled Web Site using JSP/PHP/Node
+## [Development](develop/) Stream - XML, JSON, Views, and Triggers
 
-Build an online store with a database and web interface. Three choices for language: [Java](java/), [PHP](php/), [Node.js](nodejs/).
+Add JSON output for your web service.
 
 ## [Analysis](analyze/) Stream - Handling Data Formats (CSV, XML, JSON)
 
