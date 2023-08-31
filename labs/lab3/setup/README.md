@@ -12,7 +12,7 @@
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
  - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
 
-## Step #2: Access MySQL using Command Interface
+### Step #2: Access MySQL using Command Interface
 
 MySQL commands can be running using the command line within the Docker container. Run the command:
 
@@ -42,7 +42,7 @@ The password is given in the `docker-compose.yml` file (which you are **encourag
 
 ![Connecting using MySQL Command Line](img/commandline.png)
 
-### Step #2: Accessing MySQL using SQuirreL SQL
+### Step #3: Accessing MySQL using SQuirreL SQL
 
 [SQuirreL](http://squirrel-sql.sourceforge.net) is an open source graphical query tool capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
 
@@ -59,7 +59,7 @@ Database: mydb
 
 <img src="img/squirrel-mysql.png" width="400" alt="MySQL Connection Setup in SQuirreL">
 
-### Step #3: Practice SQL DDL
+### Step #4: Practice SQL DDL
 
 The university database should already be loaded. If you have any issues, using SQuirreL, create the tables and load the data for the [university database using this DDL script](../ddl/university_MySQL_DDL.sql).  
 
