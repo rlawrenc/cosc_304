@@ -1,5 +1,15 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
 
+## [Development Stream](develop/) -  Images, Security, and Transactions
+
+Add images and more features to your online store. Three choices for language: [Java](java/), [PHP](php/), [Node.js](nodejs/).
+
+## [Analysis](analysis/) Stream - Data Prediction, Forecasting, and Visualization
+
+Extend the analysis to perform forecasting and prediction. Add improved visualizations and charts.
+
+## Reference Material
+
 ### Images
 
 Images can be stored in the database, on the web server file system, or on a cloud service like Amazon S3. Typically, storing on the web server provides higher performance, but the images may not be as easy to secure compared to storing them in the database.
@@ -49,6 +59,3 @@ In SQL, a transaction begins implicitly. A transaction in SQL ends by:
 #### Java
 
 There are two options for supporting transactions in Java code. If the entire transaction can be expressed in one SQL string, you can just send the entire transaction as a single string and call `statement.execute(SQLString)`.  However, it is more common that a transaction will consist of a sequence of SQL statements, but you want to have Java code actions in between.  For instance, consider if what you wanted to do was fix an order total for an order.  To do this, you would calculate the order total and check if it does not match the required total, then update the order total if required.  In JDBC, each statement you execute is a transaction.  You must turn auto-commit off if you want to have transactions that have more than one statement.  Sample code for transactions is in the file [JdbcTransactions.java](code/JdbcTransactions.java).
-
-
-## [Lab 8 Assignment](assign/)
