@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE
 
-This lab practices creating tables using SQL DDL on a MySQL database.
+This lab practices SQL DDL.
 
 Practice questions are available on [PrairieLearn]() and [GitHub](practice).
 
