@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 7 - Using Databases with Analysis Software (Excel)
+# COSC 304 - Introduction to Database Systems<br>Lab 8 - Data Prediction, Forecasting, and Visualization
 
-Perform reporting on a company database using Excel for analysis and visualization.
+
 
