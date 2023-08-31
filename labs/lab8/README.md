@@ -1,8 +1,8 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8: Images, Security, and Transactions
+# COSC 304 - Introduction to Database Systems<br>Lab 8
 
 ## [Development Stream](develop/) -  Images, Security, and Transactions
 
-Add images and more features to your online store. Three choices for language: [Java](java/), [PHP](php/), [Node.js](nodejs/).
+Add images and more features to your online store. 
 
 ## [Analysis](analysis/) Stream - Data Prediction, Forecasting, and Visualization
 
