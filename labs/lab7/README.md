@@ -1,7 +1,10 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 7: Building a Database-enabled Web Site using JSP or PHP
+# COSC 304 - Introduction to Database Systems<br>Lab 7
 
-### [Lab 7 Java](java/)
+## Development Stream - Building a Database-enabled Web Site using JSP/PHP/Node
 
-### [Lab 7 PHP](php/)
+Build an online store with a database and web interface. Three choices for language: [Java](java/), [PHP](php/), [Node.js](nodejs/).
 
-### [Lab 7 Node.js](nodejs/)
+## Analysis Stream - Using Databases with Analysis Software (Excel)
+
+Perform reporting on a company database using Excel for analysis and visualization.
+
