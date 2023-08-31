@@ -14,8 +14,8 @@ All lab assignments are done online with assistance from teaching assistants and
 |----|------|-------|
 |  | September 4 – 8 |	**No Lab during First Week of Class** |
 | [1](lab1) | September 11 – 15 	| Lab 1: Querying using Relational Algebra |
-| [2](lab2) | September 18 – 22 	| Lab 2: Creating tables using SQL and MySQL |
-| [3](lab3) | September 25 – 29 	| Lab 3: Writing SQL queries on a MySQL database |
+| [2](lab2) | September 18 – 22 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [3](lab3) | September 25 – 29 	| Lab 3: Writing SQL queries |
 | [4](lab4) | October 2 – 6 	| Lab 4: Database Design using UML Modeling |
 | [5](lab5) | October 9 – 20 	| Lab 5: Converting UML Diagrams into the Relational Model |
 | [6](lab6) | October 23 – 27 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
