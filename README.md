@@ -25,6 +25,8 @@ For support, create a ticket on HelpMe system at: https://help.cosc304.ok.ubc.ca
 
 User id: **your student number**  Password: **your student number**
 
+PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
+
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
