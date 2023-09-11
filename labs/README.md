@@ -41,14 +41,15 @@ All lab assignments are done online with assistance from teaching assistants and
 ## Drop-in Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 9 to 11 a.m.  	| TBD |
-| Monday 2 to 4 p.m. 	| TBD |
-| Tuesday 11 a.m. to 12:30 p.m. (class time)	| TBD |
-| Tuesday 2 to 4 p.m.	| TBD |
-| Wednesday 2 to 4 p.m. | TBD |
-| Thursday 11 a.m. to 12:30 p.m. (class time)	| TBD |
+| Monday 9 to 11 a.m.  	| Eranga Desaa  /  Omar Abdelaziz |
+| Monday 2 to 4 p.m. 	| Justin Schoenit / Kevin Wang |
+| Tuesday 11 a.m. to 12:30 p.m. (class time)	| Justin Schoenit |
+| Tuesday 2 to 4 p.m.	| Eranga Desaa  /  Omar Abdelaziz |
+| Wednesday 2 to 4 p.m. | Eranga Desaa  /  Omar Abdelaziz |
+| Thursday 11 a.m. to 12:30 p.m. (class time)	| Omar Abdelazi |
 | Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Friday 1 to 5 p.m. 	| TBD |
+| Friday 1 to 3 p.m. 	| Justin Schoenit |
+| Friday 3 to 5 p.m. 	| Kevin Wang |
 
 
 ## Submission Guidelines for Assignments
