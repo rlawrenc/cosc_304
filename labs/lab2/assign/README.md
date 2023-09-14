@@ -73,4 +73,4 @@ Insert the following records into the appropriate tables.
 
 ## Submission
 
-Submission is done on PrairieLearn.
+Submission is done on Canvas.
