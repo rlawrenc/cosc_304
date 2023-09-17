@@ -6,7 +6,7 @@ CREATE TABLE dept (
    deptName varchar(40),
    deptLocation varchar(50),
    primary key (deptId)
-) ENGINE=InnoDB;
+);
 
 
 CREATE TABLE courseDept (
@@ -15,7 +15,7 @@ CREATE TABLE courseDept (
    primary key (deptId, cname),
    FOREIGN KEY (cname) REFERENCES course (cname) ON UPDATE CASCADE,
    FOREIGN KEY (deptId) REFERENCES dept (deptId) ON UPDATE CASCADE
-) ENGINE=InnoDB;
+);
 
 
 -- INSERT commands
