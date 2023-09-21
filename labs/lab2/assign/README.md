@@ -6,15 +6,15 @@ This assignment practices SQL DDL. These are the same questions as on PrairieLea
 
 Write the SQL DDL to create the following 5 tables describing airports, airplanes, passengers, and flights:
 
-- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufacture date`. (1 mark)
+- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufactureDate`. (1 mark)
 
 - An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters). (1.5 marks)
 
-- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departure date/time` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrival date/time`, and `actual departure time` and `actual arrival time`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
+- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departDateTime` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrivalDateTime`, and `actualDepartDateTime` and `actualArrivalDateTime`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
 
-- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `first name` and `last name` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
+- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `firstname` and `lastname` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
 
-- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passenger id`, `flight number`, `flight departure date/time`, and a `seat number` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
+- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `flightDepartDateTime`, and a `seatNum` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
 
 
 ## Question 2 (10 marks)
