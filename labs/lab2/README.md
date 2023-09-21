@@ -14,3 +14,5 @@ The [assignment](assign) is completed using MySQL on Docker and **requires compu
 <!--
 The questions on PrairieLearn are running on [SQLite](https://www.sqlite.org/index.html). You are not required to setup MySQL on Docker for this assignment, but it is encouraged to learn these skills.
 -->
+
+Note: MySQL does not follow the standard for delimited identifiers using double-quotes ("). It uses backticks (\`) instead. To force it to use double-quotes, run this command when you start a session: `set session sql_mode = 'ANSI';` It is also possible to set this globally using  `set global sql_mode = 'ANSI';` **Avoid using delimited identifiers for lab 2.**
