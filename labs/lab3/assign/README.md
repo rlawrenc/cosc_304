@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 3 - SQL
 
-This assignment is on writing queries in SQL. These questions should be completed on PrairieLearn. Only do these questions locally if you want to learn how to use Docker and MySQL. **Before starting the assignment, complete the [database setup using Docker](../setup)**.
+This assignment is on writing queries in SQL. These questions can be completed either on PrairieLearn or locally on your computer using Docker and MySQL. **Before starting the assignment, complete the [database setup using Docker](../setup)**.
 
 ## Question 1 (20 marks)
 
