@@ -2,6 +2,8 @@
 
 This lab designs ER diagrams in UML notation. The AutoER auto-grading software is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://diagrams.net/">diagrams.net</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
 
+<h3>AutoER link: https://plcanary.ok.ubc.ca/pl/course_instance/2/assessment/35</h3>
+
 <h2>Example #1</h2>
 
 <p>Construct a database design in UML for a fish store where:</p>
@@ -12,8 +14,6 @@ This lab designs ER diagrams in UML notation. The AutoER auto-grading software i
 <li>Each fish is of a particular species, which has a id, name, and preferred food.</li>
 <li>Each individual fish has a number of events in its life, involving a date and a note relating to the event.</li>
 </ol>
-
-<h3>AutoER link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/6</h3>
 
 <h3>Answer: <a href="img/FishStore.asta">UML File</a>, <a href="img/FishStore.png">ER diagram image</a></h3>
 
@@ -43,8 +43,6 @@ This lab designs ER diagrams in UML notation. The AutoER auto-grading software i
 
 <li>At the bottom of each invoice is a total balance, which is the sum of the amounts in each of the line items, including both charges and payments. An invoice is considered paid if the amount is $0.00. </li>
 </ol>
-
-<h3>AutoER link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/7</h3>
 
 <h3>Answer: <a href="img/HotelReservationSystem.asta">UML File</a>, <a href="img/HotelReservationSystem.png">ER diagram image</a></h3>
 
