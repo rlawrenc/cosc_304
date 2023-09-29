@@ -4,7 +4,7 @@ This assignment is on writing queries in SQL. These questions can be completed e
 
 ## Question 1 (20 marks)
 
-Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on MySQL.** [DDL is available](ShipmentMySQL.sql). **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
+Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on MySQL.** [DDL is available](../ddl/ShipmentMySQL.sql). **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
 customer(cid: integer, cname: string, address: string, city: string, state: string)
@@ -134,7 +134,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+-----------------+----------------------+--------------------+-------------------+
 ```
 
-8. Return pairs of products (only show a pair once) that appear together in the same shipment and have at least an `amount` of 2 in that shipment. Return the number of times the products appear together in a shipment ('numTogether'). Order by `numTogether` descending and first product name ascending.
+8. Return pairs of products (only show a pair once) that appear together in the same shipment and have at least an `amount` of 2 in that shipment. Return the number of times the products appear together in a shipment ('numTogether'). Order by `numTogether` descending, then first product name ascending, and second product name ascending.
 
 #### Output:
 ```
@@ -143,17 +143,18 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-------------------------+-------------------------+-------------+
 | Swiss Chocolate         | Wooden Chair            |           2 |
 | Chocolate Bar           | Deluxe Sweet Collection |           1 |
-| Chocolate Bar           | Sports Car              |           1 |
-| Chocolate Bar           | Swiss Chocolate         |           1 |
-| Chocolate Bar           | Wooden Chair            |           1 |
-| Chocolate Bar           | Teddy Bear              |           1 |
 | Chocolate Bar           | Desk                    |           1 |
+| Chocolate Bar           | Sports Car              |           1 |
 | Chocolate Bar           | Table                   |           1 |
 | Deluxe Sweet Collection | Sports Car              |           1 |
-| Desk                    | Teddy Bear              |           1 |
+| Swiss Chocolate         | Chocolate Bar           |           1 |
 | Swiss Chocolate         | Teddy Bear              |           1 |
 | Swiss Chocolate         | Textbook                |           1 |
-| Textbook                | Wooden Chair            |           1 |
+| Table                   | Table                   |           1 |
+| Teddy Bear              | Chocolate Bar           |           1 |
+| Teddy Bear              | Desk                    |           1 |
+| Wooden Chair            | Chocolate Bar           |           1 |
+| Wooden Chair            | Textbook                |           1 |
 +-------------------------+-------------------------+-------------+
 ```
 
