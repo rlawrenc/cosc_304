@@ -45,7 +45,7 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
  - Perform data analysis, reporting, and visualization using data extracted from databases.
  - Use JSON and XML for data exchange and representation.
  - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
- - Implement database security using user accounts/passwords and managing SQL privileges using GRANT and REVOKE.
+ - Implement database security using user accounts/passwords and SQL privileges using GRANT and REVOKE.
 
 ## Marking and Evaluation
 | Item | Weighting | Description |
