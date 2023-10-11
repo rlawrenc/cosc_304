@@ -5,7 +5,7 @@
 
 Build a pet daycare database that tracks information on owners and their pets when they stay at a pet daycare. There are three components:
 
-1) Build an ER/UML diagram. **(7 marks)** This can be done using AutoER (link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/8) or using Astah.
+1) Build an ER/UML diagram. **(7 marks)** This can be done using PrairieLearn (link: https://plcanary.ok.ubc.ca/pl/course_instance/2/assessment/44) or using Astah.
 2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). **(1 mark)**
 3) Convert the diagram into the relational model. **(7 marks)** SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to clearly indicate the FK direction.
 
@@ -40,7 +40,7 @@ The project will build an online store like Amazon.com selling whatever products
 
 ### Deliverables
 
-**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use AutoER to check your work (link: https://prairielearn.ok.ubc.ca/pl/course_instance/4/assessment/9), but your design needs to include data types so it must be in Astah or another tool.**
+**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use PrairieLearn to check your work (link: https://plcanary.ok.ubc.ca/pl/course_instance/2/assessment/44), but your design needs to include data types so it must be in Astah or another tool.**
 
 **2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
 
