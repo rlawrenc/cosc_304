@@ -9,7 +9,7 @@ Build a pet daycare database that tracks information on owners and their pets wh
 2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). **(1 mark)**
 3) Convert the diagram into the relational model. **(7 marks)** SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to clearly indicate the FK direction.
 
-On Canvas submit a single document that contains a screenshot of the UML design (part 1), the subclass info (part 2), and the conversion to the relational model (part 3). **If you used AutoER, make sure the screenshot shows the user name of one student in your group and the mark received.**
+On Canvas submit a single document that contains a screenshot of the UML design (part 1), the subclass info (part 2), and the conversion to the relational model (part 3). **If you used PrairieLearn, make sure the screenshot shows the user name of one student in your group and the mark received.**
 
 ### Question Description
 
