@@ -200,7 +200,7 @@ enrollDB.listCourseStudents("DATA 301")
 print("Executing compute GPA for student: 45671234")
 enrollDB.resultSetToString(enrollDB.computeGPA("45671234"),10)
 print("Executing compute GPA for student: 00000000")
-enrollDB.resultSetToString(enrollDB.computeGPA("45671234"),10)
+enrollDB.resultSetToString(enrollDB.computeGPA("00000000"),10)
 
 print("Adding student 55555555:")
 enrollDB.addStudent("55555555",  "Stacy Smith", "F", "1998-01-01")
