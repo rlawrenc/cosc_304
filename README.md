@@ -92,8 +92,9 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Oct. 19 (TH) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming)| [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](https://xkcd.com/327/) |
 | Oct. 24 (T) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](https://philip.greenspun.com/sql/triggers.html) |
 | Oct. 26 (TH) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 2 (T) | **Midterm Exam #2 In-Class** | |
-| Nov. 7 (TH) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Oct. 31 (T) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 2 (TH) | **Midterm Exam #2 In-Class** | |
+| Nov. 7 (T) | [XML and XPath](topics/19_xml) (cont.) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 9 (TH) | Project Work Class |  |
 | Nov. 14 (T) | **No class for Term 1 midterm break** | |
 | Nov. 16 (TH) | **No class for Term 1 midterm break** | |
