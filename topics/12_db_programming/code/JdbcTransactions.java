@@ -13,7 +13,7 @@ import java.sql.*;
 
 public class JdbcTransactions
 {	public static void main(String[] args)
-	{	String url = "jdbc:sqlserver://localhost;databaseName=WorksOn;TrustServerCertificate=Tru";
+	{	String url = "jdbc:sqlserver://localhost;databaseName=WorksOn;TrustServerCertificate=True";
 		String uid = "sa";
 		String pw = "todo";
 
