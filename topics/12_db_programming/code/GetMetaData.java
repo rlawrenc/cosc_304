@@ -6,12 +6,11 @@ public class GetMetaData
     		String uid = "testuser";
     		String pw = "todo";   
 
-    	 try ( Connection con = DriverManager.getConnection(url, uid, pw);
-                 Statement stmt = con.createStatement();) 
-         {
-
+    		try ( Connection con = DriverManager.getConnection(url, uid, pw);
+                 	Statement stmt = con.createStatement();) 
+         	{
 			String []tblTypes = {"TABLE"};	// What table types to retrieve
-
+			
 			DatabaseMetaData dmd = con.getMetaData();  // Get metadata
 			ResultSet rs1, rs2, rs5;
 
