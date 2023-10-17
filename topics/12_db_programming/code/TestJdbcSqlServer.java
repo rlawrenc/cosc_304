@@ -6,8 +6,8 @@ public class TestJdbcSqlServer
 		String uid = "sa";
 		String pw = "todo";
 			
-		try ( Connection con = DriverManager.getConnection(url, uid, pw);
-	          Statement stmt = con.createStatement();) 
+		try ( 	Connection con = DriverManager.getConnection(url, uid, pw);
+	          	Statement stmt = con.createStatement();) 
 		{			
 			ResultSet rst = stmt.executeQuery("SELECT ename,salary FROM emp");
 			System.out.println("Employee Name,Salary");
