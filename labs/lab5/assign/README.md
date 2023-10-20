@@ -42,7 +42,7 @@ The project will build an online store like Amazon.com selling whatever products
 
 **1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use PrairieLearn to check your work (link: https://plcanary.ok.ubc.ca/pl/course_instance/2/assessment/44), but your design needs to include data types so it must be in Astah or another tool.**
 
-**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. (11 marks)**
+**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. Make sure your primary keys that are auto-increment are specified as `AUTO_INCREMENT` in your DDL. (11 marks)**
 
 **3. Imagine creating your own store and selling products. Determine what products to sell. Write a mission statement (1 mark) and executive summary paragraph (2 marks) describing your idea.**
 
