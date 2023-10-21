@@ -16,6 +16,8 @@ enroll (<u>sid</u>, <u>cnum</u>, <u>secnum</u>, grade)
 
 Download the starter code ([Python file](code/EnrollDB.py), [Jupyter Notebook](code/EnrollDB.ipynb)) and the test file ([Python file](code/TestEnrollDB.py), [Jupyter Notebook](code/TestEnrollDB.ipynb)).  There is also a [DDL script](code/university.ddl) to create the database.
 
+The Python test library is called `unittest`. To add it to your project in VSCode, click on the test (beaker) icon, then click on the `Configure Tests` blue button. VSCode will ask for the test library. Respond with `unittest` and indicate the test files will have the format `Test*.py`.
+
 Write the code to complete the methods in `EnrollDB` (look for `TODO` items).
 
 **Your code will be graded based on it passing the unit tests.** You can show the TA all unit tests passing to receive full marks. Otherwise, submit your source code online.
