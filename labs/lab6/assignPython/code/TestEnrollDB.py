@@ -2,7 +2,7 @@
 import unittest
 # Note: If using Jupyter Notebook may need to use special package to import notebooks
 # pip install import_ipnyb
-#import import_ipynb
+# import import_ipynb
 import EnrollDB
 
 
@@ -283,7 +283,7 @@ class TestEnrollDB(unittest.TestCase):
         # Re-initialize database
         self.enrollDB.init()
         
-        print("\nTest new enroll:\n")
+        print("\nTest new enrroll:\n")
     
         
         # Add an enroll with a student

@@ -8,7 +8,7 @@ class EnrollDB:
         try:
             # TODO: Fill in your connection information
             print("Connecting to database.")
-            self.cnx = mysql.connector.connect(user='testuser', password='todo', host='localhost', database='testuser')
+            self.cnx = mysql.connector.connect(user='testuser', password='304testpw', host='localhost', database='testuser')
             return self.cnx
         except mysql.connector.Error as err:  
             print(err)   
@@ -168,6 +168,8 @@ class EnrollDB:
 # Do NOT change anything below here
     def resultSetToString(self, cursor, maxrows):
         output = ""
+        if cursor is None:
+            return "No results"
         cols = cursor.column_names
         output += "Total columns: "+str(len(cols))+"\n"
         output += str(cols[0])
@@ -200,7 +202,7 @@ enrollDB.listCourseStudents("DATA 301")
 print("Executing compute GPA for student: 45671234")
 enrollDB.resultSetToString(enrollDB.computeGPA("45671234"),10)
 print("Executing compute GPA for student: 00000000")
-enrollDB.resultSetToString(enrollDB.computeGPA("00000000"),10)
+enrollDB.resultSetToString(enrollDB.computeGPA("45671234"),10)
 
 print("Adding student 55555555:")
 enrollDB.addStudent("55555555",  "Stacy Smith", "F", "1998-01-01")
