@@ -11,7 +11,7 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
  - Create a folder `ddl` in `cosc304_lab6` directory. Download the contents of the `ddl` folder into the `cosc304_lab6\ddl` folder.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab6`.
  - Run the command `docker-compose up -d`
- - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
+ - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file by modifying the line below `ports:` to `'3307:3306'`. The connection URL is then `localhost:3307/testuser`.
  - Your database is `mydb` or `testuser`. There are other databases also created such as `workson`. Do NOT use the sample `university` database from lab 2.
  - Microsoft SQL Server will be running on port 1433. Note SQL Server is not supported on the Apple M1 chip. However, there is an alternate version that is. In the docker-compose.yml file, change: `image: mcr.microsoft.com/mssql/server:2019-latest` to this: `image: mcr.microsoft.com/azure-sql-edge`.
 
@@ -21,23 +21,13 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
 Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. 
 The user id and password information is in the `docker-compose.yml` file.
 
-MySQL commands can be running using the command line within the Docker container. Run the command:
+### Java Setup
 
-```
-docker exec -it cosc304-mysql bash
-```
+1. Make sure the [MySQL JDBC driver](code/mysql-connector-java-8.0.27.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
 
-This will start a command line session. Connect to MySQL using:
+2. [Download the sample file](code/TestJDBCMySQL.java).  Save this file in your `cosc304_lab6` folder that you just created. 
 
-```
-mysql -u root -p
-```
-OR
-```
-mysql -u testuser -p
-```
-
-To make the Java program work:
+3. These are the modifications you must make to get the program working:
 
 ```
 Change Line 5 to:	String url = "jdbc:mysql://localhost/workson";
@@ -45,10 +35,18 @@ Change Line 6 to:	String uid = "put your user id here";
 Change Line 7 to:	String pw = "put your password here";
 ```
 
-To make the Python program work:
+### Python Setup
+
+1. Install MySQL connector library in a terminal using the command: `pip instal mysql-connector-python`  You may need to restart VSCode for it to see the library after it is installed.
+
+2. [Download the sample Python file](code/PythonQueryExample.py) and setup in your Python environment.
+
+3. These are the modifications you must make to get the program working:
 
 ```
-Change Line 3 to:	cnx = mysql.connector.connect(user='put your user id here', password='put your password here', host='localhost', database='workson')
+Change Line 3 to add the password for testuser account:
+```
+ cnx = mysql.connector.connect(user='testuser', <b>password='todo'</b>, host='localhost', database='workson', ssl_disabled='True') a
 ```
 
 The result of the program is this:
