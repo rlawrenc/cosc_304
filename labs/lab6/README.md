@@ -37,7 +37,7 @@ Change Line 7 to:	String pw = "put your password here";
 
 ### Python Setup
 
-1. Install MySQL connector library in a terminal using the command: `pip instal mysql-connector-python`  You may need to restart VSCode for it to see the library after it is installed.
+1. Install MySQL connector library in a terminal using the command: `pip install mysql-connector-python`  You may need to restart VSCode for it to see the library after it is installed.
 
 2. [Download the sample Python file](code/PythonQueryExample.py) and setup in your Python environment.
 
