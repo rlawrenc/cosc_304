@@ -45,7 +45,7 @@ Change Line 7 to:	String pw = "put your password here";
 
 ```
 Change Line 3 to add the password for testuser account:
-```
+
  cnx = mysql.connector.connect(user='testuser', <b>password='todo'</b>, host='localhost', database='workson', ssl_disabled='True') a
 ```
 
