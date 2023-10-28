@@ -51,3 +51,10 @@ Create the following visualizations with one worksheet per visualization. Use th
 3. Sheet: `reviews` Use a bar chart to show the number of reviews performed per year and the average review rating in that year. (5 marks)
 
 ## Part 3: Bonus (up to 10 marks)
+
+Create two more queries and visualizations in Excel for bonus marks (+5 bonus marks each). The query and visualization should have complexity similar to the previous questions. The TAs will decide if the query has sufficient complexity. Try to create visualizations that are unique, interesting and would be valuable to the company.
+
+
+# Submission
+
+Submit your document for Part 1 and your Excel file for Part 2 on Canvas. Bonus marks are available for early review by the TA in a virtual office hours.
