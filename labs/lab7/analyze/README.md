@@ -25,9 +25,9 @@ The first step is to gather descriptive statistics from the company data. This w
 
 6. Show the payment types based on total order amount by year. Only show years 2020 to current. An order must be shipped to be counted for a payment. Order by year ascending and total payment amount descending. Note: This query is hard since `ordersummary` does not have a payment id for each order. We will assume that if a customer has multiple payment methods, then the method with the smallest `paymentMethodId` was the one used for all their orders. (3 marks)
 
-7. Show the top 5 products that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. (3 marks)
+7. Show the top 5 products (id, name, total quantity difference) that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. Hint: Subqueries may be useful. (3 marks)
 
-8. Show the top 10 products that have the lowest current inventory based on their average sales for 2023. Calculate this as a percentage. For example, if the inventory of product X is currently 10, and the sales volume for product X in 2023 is 100, then the inventory percentage is 10/100 = 10%. (3 marks)
+8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 99. You may want to use the [MySQL IFNULL() function](https://dev.mysql.com/doc/refman/8.0/en/flow-control-functions.html#function_if). (3 marks)
 
 
 ## Part 2: Data Visualization (20 marks)
