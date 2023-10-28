@@ -6,7 +6,7 @@ You have just been hired as the first data analyst at the ACME company. ACME has
 
 The ACME company sells all kinds of products. Every product has a given category, and customers are encouraged to review products.  Customers place orders through a website. Orders are shipped from one of three warehouses in Kelowna, Winnipeg, and Toronto. Each warehouse maintains inventory on its products. The company needs information on its top selling products, largest customers, and efficiency of its distribution system.
 
-The ACME database is stored on MySQL. It is read-only and accessible at: jdbc:mysql://cosc304.ok.ubc.ca/analysis. User id is cosc304. Password is cosc304. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (vpn.ok.ubc.ca).
+The ACME database is stored on MySQL. It is read-only and accessible at: jdbc:mysql://cosc304.ok.ubc.ca/analysis. User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (vpn.ok.ubc.ca).
 
 
 ## Part 1: Descriptive Data (20 marks)
