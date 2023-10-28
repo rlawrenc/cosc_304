@@ -6,10 +6,10 @@ You have just been hired as the first data analyst at the ACME company. ACME has
 
 The ACME company sells all kinds of products. Every product has a given category, and customers are encouraged to review products.  Customers place orders through a website. Orders are shipped from one of three warehouses in Kelowna, Winnipeg, and Toronto. Each warehouse maintains inventory on its products. The company needs information on its top selling products, largest customers, and efficiency of its distribution system.
 
-The ACME database is stored on MySQL. It is read-only and accessible at: jdbc:mysql://cosc304.ok.ubc.ca/analysis. User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (vpn.ok.ubc.ca).
+The ACME database is stored on MySQL. It is read-only and accessible at `jdbc:mysql://cosc304.ok.ubc.ca/analysis`. User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (`vpn.ok.ubc.ca`).
 
 
-## Part 1: Descriptive Data (20 marks)
+## Part 1: Descriptive Analysis (20 marks)
 
 The first step is to gather descriptive statistics from the company data. This will be done using SQL queries. The output of this analysis is a document containing each question, the SQL query, and the output table.
 
@@ -19,18 +19,18 @@ The first step is to gather descriptive statistics from the company data. This w
 
 3. List the top 10 ordered products by total quantity (id, name, total quantity) in 2023. (2 marks)
 
-4. List the bottom 7 ordered products (id, name, total revenue) that have generated the least amount of revenue. Only show products that have had a total quantity ordered of at least 10. (3 marks)
+4. List the bottom 7 ordered products (id, name, total revenue) that have generated the least amount of revenue. Only show products that have had a total quantity ordered of at least 60. (3 marks)
 
-5. List the customer who gives the highest average review rating considering all of their reviews. (3 marks)
+5. List the customer (id, names, average rating) who gives the highest average review rating considering all of their reviews. (3 marks)
 
-6. Show the top 3 payment types based on total order volume by year. Only show years 2020 to current. (3 marks)
+6. Show the payment types based on total order amount by year. Only show years 2020 to current. An order must be shipped to be counted for a payment. Order by year ascending and total payment amount descending. Note: This query is hard since `ordersummary` does not have a payment id for each order. We will assume that if a customer has multiple payment methods, then the method with the smallest `paymentMethodId` was the one used for all their orders. (3 marks)
 
 7. Show the top 5 products that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. (3 marks)
 
 8. Show the top 10 products that have the lowest current inventory based on their average sales for 2023. Calculate this as a percentage. For example, if the inventory of product X is currently 10, and the sales volume for product X in 2023 is 100, then the inventory percentage is 10/100 = 10%. (3 marks)
 
 
-## Part 2: Data Analysis (20 marks)
+## Part 2: Data Visualization (20 marks)
 
 Analyzing data is easier using visualizations. The next step is to visualize data using Excel.
 
