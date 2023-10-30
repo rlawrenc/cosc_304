@@ -40,11 +40,15 @@ To read data into Excel from SQL Server, follow these steps:
 
 1) Open Excel. Under the `Data` Menu, select `Get Data` then, `From Database`, then `From SQL Server Database`.
 
-![img/excel]
+![img/excel_getdata.png](Get Data)
 
 2) Enter `sql04.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
 
+![img/excel_query.png](Execute SQL Query)
+
 3) For authentication, select `Database` authentication. The user id is `cosc304`.
+
+![img/excel_user_pw.png](User authentication)
 
 4) Click the `Load` button to load the data into a worksheet.
 
