@@ -6,7 +6,7 @@ You have just been hired as the first data analyst at the ACME company. ACME has
 
 The ACME company sells all kinds of products. Every product has a given category, and customers are encouraged to review products.  Customers place orders through a website. Orders are shipped from one of three warehouses in Kelowna, Winnipeg, and Toronto. Each warehouse maintains inventory on its products. The company needs information on its top selling products, largest customers, and efficiency of its distribution system.
 
-The ACME database is stored on MySQL. It is read-only and accessible at `jdbc:mysql://cosc304.ok.ubc.ca/analysis`. User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (`vpn.ok.ubc.ca`).
+The ACME database is stored on Microsoft SQL Server. It is read-only and accessible at `sqlserver://sql04.ok.ubc.ca/analysis`. User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (`vpn.ok.ubc.ca`).
 
 
 ## Part 1: Descriptive Analysis (20 marks)
@@ -27,28 +27,38 @@ The first step is to gather descriptive statistics from the company data. This w
 
 7. Show the top 5 products (id, name, total quantity difference) that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. Hint: Subqueries may be useful. (3 marks)
 
-8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 99. You may want to use the [MySQL IFNULL() function](https://dev.mysql.com/doc/refman/8.0/en/flow-control-functions.html#function_if). (3 marks)
+8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 99. You may want to use the [SQLServer ISNULL() function](https://learn.microsoft.com/en-us/sql/t-sql/functions/isnull-transact-sql?view=sql-server-ver16). (3 marks)
 
 
 ## Part 2: Data Visualization (20 marks)
 
 Analyzing data is easier using visualizations. The next step is to visualize data using Excel.
 
-### Connecting Excel and MySQL
+### Connecting Excel and SQL Server
 
-To read data into Excel from MySQL, here are the steps...
+To read data into Excel from SQL Server, follow these steps:
+
+1) Open Excel. Under the `Data` Menu, select `Get Data` then, `From Database`, then `From SQL Server Database`.
+
+![img/excel]
+
+2) Enter `sql04.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
+
+3) For authentication, select `Database` authentication. The user id is `cosc304`.
+
+4) Click the `Load` button to load the data into a worksheet.
 
 ### Visualizations
 
 Create the following visualizations with one worksheet per visualization. Use the name of the worksheet given. List the SQL query performed under the chart.
 
-1. Sheet: `worstproducts` Visualize query 4 from part 1 showing the bottom 7 ordered products using a bar chart. (5 marks)
+1. Sheet: `worstproducts` Visualize query 4 from part 1 showing the bottom 7 ordered products using a 3D column chart. (5 marks)
 
-2. Sheet: `paymentmethods` Use a pie chart to show the percentage payment volume (based on order total amount) by payment method in 2023. (5 marks)
+2. Sheet: `paymentmethods` Use a pie chart to show the percentage payment volume (based on order total amount) by payment method in 2023. (Similar to Q6 in Part 1.) (5 marks)
 
-3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) by payment method in 2022. Only show the top 10 products. (5 marks)
+3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) in 2022. (5 marks)
 
-3. Sheet: `reviews` Use a bar chart to show the number of reviews performed per year and the average review rating in that year. (5 marks)
+3. Sheet: `reviews` Use a combo chart to show the number of reviews performed per year (columns) and the average review rating in that year (as a line). (5 marks)
 
 ## Part 3: Bonus (up to 10 marks)
 
