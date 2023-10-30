@@ -27,7 +27,7 @@ The first step is to gather descriptive statistics from the company data. This w
 
 7. Show the top 5 products (id, name, total quantity difference) that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. Hint: Subqueries may be useful. (3 marks)
 
-8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 99. You may want to use the [SQLServer ISNULL() function](https://learn.microsoft.com/en-us/sql/t-sql/functions/isnull-transact-sql?view=sql-server-ver16). (3 marks)
+8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 9999. You may want to use the [SQLServer ISNULL() function](https://learn.microsoft.com/en-us/sql/t-sql/functions/isnull-transact-sql?view=sql-server-ver16). (3 marks)
 
 
 ## Part 2: Data Visualization (20 marks)
