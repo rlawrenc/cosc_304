@@ -29,7 +29,7 @@ Floor (<i><u>hotelName</u></i> {PK}, <u>number</u> {PK}) // hotelName is a FK to
 Room (<i><u>hotelName</u></i> {PK}, <u><i>floorNumber</i></u> {PK}, <u>identifier</u> {PK}, numBeds, isSmokingRoom) 
    // (hotelName, floorNumber) is a FK to Floor ; hotelName is a FK to Hotel
 Customer (<u>id</u> {PK}, firstName, middleName, lastName, address, city, state, country, postalCode, homePhoneNumber, workPhoneNumber, cellPhoneNumber, emailAddress)
-Reservation (<i><u>hotelName</u></i> {PK}, <u><i>floorNumber</i></u> {PK}, <u>identifier</u> {PK}, <i><u>customerId</u></i> {PK}, <u>arrivalDate</u> {PK}, departDate, smokingRoom, numBeds, highOrLowFloor, creditCardType, creditCardNum, creditCardExpiry, <i>roomIdentifier</i>)
+Reservation (<i><u>hotelName</u></i> {PK}, <u><i>floorNumber</i></u> {PK}, <u><i>roomIdentifier</i></u> {PK}, <i><u>customerId</u></i> {PK}, <u>arrivalDate</u> {PK}, departDate, smokingRoom, numBeds, highOrLowFloor, creditCardType, creditCardNum, creditCardExpiry, <i>roomIdentifier</i>)
    // hotelName is a FK to Hotel ; customerId is a FK to Customer ; (hotelName, floorNumber, roomIdentifier) is a FK to Room
 Invoice (<u>id</u> {PK}, <i>hotelName</i>, <i>customerId</i>, <i>arrivalDate</i>, openDate, closeDate, totalBalance) 
    // (hotelName,customerId,arrivalDate) is FK to Reservation
