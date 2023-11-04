@@ -42,7 +42,7 @@ To read data into Excel from SQL Server, follow these steps:
 
 <img src="img/excel_getdata.png" width="500">
 
-2) Enter `sql04.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
+2) Enter `cosc304.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
 
 <img src="img/excel_query.png" width="500">
 
