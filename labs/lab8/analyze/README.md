@@ -46,13 +46,22 @@ There are several ways to perform a prediction. Excel has a [**forecast** functi
 
 <img src="img/p1_q1_linear_forecast.png" width="500">
 
-Another way is to create a graph and add a linear interpolation line.
+Another way is to create a graph and add a [linear trend line](https://support.microsoft.com/en-us/office/add-a-trend-or-moving-average-line-to-a-chart-fa59f86c-5852-4b68-a6d4-901a745842ad).
 
-A better way with more options is to use **Forecast Sheet**. Create a forecast sheet and rename it as `initialpredict` similar to shown below.
+<img src="img/p1_q1_linear_chart.png" width="500">
+
+It is also possible to use **Forecast Sheet**. Create a forecast sheet and rename it as `initialpredict` similar to shown below.
 
 <img src="img/excel_sales_forecast.png" width="500">
 
-The results of these two forecasts are sales in 2024 of **$762,127.98** and 2025 of **$851,584.09**. Completing this part is worth 4 marks.
+The results of these forecast methods produce different results. Completing this part is worth 5 marks.
+
+| Year   | Linear Regression   | Linear Treandline  | Forecase Sheet  |
+|---|---|---|---|
+| 2024 | $837,071.64  |   |   |   |
+| 2025 | $938,035.54  |   |   |   |
+
+
 
 
 Unfortunately, this prediction is not very accurate for several reasons. First, 2019 was only a partial year for sales starting in October. Similarly, the 2023 selling season is not complete with data only up to October. The *art* of making predictions comes from deciding what to do with incomplete, missing, or inaccurate data. Perform an updated prediction and save in the sheet `salesprediction`. Here are the assumptions:
@@ -61,7 +70,7 @@ Unfortunately, this prediction is not very accurate for several reasons. First, 
 2. 2023 data will be increased by 20% as there are still 2 months of sales. (Note: This estimate could be better as many retailers do a higher percentage of sales around Christmas.)
 3. Generate an updated sales table and sales prediction for 2024 and 2025.
 
-This second prediction is worth 6 marks.
+This second prediction is worth 5 marks.
 
 
 ### Question 2: Predicting Sales by Region (5 marks)
