@@ -81,14 +81,13 @@ Excel has a nice [map chart visualization](https://support.microsoft.com/en-us/o
 
 ### Question 3: Predicting Top Product Sales (10 marks)
 
-The goal is to predict the top 3 selling products in 2024 based on historical data from 2020 to 2023. The data table and visualization should be in a sheet called `productsales`. This is an open-ended question, and there are multiple ways to approach this. A challenge is that there are 200 products to consider. Although you may use Python or Java to perform code analysis, that is not required. The question is marked based on your approach and discussion more than your final result. Note: Use of Generative AI (including Copilot and ChatGPT) is allowed for this part. Document any sources you used to build your analysis.
+The goal is to predict the top 3 selling products in 2024 based on historical data from 2020 to 2023. The data table and visualization should be in a sheet called `productsales`. This is an open-ended question, and there are multiple ways to approach this. A challenge is that there are 200 products to consider. Although you may use Python or Java to perform code analysis, that is not required. The question is marked based on your approach and discussion more than your final result. Note: Use of Generative AI (including Copilot and ChatGPT) is allowed for this part. Document any sources used to build your analysis.
 
 Marking:
-1. Write a short paragraph describing your analysis approach (3 marks).
-2. Implement your analysis approach in Excel, SQL, and maybe Java/Python code (4 marks).
-3. List any sources (website, AI conversations) used to design and implement your approach (2 marks).
-4. List your predicted top 3 selling products for 2024 and their predicted sales volume (quantity*price).
-
+1. Write a short paragraph describing your analysis approach. (2 marks)
+2. Implement your analysis approach in Excel, SQL, and maybe Java/Python code. (5 marks)
+3. List any sources (website, AI conversations) used to design and implement your approach. (2 marks)
+4. List your predicted top 3 selling products for 2024 and their predicted sales volume (quantity*price). (1 mark)
 
 # Submission
 
