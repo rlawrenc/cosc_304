@@ -73,15 +73,22 @@ This second prediction is worth 5 marks.
 
 ### Question 2: Predicting Sales by Region (5 marks)
 
-ACME Company wants to understand its sales by province (state). Generate a query that produces data with the overall sales by province for the years 2020 to 2023. Use this data to predict the sales by province for 2024. 
+ACME Company wants to understand its sales by province (state). Generate a query that produces data with the overall sales by province for the years 2020 to 2022. Use this data to predict the province with the highest sales in 2023 and 2024.
 
-Excel has a nice visualization for displaying data on a map.
+Excel has a nice [map chart visualization](https://support.microsoft.com/en-us/office/create-a-map-chart-in-excel-f2cfed55-d622-42cd-8ec9-ec8a358b593b) for displaying data on a map. Create a map chart showing the total sales by province for 2022 similar to below.
+
+<img src="img/p1_q2_map_chart.png" width="500">
 
 ### Question 3: Predicting Top Product Sales (10 marks)
 
-The goal is to predict the top 10 selling products in 2024 based on historical data from 2020 to 2023. The data table and visualization should be in a sheet called `productsales`.
+The goal is to predict the top 3 selling products in 2024 based on historical data from 2020 to 2023. The data table and visualization should be in a sheet called `productsales`. This is an open-ended question, and there are multiple ways to approach this. A challenge is that there are 200 products to consider. Although you may use Python or Java to perform code analysis, that is not required. The question is marked based on your approach and discussion more than your final result. Note: Use of Generative AI (including Copilot and ChatGPT) is allowed for this part. Document any sources you used to build your analysis.
 
-How to do this ...
+Marking:
+1. Write a short paragraph describing your analysis approach (3 marks).
+2. Implement your analysis approach in Excel, SQL, and maybe Java/Python code (4 marks).
+3. List any sources (website, AI conversations) used to design and implement your approach (2 marks).
+4. List your predicted top 3 selling products for 2024 and their predicted sales volume (quantity*price).
+
 
 # Submission
 
