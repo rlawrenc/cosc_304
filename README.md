@@ -94,8 +94,8 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Oct. 26 (TH) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](https://philip.greenspun.com/sql/triggers.html) |
 | Oct. 31 (T) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Nov. 2 (TH) | **Midterm Exam #2 In-Class** | |
-| Nov. 7 (T) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Nov. 9 (TH) | Project Work Class |  |
+| Nov. 7 (TH) | Project Work Class |  |
+| Nov. 9 (TH) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 14 (T) | **No class for Term 1 midterm break** | |
 | Nov. 16 (TH) | **No class for Term 1 midterm break** | |
 | Nov. 21 (T) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
