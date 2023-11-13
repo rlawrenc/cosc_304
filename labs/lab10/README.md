@@ -4,7 +4,7 @@
 
 ## [Development](develop/) Stream
 
-Complete your project by adding more features. Use the [list of features with points](develop/projectFeatureMarking.docx) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
+Complete your project by adding more features. Use the [list of features with points](develop/developProjectFeatureMarking.docx) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
 
 #### Details:
 
@@ -14,16 +14,18 @@ Complete your project by adding more features. Use the [list of features with po
 
 3. **Make sure your documentation contains the URL for your site as well as user ids and passwords.**
 
-4. [List of features with points](develop/projectFeatureMarking.docx) must be included when submitting your documentation.
+4. [List of features with points](develop/developProjectFeatureMarking.docx) must be included when submitting your documentation.
 
 5. Your web site should ideally run on a public cloud server.
 
 ## [Analysis](analyze/) Stream
 
-Complete your project by adding more features. Use the [list of features with points](analyze/projectFeatureMarking.docx) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
+Building upon your prior analysis work, complete your project by producing a report to the CEO. This report should help ACME company answer key questions about its products, customers, and warehouse inventory. This is an open-ended analysis and predictions with the focus on your process and documentation more than the actual results. Use the [list of features with points](analyze/analyzeProjectFeatureMarking.docx) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. Full points for a feature may be subjective based on quality. It is also possible to suggest your own features for credit. Proper documentation is very important, especially any Internet sources used.
 
 #### Details:
 
-1. TBD
+1. Submit report document, Excel file, and any other files in a zip on Canvas.
 
+2. **Make sure your documentation contains any Internet sources used.**
 
+3. [List of features with points](analyze/analyzeProjectFeatureMarking.docx) must be included when submitting your documentation.
