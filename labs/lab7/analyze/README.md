@@ -151,19 +151,19 @@ Create the following visualizations with one worksheet per visualization. Use th
 
 1. Sheet: `worstproducts` Visualize query 4 from part 1 showing the bottom 7 ordered products using a 3D column chart. (5 marks)
 
-<img src="img/p2_q1.png" width="500" alt="p2_q1">
+<img src="img/p2_q1.png" width="300" alt="p2_q1">
 
 2. Sheet: `paymentmethods` Use a pie chart to show the percentage payment volume (based on order total amount) by payment method in 2023. (Similar to Q6 in Part 1.) (5 marks)
 
-<img src="img/p2_q2.png" width="500" alt="p2_q2">
+<img src="img/p2_q2.png" width="300" alt="p2_q2">
 
 3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) in 2022. (5 marks)
 
-<img src="img/p2_q3.png" width="500" alt="p2_q3">
+<img src="img/p2_q3.png" width="300" alt="p2_q3">
 
 4. Sheet: `reviews` Use a combo chart to show the number of reviews performed per year (columns) and the average review rating in that year (as a line). (5 marks)
 
-<img src="img/p2_q4.png" width="500" alt="p2_q4">
+<img src="img/p2_q4.png" width="300" alt="p2_q4">
 
 ## Part 3: Bonus (up to 10 marks)
 
