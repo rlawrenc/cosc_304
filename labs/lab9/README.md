@@ -1,5 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 9
 
+<!--
 ## [Development](develop/) Stream - XML, JSON, Views, and Triggers
 
 Add JSON output for your web service.
@@ -7,10 +8,11 @@ Add JSON output for your web service.
 ## [Analysis](analyze/) Stream - Handling Data Formats (CSV, XML, JSON)
 
 Process data in other formats and connect it with relational data.
+-->
 
 ## [Assignment](assign/) - XML, JSON, Views, and Triggers
 
-Both paths complete a PrairieLearn assessment on these topics.
+Both paths complete an assignment on these topics.
 
 ## Reference Material
 
