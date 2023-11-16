@@ -60,4 +60,8 @@ The product page will show details on the product including images. An image can
 
 <img src="img/shipmentPage2.png" width="500">
 
-### If you do not demonstrate live to the TA in virtual office hours, please upload a video clip demonstrating your working pages with the new features.
+# Submission
+
+**If you do not demonstrate live to the TA in virtual office hours, please upload your code and a video clip demonstrating your working pages with the new features on Canvas.** Bonus marks available for early completion.
+
+
