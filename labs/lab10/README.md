@@ -4,6 +4,8 @@
 
 **Note: Use of Internet sources including Google, Stack Overflow, ChatGPT, and GitHub Copilot are ALLOWED but must be documented as part of the project deliverables. Include URLs to any sources or AI conversations used. It is NOT allowed to use code from other current or past students.**
 
+**Students receiving 90% or above on the labs 7, 8, and 10 (combined) will receive a digital badge. Make sure to include your email addresses on your documentation submission if you want to receive a digital badge.**
+
 ## [Development](develop/) Stream
 
 Complete your project by adding more features. Use the [list of features with points](develop/developProjectFeatureMarking.docx) to plan what features you will implement. Your group should get at least 50 points with a potential for up to 10 bonus marks if you get 60 or more points. To get full points for a feature, it must be completely working and full points may be subjective based on quality (for example user interface improvements). It is also possible to suggest your own features for credit. Proper documentation and walkthrough is very important for markers to test your web site.
