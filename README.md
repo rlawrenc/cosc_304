@@ -102,8 +102,8 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Nov. 23 (TH) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (T) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Nov. 30 (TH) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
-| Dec. 5 (T) | Project completion | |
-| Dec. 7 (TH) | **Final Exam Review** | |
+| Dec. 5 (T) | Project completion - Work Class | |
+| Dec. 7 (TH) | **Project presentations<br>Final Exam Review** | |
 | Dec. 16 (Sa) | **Final Exam at 8:30 AM in COM 201.<br>Cumulative, 2.5 hours, requires a laptop.** |
 
 ## Labs
