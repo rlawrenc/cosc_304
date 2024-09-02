@@ -11,15 +11,15 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 ## Virtual Drop-in Help Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 9 to 11 a.m.  	| TBD /  TBD |
-| Monday 2 to 4 p.m. 	| TBD / TBD |
-| Tuesday 9:30 a.m. to 11:00 a.m. (class time)	| TBD |
-| Tuesday 2 to 4 p.m.	| TBD  /  TBD |
-| Wednesday 2 to 4 p.m. | TBD  /  TBD |
-| Thursday 9:30 a.m. to 11:00 a.m. (class time)	| TBD |
+| Monday 9 to 11 a.m.  	| Meghdad Dehghan / Omar Abdelaziz  |
+| Monday 2 to 4 p.m. 	| Bradan Fleming / Kevin Wang |
+| Tuesday 9:30 a.m. to 11:00 a.m. (class time)	| Omar Abdelaziz / Kevin Wang |
+| Tuesday 2 to 4 p.m.	| Meghdad Dehghan  /  Omar Abdelaziz |
+| Wednesday 2 to 4 p.m. | Bradan Fleming  /  Omar Abdelaziz |
+| Thursday 9:30 a.m. to 11:00 a.m. (class time)	| Kevin Wang |
 | Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Friday 1 to 3 p.m. 	| TBD |
-| Friday 3 to 5 p.m. 	| TBD |
+| Friday 1 to 3 p.m. 	| Bradan Fleming |
+| Friday 3 to 5 p.m. 	| Meghdad Dehghan / Kevin Wang |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://help.cosc304.ok.ubc.ca/
 
