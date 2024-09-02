@@ -53,7 +53,7 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Quizzes and Exercises | 10% | Online and during class time activities |
 | Assignments | 20% | Weekly assignments |
 | Midterm #1 | 15% | October 8th in class | 
-| Midterm #2 | 15% | November 2nd in class | 
+| Midterm #2 | 15% | November 5th in class | 
 | Final Exam | 40% | Cumulative, 2.5 hours, **exams require a laptop** <br> <!-- **December 14, 2022 at 7:00PM in COM 201** --> | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
@@ -94,10 +94,10 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Oct. 29 (T) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
 | Oct. 31 (TH) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
 | Nov. 5 (T) | **Midterm Exam #2 In-Class** | |
-| Nov. 7 (TH) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 7 (TH) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
 | Nov. 12 (T) | **No class for Term 1 midterm break** | |
 | Nov. 14 (TH) | **No class for Term 1 midterm break** | |
-| Nov. 19 (T)  | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
+| Nov. 19 (T)  | Project work class | |
 | Nov. 21 (TH) | Project work class | |
 | Nov. 26 (TH) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
