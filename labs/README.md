@@ -1,6 +1,6 @@
 # Lab Assignments
 
-All lab assignments are done online with assistance from teaching assistants and the instructor during session hours. The best part of the course is developing with databases in the assignments. Please follow the submission guidelines.
+All lab assignments are done on your time with assistance from teaching assistants and the instructor during help session hours. The best part of the course is developing with databases in the assignments. Please follow the submission guidelines.
 
 **All assignments must be done in groups of two people.** No collaboration outside a group is allowed. The group must be setup on Canvas and only one submission per group is accepted.
 
@@ -12,45 +12,35 @@ All lab assignments are done online with assistance from teaching assistants and
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 4 – 8 |	**No Lab during First Week of Class** |
-| [1](lab1) | September 11 – 15 	| Lab 1: Querying using Relational Algebra |
-| [2](lab2) | September 18 – 22 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
-| [3](lab3) | September 25 – 29 	| Lab 3: Writing SQL queries |
-| [4](lab4) | October 2 – 6 	| Lab 4: Database Design using UML Modeling |
-| [5](lab5) | October 9 – 20 	| Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](lab6) | October 23 – 27 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
+|  | September 2 – 6 |	**No Lab during First Week of Class** |
+| [1](lab1) | September 9 – 13 	| Lab 1: Querying using Relational Algebra |
+| [2](lab2) | September 16 – 20 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [3](lab3) | September 23 – 27 	| Lab 3: Writing SQL queries |
+| [4](lab4) | Sept. 30 – Oct. 4 	| Lab 4: Database Design using UML Modeling |
+| [5](lab5) | October 7 – 18 	| Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](lab6) | October 21 – 25 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
 
 ### Development Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](lab7) | Oct. 30 – Nov. 3 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP/Node |
-| [8](lab8) | November 6 – 10 	| Lab 8: Images, Security, and Transactions |
-|  | November 13 - 17 			| **No Lab during Midterm Break** |
-| [9](lab9) | November 20 - 24 	| Lab 9: XML, JSON, Views, and Triggers |
-| [10](lab10) | Nov. 27 - Dec. 7	| Lab 10: Project Completion |
+| [7](lab7) | Oct. 28 – Nov. 1 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP/Node |
+| [8](lab8) | November 4 – 8 	| Lab 8: Images, Security, and Transactions |
+|  | November 11 - 15 			| **No Lab during Midterm Break** |
+| [9](lab9) | November 18 - 22 	| Lab 9: XML, JSON, Views, and Triggers |
+| [10](lab10) | Nov. 25 - Dec. 6	| Lab 10: Project Completion |
 
 ### Analysis Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](lab7) | Oct. 30 – Nov. 3 	| Lab 7: Using Databases with Analysis Software (Excel) |
-| [8](lab8) | November 6 – 10 	| Lab 8: Data Prediction, Forecasting, and Visualization |
-|  | November 13 - 17 			| **No Lab during Midterm Break** |
-| [9](lab9) | November 20 - 24  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
-| [10](lab10) | Nov. 27 - Dec. 7 	| Lab 10: Project Completion |
+| [7](lab7) | Oct. 28 – Nov. 1 	| Lab 7: Using Databases with Analysis Software (Excel) |
+| [8](lab8) | November 4 – 8 	| Lab 8: Data Prediction, Forecasting, and Visualization |
+|  | November 11 - 15 			| **No Lab during Midterm Break** |
+| [9](lab9) | November 18 - 22  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
+| [10](lab10) | Nov. 25 - Dec. 6 	| Lab 10: Project Completion |
 
-## Drop-in Session Hours
-| Day/Time |  TA/Instructor |
-|----------|----------------|
-| Monday 9 to 11 a.m.  	| Eranga Desaa  /  Omar Abdelaziz |
-| Monday 2 to 4 p.m. 	| Justin Schoenit / Kevin Wang |
-| Tuesday 11 a.m. to 12:30 p.m. (class time)	| Justin Schoenit |
-| Tuesday 2 to 4 p.m.	| Eranga Desaa  /  Omar Abdelaziz |
-| Wednesday 2 to 4 p.m. | Eranga Desaa  /  Omar Abdelaziz |
-| Thursday 11 a.m. to 12:30 p.m. (class time)	| Omar Abdelazi |
-| Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Friday 1 to 3 p.m. 	| Justin Schoenit |
-| Friday 3 to 5 p.m. 	| Kevin Wang |
+## Help Session Hours
 
+Help session hours are on the [syllabus](../README.md).
 
 ## Submission Guidelines for Assignments
 
