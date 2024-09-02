@@ -8,7 +8,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Office Location:** 		SCI 200C<br>
 **Calendar Course Description from the UBCO Calendar:** [https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco)
 
-## Virtual Drop-in Session Hours
+## Virtual Drop-in Help Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
 | Monday 9 to 11 a.m.  	| TBD /  TBD |
