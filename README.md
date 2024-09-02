@@ -135,6 +135,15 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | [9](labs/lab9) | November 18 - 22  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
 | [10](labs/lab10) | Nov. 25 - Dec. 6 	| Lab 10: Project Completion |
 
+## UBC values
+UBC creates an exceptional learning environment that fosters global citizenship, advances a civil and
+sustainable society, and supports outstanding research to serve the people of British Columbia, Canada,
+and the world. UBC’s core values are excellence, integrity, respect, academic freedom, and
+accountability.
+
+## Policies and regulations
+Visit [UBC Okanagan’s Academic Calendar](https://okanagan.calendar.ubc.ca/campus-wide-policies-and-regulations) for a list of campus-wide regulations and policies, as well as [term dates and deadlines](https://okanagan.calendar.ubc.ca/dates-and-deadlines). 
+
 ## Missing an Exam
 Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
@@ -155,7 +164,11 @@ talking on a cell-phone, inappropriate use of profanity in classroom discussion,
 toward the instructor, a student in the class, or about other individuals or groups.
 
 ## Academic Integrity
-The academic enterprise is founded on honesty, civility, and integrity.  As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity.  At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required.  This also means you should not cheat, copy, or mislead others about what is your work.  Violations of academic integrity (i.e., misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed.  For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred to the President’s Advisory Committee on Student Discipline.  Careful records are kept in order to monitor and prevent recurrences. A more detailed description of academic integrity, including the policies and procedures, may be found: http://okanagan.students.ubc.ca/calendar/index.cfm?tree=3,54,111,0  If you have any questions about how academic integrity applies to this course, please consult with your professor.
+The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of
+conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment. Learn more through the [Academic Integrity website](https://academicintegrity.ubc.ca/student-start/).
+
+## Academic misconduct: 
+Violations of academic integrity (i.e., academic misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department and Associate Dean Academic of the Faculty.
 
 **The use of artificial intelligence (AI) assistance, such as ChatGPT or GitHub Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor.**
 
@@ -213,20 +226,14 @@ The Office of the Ombudsperson for Students is an independent, confidential and 
 Web: [https://ombudsoffice.ubc.ca](https://ombudsoffice.ubc.ca)
 
 ### Sexual Violence Prevention and Response Office (SVPRO)
-A safe and confidential place for UBC students, staff and faculty who have experienced sexual violence regardless of when or where it took place. Just want to talk? We are here to listen and help you explore your options. We can help you find a safe place to stay, explain your reporting options (UBC or police), accompany you to the hospital, or support you with academic accommodations. You have the right to choose what happens next. We support your decision, whatever you decide. Visit svpro.ok.ubc.ca or call us at 250.807.9640.
-
-### Independent Investigations Office (IIO)
-If you or someone you know has experienced sexual assault or some other form of sexual misconduct by a UBC community member and you want the Independent Investigations Office (IIO) at UBC to investigate, please contact the IIO. Investigations are conducted in a trauma informed, confidential and respectful manner in accordance with the principles of procedural fairness. You can report your experience directly to the IIO by calling 604-827-2060. Web:  [https://investigationsoffice.ubc.ca](https://investigationsoffice.ubc.ca) E-mail: director.of.investigations@ubc.ca  
+The Sexual Violence Prevention and Response Office (SVPRO) is a confidential place for those who have been impacted by any form of sexual or gender-based violence, harassment, or harm, regardless of where or when it took place. SVPRO aims to be a safer space for all UBC students, faculty, and staff by respecting each person’s unique and multiple identities and experiences. All genders and sexualities are welcome. Nicola Townhome 120, 1270 International Mews 250.807.8053
+Email: vpro.ok.ubc.ca Web: [www.svpro.ok.ubc.ca](www.svpro.ok.ubc.ca)
 
 ### Student Learning Hub  
 The Student Learning Hub is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with academic integrity, study skills and learning strategies. Students are encouraged to visit often and early to build the skills, strategies and behaviours that are essential to being a confident and independent learner. For more information, please visit the Hub’s website. LIB 237. Ph: 250.807.8491 Email: learning.hub@ubc.ca [https://students.ok.ubc.ca/student-learning-hub](https://students.ok.ubc.ca/academic-success/learning-hub/)
  
-### Student Wellness   
-At UBC Okanagan health services to students are provided by Student Wellness.  Nurses, physicians and counsellors provide health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. As well, health promotion, education and research activities are provided to the campus community.  If you require assistance with your health, please contact Student Wellness for more information or to book an appointment.
-
-UNC 337 250.807.9270  
-Email: healthwellness.okanagan@ubc.ca  
-Web: [https://students.ok.ubc.ca/health-wellness](https://students.ok.ubc.ca/health-wellness)  
+### Wellbeing and Accessibility Services (WAS)
+Wellbeing and Accessibility Services (WAS) supports holistic student wellbeing in body, mind, and spirit. Students can access nurses, physicians and counsellors for health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. WAS is also home to the Disability Resource Centre, Spiritual and Multi-Faith Services, and Campus Health and Education. If you require assistance with your health, please contact Wellbeing and Accessibility Services for more information or to book an appointment. UNC 337 250.807.9270 Email: healthwellness.okanagan@ubc.ca Web: www.students.ok.ubc.ca/was
 
 ### SAFEWALK
 Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
