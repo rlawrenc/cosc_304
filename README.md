@@ -2,7 +2,7 @@
 
 ## Instructor
 Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Live Classroom Schedule:** 	9:30 a.m. to 11:00 a.m Tuesday/Thursday<br>
+**Live Classroom Schedule:** 	9:30 a.m. to 11:00 a.m. Tuesday/Thursday<br>
 **Mode of Delivery:** 		ASC 140 and live-stream on Zoom<br>
 **Office Hours:**		Thursdays 2 to 4 p.m. (in-person and online)<br>
 **Office Location:** 		SCI 200C<br>
@@ -25,7 +25,7 @@ For support in office hours and other times, join a queue or ask a question on t
 
 Login with your CWL user id and password.
 
-PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
+PrairieLearn online system (login with your CWL): https://plcanary.ok.ubc.ca/
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -67,7 +67,7 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
  - Attend all classes and prepare before attending class. 
  - Read the notes before the class time. **Expect to spend about five hours per week in out-of-class preparation.**
  - Learn the material in the course by completing all assignments. **No late assignments are accepted.**
- - Enjoy attending class activities and participating according to your personality.  Ask questions by posting on chat or raising your hand.
+ - Enjoy attending class activities and participating according to your personality.  Ask questions by posting in chat or raising your hand.
  - Please actively participate in class discussions, questions, and problem solving exercises.
  - **I want all students to pass the course, receive a good grade, and feel the course was beneficial.**
 
@@ -99,7 +99,7 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | Nov. 14 (TH) | **No class for Term 1 midterm break** | |
 | Nov. 19 (T)  | Project work class | |
 | Nov. 21 (TH) | Project work class | |
-| Nov. 26 (TH) | [Normalization and Design Verification](topics/22_normalization) | |
+| Nov. 26 (T) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 3 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) | [10 Rules for Data Storage](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/refs/rulesfordatastorage.pdf) |
 | Dec. 5 (TH) | **Project presentations<br>Final Exam Review** | |
@@ -135,39 +135,30 @@ PrairieLearn online system (Connect with your CWL): https://plcanary.ok.ubc.ca/
 | [9](labs/lab9) | November 18 - 22  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
 | [10](labs/lab10) | Nov. 25 - Dec. 6 	| Lab 10: Project Completion |
 
-## UBC values
-UBC creates an exceptional learning environment that fosters global citizenship, advances a civil and
-sustainable society, and supports outstanding research to serve the people of British Columbia, Canada,
-and the world. UBC’s core values are excellence, integrity, respect, academic freedom, and
-accountability.
+## UBC Values
+UBC creates an exceptional learning environment that fosters global citizenship, advances a civil and sustainable society, and supports outstanding research to serve the people of British Columbia, Canada, and the world. UBC’s core values are excellence, integrity, respect, academic freedom, and accountability.
 
-## Policies and regulations
+## Policies and Regulations
 Visit [UBC Okanagan’s Academic Calendar](https://okanagan.calendar.ubc.ca/campus-wide-policies-and-regulations) for a list of campus-wide regulations and policies, as well as [term dates and deadlines](https://okanagan.calendar.ubc.ca/dates-and-deadlines). 
 
 ## Missing an Exam
-Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. There will be no make-up midterm exams.  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
+Only students who miss the final exam for a reason that corresponds to the University of British Columbia Okanagan's policy on excused absences from examinations will be permitted to take the final exam at a later time. A make-up exam may have a question format different from the regular exam. **There will be no make-up midterm exams.**  If the reason for absence is satisfactory, the student’s final exam will be worth more of the final grade.  Further information on Academic Concession is in the Academic Calendar http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,48,0,0.
 
 ## Copyright Disclaimer   
-Diagrams and figures included in lecture presentations adhere to Copyright Guidelines for UBC Faculty, Staff and Students http://copyright.ubc.ca/requirements/copyright-guidelines/ and UBC Fair Dealing Requirements for Faculty and Staff http://copyright.ubc.ca/requirements/fair-dealing/.  Some of these figures and images are subject to copyright and will not be posted to Connect. All material uploaded to Connect that contain diagrams and figures are used with permission of the publisher; are in the public domain; are licensed by Creative Commons; meet the permitted terms of use of UBC’s library license agreements for electronic items; and/or adhere to the UBC Fair Dealing Requirements for Faculty and Staff. Access to the Connect course site is limited to students currently registered in this course. Under no circumstance are students permitted to provide any other person with means to access this material. Anyone violating these restrictions may be subject to legal action. Permission to electronically record any course materials must be granted by the instructor. Distribution of this material to a third party is forbidden.
+Diagrams and figures included in lecture presentations adhere to Copyright Guidelines for UBC Faculty, Staff and Students http://copyright.ubc.ca/requirements/copyright-guidelines/ and UBC Fair Dealing Requirements for Faculty and Staff http://copyright.ubc.ca/requirements/fair-dealing/.  
 
 ## Grievances and Complaints Procedures
 A student who has a complaint related to this course should follow the procedures summarized below:
  - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
- - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Department Head, Dr. Sylvie Desjardins, sylvie.desjardins@ubc.ca. 
+ - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, Dr. Warren Hare, warren.hare@ubc.ca. 
  
 ## Your Responsibilities
-Your responsibilities to this class and to your education as a whole include attendance and participation. You have a
-responsibility to help create a classroom environment where all may learn. At the most basic level, this means you will
-respect the other members of the class and the instructor and treat them with the courtesy you hope to receive in return.
-Inappropriate classroom behavior may include: disruption of the classroom atmosphere, engaging in non-class activities,
-talking on a cell-phone, inappropriate use of profanity in classroom discussion, use of abusive or disrespectful language
-toward the instructor, a student in the class, or about other individuals or groups.
+Your responsibilities to this class and to your education as a whole include attendance and participation. You have a responsibility to help create a classroom environment where all may learn. At the most basic level, this means you will respect the other members of the class and the instructor and treat them with the courtesy you hope to receive in return. Inappropriate classroom behavior may include: disruption of the classroom atmosphere, engaging in non-class activities, talking on a cell-phone, inappropriate use of profanity in classroom discussion, use of abusive or disrespectful language toward the instructor, a student in the class, or about other individuals or groups.
 
 ## Academic Integrity
-The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of
-conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment. Learn more through the [Academic Integrity website](https://academicintegrity.ubc.ca/student-start/).
+The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment. Learn more through the [Academic Integrity website](https://academicintegrity.ubc.ca/student-start/).
 
-## Academic misconduct: 
+## Academic Misconduct
 Violations of academic integrity (i.e., academic misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department and Associate Dean Academic of the Faculty.
 
 **The use of artificial intelligence (AI) assistance, such as ChatGPT or GitHub Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor.**
@@ -195,7 +186,7 @@ Academic integrity is critical to being a professional developer and a respected
 
 #### Not Allowed
  - Working on an individual assignment with a group of people and submitting minor variations of work developed together
- - For group assignment, completing all work independently and providing answer to rest of group
+ - For group assignments, completing all work independently and providing an answer to the rest of group
  - Sharing solutions to assignments with other students or on the Internet	
  - Receiving solutions to assignments from other sources (students, web, tutors, AI)	
 	
@@ -210,7 +201,7 @@ Academic integrity is critical to being a professional developer and a respected
 - Allowing another person to write or complete any part of any exam **(severe)**
 - Posting or providing answers to students who have not yet completed the exam
 - Requesting help from other people or web services for open book exams
-- Posting or providing exam questions and answers after exam has been completed
+- Posting or providing exam questions and answers after the exam has been completed
 
 ### Grading Practices   
 Faculties, departments, and schools reserve the right to scale grades in order to maintain equity among sections and conformity to University, faculty, department, or school norms. Students should therefore note that an unofficial grade given by an instructor might be changed by the faculty, department, or school. Grades are not official until they appear on a student's academic record. http://www.calendar.ubc.ca/okanagan/index.cfm?tree=3,41,90,1014  If you have any questions about how academic integrity applies to this course, please consult with your professor.
