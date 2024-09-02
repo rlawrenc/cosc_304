@@ -21,7 +21,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Friday 1 to 3 p.m. 	| Bradan Fleming |
 | Friday 3 to 5 p.m. 	| Meghdad Dehghan / Kevin Wang |
 
-For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://help.cosc304.ok.ubc.ca/ https://coursehelp.ubc.ca/invite?cid=20&code=304
+For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://help.cosc304.ok.ubc.ca/ Invite code: https://coursehelp.ubc.ca/invite?cid=20&code=304
 
 Login with your CWL user id and password.
 
