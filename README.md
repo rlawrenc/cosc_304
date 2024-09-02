@@ -27,6 +27,8 @@ Login with your CWL user id and password.
 
 PrairieLearn online system (login with your CWL): https://plcanary.ok.ubc.ca/
 
+iClicker join code: https://join.iclicker.com/INWS
+
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
