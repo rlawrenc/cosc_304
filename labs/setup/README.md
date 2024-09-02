@@ -1,6 +1,6 @@
 # Environment Setup
 
-Most of the lab assignments require running a database on your computer. These database systems are run using Docker that supports virtual containers so that the software does not have to be directly installed on your computer.
+Some of the lab assignments require running a database on your computer. These database systems are run using Docker that supports virtual containers so that the software does not have to be directly installed on your computer.
 
 ## Install Docker Desktop
 
@@ -12,7 +12,7 @@ Although you may use any text editor, the officially supported editor is [VSCode
 
 ## Install Java
 
-If your computer does not have at least Java 8, install [Java 17 or 18](https://www.oracle.com/java/technologies/downloads/).
+If your computer does not have at least Java 17, install [the latest Java version](https://www.oracle.com/java/technologies/downloads/).
 
 ## Install SQuirreL SQL (Optional)
 
