@@ -236,7 +236,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [SQL Tutorial by Software Carpentry](https://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
-* Sample databases WorksOn (SQL Notes): [WorksOn](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/WorksOn.accdb), [WorksOn DDL](https://people.ok.ubc.ca/rlawrenc/teaching/304/Notes/DB/MySQL_WorksOn_DDL.sql)
+* Sample databases WorksOn (SQL Notes): [WorksOn](topics/2_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/2_database_introduction/workson/MySQL_WorksOn_DDL.sql)
 
 
 
