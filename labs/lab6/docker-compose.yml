@@ -17,7 +17,7 @@ services:
             - mysql-db:/var/lib/mysql
             - ./ddl:/docker-entrypoint-initdb.d
     cosc304-sqlserver:
-        image: mcr.microsoft.com/mssql/server:2019-latest
+        image: mcr.microsoft.com/azure-sql-edge
         container_name: cosc304-sqlserver
         restart: always
         environment:
