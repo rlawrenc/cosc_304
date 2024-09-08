@@ -114,9 +114,16 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 </li>
 
 
-<li>List the addresses of stores that have pairs of books with the same title and different ISBNs.<BR></li>
+<li>List the addresses of stores that have pairs of books with the same title and different ISBNs.
+
+<BR><b>Answer:</b><BR>
+
+&pi;&nbsp; <sub>address</sub> (Bookstore &#x22C8; <sub>name = S1.storeName</sub> ( (ρ B1 Book &#x22C8; <sub>B1.isbn ≠ B2.isbn and B1.title = B2.title</sub> ρ B2 Book)
+&#x22C8; <sub>B1.isbn = S1.isbn AND B2.isbn = S2.isbn</sub>
+(ρ S1 Stock &#x22C8; <sub>S1.isbn ≠ S2.isbn and S1.storeName = S2.storeName</sub> ρ S2 Stock) ) )
 
 <IMG SRC="img/challengeQuestionAnswer.png">
 
+</li>
 
 </ol>
