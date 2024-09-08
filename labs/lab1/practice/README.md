@@ -85,7 +85,7 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 <li> &pi;&nbsp;<sub>isbn</sub> (&sigma;<sub>storeName = 'All Books'</sub> (Stock)) &cap; &nbsp; &pi;<sub>isbn</sub>(&sigma;<sub>storeName = 'Some Books'</sub> (Stock))
 <b>OR</b>
 
-&pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books' AND S2.storeName = 'Some Books' and S1.isbn=S2.isbn</sub>(ρ S1 Stock ⨯ ρ S2 Stock))
+&pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books' AND S2.storeName = 'Some Books' and S1.isbn=S2.isbn</sub> (ρ S1 Stock ⨯ ρ S2 Stock))
 
 <b>OR</b>
 
