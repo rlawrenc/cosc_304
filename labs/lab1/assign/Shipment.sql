@@ -25,7 +25,6 @@ CREATE TABLE ShippedProduct (
 	amount integer,	
 	primary key (sid, pid) );	
 
-
 INSERT INTO Customer VALUES (1,'Fred Smith','101 Evergreen Terrace','Springfield','IL');
 INSERT INTO Customer VALUES (2,'Joe Smithsonian','245 Straight Street','Iowa City','IA');
 INSERT INTO Customer VALUES (3,'Steve Stevenson','24 Michigan Ave.','Chicago','IL');
