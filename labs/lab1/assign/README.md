@@ -18,16 +18,16 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
 <ol>
-<li> Return the customer id,  name, address, and state where the customer is either in the state of Iowa (<tt>'IA'</tt>) or California (<tt>'CA'</tt>). <br>Expected output:<br><img src="img/ra_q1.png" width="500"></li>
+<li> Return the product id and amount for each ShippedProduct where the amount was less than or equal to <tt>5</tt>tt> or greater than <tt>30</tt>tt>.<br>Expected output:<br><img src="img/ra_q1.png" width="300"></li>
 
-<li> Return the shipment id, shipped amount, product id, product name, and inventory for products that have 10 or less current inventory and have been in a shipment with a shipment amount over 3.  <br>Expected output:<br><img src="img/ra_q2.png" width="600"></li>
+<li> Return the shipment id, product id, shipped amount, product name, and inventory for products that have any past shipment amount more than the current inventory. <br>Expected output:<br><img src="img/ra_q2.png" width="600"></li>
 
-<li> Return a list of all the product id, name, and price that have been in a shipment before <tt>May 17, 2014</tt>. The product price must be less than $50, and the shipped amount < <tt>5</tt>. 
- <br>Note: To enter a date such as <tt>2023-09-23</tt>, the syntax is <tt>Date('2023-09-23')</tt>.
+<li> Return a list of all the products (show the product name, price, shipped amount) that have been in a shipment between <tt>June 1, 2012</tt> and <tt>December 21, 2014</tt>. The product price must be less than <tt>$40</tt> and the shipped amount > <tt>4</tt>. 
+ <br>Note: To enter a date such as <tt>2024-09-23</tt>, the syntax is <tt>Date('2024-09-23')</tt>.
  <br>Expected output:<br><img src="img/ra_q3.png" width="350"></li>
 
-<li> Return the product name, current inventory, shipment amount, and price where the product had a shipment of an amount greater than 60% of its current inventory and the product price is less than $5 or greater than or equal to $50.<br>Expected output:<br><img src="img/ra_q4.png" width="500"></li>
+<li> Return the product name, current inventory, shipment amount, and customer state where the product had a shipment of an amount at least 30% of its current inventory and the customer state was either <tt>'CA'</tt> or <tt>'IA'</tt>.<br>Expected output:<br><img src="img/ra_q4.png" width="500"></li>
 
-<li> Return a list of customer ids and names where the customer has no shipments or has a shipment with a shipped product with a price greater than $40.<br>Expected output:<br><img src="img/ra_q5.png" width="250"><br>Note: Order does not matter for records.</li>
+<li> Return a list of products (id, name, price) where the product has not been in any shipments or the product price is greater than <tt>$5</tt> and has been shipped to a customer in <tt>'NJ'</tt>.<br>Expected output:<br><img src="img/ra_q5.png" width="250"><br>Note: Order does not matter for the output.</li>
 </ol>
 
