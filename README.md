@@ -13,13 +13,13 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 |----------|----------------|
 | Monday 9 to 11 a.m.  	| Meghdad Dehghan / Omar Abdelaziz  |
 | Monday 2 to 4 p.m. 	| Bradan Fleming / Kevin Wang |
-| Tuesday 9:30 a.m. to 11:00 a.m. (class time)	| Omar Abdelaziz / Kevin Wang |
+| Tuesday 9:30 a.m. to 11:00 a.m. (class time)	| Meghdad Dehghan / Kevin Wang |
 | Tuesday 2 to 4 p.m.	| Meghdad Dehghan  /  Omar Abdelaziz |
 | Wednesday 2 to 4 p.m. | Bradan Fleming  /  Omar Abdelaziz |
 | Thursday 9:30 a.m. to 11:00 a.m. (class time)	| Kevin Wang |
 | Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
 | Friday 1 to 3 p.m. 	| Bradan Fleming |
-| Friday 3 to 5 p.m. 	| Meghdad Dehghan / Kevin Wang |
+| Friday 3 to 5 p.m. 	| Omar Abdelaziz / Kevin Wang |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://coursehelp.ubc.ca/invite?cid=20&code=304
 
