@@ -18,7 +18,7 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 </pre>
 
 <ol>
-<li> Return the product id and amount for each ShippedProduct where the amount was less than or equal to <tt>5</tt>tt> or greater than <tt>30</tt>tt>.<br>Expected output:<br><img src="img/ra_q1.png" width="300"></li>
+<li> Return the product id and amount for each ShippedProduct where the amount was less than or equal to <tt>5</tt> or greater than <tt>30</tt>.<br>Expected output:<br><img src="img/ra_q1.png" width="300"></li>
 
 <li> Return the shipment id, product id, shipped amount, product name, and inventory for products that have any past shipment amount more than the current inventory. <br>Expected output:<br><img src="img/ra_q2.png" width="600"></li>
 
