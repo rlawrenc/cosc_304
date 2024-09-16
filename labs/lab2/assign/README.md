@@ -4,7 +4,7 @@ This assignment practices SQL DDL. <!--  These are the same questions as on Prai
 
 ## Question 1 (10 marks)
 
-Write the SQL DDL to create the following 5 tables describing cooking: recipe, ingredient, author, cook, requires:
+Write the SQL DDL to create the following 5 tables describing cooking: `Recipe`, `Ingredient`, `Author`, `Cook`, `Requires`:
 
 - An `Author` table where each author is identified by an integer `id` and has a `name` (up to 30 characters).
   
@@ -41,29 +41,29 @@ Insert the following records into the appropriate tables.
 ```
 
 #### Recipe
+```
 (100,'Cookies',1,'Mix butter, flour, milk, eggs, and sugar. Then hope for the best.')
 (200,'Bread',2,'Knead flour with milk and eggs. Bake at 450F or until brown.')
+```
 
 #### Requires
 You figure it out based on both recipes (choose your own amount).
 
 #### Cook
-Recipe for bread was made on July 1st, 2015 (no comment). 
-Recipe for cookies was made on September 23rd, 2015 at 1:35:45 p.m. Comment: 'It actually worked!'
+Recipe for bread was made on September 15, 2024 (no comment). 
+Recipe for cookies was made on September 23rd, 2024 at 1:35:45 p.m. Comment: 'It actually worked!'
 
 ### Update (2 marks)
 
 1. Change the name of the ingredient with id 'MILK' to 'Skim Milk'.
 
-1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'2B'` rather than the current `'1A'`.
-
-2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax `DATE_ADD(your date field, INTERVAL 1 HOUR)`.
-
+2. Increase the amount of all required ingredients used with recipe 100 by 2.
+   
 ### Delete (3 marks)
 
 1. Delete all recipes written by 'Fred Funk'. How many rows are deleted when this statement is run? (1 mark) Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on Recipe is either SET NULL or NO ACTION to see the difference.
 
-2. TODO
+2. Delete all ingredients required for recipe 200 with an amount greater than 2.
 
 ## Submission
 
