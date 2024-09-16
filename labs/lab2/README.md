@@ -5,7 +5,6 @@ This lab practices SQL DDL.
 <!--
 Practice questions are available on [PrairieLearn]() and [GitHub](practice).
 -->
-
 Practice questions are [available](practice).
 
 <!-- The assignment is completed on [PrairieLearn]() or [for testing on your own database](assign). -->
