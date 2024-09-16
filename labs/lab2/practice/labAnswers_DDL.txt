@@ -8,7 +8,6 @@ CREATE TABLE dept (
    primary key (deptId)
 );
 
-
 CREATE TABLE courseDept (
    deptId integer,
    cname varchar(40),   
