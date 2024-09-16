@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 2 - Creating tables using SQL and MySQL
 
-This assignment practices SQL DDL. These are the same questions as on PrairieLearn but allow you to test them on your own database on your computer.
+This assignment practices SQL DDL. <!--  These are the same questions as on PrairieLearn but allow you to test them on your own database on your computer. -->
 
 ## Question 1 (10 marks)
 
