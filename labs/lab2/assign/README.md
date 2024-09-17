@@ -1,21 +1,20 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 2 - Creating tables using SQL and MySQL
 
-This assignment practices SQL DDL. These are the same questions as on PrairieLearn but allow you to test them on your own database on your computer.
+This assignment practices SQL DDL. <!--  These are the same questions as on PrairieLearn but allow you to test them on your own database on your computer. -->
 
 ## Question 1 (10 marks)
 
-Write the SQL DDL to create the following 5 tables describing airports, airplanes, passengers, and flights:
+Write the SQL DDL to create the following 5 tables describing cooking: `Recipe`, `Ingredient`, `Author`, `Cook`, `Requires`:
 
-- An `Airplane` table where each airplane is identified by a field called `id` that is a string of up to 10 characters. Other attributes include `model` (string up to 20 characters), and a `manufactureDate`. (1 mark)
-
-- An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters). (1.5 marks)
-
-- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departDateTime` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrivalDateTime`, and `actualDepartDateTime` and `actualArrivalDateTime`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
-
-- A `Passenger` table where each passenger is identified by an integer `id`. Also store a `firstname` and `lastname` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
-
-- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `flightDepartDateTime`, and a `seatNum` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
-
+- An `Author` table where each author is identified by an integer `id` and has a `name` (up to 30 characters).
+  
+- An `Ingredient` table where each ingredient has an `id` of exactly 5 characters and a `name` (up to 30 characters).
+  
+- A `Recipe` table where each recipe is identified by a field called `id` that is an integer. Other attributes include `name` (string up to 40 characters), `author id` (integer), and `directions` (string up to 255 characters). Make all foreign keys set to null on delete and no action (generate error) on update.
+  
+- A `Cook` table where each time a recipe is made it is identified by a date/time (DATETIME). The table also has a `recipe id` and a `comment` (string up to 255 characters). Make all foreign keys set to perform cascade on delete and cascade on update.
+  
+- A `Requires` table that stores what ingredients are needed in a recipe. This table has a `recipe id`, `ingredient id`, and `amount` (floating point number). Make all foreign keys set to cascade on both update and delete.
 
 ## Question 2 (10 marks)
 
@@ -25,51 +24,46 @@ Write the SQL DDL to perform the following modifications to the database created
 
 Insert the following records into the appropriate tables.
 
-#### Airplane
+#### Author
+
 ```
-('AC911','Boeing 747', '2001-01-25')
-('WJ455', 'Airbus A380', '2008-11-15')
+(1,'Joe Smith')
+(2,'Fred Funk')
 ```
 
-#### Airport 
+#### Ingredient
 ```
-('YLW','Kelowna Airport','Kelowna','British Columbia', 'Canada')
-('YWG','Winnipeg Airport','Winnipeg','Manitoba', 'Canada')
-```
-
-#### Flight 
-```
-('AC35', 'YLW', 'YWG', 'AC911', '2022-09-14 07:00:00', '2022-09-14 15:00:00', '2022-09-14 07:05:00', '2022-09-14 15:30:00')
-('WJ111', 'YWG', 'YLW', 'WJ455', '2022-09-15 10:00:00', '2022-09-15 12:00:00', '2022-09-15 09:55:00', '2022-09-14 11:49:55')
+('BUTTR','Butter')
+('FLOUR','Flour')
+('MILK','Milk')
+('EGGS','Eggs')
+('SUGAR','Sugar')
 ```
 
-#### Passenger
+#### Recipe
 ```
-(1, 'Joe', 'Smith', '1970-12-15', '1350 Springfield Road', 'Kelowna', 'British Columbia', 'Canada')
-(2, 'Fred', 'Brothers', '1950-01-02', '22 Pembina Highway', 'Winnipeg', 'Manitoba', 'Canada')
+(100,'Cookies',1,'Mix butter, flour, milk, eggs, and sugar. Then hope for the best.')
+(200,'Bread',2,'Knead flour with milk and eggs. Bake at 450F or until brown.')
 ```
 
-#### OnFlight 
-```
-(1, 'AC35', '2022-09-14 07:00:00', '1A')
-(1, 'WJ111', '2022-09-15 10:00:00', '10C')
-(2, 'AC35', '2022-09-14 07:00:00', '2A')
-(2, 'WJ111', '2022-09-15 10:00:00', '10D')
-```
+#### Requires
+You figure it out based on both recipes (choose your own amount).
+
+#### Cook
+Recipe for bread was made on September 15, 2024 (no comment). 
+Recipe for cookies was made on September 23rd, 2024 at 1:35:45 p.m. Comment: 'It actually worked!'
 
 ### Update (2 marks)
 
-1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'2B'` rather than the current `'1A'`.
+1. Change the name of the ingredient with id 'MILK' to 'Skim Milk'.
 
-2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax `DATE_ADD(your date field, INTERVAL 1 HOUR)`.
-
+2. Increase the amount of all required ingredients used with recipe 100 by 2.
+   
 ### Delete (3 marks)
 
-1. The Kelowna airport is destroyed! Remove it from the `Airport` table. Note the changes to the flight table due to `SET NULL` foreign key action.
+1. Delete all recipes written by 'Fred Funk'. How many rows are deleted when this statement is run? (1 mark) Note: In addition to testing when the foreign key is ON CASCADE, also recommend you try the DELETE when the foreign key on Recipe is either SET NULL or NO ACTION to see the difference.
 
-2. Remove the unruly passenger `1` from flight `'WJ111'` on the `10 a.m.` flight on `'2022-09-15'`.
-
-3. Delete all on flight records for `'Fred Brothers'`. Note: You do not have to use a subquery for this question but try if you can!
+2. Delete all ingredients required for recipe 200 with an amount greater than 2.
 
 ## Submission
 
