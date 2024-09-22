@@ -56,7 +56,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
   +-----+-----------------+---------------------+-----------+-------+
 ```
 
-4. Return a list of the unique product id and names that have shipped before with an amount less than 5. Order by product id ascending.
+4. Return a list of the unique product id and names that have shipped before with an amount less than `5`. Order by product id ascending.
 
 #### Output:
 ```
@@ -74,7 +74,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+-------------------------+
 ```
 
-5. For each state, return the number of customers in that state and the number of shipments for customers in that state. **Hint: COUNT(DISTINCT *field*) may be useful.** Only show states with at least 2 shipments. Order by number of shipments descending.
+5. For each state, return the number of customers in that state and the number of shipments for customers in that state. **Hint: `COUNT(DISTINCT *field*)` may be useful.** Only show states with at least 2 shipments. Order by number of shipments descending.
 
 #### Output:
 ```
@@ -92,71 +92,71 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 
 #### Output:
 ```
--------------------------------------------
++-------+------+--------------+-----------+
 | state | year | pname        | revenue   |
-| ----- | ---- | ------------ | --------- |
++-------+------+--------------+-----------+
 | AB    | 2022 | Sports Car   | 123500.00 |
-| AB    | 2022 | Textbook     | 750.00    |
-| AB    | 2022 | Wooden Chair | 499.95    |
--------------------------------------------
+| AB    | 2022 | Textbook     |    750.00 |
+| AB    | 2022 | Wooden Chair |    499.95 |
++-------+------+--------------+-----------+
 ```
 
-7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after `September 1st, 2021`, and only show products if they have been shipped at least three times and have a totalValueShipped > $110. Order by `totalAmountShipped` ascending.
+7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after `September 1st, 2021`, and only show products if they have been shipped at least three times and have a `totalValueShipped > $110`. Order by `totalAmountShipped` ascending.
 
 #### Output:
 ```
------------------------------------------------------------------------------------------
++-----+-----------------+----------------------+--------------------+-------------------+
 | pid | pname           | numberOfTimesShipped | totalAmountShipped | totalValueShipped |
-| --- | --------------- | -------------------- | ------------------ | ----------------- |
-| 10  | Textbook        | 3                    | 6                  | 1500.00           |
-| 2   | Wooden Chair    | 6                    | 38                 | 3799.62           |
-| 8   | Table           | 3                    | 38                 | 113.62            |
-| 1   | Swiss Chocolate | 7                    | 44                 | 1451.56           |
------------------------------------------------------------------------------------------
++-----+-----------------+----------------------+--------------------+-------------------+
+|  10 | Textbook        |                    3 |                  6 |           1500.00 |
+|   2 | Wooden Chair    |                    6 |                 38 |           3799.62 |
+|   8 | Table           |                    3 |                 38 |            113.62 |
+|   1 | Swiss Chocolate |                    7 |                 44 |           1451.56 |
++-----+-----------------+----------------------+--------------------+-------------------+
 ```
 
-8. Return pairs of customers (only show a pair once) that have been shipped the same product. Return the number of times the customers have been times the pair of customers have been shipped the same product ('numShippedProducts'). Order by `numShippedProducts` descending, then first customer name ascending, and second customer name ascending. Note: If product 1 is in two shipments for customer 4 and two shipments for customer 15, that counts as 4 (2 x 2). We are not eliminating any duplicates when counting in this question.
+8. Return pairs of customers (only show a pair once) that have been shipped the same product. Return the number of times the pair of customers have been shipped the same product (`numShippedProducts`). Order by `numShippedProducts` descending, then first customer name ascending, and second customer name ascending. Note: If product 1 is in two shipments for customer 4 and two shipments for customer 15, that counts as 4 (2 x 2). We are not eliminating any duplicates when counting in this question.
 
 #### Output:
 ```
-------------------------------------------------------------------
++-----+-----------------+-----+-----------------+----------------+
 | cid | cname           | cid | cname           | numSameShipped |
-| --- | --------------- | --- | --------------- | -------------- |
-| 4   | Russell Johnson | 15  | Elish Elias     | 7              |
-| 4   | Russell Johnson | 6   | Scott Charles   | 7              |
-| 2   | Joe Smithsonian | 4   | Russell Johnson | 6              |
-| 2   | Joe Smithsonian | 6   | Scott Charles   | 5              |
-| 6   | Scott Charles   | 15  | Elish Elias     | 5              |
-------------------------------------------------------------------
++-----+-----------------+-----+-----------------+----------------+
+|   4 | Russell Johnson |  15 | Elish Elias     |              7 |
+|   4 | Russell Johnson |   6 | Scott Charles   |              7 |
+|   2 | Joe Smithsonian |   4 | Russell Johnson |              6 |
+|   2 | Joe Smithsonian |   6 | Scott Charles   |              5 |
+|   6 | Scott Charles   |  15 | Elish Elias     |              5 |
++-----+-----------------+-----+-----------------+----------------+
 ```
 
-9. Return a complete list of all customers (`cid`, `cname`), the total number of shipments, and total shipped value (amount*price) that they have been shipped. Return the bottom five customers by total shipped value.
+9. Return a complete list of all customers (`cid`, `cname`), the total number of shipments, and total shipped value (`amount*price`) that they have been shipped. Return the bottom five customers by total shipped value.
 
 #### Output:
 ```
-------------------------------------------------------------
++-----+-----------------+--------------+-------------------+
 | cid | cname           | numShipments | totalShippedValue |
-| --- | --------------- | ------------ | ----------------- |
-| 1   | Fred Smith      | 0            | <null>            |
-| 5   | John Doe        | 0            | <null>            |
-| 14  | David Denter    | 0            | <null>            |
-| 7   | Robert Dean     | 1            | 72.49             |
-| 3   | Steve Stevenson | 1            | 164.95            |
-------------------------------------------------------------
++-----+-----------------+--------------+-------------------+
+|   1 | Fred Smith      |            0 |              NULL |
+|   5 | John Doe        |            0 |              NULL |
+|  14 | David Denter    |            0 |              NULL |
+|   7 | Robert Dean     |            1 |             72.49 |
+|   3 | Steve Stevenson |            1 |            164.95 |
++-----+-----------------+--------------+-------------------+
 ```
 
 10. Return the products that are shipped more often than the average number of times a product is shipped. Order by number of shipments descending and product id ascending. **Note: Hard question. May need more than one subquery including using subquery in FROM and HAVING clause.***
 
 #### Output:
 ```
-----------------------------------------
++-----+-----------------+--------------+
 | pid | pname           | numShipments |
-| --- | --------------- | ------------ |
-| 1   | Swiss Chocolate | 8            |
-| 2   | Wooden Chair    | 8            |
-| 4   | Chocolate Bar   | 6            |
-| 10  | Textbook        | 5            |
-----------------------------------------
++-----+-----------------+--------------+
+|   1 | Swiss Chocolate |            8 |
+|   2 | Wooden Chair    |            8 |
+|   4 | Chocolate Bar   |            6 |
+|  10 | Textbook        |            5 |
++-----+-----------------+--------------+
 ```
 
 
