@@ -29,7 +29,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----------------+-------------------------------------+
 ```
 
-2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. Note: <strong>PrairieLearn uses SQLite</strong>. To extract year from DATETIME see the following link: <a href="https://database.guide/how-to-extract-the-day-month-and-year-from-a-date-in-sqlite/">Extract Year in SQLite</a>. When using MySQL you can use <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year">YEAR()</a> function to get the year form the shipment date or use date comparisons.
+2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. Note: <strong>PrairieLearn uses SQLite</strong>. To extract year from DATETIME see the following link: <a href="https://database.guide/how-to-extract-the-day-month-and-year-from-a-date-in-sqlite/">Extract Year in SQLite</a>. When using MySQL you can use <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year">YEAR()</a> function to get the year from the shipment date or use date comparisons.
 
 #### Output:
 ```
