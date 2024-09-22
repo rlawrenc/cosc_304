@@ -47,45 +47,45 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 
 #### Output:
 ```
--------------------------------------------------------------------
-| cid | cname           | address             | city      | state |
-| --- | --------------- | ------------------- | --------- | ----- |
-| 8   | Shannon Rose    | <null>              | Wyandotte | MI    |
-| 2   | Joe Smithsonian | 245 Straight Street | Iowa City | IA    |
-| 9   | Beth Rosebud    | 1 First Street      | Muscatine | IA    |
--------------------------------------------------------------------
+  +-----+-----------------+---------------------+-----------+-------+
+  | cid | cname           | address             | city      | state |
+  +-----+-----------------+---------------------+-----------+-------+
+  |   8 | Shannon Rose    | NULL                | Wyandotte | MI    |
+  |   2 | Joe Smithsonian | 245 Straight Street | Iowa City | IA    |
+  |   9 | Beth Rosebud    | 1 First Street      | Muscatine | IA    |
+  +-----+-----------------+---------------------+-----------+-------+
 ```
 
 4. Return a list of the unique product id and names that have shipped before with an amount less than 5. Order by product id ascending.
 
 #### Output:
 ```
----------------------------------
++-----+-------------------------+
 | pid | pname                   |
-| --- | ----------------------- |
-| 10  | Textbook                |
-| 9   | Sports Car              |
-| 8   | Table                   |
-| 7   | Deluxe Sweet Collection |
-| 4   | Chocolate Bar           |
-| 3   | Teddy Bear              |
-| 2   | Wooden Chair            |
-| 1   | Swiss Chocolate         |
----------------------------------
++-----+-------------------------+
+|  10 | Textbook                |
+|   9 | Sports Car              |
+|   8 | Table                   |
+|   7 | Deluxe Sweet Collection |
+|   4 | Chocolate Bar           |
+|   3 | Teddy Bear              |
+|   2 | Wooden Chair            |
+|   1 | Swiss Chocolate         |
++-----+-------------------------+
 ```
 
 5. For each state, return the number of customers in that state and the number of shipments for customers in that state. **Hint: COUNT(DISTINCT *field*) may be useful.** Only show states with at least 2 shipments. Order by number of shipments descending.
 
 #### Output:
 ```
----------------------------------------
++-------+--------------+--------------+
 | state | numCustomers | numShipments |
-| ----- | ------------ | ------------ |
-| BC    | 3            | 7            |
-| CA    | 2            | 6            |
-| IA    | 3            | 5            |
-| AB    | 1            | 2            |
----------------------------------------
++-------+--------------+--------------+
+| BC    |            3 |            7 |
+| CA    |            2 |            6 |
+| IA    |            3 |            5 |
+| AB    |            1 |            2 |
++-------+--------------+--------------+
 ```
 
 6. Return the top 3 products for state `'AB'` based on shipment revenue (`amount*price`) for the year `2022`. 
