@@ -17,16 +17,16 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 
 **Output:**
 ```
----------------------------------------------------------
++-----------------+-------------------------------------+
 | cname           | fullAddress                         |
-| --------------- | ----------------------------------- |
++-----------------+-------------------------------------+
 | Aiden Adams     | 324 2A Street, Kelowna, BC          |
 | Beth Rosebud    | 1 First Street, Muscatine, IA       |
 | David Denter    | 23456 Main Street, Vernon, BC       |
 | Elish Elias     | 3445 Hwy 97 North, Lake Country, BC |
 | Joe Smithsonian | 245 Straight Street, Iowa City, IA  |
 | Suzanne May     | 2 Second Street, Iowa City, IA      |
----------------------------------------------------------
++-----------------+-------------------------------------+
 ```
 
 2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. . Note you can use [`YEAR` function](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year) to get the year form the shipment date.
