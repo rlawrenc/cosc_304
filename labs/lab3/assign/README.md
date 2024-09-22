@@ -145,7 +145,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+-----------------+--------------+-------------------+
 ```
 
-10. Return the products that are shipped more often than the average number of times a product is shipped. Order by number of shipments descending and product id ascending. **Note: Hard question. May need more than one subquery including using subquery in FROM and HAVING clause.***
+10. Return the products that are shipped more often than the average number of times a product is shipped. Order by number of shipments descending and product id ascending. **Note: Hard question. May need more than one subquery including using subquery in FROM and HAVING clause.**
 
 #### Output:
 ```
