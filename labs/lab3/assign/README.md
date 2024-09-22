@@ -13,7 +13,7 @@ shipment(sid: integer, cid: integer, shipdate: DateTime)
 shippedproduct(sid: integer, pid: integer, amount: integer)
 ```
 
-1. Return the customer name and address as one field called fullAddress that consists of the address, city, state. Only show customers in 'IA' or 'BC' and have a valid address. Order by customer name ascending. Hint: You will need the [concat function](https://dev.mysql.com/doc/refman/8.4/en/string-functions.html#function_concat) in MySQL or the concatenate operator (||) if using PrairieLearn.
+1. Return the customer name and address as one field called `fullAddress` that consists of the address, city, state. Only show customers in `'IA'` or `'BC'` that have a valid address. Order by customer name ascending. Hint: You will need the [`concat` function](https://dev.mysql.com/doc/refman/8.4/en/string-functions.html#function_concat) in MySQL or the concatenate operator (`||`) if using PrairieLearn.
 
 **Output:**
 ```
