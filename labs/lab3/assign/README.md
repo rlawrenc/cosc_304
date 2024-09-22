@@ -29,18 +29,18 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----------------+-------------------------------------+
 ```
 
-2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. . Note you can use [`YEAR` function](https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year) to get the year form the shipment date.
+2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. Note: <strong>PrairieLearn uses SQLite</strong>. To extract year from DATETIME see the following link: <a href="https://database.guide/how-to-extract-the-day-month-and-year-from-a-date-in-sqlite/">Extract Year in SQLite</a>. When using MySQL you can use <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year">YEAR()</a> function to get the year form the shipment date or use date comparisons.
 
 #### Output:
 ```
-----------------------------------------------
-| sid | shipdate              | pid | amount |
-| --- | --------------------- | --- | ------ |
-| 15  | 2022-08-24 00:00:00.0 | 8   | 25     |
-| 19  | 2022-08-24 00:00:00.0 | 8   | 12     |
-| 5   | 2022-07-17 00:00:00.0 | 2   | 13     |
-| 12  | 2022-07-05 00:00:00.0 | 4   | 10     |
-----------------------------------------------
++-----+---------------------+-----+--------+
+| sid | shipdate            | pid | amount |
++-----+---------------------+-----+--------+
+|  15 | 2022-08-24 00:00:00 |   8 |     25 |
+|  19 | 2022-08-24 00:00:00 |   8 |     12 |
+|   5 | 2022-07-17 00:00:00 |   2 |     13 |
+|  12 | 2022-07-05 00:00:00 |   4 |     10 |
++-----+---------------------+-----+--------+
 ```
 
 3. Find all customers that have an `'R'` or `'T'` in their name or have a state of `'MI'` or `'IA'`. Order by customer name descending. 
