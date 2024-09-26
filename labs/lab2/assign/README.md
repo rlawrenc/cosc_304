@@ -4,7 +4,7 @@ This assignment practices SQL DDL. <!--  These are the same questions as on Prai
 
 ## Question 1 (10 marks)
 
-Write the SQL DDL to create the following 5 tables describing cooking: `Recipe`, `Ingredient`, `Author`, `Cook`, `Requires`:
+Write the SQL DDL to create the following 5 tables describing cooking: `Recipe`, `Ingredient`, `Author`, `Cook`, `Requires`. **Make sure that every table has a primary key.**
 
 - An `Author` table where each author is identified by an integer `id` and has a `name` (up to 30 characters).
   
