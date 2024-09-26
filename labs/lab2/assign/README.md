@@ -10,7 +10,7 @@ Write the SQL DDL to create the following 5 tables describing cooking: `Recipe`,
   
 - An `Ingredient` table where each ingredient has an `id` of exactly 5 characters and a `name` (up to 30 characters).
   
-- A `Recipe` table where each recipe is identified by a field called `id` that is an integer. Other attributes include `name` (string up to 40 characters), `author id` (integer), and `directions` (string up to 255 characters). Make all foreign keys set to null on delete and no action (generate error) on update.
+- A `Recipe` table where each recipe is identified by a field called `id` that is an integer. Other attributes include `name` (string up to 40 characters), `authorId` (integer), and `directions` (string up to 255 characters). Make all foreign keys set to null on delete and no action (generate error) on update.
   
 - A `Cook` table where each time a recipe is made it is identified by a date/time (DATETIME). The table also has a `recipe id` and a `comment` (string up to 255 characters). Make all foreign keys set to perform cascade on delete and cascade on update.
   
