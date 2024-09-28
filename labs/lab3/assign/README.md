@@ -56,7 +56,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
   +-----+-----------------+---------------------+-----------+-------+
 ```
 
-4. Return a list of the unique product id and names that have shipped before with an amount less than `5`. Order by product id ascending.
+4. Return a list of the unique product id and names that have shipped before with an amount less than `5`. Order by product id descending.
 
 #### Output:
 ```
