@@ -74,14 +74,14 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+-------------------------+
 ```
 
-5. For each state, return the number of customers in that state and the number of shipments for customers in that state. **Hint: `COUNT(DISTINCT *field*)` may be useful.** Only show states with at least 2 shipments. Order by number of shipments descending.
+5. For each state, return the number of customers in that state and the number of shipments for customers in that state. **Hint: `COUNT(DISTINCT *field*)` may be useful.** Only show states with at least 2 shipments. Order by number of shipments descending. Note: Count customers in a state even if they do not have any shipments.
 
 #### Output:
 ```
 +-------+--------------+--------------+
 | state | numCustomers | numShipments |
 +-------+--------------+--------------+
-| BC    |            3 |            7 |
+| BC    |            4 |            7 |
 | CA    |            2 |            6 |
 | IA    |            3 |            5 |
 | AB    |            1 |            2 |
