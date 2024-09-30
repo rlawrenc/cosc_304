@@ -5,7 +5,7 @@
 
 Build a pet daycare database that tracks information on owners and their pets when they stay at a pet daycare. There are three components:
 
-1) Build an ER/UML diagram. **(7 marks)** This can be done using PrairieLearn (link: https://plcanary.ok.ubc.ca/pl/course_instance/2/assessment/44) or using Astah.
+1) Build an ER/UML diagram. **(7 marks)** This can be done using PrairieLearn (link: https://plcanary.ok.ubc.ca/pl/course_instance/6/assessment/147) or using Astah.
 2) The design has one opportunity for using subclasses (i.e. IS-A constraints). Identify the entities involved and provide the appropriate constraint (i.e. OPTIONAL/MANDATORY and AND/OR). **(1 mark)**
 3) Convert the diagram into the relational model. **(7 marks)** SQL DDL is NOT required. Write out the relation names with attributes. Identify by underlining primary keys and indicate all foreign keys. Remember to clearly indicate the FK direction.
 
