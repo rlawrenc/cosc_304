@@ -36,4 +36,5 @@ Invoice (<u>id</u> {PK}, <i>hotelName</i>, <i>customerId</i>, <i>arrivalDate</i>
 InvoiceCharge (<i><u>invoiceId</u></i> {PK}, <u>transactionId</u> {PK}, chargeType, description, amount) // InvoiceId is a FK to Invoice
 </pre>
 
+
 ## [Lab 5 Assignment](assign/)
