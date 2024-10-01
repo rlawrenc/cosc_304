@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE
 
-This lab practices SQL DDL.
+This lab practices SQL DDL. **Submit the lab answers on Canvas as a text file or document that contains all of your SQL DDL commands.**
 
 <!--
 Practice questions are available on [PrairieLearn]() and [GitHub](practice).
