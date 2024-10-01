@@ -67,4 +67,4 @@ Recipe for cookies was made on September 23rd, 2024 at 1:35:45 p.m. Comment: 'It
 
 ## Submission
 
-Submission is done on Canvas.
+**Submit the lab answers on Canvas as a text file or document that contains all of your SQL DDL commands or show a TA your SQL DDL commands in a help session.**
