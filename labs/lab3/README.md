@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL Queries
 
-This lab practices writing SQL queries on a MySQL database.
+This lab practices writing SQL queries on a MySQL database. **Submit the lab answers on Canvas as a text file or document that contains all of your SQL commands or show a TA your SQL commands in a help session.**
 
 <!--
 Practice questions are available on [PrairieLearn]() and [GitHub](practice).
