@@ -43,7 +43,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+---------------------+-----+--------+
 ```
 
-3. Find all customers that have an `'R'` or `'T'` in their name or have a state of `'MI'` or `'IA'`. Order by customer name descending. 
+3. Find all customers that have an `'R'` or `'T'` in their name and have a state of `'MI'` or `'IA'`. Order by customer name descending. 
 
 #### Output:
 ```
