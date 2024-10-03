@@ -31,7 +31,7 @@ This lab designs ER diagrams in UML notation. The AutoER auto-grading software o
 
 <li>When a guest plans to stay at a hotel, he or she makes a room reservation at the desired hotel. Each reservation indicates information about the guest, the desired arrival and departure dates, as well as preferences that aid in selecting the right kind of room for that guest: whether the room should be smoking or non-smoking, the number of beds, and whether the room should be on a high floor or a low floor. These room preferences are optional, and are not included with every reservation; some guests are willing to take any available room, while some only care about some preferences but not others.</li>
 
-<li>Also required with each reservation is information about a credit card that is used to secure the reservation; credit cards are indicated by a credit card number (which is a sequence of up to 16 digits) and an expiration date (a month and a year, such as "January 2020"). </li>
+<li>Also required with each reservation is information about a credit card that is used to secure the reservation; credit cards are indicated by a credit card number (which is a sequence of up to 16 digits) and an expiration date (a month and a year, such as "January 2024"). </li>
 
 <li>At any given time, a guest may have multiple reservations. A reservation is for a single room.</li>
 
