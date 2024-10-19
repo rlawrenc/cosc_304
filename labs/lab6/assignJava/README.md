@@ -14,7 +14,6 @@ OrderedProduct (<i><u>OrderId</u></i>, <i><u>ProductId</u></i>, Quantity, Price)
 
 ## Initial Steps
 
-
 Download the [starter code](304_lab6.zip) and unzip. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestOrderJDBC.java`, and the code file to edit called `OrderJDBC.java`. It also contains the MySQL JDBC JAR file.
 
 Use VSCode to edit the code files. You will need to install the Java extension to compile and run.
