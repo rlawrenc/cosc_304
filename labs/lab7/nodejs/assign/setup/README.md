@@ -35,3 +35,4 @@ The terminal instance that you ran `docker-compose up` in will reflect all error
 ## Shutting Down the Development Server
 
 Press `Ctrl + C` in the terminal instance that you ran `docker-compose up` in.
+
