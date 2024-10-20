@@ -15,7 +15,6 @@ The first step is to gather descriptive statistics from the company data. This w
 
 1. List the 10 lowest priced items (id, name, price). (1 mark)
 
-
 | productId | productName               | productPrice |
 | --------- | ------------------------- | ------------ |
 | 92        | Fantastic Wooden Keyboard | 0.49         |
