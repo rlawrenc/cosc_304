@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using Node.js
 
-This assignment practices web development using a commercial database system, Microsoft SQL Server. SQL Server is a widely-used, commercial database. **The assignment is done in your project groups of 4 people.**
+This assignment practices web development using a widely-used, commercial database system, [Microsoft SQL Server](https://www.microsoft.com/en-ca/sql-server). SQL Server supports most of the SQL standard including foreign keys and triggers.
 
 The web store that we are going to build allows customers to enter their information, choose products by putting them into a shopping cart, and then place an order.
 
@@ -117,6 +117,6 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 
 #### Deliverables:
 
-1. Option #1: Demonstrate your working site to the TA in an office hours. Bonus marks if completed by early deadlines. No submission on Canvas is required.
+1. Option #1: Demonstrate your working site to the TA in a help session. Bonus marks if completed by early deadlines. No submission on Canvas is required.
 2. Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: `listprod.js`, `listorder.js` and `order.js`.
-3. Only one submission for all members fo the group. Put all partner's names and student numbers on the submission.
+3. Only one submission for a group. Put both partners' names and student numbers on the submission.
