@@ -130,6 +130,6 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 
 #### Deliverables:
 
-1. Option #1: Demonstrate your working site to the TA in an office hours. Bonus marks if completed by early deadlines. No submission on Canvas is required.
+1. Option #1: Demonstrate your working site to the TA in a help session. Bonus marks if completed by early deadlines. No submission on Canvas is required.
 2. Option #2: Submit in a single zip file all your source code using Canvas. Submit **all** your files, but the files you must change are: `listprod.php`, `listorder.php` and `order.php`.
-3. Only one submission for all members of the group. Put all partner's names and student numbers on the submission.
+3. Only one submission for a group. Put both partners' names and student numbers on the submission.
