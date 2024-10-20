@@ -72,4 +72,3 @@ Create your own query form for the WorksOn database. Your form should have boxes
 ### [Solution - EmpProjQuery.jsp](code/EmpProjQuery.jsp)
 
 ## [Lab 7 Assignment](assign/)
-
