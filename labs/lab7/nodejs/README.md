@@ -43,7 +43,6 @@ Modify the sample code for querying WorksOn such that for each department you li
 
 ### [Solution - WorksOnDeptEmpProj.js](code/WorksOnDeptEmpProj.js)
 
-
 ## Example 4
 
 You can pass and receive parameters between Node.js routes (AKA website pages).  An example is to create an HTML form that collects user input and then passes this information to a Node.js route to perform the query and render the answers.
