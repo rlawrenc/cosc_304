@@ -70,4 +70,3 @@ Create your own query form for the WorksOn database. Your form should have boxes
 ### [Solution - EmpProjQuery.php](code/EmpProjQuery.php)
 
 ## [Lab 7 Assignment](assign/)
-
