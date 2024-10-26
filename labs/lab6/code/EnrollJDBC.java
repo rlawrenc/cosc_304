@@ -3,8 +3,8 @@ EnrollJDBC.java - JDBC program for accessing and updating an enrollment database
 
 Lab Assignment #6
 
-Student name: 	<your student name>
-University id:	<your university id>
+Student name: 	Jasper XIANG
+University id:	12925335
 */
 
 import java.io.File;

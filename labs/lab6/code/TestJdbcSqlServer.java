@@ -4,7 +4,7 @@ public class TestJdbcSqlServer
 {	public static void main(String[] args)
 	{	String url = "jdbc:sqlserver://localhost;databaseName=WorksOn;TrustServerCertificate=True";		
 		String uid = "sa";
-		String pw = "todo";
+		String pw = "304#sa#pw";
 			
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);
 	          Statement stmt = con.createStatement();) 

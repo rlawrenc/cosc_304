@@ -4,7 +4,7 @@ public class TestJDBCMySQL
 {   public static void main(String[] args)
     {   String url = "jdbc:mysql://localhost/workson";
         String uid = "testuser";
-        String pw = "todo";              
+        String pw = "304testpw";
               
         try ( Connection con = DriverManager.getConnection(url, uid, pw);
               Statement stmt = con.createStatement();) 
