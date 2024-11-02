@@ -1,5 +1,5 @@
 /*
-JdbcTransactions.java - This code shows how transactions are used in JDBC.
+JdbcTransactions.java - This code demonstrates transactions in JDBC.
 
 There are two main steps:
 1) Turn auto-commit off for your database connection.
