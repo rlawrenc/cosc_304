@@ -63,5 +63,3 @@ The product page will show details on the product including images. An image can
 # Submission
 
 **If you do not demonstrate live to the TA in virtual office hours, please upload your code and a video clip demonstrating your working pages with the new features on Canvas.** Bonus marks available for early completion.
-
-
