@@ -67,8 +67,6 @@ Write XPath expressions for the following queries. Use the [XML Practice Query P
 2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
 
 
-
-
 ## Question 4 - JSON (2 marks)
 
 1. Create a single, valid JSON document that stores the information of the `dept` and `proj` tables in the workson database.
