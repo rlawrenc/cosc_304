@@ -2,7 +2,7 @@
 
 ## ACME Company Goals
 
-Your managers found the data analysis you performed previously very helpful in understanding their customers, products, and overall business. They have now started asking questions about not just the current state of the business but also future trends for use in long range planning. ACME Company has tasked you with several goals related to prediction and forecasting, specifically predicting their overall sales for the next few years and best selling products. The output of this analysis will be an Excel file called `304_lab8_analysis.xlsx`.
+Your managers found the data analysis you performed previously very helpful in understanding their customers, products, and overall business. They have now started asking questions about not just the current state of the business but also future trends for use in long range planning. ACME Company has tasked you with several goals related to prediction and forecasting, specifically predicting their overall sales for the next few years and best selling products. The output of this analysis will be an Excel file called `304_lab8_analysis.xlsx`. 
 
 ### Connecting Excel and SQL Server
 
