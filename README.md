@@ -56,7 +56,7 @@ iClicker join code: https://join.iclicker.com/INWS
 | Assignments | 20% | Weekly assignments |
 | Midterm #1 | 15% | October 8th in class | 
 | Midterm #2 | 15% | November 5th in class | 
-| Final Exam | 40% | Cumulative, 2.5 hours, **exams require a laptop** <br> <!-- **December 14, 2022 at 7:00PM in COM 201** --> | 
+| Final Exam | 40% | Cumulative, 2.5 hours, **exams require a laptop** <br> **December 16, 2024 at 7:00PM in COM 201** | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -105,8 +105,8 @@ iClicker join code: https://join.iclicker.com/INWS
 | Nov. 28 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 3 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
 | Dec. 5 (TH) | **Project presentations<br>Final Exam Review** | |
-<!-- | Dec. 16 (Sa) | **Final Exam at 8:30 AM in COM 201.<br>Cumulative, 2.5 hours, requires a laptop.** |
--->
+| Dec. 16 (M) | **Final Exam at 7:00 pm in COM 201.<br>Cumulative, 2.5 hours, requires a laptop.** |
+
 ## Labs
 
 |  Lab  |  Date  |  Topic  |
