@@ -51,4 +51,3 @@ Triggers are also called event-condition-action (ECA) rules. When an event occur
 There are statement level triggers (execute once per statement) and row level triggers (execute once per row). Row level triggers use `FOR EACH ROW` clause. A trigger may fire `BEFORE`, `AFTER`, or `INSTEAD OF` and `INSERT`, `DELETE`, or `UPDATE` event.
 
 Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-trigger.html) and [SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16). The trigger syntax varies between database systems.
-

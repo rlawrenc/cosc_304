@@ -2,7 +2,7 @@
 
 ## [Development Stream](develop/) -  Images, Security, and Transactions
 
-Add images and more features to your online store. 
+Add images and more features to your online store.
 
 ## [Analysis](analyze/) Stream - Data Prediction, Forecasting, and Visualization
 
