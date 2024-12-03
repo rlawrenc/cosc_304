@@ -77,15 +77,15 @@ iClicker join code: https://join.iclicker.com/INWS
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
-| Sept. 3 (T) | [**First day of classes.  Introduction to course**](topics/1_introduction)<br> [Introduction to databases](topics/2_database_introduction) | [SQL for Web Nerds: SQL Introduction](https://philip.greenspun.com/sql/introduction.html) |
-| Sept. 5 (TH) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/3_relational_model) |  |
-| Sept. 10 (T) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/4_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept. 12 (TH) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/5_sql_ddl) | |
-| Sept. 17 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/6_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
-| Sept. 19 (TH) | [SQL - Group By, Aggregate Functions](topics/7_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
-| Sept. 24 (T) | [SQL - Subqueries, Outer joins](topics/7_sql_aggregation) | |
-| Sept. 26 (TH) | [Database Design – General Approach](topics/8_db_design)<br>[ER and UML Modeling](topics/9_er_design) | |
-| Oct. 1 (T) | [ER and UML Modeling examples and questions](topics/9_er_design) | |
+| Sept. 3 (T) | [**First day of classes.  Introduction to course**](topics/01_introduction)<br> [Introduction to databases](topics/02_database_introduction) | [SQL for Web Nerds: SQL Introduction](https://philip.greenspun.com/sql/introduction.html) |
+| Sept. 5 (TH) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/03_relational_model) |  |
+| Sept. 10 (T) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/04_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| Sept. 12 (TH) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/05_sql_ddl) | |
+| Sept. 17 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/06_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
+| Sept. 19 (TH) | [SQL - Group By, Aggregate Functions](topics/07_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
+| Sept. 24 (T) | [SQL - Subqueries, Outer joins](topics/07_sql_aggregation) | |
+| Sept. 26 (TH) | [Database Design – General Approach](topics/08_db_design)<br>[ER and UML Modeling](topics/09_er_design) | |
+| Oct. 1 (T) | [ER and UML Modeling examples and questions](topics/09_er_design) | |
 | Oct. 3 (TH) | [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
 | Oct. 8 (T) | **Midterm Exam #1 In-Class** | |
 | Oct. 10 (TH) | **No class** | |
@@ -238,7 +238,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [SQL Tutorial by Software Carpentry](https://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
-* Sample databases WorksOn (SQL Notes): [WorksOn](topics/2_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/2_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+* Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
 
 
 
