@@ -60,6 +60,13 @@ iClicker join code: https://join.iclicker.com/INWS
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
+The formula used is: 
+`Midterm1 Percentage Mark * 15 + Midterm2 Percentage Mark * 15 + Final Exam Percentage Mark * 40`
+
+For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentage mark was `60%`, and the final percentage mark was `40%`, then `.80 * 15 + .60 * 15 + .40 * 40 = 37`.  This is `>= 35`, which is 50% of the 70 total possible percentage marks for all exams combined.
+
+
+
 ## Textbook and Reference Material
  - All notes are online.
  - A textbook is not required. Students can get supplemental material from any database textbook.
