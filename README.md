@@ -1,26 +1,23 @@
-# COSC 304 - Introduction to Databases - September 2024
+# COSC 304 - Introduction to Databases - September 2025
 
 ## Instructor
 Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Live Classroom Schedule:** 	3:30 p.m. to 5:00 p.m. Wednesday/Friday<br>
-**Mode of Delivery:** 		FIP 214 and live-stream on Zoom<br>
-**Office Hours:**		Thursdays 2 to 4 p.m. (in-person and online)<br>
+**Mode of Delivery:** 		FIP 204 and live-stream on Zoom<br>
+**Office Hours:**		Mondays 2 to 4 p.m. (in-person and online)<br>
 **Office Location:** 		SCI 200C<br>
 **Calendar Course Description from the UBCO Calendar:** [https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco)
 
 ## Virtual Drop-in Help Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 9 to 11 a.m.  	| TBD  |
-| Monday 2 to 4 p.m. 	| TBD |
+| Monday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
 | Tuesday 2 to 4 p.m.	| TBD |
+| Wednesday 1 to 3 p.m. | TBD |
 | Wednesday 3:30 p.m. to 5:00 p.m. (class time)	| TBD |
-| Wednesday 2 to 4 p.m. | TBD |
-
-| Thursday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
+| Thursday 2 to 4 p.m. 	| TBD |
 | Friday 1 to 3 p.m. 	| TBD |
 | Friday 3:30 p.m. to 5:00 p.m. (class time)	| TBD |
-| Friday 3 to 5 p.m. 	| TBD |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://coursehelp.ubc.ca/invite?cid=20&code=304
 
@@ -34,10 +31,10 @@ iClicker join code: https://join.iclicker.com/INWS
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
 
-**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last component involves experiential learning on real-world use cases of databases for software development and data analytics. Technologies used include Java, JDBC, JSP, Python, Node.js, and PHP. Students completing the course have experience with current database technologies, and the ability to use databases, analyze the contained data, and develop programs to automate data analysis and presentation.
+**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last component involves experiential learning on real-world use cases of databases for software development and data analytics. Technologies used include Java, JDBC, JSP, Python, Node.js, and PHP. Students completing the course have experience with current database technologies, and the ability to use databases, analyze the contained data, and develop programs to automate data analysis and presentation. AI is integrated throughout the course. Students learn how to use AI to improve their effectiveness in working with database systems.
 
 ## Course Objectives
-**Course Format:** Interactive classes consist of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics are covered in assignments as well as practice using industrial database systems and software.
+**Course Format:** Interactive classes consist of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics are covered in assignments as well as practice using industrial database systems and software including AI tools.
 
 **Learning Outcomes:**
  - Describe how databases provide data abstraction and simplify writing programs to store and manipulate data.
@@ -247,6 +244,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
