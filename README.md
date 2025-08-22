@@ -19,7 +19,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Friday 1 to 3 p.m. 	| TBD |
 | Friday 3:30 p.m. to 5:00 p.m. (class time)	| TBD |
 
-For support in office hours and other times, join a queue or ask a question on the HelpMe system at: https://coursehelp.ubc.ca/invite?cid=20&code=304
+For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=20&code=304](https://coursehelp.ubc.ca/invite?cid=115&code=304)
 
 Login with your CWL user id and password.
 
@@ -244,6 +244,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
