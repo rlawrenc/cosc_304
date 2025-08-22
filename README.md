@@ -25,7 +25,7 @@ Login with your CWL user id and password.
 
 PrairieLearn online system (login with your CWL): https://plcanary.ok.ubc.ca/
 
-iClicker join code: https://join.iclicker.com/INWS
+iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/CQQM)
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
@@ -39,7 +39,7 @@ iClicker join code: https://join.iclicker.com/INWS
 **Learning Outcomes:**
  - Describe how databases provide data abstraction and simplify writing programs to store and manipulate data.
  - Create relational algebra queries on relational databases using selection, projection, join, and set operators.
- - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries with multiple joins, aggregation, grouping, and subqueries. Explain the translation of a SQL query into relational algebra operators.
+ - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries with multiple joins, aggregation, grouping, and subqueries. Explain the translation of a SQL query into relational algebra operators. Utililze AI for writing and validating SQL statements.
  - Analyze and understand existing database designs, design new databases using ER/UML modeling, and convert designs to the relational model including proper modeling of primary and foreign keys.
  - Develop programs and web sites that access a database to read data, perform analysis, and display output.
  - Perform data analysis, reporting, and visualization using data extracted from databases.
@@ -54,7 +54,7 @@ iClicker join code: https://join.iclicker.com/INWS
 | Assignments | 20% | Weekly assignments |
 | Midterm #1 | 15% | October 8th in class | 
 | Midterm #2 | 15% | November 5th in class | 
-| Final Exam | 40% | Cumulative, 2.5 hours, **exams require a laptop** <br> **December 16, 2024 at 7:00PM in COM 201** | 
+| Final Exam | 40% | Cumulative, 2.5 hours | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -86,61 +86,61 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Sept. 5 (F) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/03_relational_model) |  |
 | Sept. 10 (W) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/04_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
 | Sept. 12 (F) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/05_sql_ddl) | |
-| Sept. 17 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/06_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
+| Sept. 17 (W) | **No class** |
 | Sept. 19 (F) | **No class** |
-| Sept. 24 (W) | [SQL - Group By, Aggregate Functions](topics/07_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
-| Sept. 26 (F) | [SQL - Subqueries, Outer joins](topics/07_sql_aggregation) | |
-| Oct. 1 (W) | [Database Design – General Approach](topics/08_db_design)<br>[ER and UML Modeling](topics/09_er_design) | |
-| Oct. 3 (F) | [ER and UML Modeling examples and questions](topics/09_er_design) | |
-| Oct. 8 (W) |  [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
+| Sept. 24 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/06_sql) | [SQL for Web Nerds: SQL Queries](https://philip.greenspun.com/sql/queries.html) |
+| Sept. 26 (F) | [SQL - Group By, Aggregate Functions](topics/07_sql_aggregation) | [SQL for Web Nerds: SQL Complex Queries](https://philip.greenspun.com/sql/complex-queries.html) |
+| Oct. 1 (W) | [SQL - Subqueries, Outer joins](topics/07_sql_aggregation) | |
+| Oct. 3 (F) | [Database Design – General Approach](topics/08_db_design)<br>[ER and UML Modeling](topics/09_er_design) | |
+| Oct. 8 (W) | [ER and UML Modeling examples and questions](topics/09_er_design) | |
 | Oct. 10 (F) | **Midterm Exam #1 In-Class** | |
-| Oct. 15 (W) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| Oct. 17 (F) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 22 (W) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming)| [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](https://xkcd.com/327/) <br> [SQL Injection Attack](https://cwe.mitre.org/data/definitions/89.html) |
-| Oct. 24 (F) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](https://philip.greenspun.com/sql/triggers.html) |
-| Oct. 29 (W) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Oct. 31 (F) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Nov. 5 (W) | **Midterm Exam #2 In-Class** | |
-| Nov. 7 (F) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
+| Oct. 15 (W) |  [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
+| Oct. 17 (F) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 22 (W) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 24 (F) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming)| [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](https://xkcd.com/327/) <br> [SQL Injection Attack](https://cwe.mitre.org/data/definitions/89.html) |
+| Oct. 29 (W) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) | [SQL for Web Nerds: SQL Triggers](https://philip.greenspun.com/sql/triggers.html) |
+| Oct. 31 (F) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
+| Nov. 5 (W) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 7 (F) | **Midterm Exam #2 In-Class** | |
 | Nov. 12 (W) | **No class for Term 1 midterm break** | |
 | Nov. 14 (F) | **No class for Term 1 midterm break** | |
-| Nov. 19 (W)  | Project work class | |
-| Nov. 21 (F) | Project work class | |
+| Nov. 19 (W) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
+| Nov. 21 (F) | Using AI with databases | |
 | Nov. 26 (W) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (F) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 3 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
 | Dec. 5 (F) | **Project presentations<br>Final Exam Review** | |
-| Dec. 16 (M) | **Final Exam at 7:00 pm in COM 201.<br>Cumulative, 2.5 hours, requires a laptop.** |
+
 
 ## Labs
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 2 – 6 |	**No Lab during First Week of Class** |
-| [1](labs/lab1) | September 9 – 13 	| Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 16 – 20 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
-| [3](labs/lab3) | September 23 – 27 	| Lab 3: Writing SQL queries |
-| [4](labs/lab4) | Sept. 30 – Oct. 4 	| Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | October 7 – 18 	| Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | October 21 – 25 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
+|  | September 1 – 5 |	**No Lab during First Week of Class** |
+| [1](labs/lab1) | September 8 – 12 	| Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | September 15 – 19 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [3](labs/lab3) | Sept. 22 – Oct. 3 | Lab 3: Writing SQL queries |
+| [4](labs/lab4) | October 6 – 10 	| Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | October 13 – 17 	| Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | October 20 – 24 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
 
 ### Development Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](labs/lab7) | Oct. 28 – Nov. 1 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
-| [8](labs/lab8) | November 4 – 8 	| Lab 8: Images, Security, and Transactions |
-|  | November 11 - 15 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 18 - 22 	| Lab 9: XML, JSON, Views, and Triggers |
-| [10](labs/lab10) | Nov. 25 - Dec. 6	| Lab 10: Project Completion |
+| [7](labs/lab7) | October 27 – 31 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
+| [8](labs/lab8) | November 3 – 7 	| Lab 8: Images, Security, and Transactions |
+|  | November 10 - 21 			| **No Lab during Midterm Break** |
+| [9](labs/lab9) | November 17 - 21 	| Lab 9: XML, JSON, Views, and Triggers |
+| [10](labs/lab10) | Nov. 24 - Dec. 5	| Lab 10: Project Completion |
 
 ### Analysis Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](labs/lab7) | Oct. 28 – Nov. 1 	| Lab 7: Using Databases with Analysis Software (Excel) |
-| [8](labs/lab8) | November 4 – 8 	| Lab 8: Data Prediction, Forecasting, and Visualization |
-|  | November 11 - 15 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 18 - 22  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
-| [10](labs/lab10) | Nov. 25 - Dec. 6 	| Lab 10: Project Completion |
+| [7](labs/lab7) | October 27 – 31 	| Lab 7: Using Databases with Analysis Software (Excel) |
+| [8](labs/lab8) | November 3 – 7	| Lab 8: Data Prediction, Forecasting, and Visualization |
+|  | November 10 - 21 			| **No Lab during Midterm Break** |
+| [9](labs/lab9) | November 17 - 21  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
+| [10](labs/lab10) | Nov. 24 - Dec. 5 	| Lab 10: Project Completion |
 
 ## UBC Values
 UBC creates an exceptional learning environment that fosters global citizenship, advances a civil and sustainable society, and supports outstanding research to serve the people of British Columbia, Canada, and the world. UBC’s core values are excellence, integrity, respect, academic freedom, and accountability.
@@ -244,6 +244,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
