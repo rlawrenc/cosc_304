@@ -228,7 +228,7 @@ Web: [https://ombudsoffice.ubc.ca](https://ombudsoffice.ubc.ca)
 
 ### Sexual Violence Prevention and Response Office (SVPRO)
 The Sexual Violence Prevention and Response Office (SVPRO) is a confidential place for those who have been impacted by any form of sexual or gender-based violence, harassment, or harm, regardless of where or when it took place. SVPRO aims to be a safer space for all UBC students, faculty, and staff by respecting each person’s unique and multiple identities and experiences. All genders and sexualities are welcome. Nicola Townhome 120, 1270 International Mews 250.807.8053
-Email: vpro.ok.ubc.ca Web: [https://www.svpro.ok.ubc.ca](https://www.svpro.ok.ubc.ca)
+Email: vpro.ok.ubc.ca Web: [https://www.svpro.ok.ubc.ca](https://svpro.ok.ubc.ca/)
 
 ### Student Learning Hub  
 The Student Learning Hub is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with academic integrity, study skills and learning strategies. Students are encouraged to visit often and early to build the skills, strategies and behaviours that are essential to being a confident and independent learner. For more information, please visit the Hub’s website. LIB 237. Ph: 250.807.8491 Email: learning.hub@ubc.ca [https://students.ok.ubc.ca/student-learning-hub](https://students.ok.ubc.ca/academic-success/learning-hub/)
@@ -246,6 +246,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
