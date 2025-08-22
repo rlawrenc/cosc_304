@@ -132,7 +132,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | [7](labs/lab7) | October 27 – 31 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
 | [8](labs/lab8) | November 3 – 7 	| Lab 8: Images, Security, and Transactions |
 |  | November 10 - 21 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21 	| Lab 9: XML, JSON, Views, and Triggers |
+| [9](labs/lab9) | November 17 - 21 	| Lab 9: Learning Development Topics Assisted by AI |
 | [10](labs/lab10) | Nov. 24 - Dec. 5	| Lab 10: Project Completion |
 
 ### Analysis Stream
@@ -141,7 +141,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | [7](labs/lab7) | October 27 – 31 	| Lab 7: Using Databases with Analysis Software (Excel) |
 | [8](labs/lab8) | November 3 – 7	| Lab 8: Data Prediction, Forecasting, and Visualization |
 |  | November 10 - 21 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
+| [9](labs/lab9) | November 17 - 21  	| Lab 9: Learning Analysis Topics Assisted by AI |
 | [10](labs/lab10) | Nov. 24 - Dec. 5 	| Lab 10: Project Completion |
 
 ## UBC Values
@@ -170,7 +170,7 @@ The academic enterprise is founded on honesty, civility, and integrity. As membe
 ## Academic Misconduct
 Violations of academic integrity (i.e., academic misconduct) lead to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment or exam and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department and Associate Dean Academic of the Faculty.
 
-**The use of artificial intelligence (AI) assistance, such as ChatGPT or GitHub Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor.**
+**The use of artificial intelligence (AI) assistance, such as ChatGPT, Gemini, or Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor. Specifically, AI is not allowed for exams but is allowed for assignments as long as it is used properly for learning.**
 
 ## Academic Integrity Course Policies
 Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
@@ -192,22 +192,23 @@ Academic integrity is critical to being a professional developer and a respected
 - Collaborating with your approved group members (usually two) and submitting a shared answer to the assignment
 - Request help from the TA or instructor and use the answer/code that they provide
 - Answer general questions about assignments in chat or discussion forums (*Allowed with care*)
+- Use of AI, including GitHub CoPilot, with the understanding that ultimately you must learn the material
 
 #### Not Allowed
  - Working on an individual assignment with a group of people and submitting minor variations of work developed together
  - For group assignments, completing all work independently and providing an answer to the rest of group
  - Sharing solutions to assignments with other students or on the Internet	
- - Receiving solutions to assignments from other sources (students, web, tutors, AI)	
+ - Receiving solutions to assignments from other sources (students, web, tutors)	
 	
 ### Exams
 #### Allowed
 - Using approved material for the given exam format:
-    - **open book:** all course material including assignments, notes, and quizzes. No online/AI resources. No use of Google Docs. No secondary devices.
-    - **closed book:** one page (two sides) personal notes on paper
+  <!--  - **open book:** all course material including assignments, notes, and quizzes. No online/AI resources. No use of Google Docs. No secondary devices. -->
+    - **closed book:** no supplementary resources allowed (no calculator, no cheat sheets)
 
 #### Not Allowed
-- Using any non-approved resource (people, AI, web, etc.) for exams **(severe)**
-- Allowing another person to write or complete any part of any exam **(severe)**
+- Using any non-approved resource (people, AI, web, etc.) for exams 
+- Allowing another person to write or complete any part of any exam 
 - Posting or providing answers to students who have not yet completed the exam
 - Requesting help from other people or web services for open book exams
 - Posting or providing exam questions and answers after the exam has been completed
@@ -227,13 +228,13 @@ Web: [https://ombudsoffice.ubc.ca](https://ombudsoffice.ubc.ca)
 
 ### Sexual Violence Prevention and Response Office (SVPRO)
 The Sexual Violence Prevention and Response Office (SVPRO) is a confidential place for those who have been impacted by any form of sexual or gender-based violence, harassment, or harm, regardless of where or when it took place. SVPRO aims to be a safer space for all UBC students, faculty, and staff by respecting each person’s unique and multiple identities and experiences. All genders and sexualities are welcome. Nicola Townhome 120, 1270 International Mews 250.807.8053
-Email: vpro.ok.ubc.ca Web: [www.svpro.ok.ubc.ca](www.svpro.ok.ubc.ca)
+Email: vpro.ok.ubc.ca Web: [https://www.svpro.ok.ubc.ca](https://www.svpro.ok.ubc.ca)
 
 ### Student Learning Hub  
 The Student Learning Hub is your go-to resource for free math, science, writing, and language learning support. The Hub welcomes undergraduate students from all disciplines and year levels to access a range of supports that include tutoring in math, sciences, languages, and writing, as well as help with academic integrity, study skills and learning strategies. Students are encouraged to visit often and early to build the skills, strategies and behaviours that are essential to being a confident and independent learner. For more information, please visit the Hub’s website. LIB 237. Ph: 250.807.8491 Email: learning.hub@ubc.ca [https://students.ok.ubc.ca/student-learning-hub](https://students.ok.ubc.ca/academic-success/learning-hub/)
  
 ### Wellbeing and Accessibility Services (WAS)
-Wellbeing and Accessibility Services (WAS) supports holistic student wellbeing in body, mind, and spirit. Students can access nurses, physicians and counsellors for health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. WAS is also home to the Disability Resource Centre, Spiritual and Multi-Faith Services, and Campus Health and Education. If you require assistance with your health, please contact Wellbeing and Accessibility Services for more information or to book an appointment. UNC 337 250.807.9270 Email: healthwellness.okanagan@ubc.ca Web: www.students.ok.ubc.ca/was
+Wellbeing and Accessibility Services (WAS) supports holistic student wellbeing in body, mind, and spirit. Students can access nurses, physicians and counsellors for health care and counselling related to physical health, emotional/mental health and sexual/reproductive health concerns. WAS is also home to the Disability Resource Centre, Spiritual and Multi-Faith Services, and Campus Health and Education. If you require assistance with your health, please contact Wellbeing and Accessibility Services for more information or to book an appointment. UNC 337 250.807.9270 Email: healthwellness.okanagan@ubc.ca Web: https://www.students.ok.ubc.ca/was
 
 ### SAFEWALK
 Don't want to walk alone at night?  Not too sure how to get somewhere on campus?  Call Safewalk at 250-807-8076.
@@ -241,11 +242,11 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 
 
 ## Reference Material
-* [SQL for Web Nerds](https://philip.greenspun.com/sql/index.html)
 * [SQL Tutorial by Software Carpentry](https://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
