@@ -12,10 +12,10 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Day/Time |  TA/Instructor |
 |----------|----------------|
 | Monday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Tuesday 2 to 4 p.m.	| Bridgette Hunt |
+| Tuesday 2 to 4 p.m.	| Omar Abdelaziz |
 | Wednesday 1 to 3 p.m. | Omar Abdelaziz |
 | Wednesday 3:30 p.m. to 5:00 p.m. (class time)	| Omar Abdelaziz |
-| Thursday 2 to 4 p.m. 	| Omar Abdelaziz |
+| Thursday 2 to 4 p.m. 	| Bridgette Hunt |
 | Friday 1 to 3 p.m. 	| Bridgette Hunt |
 | Friday 3:30 p.m. to 5:00 p.m. (class time)	| Bridgette Hunt |
 
@@ -246,6 +246,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
