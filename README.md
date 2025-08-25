@@ -12,12 +12,12 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Day/Time |  TA/Instructor |
 |----------|----------------|
 | Monday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Tuesday 2 to 4 p.m.	| TBD |
-| Wednesday 1 to 3 p.m. | TBD |
-| Wednesday 3:30 p.m. to 5:00 p.m. (class time)	| TBD |
-| Thursday 2 to 4 p.m. 	| TBD |
-| Friday 1 to 3 p.m. 	| TBD |
-| Friday 3:30 p.m. to 5:00 p.m. (class time)	| TBD |
+| Tuesday 2 to 4 p.m.	| Omar Abdelaziz |
+| Wednesday 1 to 3 p.m. | Bridgette Hunt |
+| Wednesday 3:30 p.m. to 5:00 p.m. (class time)	| Omar Abdelaziz |
+| Thursday 2 to 4 p.m. 	| Omar Abdelaziz |
+| Friday 1 to 3 p.m. 	| Bridgette Hunt |
+| Friday 3:30 p.m. to 5:00 p.m. (class time)	| Bridgette Hunt |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=115&code=304](https://coursehelp.ubc.ca/invite?cid=115&code=304)
 
@@ -246,6 +246,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
