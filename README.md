@@ -191,8 +191,8 @@ Academic integrity is critical to being a professional developer and a respected
 ### Assignments
 #### Allowed
 - Collaborating with your approved group members (usually two) and submitting a shared answer to the assignment
-- Request help from the TA or instructor and use the answer/code that they provide
-- Answer general questions about assignments in chat or discussion forums (*Allowed with care*)
+- Requesting help from the TA or instructor and use the answer/code that they provide
+- Answering general questions about assignments in chat or discussion forums (*Allowed with care*)
 - Use of AI, including GitHub CoPilot, with the understanding that ultimately you must learn the material
 
 #### Not Allowed
@@ -247,6 +247,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
