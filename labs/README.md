@@ -12,31 +12,31 @@ All lab assignments are done on your time with assistance from teaching assistan
 
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-|  | September 2 – 6 |	**No Lab during First Week of Class** |
-| [1](lab1) | September 9 – 13 	| Lab 1: Querying using Relational Algebra |
-| [2](lab2) | September 16 – 20 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
-| [3](lab3) | September 23 – 27 	| Lab 3: Writing SQL queries |
-| [4](lab4) | Sept. 30 – Oct. 4 	| Lab 4: Database Design using UML Modeling |
-| [5](lab5) | October 7 – 18 	| Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](lab6) | October 21 – 25 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
+|  | September 1 – 5 |	**No Lab during First Week of Class** |
+| [1](lab1) | September 8 – 12 	| Lab 1: Querying using Relational Algebra |
+| [2](lab2) | September 15 – 19 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [3](lab3) | Sept. 22 – Oct. 3 | Lab 3: Writing SQL queries |
+| [4](lab4) | October 6 – 10 	| Lab 4: Database Design using UML Modeling |
+| [5](lab5) | October 13 – 17 	| Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](lab6) | October 20 – 24 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
 
 ### Development Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](lab7) | Oct. 28 – Nov. 1 	| Lab 7: Building a Database-enabled Web Site using JSP/PHP/Node |
-| [8](lab8) | November 4 – 8 	| Lab 8: Images, Security, and Transactions |
-|  | November 11 - 15 			| **No Lab during Midterm Break** |
-| [9](lab9) | November 18 - 22 	| Lab 9: XML, JSON, Views, and Triggers |
-| [10](lab10) | Nov. 25 - Dec. 6	| Lab 10: Project Completion |
+| [7](lab7) | October 27 – 31 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
+| [8](lab8) | November 3 – 7 	| Lab 8: Images, Security, and Transactions |
+|  | November 10 - 14 			| **No Lab during Midterm Break** |
+| [9](lab9) | November 17 - 21 	| Lab 9: Learning Development Topics Assisted by AI |
+| [10](lab10) | Nov. 24 - Dec. 5	| Lab 10: Project Completion |
 
 ### Analysis Stream
 |  Lab  |  Date  |  Topic  |
 |----|------|-------|
-| [7](lab7) | Oct. 28 – Nov. 1 	| Lab 7: Using Databases with Analysis Software (Excel) |
-| [8](lab8) | November 4 – 8 	| Lab 8: Data Prediction, Forecasting, and Visualization |
-|  | November 11 - 15 			| **No Lab during Midterm Break** |
-| [9](lab9) | November 18 - 22  	| Lab 9: Handling Data Formats (CSV, XML, JSON) |
-| [10](lab10) | Nov. 25 - Dec. 6 	| Lab 10: Project Completion |
+| [7](lab7) | October 27 – 31 	| Lab 7: Using Databases with Analysis Software (Excel) |
+| [8](lab8) | November 3 – 7	| Lab 8: Data Prediction, Forecasting, and Visualization |
+|  | November 10 - 14 			| **No Lab during Midterm Break** |
+| [9](lab9) | November 17 - 21  	| Lab 9: Learning Analysis Topics Assisted by AI |
+| [10](lab10) | Nov. 24 - Dec. 5 	| Lab 10: Project Completion |
 
 ## Help Session Hours
 
