@@ -10,5 +10,5 @@ These materials are distributed under the Creative Commons Attribution-ShareAlik
 
 ### The primary content producer of this material was:
 Dr. Ramon Lawrence<br>
-Professor of Computer Science at University of British Columbia Okanagan<br>
+Professor of Computer Science, University of British Columbia Okanagan<br>
 ramon.lawrence@ubc.ca
