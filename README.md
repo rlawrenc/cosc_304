@@ -46,6 +46,7 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
  - Use JSON and XML for data exchange and representation.
  - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
  - Implement database security using user accounts/passwords and SQL privileges using GRANT and REVOKE.
+ - Use AI to assist with SQL and database code generation and critically evaluate AI outputs.
 
 ## Marking and Evaluation
 | Item | Weighting | Description |
@@ -246,6 +247,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
