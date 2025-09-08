@@ -1,5 +1,4 @@
 -- CREATE TABLE questions
--- Note: Students must declare foreign keys (not UPDATE CASCADE though)
 
 CREATE TABLE dept (
    deptId integer,
