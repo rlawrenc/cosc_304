@@ -16,7 +16,7 @@ CREATE TABLE customer (
 	city varchar(30),
 	state varchar(2),
 	primary key (cid) 
-	) ENGINE=InnoDB;
+	);
 
 CREATE TABLE product (
 	pid integer,
@@ -24,7 +24,7 @@ CREATE TABLE product (
 	price decimal(9,2),
 	inventory integer,
 	primary key (pid) 
-	) ENGINE=InnoDB;	
+	);	
 
 CREATE TABLE shipment (
 	sid integer,
@@ -32,7 +32,7 @@ CREATE TABLE shipment (
 	shipdate datetime,	
 	primary key (sid),
 	foreign key (cid) REFERENCES customer(cid)
-	) ENGINE=InnoDB;
+	);
 	
 CREATE TABLE shippedproduct (
 	sid integer,
@@ -41,8 +41,7 @@ CREATE TABLE shippedproduct (
 	primary key (sid, pid),
 	foreign key (sid) REFERENCES shipment(sid),
 	foreign key (pid) REFERENCES product(pid)
-	) ENGINE=InnoDB;	
-
+	);	
 
 INSERT INTO customer VALUES (1,'Fred Smith','101 Evergreen Terrace','Springfield','IL');
 INSERT INTO customer VALUES (2,'Joe Smithsonian','245 Straight Street','Iowa City','IA');
