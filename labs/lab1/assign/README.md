@@ -30,4 +30,3 @@ ShippedProduct(<i>sid:</i> integer, <i>pid:</i> integer, <i>amount:</i> integer)
 
 <li> Return a list of products (id, name, price) where the product has not been in any shipments or the product price is greater than <tt>$5</tt> and has been shipped to a customer in <tt>'NJ'</tt>.<br>Expected output:<br><img src="img/ra_q5.png" width="350"><br>Note: Order does not matter for the output.</li>
 </ol>
-
