@@ -16,7 +16,7 @@ CREATE TABLE student(
 	standing varchar(2),
 	age integer,
         primary key (snum)
-) ENGINE=InnoDB;
+);
 
 
 CREATE TABLE faculty(
@@ -24,7 +24,7 @@ CREATE TABLE faculty(
 	fname varchar(30),
 	deptid integer,
 	primary key (fid)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE course(
 	cname varchar(40),
@@ -33,7 +33,7 @@ CREATE TABLE course(
 	fid integer,
 	primary key (cname),
 	foreign key (fid) references faculty(fid)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE enrolled(
 	snum integer,
@@ -41,7 +41,7 @@ CREATE TABLE enrolled(
 	primary key (snum,cname),
 	foreign key (snum) references student(snum),
 	foreign key (cname) references course(cname)
-) ENGINE=InnoDB;
+);
 
 INSERT INTO student VALUES( 051135593,'Maria White','English','SR',21);
 INSERT INTO student VALUES( 060839453,'Charles Harris','Architecture','SR',22);
