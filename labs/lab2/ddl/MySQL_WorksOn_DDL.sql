@@ -9,7 +9,6 @@ DROP TABLE IF EXISTS emp;
 DROP TABLE IF EXISTS dept;
 SET FOREIGN_KEY_CHECKS = 1;
 
-
 CREATE TABLE emp (
  eno CHAR(5) NOT NULL,
  ename VARCHAR(30),
@@ -19,7 +18,7 @@ CREATE TABLE emp (
  supereno CHAR(5),
  dno CHAR(5),
  PRIMARY KEY (eno)
-) ENGINE = InnoDB;
+);
 
 
 CREATE TABLE dept (
@@ -27,7 +26,7 @@ CREATE TABLE dept (
  dname VARCHAR(40),
  mgreno CHAR(5),
  PRIMARY KEY (dno),
- CONSTRAINT FK_dept_emp FOREIGN KEY (mgreno) REFERENCES emp (eno) ON DELETE SET NULL) ENGINE = InnoDB;
+ CONSTRAINT FK_dept_emp FOREIGN KEY (mgreno) REFERENCES emp (eno) ON DELETE SET NULL);
 
 ALTER TABLE emp ADD CONSTRAINT FK_emp_dept FOREIGN KEY (dno) REFERENCES dept(dno); 
  
@@ -38,7 +37,7 @@ CREATE TABLE proj (
  budget DECIMAL(9,2),
  dno  CHAR(5), 
  PRIMARY KEY (pno),
- CONSTRAINT FK_proj_dept FOREIGN KEY (dno) REFERENCES dept(dno) ON DELETE SET NULL) ENGINE = InnoDB;
+ CONSTRAINT FK_proj_dept FOREIGN KEY (dno) REFERENCES dept(dno) ON DELETE SET NULL);
  
 
 CREATE TABLE workson (
@@ -48,7 +47,7 @@ CREATE TABLE workson (
  hours   SMALLINT,
  CONSTRAINT PK_workson PRIMARY KEY (eno,pno),
  CONSTRAINT FK_workson_emp FOREIGN KEY (eno) REFERENCES emp (eno),
- CONSTRAINT FK_workson_proj FOREIGN KEY (pno) REFERENCES proj (pno)) ENGINE = InnoDB;
+ CONSTRAINT FK_workson_proj FOREIGN KEY (pno) REFERENCES proj (pno));
  
 
 INSERT INTO dept VALUES ('D1','Management',NULL);
