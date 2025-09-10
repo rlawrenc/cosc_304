@@ -4,7 +4,7 @@ Some of the lab assignments require running a database on your computer. These d
 
 ## Install Docker Desktop
 
-[Install Docker Desktop](https://www.docker.com/products/docker-desktop/) that works on Windows, Mac, and Linux.
+[Install Docker Desktop](https://www.docker.com/products/docker-desktop/) that works on Windows, Mac, and Linux. On Windows, install Docker Desktop using **Run as Administrator**.
 
 ## Install VSCode
 
@@ -12,7 +12,7 @@ Although you may use any text editor, the officially supported editor is [VSCode
 
 ## Install Java
 
-If your computer does not have at least Java 17, install [the latest Java version](https://www.oracle.com/java/technologies/downloads/).
+If your computer does not have at least Java 17, install [the latest Java version](https://www.oracle.com/java/technologies/downloads/). You may install JDK 21 or JDK 24.
 
 ## Install SQuirreL SQL (Optional)
 
