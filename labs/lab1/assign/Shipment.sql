@@ -70,6 +70,3 @@ INSERT INTO ShippedProduct VALUES (10,2,2);
 INSERT INTO ShippedProduct VALUES (11,2,5);
 INSERT INTO ShippedProduct VALUES (12,3,1);
 INSERT INTO ShippedProduct VALUES (12,4,10);
-
-
-
