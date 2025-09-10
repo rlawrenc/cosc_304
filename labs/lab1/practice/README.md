@@ -123,5 +123,4 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 <IMG SRC="img/challengeQuestionAnswer.png">
 
 </li>
-
 </ol>
