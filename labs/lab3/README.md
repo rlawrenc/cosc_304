@@ -8,5 +8,5 @@ This lab practices SQL.
 
 Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/249) and [GitHub](practice).
 
-The lab is completed on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/248) or is completed using MySQL on Docker and **requires computer setup by following these [setup instructions](../setup).**
+The lab is completed on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/248) or is completed using [MySQL on Docker](assign/) and **requires computer setup by following these [setup instructions](../setup).**
 
