@@ -14,7 +14,7 @@ Write the SQL DDL to create the following 5 tables describing airports, airplane
 
 - A `Passenger` table where each passenger is identified by an integer `id`. Also store a `firstname` and `lastname` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
 
-- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `flightDepartDateTime`, and a `seatNum` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
+- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `departDateTime`, and a `seatNum` (exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
 
 ## Question 2 (10 marks)
 
