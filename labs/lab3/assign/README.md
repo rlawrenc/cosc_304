@@ -115,7 +115,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----+-----------------+----------------------+--------------------+-------------------+
 ```
 
-8. Return pairs of customers (only show a pair once) that have been shipped the same product. Return the number of times the pair of customers have been shipped the same product (`numSameShipped`). Order by `numShippedProducts` descending, then first customer name ascending, and second customer name ascending. Note: If product 1 is in two shipments for customer 4 and two shipments for customer 15, that counts as 4 (2 x 2). We are not eliminating any duplicates when counting in this question. Show customer pairs that have 5 or more times that they have been shipped the same product.
+8. Return pairs of customers (only show a pair once) that have been shipped the same product. Return the number of times the pair of customers have been shipped the same product (`numSameShipped`). Order by `numSameShipped` descending, then first customer name ascending, and second customer name ascending. Note: If product 1 is in two shipments for customer 4 and two shipments for customer 15, that counts as 4 (2 x 2). We are not eliminating any duplicates when counting in this question. Show customer pairs that have 5 or more times that they have been shipped the same product.
 
 #### Output:
 ```
