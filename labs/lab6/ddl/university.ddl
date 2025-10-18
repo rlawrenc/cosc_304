@@ -4,7 +4,6 @@ DROP TABLE IF EXISTS student;
 DROP TABLE IF EXISTS course; 
 DROP TABLE IF EXISTS prof; 
 
-
 CREATE TABLE student (
  sid CHAR(8) NOT NULL,
  sname VARCHAR(50),
