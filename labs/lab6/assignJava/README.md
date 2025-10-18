@@ -42,5 +42,3 @@ Write the code to complete the methods in `OrderJDBC.java` (look for `TODO` item
 <tr><td><b>Query3:</b> Return for each customer their id, name and average total order amount for orders starting on January 1, 2024 (inclusive). Only show customers that have placed at least 2 orders.</td><td>3 marks</td></tr>
 <tr><td><b>Query4:</b> Return the employees who have had at least 2 distinct orders where some product on the order had quantity >= 5.</td><td>4 marks</td></tr>
 </table>
-
-
