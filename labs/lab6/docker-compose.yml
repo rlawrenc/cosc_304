@@ -1,4 +1,3 @@
-version: '3.8'
 services:             
     cosc304-mysql:
         image: mysql:8.0
