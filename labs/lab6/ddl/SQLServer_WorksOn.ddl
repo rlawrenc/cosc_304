@@ -24,7 +24,6 @@ CREATE TABLE Emp (
  PRIMARY KEY (eno),
 );
 
-
 CREATE TABLE Dept (
  dno CHAR(5) NOT NULL,
  dname VARCHAR(40),
@@ -56,7 +55,6 @@ INSERT INTO Dept VALUES ('D1','Management',NULL);
 INSERT INTO Dept VALUES ('D2','Consulting',NULL);
 INSERT INTO Dept VALUES ('D3','Accounting',NULL);
 INSERT INTO Dept VALUES ('D4','Development',NULL);
-
 
 
 INSERT INTO Proj VALUES ('P1','Instruments',150000,'D1');
