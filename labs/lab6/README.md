@@ -15,7 +15,6 @@ This lab shows how Java and Python programs can connect to MySQL and Microsoft S
  - Your database is `mydb` or `testuser`. There are other databases also created such as `workson`. Do NOT use the sample `university` database from lab 2.
  - Microsoft SQL Server will be running on port 1433. Note SQL Server is not supported on the Apple M1 chip. However, there is an alternate version that is. In the docker-compose.yml file, change: `image: mcr.microsoft.com/mssql/server:2019-latest` to this: `image: mcr.microsoft.com/azure-sql-edge`.
 
- 
 ## Part #1: MySQL
 
 Download [the sample Java program](code/TestJDBCMySQL.java) or [sample Python program](code/PythonQueryExample.py) that connects to a WorksOn database hosted by MySQL. 
