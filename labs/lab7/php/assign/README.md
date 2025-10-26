@@ -6,7 +6,7 @@ The web store that we are going to build allows customers to enter their informa
 
 ## Initial Steps
 
-1. Download the [starter project code files](304_lab7_starter_php.zip). 
+1. The [starter project code files](304_lab7_starter_php.zip) are in the repository.
 
 2. Setup your local development environment ([instructions](setup/)). 
 
@@ -66,7 +66,7 @@ Modify the `listorder.php` so that it lists all orders currently in the database
 
 Build a simple web site that allows users to search for products by name, put products in their shopping cart, and place an order by checking out the items in their shopping cart. Starter code is provided. Fill in a few of the PHP files to get the application to work.  Here are the steps you should do to get started:
 
-1. Use the [template code](304_lab7_starter_php.zip) downloaded and setup in Question 1. Summary of files:
+1. Summary of code files:
 
 - **listprod.php** - lists all products.  **TODO: fill-in your own code (10 marks)**
 - **addcart.php** - adds an item to the cart (stored using session variable).  No changes needed.
