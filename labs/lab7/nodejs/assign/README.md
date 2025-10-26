@@ -6,7 +6,7 @@ The web store that we are going to build allows customers to enter their informa
 
 ## Initial Steps
 
-1. To get started with this assignment, download the [starter project code files](304_lab7_starter_node.zip) and follow the [setup instructions](setup/) to create your development environment.
+1. To get started with this assignment, the [starter project code files](304_lab7_starter_node.zip) are in the repository and follow the [setup instructions](setup/) to create your development environment.
 
 2. Create the tables and load the sample data into your SQL Server database.  The file `/routes/loaddata.js` will load the database using the `/ddl/SQLServer_orderdb.ddl` script. You can run this file from the command line or by using the URL: `http://127.0.0.1/loaddata`.
 
@@ -56,7 +56,7 @@ Modify the `/routes/listorder.js` file so that it lists all orders currently in 
 
 Build a simple web site that allows users to search for products by name, put products in their shopping cart, and place an order by checking out the items in their shopping cart. Starter code is provided. Fill in a few of the Js files to get the application to work.  Here are the steps you should do to get started:
 
-1. Use the [template code](304_lab7_starter_node) downloaded and setup in Question 1. Summary of files:
+1. Summary of code files:
 
 - **/routes/listprod.js** - lists all products.  **TODO: fill-in your own code (10 marks)**
 - **/routes/addcart.js** - adds an item to the cart (stored using session variable).  No changes needed.
