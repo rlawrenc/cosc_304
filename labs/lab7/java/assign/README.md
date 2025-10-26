@@ -7,7 +7,7 @@ The web store that we are going to build allows customers to enter their informa
 ## Initial Steps
 
 
-1. Download the [starter project code files](304_lab7_starter_java.zip). 
+1. The [starter project code files](304_lab7_starter_java.zip) are already available in the GitHub repository.
 
 2. Setup your local development environment ([instructions](setup/)). 
 
