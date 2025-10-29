@@ -22,7 +22,7 @@ The user id and password information is in the `docker-compose.yml` file.
 
 ### Java Setup
 
-1. Make sure the [MySQL JDBC driver](code/mysql-connector-java-8.0.27.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
+1. Make sure the [MySQL JDBC driver](code/mysql-connector-j-9.5.0.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
 
 2. [Download the sample file](code/TestJDBCMySQL.java).  Save this file in your `cosc304_lab6` folder that you just created. 
 
@@ -99,7 +99,7 @@ Supervisor: R. Davis
 
 ### Java Setup
 
-1. Make sure the [Microsoft SQL Server JDBC driver](code/mssql-jdbc-11.2.0.jre11.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
+1. Make sure the [Microsoft SQL Server JDBC driver](code/mssql-jdbc-13.2.1.jre11.jar) is in your classpath. This can be done in VSCode in the `Java Project` tab.
 
 2. If the workson database was not automatically created, you must connect to SQL Server using SQuirreL or command line to create the workson database. 
 
@@ -123,7 +123,7 @@ Change Line 7 to:	String pw = "put password here";
 
 ```
 Change Line 3 and 4 to:	cnx = pyodbc.connect("""DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;
-							DATABASE=workson;UID=sa;PWD=yourPassword""")
+							DATABASE=workson;UID=sa;PWD=yourPassword;TrustServerCertificate=yes;""")
 ```
 
 ### Expected Output
