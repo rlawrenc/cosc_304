@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9 - Analysis and Development Assisted by AI
+# COSC 304 - Introduction to Database Systems<br>Lab 9: Analysis and Development Assisted by AI
 
 In this lab, you will add **one small but meaningful feature** to your analysis or development project. The feature should require **no more than about 2 hours** to implement and AI may help you complete it significantly faster. Examples include a new query/report, UI improvement, data validation, or Excel chart or visualization.
 
