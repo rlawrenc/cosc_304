@@ -2,9 +2,9 @@
 
 ## Final Project Deliverable (50 marks + up to 10 bonus marks)
 
-**Note: All AI and Internet sources, including ChatGPT and GitHub Copilot, are ALLOWED but must be documented as part of the project deliverables. Include URLs to any sources or AI conversations used. It is NOT allowed to use code from other current or past students.((
+**Note: All AI and Internet sources, including ChatGPT and GitHub Copilot, are ALLOWED but must be documented as part of the project deliverables. Include URLs to any sources or AI conversations used. It is NOT allowed to use code from other current or past students.**
 
-**Students receiving 90% or above on the labs 7, 8, and 10 (combined) will receive a digital badge. Make sure to include your email addresses on your documentation submission if you want to receive a digital badge.**
+**Students receiving 90% or above on the labs 7, 8, 9, and 10 (combined) will receive a digital badge. Make sure to include your email addresses on your documentation submission if you want to receive a digital badge.**
 
 ## [Development](develop/) Stream
 
@@ -14,7 +14,7 @@ Complete your project by adding more features. Use the [list of features with po
 
 1. Get inspired for your store and the products it sells by reviewing some of the [best past projects](https://cmps-people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html). You should sell different products than the sample products provided in lab 7.
 
-2. Submit documentation with your walkthrough on Canvas. Submit a zip file of all your code on Canvas as well.
+2. On Canvas submit the URL to your repository which much include both your code and documentation with your walkthrough.
 
 3. **Make sure your documentation contains the URL for your site as well as user ids and passwords.**
 
@@ -28,7 +28,7 @@ Building upon your prior analysis work, complete your project by producing a rep
 
 #### Details:
 
-1. Submit report document, Excel file, and any other files in a zip on Canvas.
+1. Submit your report document, Excel file, and any other files in a zip on Canvas.
 
 2. **Make sure your documentation contains any Internet sources used.**
 
