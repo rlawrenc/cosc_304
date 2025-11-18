@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9 - Practice Answers
+# COSC 304 - Introduction to Database Systems<br>Practice Answers
 
 ## Question 1 - XPath
 
