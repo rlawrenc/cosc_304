@@ -1,47 +1,27 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9
+# COSC 304 - Introduction to Database Systems<br>Lab 9 - AI-Enhanced Analysis and Development
 
-## [Assignment](assign/) - AI Assisted Development
+In this lab, you will add **one small but meaningful feature** to your analysis or development project. The feature should require **no more than ~2 hours** to implement and AI may help you complete it significantly faster. Examples include a new query/report, UI improvement, data validation, or Excel chart or visualization.
 
-Both paths complete an assignment aided by AI.
+You must use **AI tools** (e.g., ChatGPT, Copilot, Gemini) to research or assist in implementing the feature, while ensuring you understand all submitted code.
 
-## Reference Material
+## Deliverables
 
-### XML
+Submit your updated code (development stream) or Excel file (analysis stream) and three short paragraphs:
 
-**Extensible Markup Language (XML)** is a markup language that allows for the description of data semantics. Advantages of XML include simplicity, open standard, extensibility, interoperability, and separation of data and presentation.
+### **1. Feature Plan (4 marks)**
+Describe the feature you selected, why it fits your project, and the steps you planned to take to add it.
 
-An XML document is a text document that contains markup in the form of tags. XML data is ordered by nature. 
+### **2. How AI Was Used (3 marks)**
+Explain how you used AI: the questions you asked, how the AI responses helped or misled you, and what you modified or verified.
 
-An XML document is **well-formed** if it obeys the syntax of the XML standard.  This includes having a single root element, and all elements must be properly closed and nested. An XML document is **valid** if it is well-formed and it conforms to a Document Type Definition (DTD) or an XML Schema Definition (XSD). 
+### **3. Reflection (3 marks)**
+Reflect on your use of AI: what worked well, what didn’t, what you learned, and how you might use AI differently in the future. Did the AI save you time?
 
-**XPath** allows specifying path expressions to navigate the tree-structured XML document. Path descriptors are sequences of tags separated by slashes `/`. The `*` wild card operator can be used to denote any single tag. Attributes are referenced by putting a `@` in front of their name. A predicate expression is specified inside square brackets `[..]` following a tag. 
 
-Use the [XML Practice Query Page](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries.
+## Implementation (5 marks)
+Your feature must:
+- Work correctly  
+- Provide a meaningful enhancement  
+- Integrate cleanly with your existing project  
+- Be implemented in an effective and appropriate way
 
-### JSON
-
-**JavaScript Object Notation (JSON)** is a method for serializing data objects into text form. It is human-readable, supports semi-structured data, and has supporting libraries in many programming languages. It is often used for data interchange between a client and the server. 
-
-#### JSON constructs
-- **Values:** number, strings (double quoted), true, false, null
-- **Objects:** enclosed in { } and consist of set of key-value pairs
-- **Arrays:** enclosed in [ ] and are lists of values
-- Objects and arrays can be nested.
-
-An online JSON validator is [JSONLint](https://jsonlint.com).
-
-### Views
-
-A **view** is a named query.  Views may be either virtual or materialized in the database. Advantages of views include data independence, easier querying, improved performance for materialized views, and the ability to enforce security constraints using GRANT/REVOKE on views instead of base tables.
-
-### Triggers
-
-Triggers are also called event-condition-action (ECA) rules. When an event occurs (such as inserting a tuple) that satisfies a given condition (any SQL boolean-valued expression) an action is performed (which is any sequence of SQL statements). Triggers provide a general way for detecting events and responding to them.
-
-There are statement level triggers (execute once per statement) and row level triggers (execute once per row). Row level triggers use `FOR EACH ROW` clause. A trigger may fire `BEFORE`, `AFTER`, or `INSTEAD OF` and `INSERT`, `DELETE`, or `UPDATE` event.
-
-Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-trigger.html) and [SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16). The trigger syntax varies between database systems.
-
-## [Practice](practice/) - XML, JSON, Views, and Triggers
-
-Some optional practice questions on these topics.
