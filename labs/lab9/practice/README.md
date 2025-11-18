@@ -70,3 +70,5 @@ Write XPath expressions for the following queries. Use the [XML Practice Query P
 ## Question 4 - JSON (2 marks)
 
 1. Create a single, valid JSON document that stores the information of the `dept` and `proj` tables in the workson database.
+
+## [Practice Question Answers](answers.md)
