@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9
+# COSC 304 - Introduction to Database Systems<br>Lab 9: Analysis and Development Assisted by AI
 
 ## [Assignment](assign/) - AI Assisted Development
 
