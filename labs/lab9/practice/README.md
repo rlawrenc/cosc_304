@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers
+# COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers Practice
 
 ## Question 1 - XPath (3 marks)
 
