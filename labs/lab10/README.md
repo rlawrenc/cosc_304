@@ -2,7 +2,7 @@
 
 ## Final Project Deliverable (50 marks + up to 10 bonus marks)
 
-**Note: Use of Internet sources including Google, Stack Overflow, ChatGPT, and GitHub Copilot are ALLOWED but must be documented as part of the project deliverables. Include URLs to any sources or AI conversations used. It is NOT allowed to use code from other current or past students.**
+**Note: All AI and Internet sources, including ChatGPT and GitHub Copilot, are ALLOWED but must be documented as part of the project deliverables. Include URLs to any sources or AI conversations used. It is NOT allowed to use code from other current or past students.((
 
 **Students receiving 90% or above on the labs 7, 8, and 10 (combined) will receive a digital badge. Make sure to include your email addresses on your documentation submission if you want to receive a digital badge.**
 
