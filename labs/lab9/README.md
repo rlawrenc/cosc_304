@@ -1,18 +1,8 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 9
 
-<!--
-## [Development](develop/) Stream - XML, JSON, Views, and Triggers
+## [Assignment](assign/) - AI Assisted Development
 
-Add JSON output for your web service.
-
-## [Analysis](analyze/) Stream - Handling Data Formats (CSV, XML, JSON)
-
-Process data in other formats and connect it with relational data.
--->
-
-## [Assignment](assign/) - XML, JSON, Views, and Triggers
-
-Both paths complete an assignment on these topics.
+Both paths complete an assignment aided by AI.
 
 ## Reference Material
 
@@ -51,3 +41,7 @@ Triggers are also called event-condition-action (ECA) rules. When an event occur
 There are statement level triggers (execute once per statement) and row level triggers (execute once per row). Row level triggers use `FOR EACH ROW` clause. A trigger may fire `BEFORE`, `AFTER`, or `INSTEAD OF` and `INSERT`, `DELETE`, or `UPDATE` event.
 
 Triggers can be created in [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-trigger.html) and [SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-trigger-transact-sql?view=sql-server-ver16). The trigger syntax varies between database systems.
+
+## [Practice](practice/) - XML, JSON, Views, and Triggers
+
+Some optional practice questions on these topics.
