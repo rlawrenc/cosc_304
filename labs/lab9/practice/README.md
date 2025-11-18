@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 9: XML, JSON, Views, and Triggers Practice
+# COSC 304 - Introduction to Database Systems<br>XML, JSON, Views, and Triggers Practice
 
-## Question 1 - XPath (3 marks)
+## Question 1 - XPath
 
 Write XPath expressions for the following queries. Use the [XML Practice Query Page](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) to practice writing some XPath queries or use the [XPath Tester / Evaluator online tool](https://www.freeformatter.com/xpath-tester.html) with the [depts.xml](depts.xml) XML data set.
 
@@ -37,7 +37,7 @@ Write XPath expressions for the following queries. Use the [XML Practice Query P
 	```
 	UntypedAtomic='E3'
 	```
-## Question 2 - Views (4 marks)
+## Question 2 - Views
 
 1. Write a CREATE VIEW statement for the workson database called `deptSummary` that has the department number, name, count of employees in the department, and total employee salaries. View contents:
 
@@ -60,14 +60,14 @@ Write XPath expressions for the following queries. Use the [XML Practice Query P
 | E8  | J. Jones | 50000.00 | 1972-10-11 | D1  | 0         | <null>     |
 -------------------------------------------------------------------------
 
-## Question 3 - Triggers (6 marks)
+## Question 3 - Triggers
 
 1. Write a trigger on MySQL with the workson data set (testing in your own database) that increases the budget of a project whenever a record is inserted in `workson` table. Increase the budget by `$1,000`.
 
 2. Write a trigger on MySQL with the workson data set (testing in your own database) that sets the salary of a new employee to be `$5,000` more than the average salary of employees with that title whenever an employee is inserted with a salary less than `$50,000`. For example, if employee `'E10'` called `'P. Person'` with title `'ME'` is inserted with a salary of `$35,000`, then the salary should be changed to `$45,000` (average salary of `'ME'` employees is `$40,000`).
 
 
-## Question 4 - JSON (2 marks)
+## Question 4 - JSON
 
 1. Create a single, valid JSON document that stores the information of the `dept` and `proj` tables in the workson database.
 
