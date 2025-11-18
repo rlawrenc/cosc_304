@@ -133,7 +133,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | [7](labs/lab7) | October 27 – 31 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
 | [8](labs/lab8) | November 3 – 7 	| Lab 8: Images, Security, and Transactions |
 |  | November 10 - 14 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21 	| Lab 9: Learning Development Topics Assisted by AI |
+| [9](labs/lab9) | November 17 - 21 	| Lab 9: Analysis and Development Assisted by AI |
 | [10](labs/lab10) | Nov. 24 - Dec. 5	| Lab 10: Project Completion |
 
 ### Analysis Stream
@@ -142,7 +142,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | [7](labs/lab7) | October 27 – 31 	| Lab 7: Using Databases with Analysis Software (Excel) |
 | [8](labs/lab8) | November 3 – 7	| Lab 8: Data Prediction, Forecasting, and Visualization |
 |  | November 10 - 14 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21  	| Lab 9: Learning Analysis Topics Assisted by AI |
+| [9](labs/lab9) | November 17 - 21  	| Lab 9: Analysis and Development Assisted by AI |
 | [10](labs/lab10) | Nov. 24 - Dec. 5 	| Lab 10: Project Completion |
 
 ## UBC Values
@@ -247,6 +247,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
