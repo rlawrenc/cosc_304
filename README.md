@@ -108,7 +108,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Nov. 12 (W) | **No class for Term 1 midterm break** | |
 | Nov. 14 (F) | **No class for Term 1 midterm break** | |
 | Nov. 19 (W) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
-| Nov. 21 (F) | Using AI with databases | |
+| Nov. 21 (F) | [AI and Databases](topics/AI_databases) | |
 | Nov. 26 (W) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 28 (F) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 3 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
@@ -247,6 +247,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
