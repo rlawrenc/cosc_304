@@ -113,6 +113,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Nov. 28 (F) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 3 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
 | Dec. 5 (F) | **Project presentations<br>Final Exam Review** | |
+| Dec. 17 (W) | **COSC 304 Final Exam on Wednesday, December 17th at 3:30 p.m. in FIP 204. Exam is closed book on paper.** | |
 
 
 ## Labs
@@ -247,6 +248,7 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 * [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
+
 
 
 
