@@ -6,7 +6,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 **Mode of Delivery:** 			ART 366 and live-stream on Zoom<br>
 **Office Hours:**				Mondays 1 to 3 p.m. (in-person and online)<br>
 **Office Location:** 			SCI 200C<br>
-**Calendar Course Description from the UBCO Calendar:** [https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco)
+**Calendar Description:** [https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco)
 
 ## Virtual Drop-in Help Session Hours
 | Day/Time |  TA/Instructor |
