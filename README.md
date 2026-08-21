@@ -2,7 +2,7 @@
 
 ## Instructor
 Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Live Classroom Schedule:** 	5:00 p.m. to 6:30 p.m. Tuesday/Thursday<br>
+**Live Classroom Schedule:** 	5:00 to 6:30 p.m. Tuesday/Thursday<br>
 **Mode of Delivery:** 			ART 366 and live-stream on Zoom<br>
 **Office Hours:**				Mondays 1 to 3 p.m. (in-person and online)<br>
 **Office Location:** 			SCI 200C<br>
@@ -31,7 +31,7 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** Either (a) COSC_O 222 or (b) third-year standing and one of COSC_O 111, COSC_O 121, COSC_O 123.
 
-**Specific description:** This course provides an introduction to database systems from a user and application perspective. Students learn how to query relational databases using SQL and relational algebra, design relational databases using ER/UML modeling, and use databases from programs and data-analysis tools. These skills are integrated through practical work involving database programming, database-backed application development, and data analytics. Programming examples use Java and Python, with other technologies such as Node.js available for project development. Students completing the course gain practical experience with current database technologies and the ability to query and design databases, analyze data stored in databases, and develop programs that interact with database systems. AI is integrated throughout the course, with emphasis on using AI effectively while critically evaluating and verifying AI-generated queries, designs, code, and analysis.
+**Specific description:** This course provides an introduction to database systems from a user and application perspective. Students learn how to query relational databases using SQL and relational algebra, design relational databases using ER/UML modeling, and use databases from programs and data analysis tools. These skills are integrated through practical work involving database programming, database-backed application development, and data analytics. Programming examples use Java and Python, with other technologies such as Node.js available for project development. Students completing the course gain practical experience with current database technologies and the ability to query and design databases, analyze data stored in databases, and develop programs that interact with database systems. AI is integrated throughout the course, with emphasis on using AI effectively while critically evaluating and verifying AI-generated queries, designs, code, and analysis.
 
 ## Course Objectives
 **Course Format:** Interactive classes consist of topic introduction, quick questions for understanding, and larger exercises for developing concept mastery. Assignments provide practical experience applying course concepts using database systems, development and analysis software, and AI tools.
@@ -54,8 +54,8 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
 |------|-----------|-------------|
 | Quizzes and Exercises | 10% | Online and during class time activities |
 | Assignments | 20% | Weekly assignments |
-| Midterm #1 | 15% | October 15th in class | 
-| Midterm #2 | 15% | November 5th in class | 
+| Midterm #1 | 15% | October 13th in class | 
+| Midterm #2 | 15% | November 3rd in class | 
 | Final Exam | 40% | Cumulative, 2.5 hours | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
@@ -164,7 +164,7 @@ Diagrams and figures included in lecture presentations adhere to Copyright Guide
 ## Grievances and Complaints Procedures
 A student who has a complaint related to this course should follow the procedures summarized below:
  - The student should attempt to resolve the matter with the instructor first. Students may talk first to someone other than the instructor if they do not feel, for whatever reason, that they can directly approach the instructor. 
- - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, Dr. Warren Hare, warren.hare@ubc.ca. 
+ - If the complaint is not resolved to the student's satisfaction, the student should e-mail the Associate Head, Dr. Abdallah Mohamed, undergrad.cs.ok@ubc.ca.
  
 ## Your Responsibilities
 Your responsibilities to this class and to your education as a whole include attendance and participation. You have a responsibility to help create a classroom environment where all may learn. At the most basic level, this means you will respect the other members of the class and the instructor and treat them with the courtesy you hope to receive in return. Inappropriate classroom behavior may include: disruption of the classroom atmosphere, engaging in non-class activities, talking on a cell-phone, inappropriate use of profanity in classroom discussion, use of abusive or disrespectful language toward the instructor, a student in the class, or about other individuals or groups.
@@ -184,7 +184,7 @@ Academic integrity is an important part of learning and professional practice. T
 #### Allowed
 - Collaboration in groups of up to 4 on Canvas quizzes and in-class exercises
 - Dividing questions or tasks among group members is allowed, but all group members are responsible for understanding the complete solution and are encouraged to work through the material together.
-- 
+
 #### Not Allowed
  - One person providing all answers for a quiz/exercise to a group of people of any size
  - Sharing, posting, or distributing answers to other students or websites for quizzes/exercises
