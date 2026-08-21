@@ -1,23 +1,23 @@
-# COSC 304 - Introduction to Databases - September 2025
+# COSC 304 - Introduction to Databases - September 2026
 
 ## Instructor
 Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
-**Live Classroom Schedule:** 	3:30 p.m. to 5:00 p.m. Wednesday/Friday<br>
-**Mode of Delivery:** 		FIP 204 and live-stream on Zoom<br>
-**Office Hours:**		Mondays 2 to 4 p.m. (in-person and online)<br>
-**Office Location:** 		SCI 200C<br>
+**Live Classroom Schedule:** 	5:00 p.m. to 6:30 p.m. Tuesday/Thursday<br>
+**Mode of Delivery:** 			ART 366 and live-stream on Zoom<br>
+**Office Hours:**				Mondays 1 to 3 p.m. (in-person and online)<br>
+**Office Location:** 			SCI 200C<br>
 **Calendar Course Description from the UBCO Calendar:** [https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco](https://okanagan.calendar.ubc.ca/course-descriptions/subject/cosco)
 
 ## Virtual Drop-in Help Session Hours
 | Day/Time |  TA/Instructor |
 |----------|----------------|
-| Monday 2 to 4 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Tuesday 2 to 4 p.m.	| Omar Abdelaziz |
-| Wednesday 1 to 3 p.m. | Omar Abdelaziz |
-| Wednesday 3:30 p.m. to 5:00 p.m. (class time)	| Omar Abdelaziz |
-| Thursday 12 to 2 p.m. | Bridgette Hunt |
-| Friday 1 to 3 p.m. 	| Bridgette Hunt |
-| Friday 3:30 p.m. to 5:00 p.m. (class time)	| Bridgette Hunt |
+| Monday 1 to 3 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
+| Tuesday 1 to 3 p.m.	| TBD |
+| Tuesday 5:00 p.m. to 6:30 p.m. (class time)	| TBD |
+| Wednesday 1 to 3 p.m. | TBD |
+| Thursday 1 to 3 p.m. | TBD |
+| Thursday 5:00 p.m. to 6:30 p.m. (class time)	| TBD |
+| Friday 1 to 3 p.m. 	| TBD |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=115&code=304](https://coursehelp.ubc.ca/invite?cid=115&code=304)
 
@@ -29,24 +29,25 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
 
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
-**Prerequisite:** One of COSC 111, COSC 123, COSC 210. Third-year standing.
+**Prerequisite:** Either (a) COSC_O 222 or (b) third-year standing and one of COSC_O 111, COSC_O 121, COSC_O 123.
 
-**Specific description:** This course provides an introduction to database systems including database querying, design, and programming. The course consists of three major components. The first component explains databases from a user perspective including how to query using SQL and relational algebra. The second component involves designing relational databases using Entity-Relationship (ER) diagrams and UML. The last component involves experiential learning on real-world use cases of databases for software development and data analytics. Technologies used include Java, JDBC, JSP, Python, Node.js, and PHP. Students completing the course have experience with current database technologies, and the ability to use databases, analyze the contained data, and develop programs to automate data analysis and presentation. AI is integrated throughout the course. Students learn how to use AI to improve their effectiveness in working with database systems.
+**Specific description:** This course provides an introduction to database systems from a user and application perspective. Students learn how to query relational databases using SQL and relational algebra, design relational databases using ER/UML modeling, and use databases from programs and data-analysis tools. These skills are integrated through practical work involving database programming, database-backed application development, and data analytics. Programming examples use Java and Python, with other technologies such as Node.js available for project development. Students completing the course gain practical experience with current database technologies and the ability to query and design databases, analyze data stored in databases, and develop programs that interact with database systems. AI is integrated throughout the course, with emphasis on using AI effectively while critically evaluating and verifying AI-generated queries, designs, code, and analysis.
 
 ## Course Objectives
 **Course Format:** Interactive classes consist of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics are covered in assignments as well as practice using industrial database systems and software including AI tools.
 
 **Learning Outcomes:**
- - Describe how databases provide data abstraction and simplify writing programs to store and manipulate data.
+ - Describe how database systems provide data abstraction and support applications that store, retrieve, and manipulate data.
  - Create relational algebra queries on relational databases using selection, projection, join, and set operators.
- - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries with multiple joins, aggregation, grouping, and subqueries. Explain the translation of a SQL query into relational algebra operators. Utililze AI for writing and validating SQL statements.
- - Analyze and understand existing database designs, design new databases using ER/UML modeling, and convert designs to the relational model including proper modeling of primary and foreign keys.
- - Develop programs and web sites that access a database to read data, perform analysis, and display output.
- - Perform data analysis, reporting, and visualization using data extracted from databases.
- - Use JSON and XML for data exchange and representation.
- - Execute and deploy databases on a computer using virtualization/containerization technology such as Docker.
- - Implement database security using user accounts/passwords and SQL privileges using GRANT and REVOKE.
- - Use AI to assist with SQL and database code generation and critically evaluate AI outputs.
+ - Construct SQL CREATE TABLE, INSERT, UPDATE, DELETE, and SELECT statements including queries involving multiple joins, aggregation, grouping, and subqueries, and explain how SQL queries relate to relational algebra operations.
+ - Analyze existing database designs, design relational databases using ER/UML modeling, and convert conceptual designs to relational schemas with appropriate primary and foreign keys.
+ - Evaluate and improve relational database designs using functional dependencies and normalization.
+ - Develop programs and database-backed applications that connect to databases, execute queries and updates, process results, and present output.
+ - Perform data extraction, analysis, reporting, and visualization using data stored in databases.
+ - Explain and use transactions, including the ACID properties and basic transaction control, and apply database security mechanisms including SQL privileges using GRANT and REVOKE.
+ - Use structured and semi-structured data representations including JSON and XML, and explain fundamental differences between relational and NoSQL database approaches.
+ - Configure and run database systems using containerization technology such as Docker.
+ - Use AI to assist with database querying, design, programming, and analysis while critically evaluating and validating AI-generated outputs. 
 
 ## Marking and Evaluation
 | Item | Weighting | Description |
@@ -66,8 +67,6 @@ The formula used is:
 
 For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentage mark was `60%`, and the final percentage mark was `40%`, then `.80 * 15 + .60 * 15 + .40 * 40 = 37`.  This is `>= 35`, which is 50% of the 70 total possible percentage marks for all exams combined.
 
-
-
 ## Textbook and Reference Material
  - All notes are online.
  - A textbook is not required. Students can get supplemental material from any database textbook.
@@ -85,66 +84,70 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 
 |   Date | Topic  | Reading and Resources |
 |------------|------|-----------|
-| Sept. 3 (W) | [**First day of classes.  Introduction to course**](topics/01_introduction)<br> [Introduction to databases](topics/02_database_introduction) |  |
-| Sept. 5 (F) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/03_relational_model) |  |
-| Sept. 10 (W) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/04_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
-| Sept. 12 (F) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/05_sql_ddl) | |
-| Sept. 17 (W) | **No class** |
-| Sept. 19 (F) | **No class** |
-| Sept. 24 (W) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/06_sql) |  |
-| Sept. 26 (F) | [SQL - Group By, Aggregate Functions](topics/07_sql_aggregation) |  |
-| Oct. 1 (W) | [SQL - Subqueries, Outer joins](topics/07_sql_aggregation) | |
-| Oct. 3 (F) | [Database Design – General Approach](topics/08_db_design)<br>[ER and UML Modeling](topics/09_er_design) | |
-| Oct. 8 (W) | [ER and UML Modeling examples and questions](topics/09_er_design) | |
-| Oct. 10 (F) |  [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
-| Oct. 15 (W) | **Midterm Exam #1 In-Class** | |
-| Oct. 17 (F) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
-| Oct. 22 (W) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
-| Oct. 24 (F) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming)| [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](https://xkcd.com/327/) <br> [SQL Injection Attack](https://cwe.mitre.org/data/definitions/89.html) |
-| Oct. 29 (W) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) |  |
-| Oct. 31 (F) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
-| Nov. 5 (W)  | **Midterm Exam #2 In-Class** | |
-| Nov. 7 (F) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
-| Nov. 12 (W) | **No class for Term 1 midterm break** | |
-| Nov. 14 (F) | **No class for Term 1 midterm break** | |
-| Nov. 19 (W) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
-| Nov. 21 (F) | [AI and Databases](topics/AI_databases) | |
-| Nov. 26 (W) | [Normalization and Design Verification](topics/22_normalization) | |
-| Nov. 28 (F) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
-| Dec. 3 (W) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
-| Dec. 5 (F) | **Project presentations<br>Final Exam Review** | |
-| Dec. 17 (W) | **COSC 304 Final Exam Wednesday, Dec. 17th at 3:30 p.m. in FIP 204. <br> Exam is closed book on paper.** | |
-
+| Sept. 8 (T) | [**First day of classes.  Introduction to course**](topics/01_introduction)<br> [Introduction to databases](topics/02_database_introduction) |  |
+| Sept. 10 (TH) | [Relational Model - Schemas, Keys, Constraints, Integrity](topics/03_relational_model) |  |
+| Sept. 15 (T) | [Relational Algebra - Select, Project, Set Ops, Outer Joins](topics/04_relational_algebra) | [Online Relational Algebra Tool](https://dbis-uibk.github.io/relax/), [WorksOn Data Set](https://gist.github.com/rlawrenc/5a7eb3f69cbea033c04c3cdf680a2e39), [Bank Data Set](https://gist.github.com/rlawrenc/51721bd35f05ce3ef7391ff826f8f81a) |
+| Sept. 17 (TH) | [SQL DDL – Create table/index, Insert/Delete/Update](topics/05_sql_ddl) | |
+| Sept. 22 (T) | [SQL - Queries, LIKE operator, Set Operations, Order By](topics/06_sql) |  |
+| Sept. 24 (TH) | [SQL - Group By, Aggregate Functions](topics/07_sql_aggregation) |  |
+| Sept. 29 (T) | [SQL - Subqueries, Outer joins](topics/07_sql_aggregation) | |
+| Oct. 1 (TH) | [Database Design – General Approach](topics/08_db_design)<br>[ER and UML Modeling](topics/09_er_design) | |
+| Oct. 6 (T) | [ER and UML Modeling examples and questions](topics/09_er_design) | |
+| Oct. 8 (TH) |  [EER Design - Specialization, Generalization, Aggregation](topics/10_eer_design)<br>[ER/EER Mapping to Relational model](topics/11_er_to_relational) | |
+| Oct. 13 (T) | **Midterm Exam #1 In-Class** | |
+| Oct. 15 (TH) | [Database Programming using Java/JDBC](topics/12_db_programming) | [Sample Java Code](topics/12_db_programming/code), [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/index.html)  |
+| Oct. 20 (T) | [Database Programming using Python and R](topics/13_db_python_programming) | [Sample Python Code](topics/13_db_python_programming/code), [SQL Server and pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc), [pyodbc](https://github.com/mkleehammer/pyodbc/wiki)<br> [pyodbc Getting Started](https://github.com/mkleehammer/pyodbc/wiki/Getting-started), [Python Database API](https://www.python.org/dev/peps/pep-0249), [Python sqlite3](https://docs.python.org/3/library/sqlite3.html)  |
+| Oct. 22 (TH) | [Database Web Programming – Web servers, JSP/PHP](topics/14_web_programming)| [Sample JSP/PHP Code](topics/14_web_programming/code)<br> [Comic - Why validation is important](https://xkcd.com/327/) <br> [SQL Injection Attack](https://cwe.mitre.org/data/definitions/89.html) |
+| Oct. 27 (T) | [Advanced SQL DDL – Triggers](topics/15_triggers)<br> [Advanced SQL DDL – Views](topics/16_views) |  |
+| Oct. 29 (TH) | [Advanced SQL – Security](topics/17_security)<br>[Advanced SQL – Transactions, Recursion](topics/18_transactions) | [MySQL Recursive Query](https://www.mysqltutorial.org/mysql-recursive-cte/) |
+| Nov. 3 (T)  | **Midterm Exam #2 In-Class** | |
+| Nov. 5 (TH) | [XML and XPath](topics/19_xml) |  [Sample XML Code](topics/19_xml/code), [Intro to XML/XML Reference](https://www.w3schools.com/xml/xml_whatis.asp)<br>[XMLSchema Reference](https://www.w3schools.com/xml/schema_intro.asp)<br>[XML Validator](https://www.freeformatter.com/xml-validator-xsd.html), [Test XPath](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/xmlquery.html) |
+| Nov. 10 (T) | **No class for Term 1 midterm break** | |
+| Nov. 12 (TH) | **No class for Term 1 midterm break** | |
+| Nov. 17 (T) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
+| Nov. 19 (TH) | [AI and Databases](topics/AI_databases) | |
+| Nov. 24 (T) | [Normalization and Design Verification](topics/22_normalization) | |
+| Nov. 26 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
+| Dec. 1 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
+| Dec. 3 (T) | **Project presentations<br>Final Exam Review** | |
+| Dec. 8 (T) | TBD | |
+<!--
+| Dec. () | **COSC 304 Final Exam Wednesday, Dec. th at X:X p.m. in X. <br> Exam is closed book on paper.** | |
+-->
 
 ## Labs
 
-|  Lab  |  Date  |  Topic  |
-|----|------|-------|
-|  | September 1 – 5 |	**No Lab during First Week of Class** |
-| [1](labs/lab1) | September 8 – 12 	| Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 15 – 19 	| Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
-| [3](labs/lab3) | Sept. 22 – Oct. 3 | Lab 3: Writing SQL queries |
-| [4](labs/lab4) | October 6 – 10 	| Lab 4: Database Design using UML Modeling |
-| [5](labs/lab5) | October 13 – 17 	| Lab 5: Converting UML Diagrams into the Relational Model |
-| [6](labs/lab6) | October 20 – 24 	| Lab 6: Programming with Java/Python using MySQL and SQL Server |
+**Lab Schedule:** The dates below indicate the week in which each lab is expected to be completed. Labs are normally due on Friday of the following week. A 10% bonus is awarded for completion by the Monday following the scheduled lab week and a 5% bonus for completion by Wednesday. For bonus marks, labs must be demonstrated during virtual help/office hours. Exact submission deadlines are provided in Canvas.
+
+| Lab | Date | Topic |
+|---|---|---|
+|  | September 7 – 11 | **No Lab during First Week of Class** |
+| [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
+| [2](labs/lab2) | September 21 – 25 | Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [3](labs/lab3) | September 28 – October 2 | Lab 3: Writing SQL Queries |
+| [4](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
+| [5](labs/lab5) | October 12 – 16 | Lab 5: Converting UML Diagrams into the Relational Model |
+| [6](labs/lab6) | October 19 – 23 | Lab 6: Programming with Databases using Java/Python |
 
 ### Development Stream
-|  Lab  |  Date  |  Topic  |
-|----|------|-------|
-| [7](labs/lab7) | October 27 – 31 	| Lab 7: Building a Database-enabled Web Site using JSP/Node/PHP |
-| [8](labs/lab8) | November 3 – 7 	| Lab 8: Images, Security, and Transactions |
-|  | November 10 - 14 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21 	| Lab 9: Analysis and Development Assisted by AI |
-| [10](labs/lab10) | Nov. 24 - Dec. 5	| Lab 10: Project Completion |
+
+| Lab | Date | Topic |
+|---|---|---|
+| [7](labs/lab7) | October 26 – 30 | Lab 7: Building a Database-enabled Web Application |
+| [8](labs/lab8) | November 2 – 6 | Lab 8: Images, Security, and Transactions |
+|  | November 9 – 13 | **No Lab during Midterm Break** |
+| [9](labs/lab9) | November 16 – 20 | Lab 9: Analysis and Development Assisted by AI |
+| [10](labs/lab10) | November 23 – December 8 | Lab 10: Project Completion |
 
 ### Analysis Stream
-|  Lab  |  Date  |  Topic  |
-|----|------|-------|
-| [7](labs/lab7) | October 27 – 31 	| Lab 7: Using Databases with Analysis Software (Excel) |
-| [8](labs/lab8) | November 3 – 7	| Lab 8: Data Prediction, Forecasting, and Visualization |
-|  | November 10 - 14 			| **No Lab during Midterm Break** |
-| [9](labs/lab9) | November 17 - 21  	| Lab 9: Analysis and Development Assisted by AI |
-| [10](labs/lab10) | Nov. 24 - Dec. 5 	| Lab 10: Project Completion |
+
+| Lab | Date | Topic |
+|---|---|---|
+| [7](labs/lab7) | October 26 – 30 | Lab 7: Using Databases with Analysis Software (Excel) |
+| [8](labs/lab8) | November 2 – 6 | Lab 8: Data Prediction, Forecasting, and Visualization |
+|  | November 9 – 13 | **No Lab during Midterm Break** |
+| [9](labs/lab9) | November 16 – 20 | Lab 9: Analysis and Development Assisted by AI |
+| [10](labs/lab10) | November 23 – December 8 | Lab 10: Project Completion |
 
 ## UBC Values
 UBC creates an exceptional learning environment that fosters global citizenship, advances a civil and sustainable society, and supports outstanding research to serve the people of British Columbia, Canada, and the world. UBC’s core values are excellence, integrity, respect, academic freedom, and accountability.
@@ -205,7 +208,6 @@ Academic integrity is critical to being a professional developer and a respected
 ### Exams
 #### Allowed
 - Using approved material for the given exam format:
-  <!--  - **open book:** all course material including assignments, notes, and quizzes. No online/AI resources. No use of Google Docs. No secondary devices. -->
     - **closed book:** no supplementary resources allowed (no calculator, no cheat sheets)
 
 #### Not Allowed
