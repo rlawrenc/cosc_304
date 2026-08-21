@@ -19,7 +19,7 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Thursday 5:00 p.m. to 6:30 p.m. (class time)	| TBD |
 | Friday 1 to 3 p.m. 	| TBD |
 
-For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=115&code=304](https://coursehelp.ubc.ca/invite?cid=115&code=304)
+For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=189&code=e8e6345892e4}(https://coursehelp.ubc.ca/invite?cid=189&code=e8e6345892e4)
 
 Login with your CWL user id and password.
 
