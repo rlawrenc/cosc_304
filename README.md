@@ -34,7 +34,7 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
 **Specific description:** This course provides an introduction to database systems from a user and application perspective. Students learn how to query relational databases using SQL and relational algebra, design relational databases using ER/UML modeling, and use databases from programs and data-analysis tools. These skills are integrated through practical work involving database programming, database-backed application development, and data analytics. Programming examples use Java and Python, with other technologies such as Node.js available for project development. Students completing the course gain practical experience with current database technologies and the ability to query and design databases, analyze data stored in databases, and develop programs that interact with database systems. AI is integrated throughout the course, with emphasis on using AI effectively while critically evaluating and verifying AI-generated queries, designs, code, and analysis.
 
 ## Course Objectives
-**Course Format:** Interactive classes consist of topic introduction, understanding evaluation using quick questions, and concept mastery with larger exercises.  Practical skills and applications of topics are covered in assignments as well as practice using industrial database systems and software including AI tools.
+**Course Format:** Interactive classes consist of topic introduction, quick questions for understanding, and larger exercises for developing concept mastery. Assignments provide practical experience applying course concepts using database systems, development and analysis software, and AI tools.
 
 **Learning Outcomes:**
  - Describe how database systems provide data abstraction and support applications that store, retrieve, and manipulate data.
@@ -45,7 +45,7 @@ iClicker join code: [https://join.iclicker.com/CQQM](https://join.iclicker.com/C
  - Develop programs and database-backed applications that connect to databases, execute queries and updates, process results, and present output.
  - Perform data extraction, analysis, reporting, and visualization using data stored in databases.
  - Explain and use transactions, including the ACID properties and basic transaction control, and apply database security mechanisms including SQL privileges using GRANT and REVOKE.
- - Use structured and semi-structured data representations including JSON and XML, and explain fundamental differences between relational and NoSQL database approaches.
+ - Use semi-structured data representations including JSON and XML, and explain fundamental differences between relational and NoSQL database approaches.
  - Configure and run database systems using containerization technology such as Docker.
  - Use AI to assist with database querying, design, programming, and analysis while critically evaluating and validating AI-generated outputs. 
 
@@ -109,7 +109,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Nov. 24 (T) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 26 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 1 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
-| Dec. 3 (T) | **Project presentations<br>Final Exam Review** | |
+| Dec. 3 (TH) | **Project presentations<br>Final Exam Review** | |
 | Dec. 8 (T) | TBD | |
 <!--
 | Dec. () | **COSC 304 Final Exam Wednesday, Dec. th at X:X p.m. in X. <br> Exam is closed book on paper.** | |
@@ -178,32 +178,33 @@ Violations of academic integrity (i.e., academic misconduct) lead to the breakdo
 **The use of artificial intelligence (AI) assistance, such as ChatGPT, Gemini, or Copilot, for any assessed portions of this course is not permitted unless explicitly specified by the instructor. Specifically, AI is not allowed for exams but is allowed for assignments as long as it is used properly for learning.**
 
 ## Academic Integrity Course Policies
-Academic integrity is critical to being a professional developer and a respected person. This is a guide to what is and is not acceptable behaviors in this course.
+Academic integrity is an important part of learning and professional practice. The following guidelines describe acceptable and unacceptable behaviours in this course.
 
 ### In-Class Participation and Quizzes and Teamwork Collaboration
 #### Allowed
 - Collaboration in groups of up to 4 on Canvas quizzes and in-class exercises
-
+- Dividing questions or tasks among group members is allowed, but all group members are responsible for understanding the complete solution and are encouraged to work through the material together.
+- 
 #### Not Allowed
  - One person providing all answers for a quiz/exercise to a group of people of any size
  - Sharing, posting, or distributing answers to other students or websites for quizzes/exercises
  - Answering questions for another student or submitting answers on their behalf
  - Requesting help from previous students in the course or other individuals outside of the course
- - Relying on others to do work for me or not contributing reasonable effort to group activities
- - Dividing up the work for a quiz or exercise between members of an approved group (*Not Recommended*)
+ - Relying on others to do work for me or not contributing reasonable effort to group activities 
 
 ### Assignments
 #### Allowed
 - Collaborating with your approved group members (usually two) and submitting a shared answer to the assignment
 - Requesting help from the TA or instructor and use the answer/code that they provide
 - Answering general questions about assignments in chat or discussion forums (*Allowed with care*)
-- Use of AI, including GitHub CoPilot, with the understanding that ultimately you must learn the material
+- Group members may divide tasks when completing an assignment, but all group members are expected to contribute meaningfully and understand the complete submitted solution.
+- Use of AI tools, including GitHub Copilot, unless otherwise specified. Students are responsible for understanding, critically evaluating, and being able to explain all work they submit, including AI-assisted work.
 
 #### Not Allowed
  - Working on an individual assignment with a group of people and submitting minor variations of work developed together
  - For group assignments, completing all work independently and providing an answer to the rest of group
  - Sharing solutions to assignments with other students or on the Internet	
- - Receiving solutions to assignments from other sources (students, web, tutors)	
+ - Receiving or copying assignment solutions from other students, websites, tutors, or other external sources.
 	
 ### Exams
 #### Allowed
@@ -248,7 +249,6 @@ For more information:  [https://security.ok.ubc.ca/safewalk](https://security.ok
 ## Reference Material
 * [SQL Tutorial by Software Carpentry](https://swcarpentry.github.io/sql-novice-survey/) - uses SQLite and demonstrates using databases with Python/R
 * [Codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
-* [Amazon Database Blog](https://aws.amazon.com/blogs/database/)
 * Sample databases WorksOn (SQL Notes): [WorksOn](topics/02_database_introduction/workson/WorksOn.accdb), [WorksOn DDL](topics/02_database_introduction/workson/MySQL_WorksOn_DDL.sql)
 
 
