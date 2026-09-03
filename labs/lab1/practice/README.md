@@ -91,7 +91,6 @@ The <tt>Author</tt> relation gives the author's first and last names and address
 
 &pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.storeName = 'All Books'</sub> (ρ S1 Stock)  &#x22C8; &nbsp; <sub>S1.isbn=S2.isbn</sub> &sigma;<sub>S2.storeName = 'Some Books'</sub> (ρ S2 Stock))
 
-
 </li>
 
 <li> &pi;&nbsp;<sub>S1.isbn</sub> (&sigma;<sub>S1.isbn = S2.isbn AND S2.storePrice < S1.storePrice AND S1.storeName = 'All Books' AND S2.storeName = 'Some Books'</sub > (ρ S1 Stock ⨯ ρ S2 Stock))
