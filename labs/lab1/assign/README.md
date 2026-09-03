@@ -8,6 +8,8 @@
 
 ## Relational Algebra Questions (10 marks - 2 marks each)
 
+**Complete lab 1 on PrairieLearn.**
+
 Given the following relational schema, write queries in **relational algebra** to answer the English questions using the <a href="http://dbis-uibk.github.io/relax/">online relational algebra tool</a>. The database definition is available as a [Shipment database GIST: 585ee1836abb142a461d137e12dd14a3](https://gist.github.com/rlawrenc/585ee1836abb142a461d137e12dd14a3). The database is also available as an <a href="Shipment.sql">DDL file.</a></p>
 
 <pre>
