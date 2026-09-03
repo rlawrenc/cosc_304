@@ -109,8 +109,8 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Nov. 24 (T) | [Normalization and Design Verification](topics/22_normalization) | |
 | Nov. 26 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
 | Dec. 1 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
-| Dec. 3 (TH) | **Project presentations<br>Final Exam Review** | |
-| Dec. 8 (T) | TBD | |
+| Dec. 3 (TH) | **Project work class** | |
+| Dec. 8 (T) | **Project presentations<br>Final Exam Review**  | |
 <!--
 | Dec. () | **COSC 304 Final Exam Wednesday, Dec. th at X:X p.m. in X. <br> Exam is closed book on paper.** | |
 -->
