@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 1: Querying using Relational Algebra
 
-This assignment practices writing relational algebra queries.
+This assignment practices writing relational algebra queries. AI tools may be used, but you are responsible for understanding, verifying, and being able to explain every relational algebra expression you submit.
 
 Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/298) and [GitHub](practice).
 
