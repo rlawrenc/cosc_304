@@ -27,6 +27,8 @@ PrairieLearn online system (login with your CWL): https://plcanary.ok.ubc.ca/
 
 iClicker join code: [https://join.iclicker.com/RYTN](https://join.iclicker.com/RYTN)
 
+Microsoft Copilot: https://m365.cloud.microsoft/  Instructions: https://it.ubc.ca/services/artificial-intelligence/microsoft-copilot-ubc
+
 ## Course Description
 **Official Calendar:** Databases from a user's perspective: querying with SQL, designing with UML, and using programs to analyze data. Construction of database-driven applications and websites and experience with current database technologies.  Completion of COSC 121 is recommended.
 **Prerequisite:** Either (a) COSC_O 222 or (b) third-year standing and one of COSC_O 111, COSC_O 121, COSC_O 123.
