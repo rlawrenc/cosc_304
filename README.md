@@ -12,12 +12,12 @@ Dr. Ramon Lawrence, ramon.lawrence@ubc.ca, 250-807-9390<br>
 | Day/Time |  TA/Instructor |
 |----------|----------------|
 | Monday 1 to 3 p.m. 	| Dr. Ramon Lawrence (virtual and in-person) |
-| Tuesday 1 to 3 p.m.	| TBD |
-| Tuesday 5:00 p.m. to 6:30 p.m. (class time)	| TBD |
-| Wednesday 1 to 3 p.m. | TBD |
-| Thursday 1 to 3 p.m. | TBD |
-| Thursday 5:00 p.m. to 6:30 p.m. (class time)	| TBD |
-| Friday 1 to 3 p.m. 	| TBD |
+| Tuesday 1 to 3 p.m.	| Shawn Zhao |
+| Tuesday 5:00 p.m. to 6:30 p.m. (class time)	| Soumil Chhabra |
+| Wednesday 1 to 3 p.m. | Soumil Chhabra, Omar Abdelaziz |
+| Thursday 1 to 3 p.m. | Anubhav Gupta |
+| Thursday 5:00 p.m. to 6:30 p.m. (class time)	| Soumil Chhabra |
+| Friday 1 to 3 p.m. 	| Omar Abdelaziz, Shawn Zhao |
 
 For support in office hours and other times, join a queue or ask a question on the HelpMe system at: [https://coursehelp.ubc.ca/invite?cid=189&code=e8e6345892e4](https://coursehelp.ubc.ca/invite?cid=189&code=e8e6345892e4)
 
