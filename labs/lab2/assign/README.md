@@ -10,7 +10,7 @@ Write the SQL DDL to create the following 5 tables describing airports, airplane
 
 - An `Airport` table where each airport has an `id` of exactly 5 characters, a `name` (up to 30 characters), and is located in a `city` (up to 40 characters), a `province` (up to 20 characters), and a `country` (up to 20 characters). (1.5 marks)
 
-- A `Flight` table where each flight is identified by **both** a `number` (exactly 5 characters) and `departDateTime` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrivalDateTime`, and `actualDepartDateTime` and `actualArrivalDateTime`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
+- A `Flight` table where each flight is identified by **both** a `flightNumber` (exactly 5 characters) and `departDateTime` (DATETIME). Note that the flight number does not by itself identify a flight as airlines reuse flight numbers. A flight departs from one airport (`departAirport`) and arrives at another (`arriveAirport`). Besides the departure date/time, there is an expected `arrivalDateTime`, and `actualDepartDateTime` and `actualArrivalDateTime`. Each flight record also stores the airplane `id` of the plane. ***Make all foreign keys set to null on delete and cascade on update.*** (3 marks)
 
 - A `Passenger` table where each passenger is identified by an integer `id`. Also store a `firstname` and `lastname` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
 
@@ -38,8 +38,8 @@ Insert the following records into the appropriate tables.
 
 #### Flight 
 ```
-('AC35', 'YLW', 'YWG', 'AC911', '2022-09-14 07:00:00', '2022-09-14 15:00:00', '2022-09-14 07:05:00', '2022-09-14 15:30:00')
-('WJ111', 'YWG', 'YLW', 'WJ455', '2022-09-15 10:00:00', '2022-09-15 12:00:00', '2022-09-15 09:55:00', '2022-09-14 11:49:55')
+('AC35', 'YLW', 'YWG', 'AC911', '2026-09-14 07:00:00', '2026-09-14 15:00:00', '2026-09-14 07:05:00', '2026-09-14 15:30:00')
+('WJ111', 'YWG', 'YLW', 'WJ455', '2026-09-15 10:00:00', '2026-09-15 12:00:00', '2026-09-15 09:55:00', '2026-09-15 11:49:55')
 ```
 
 #### Passenger
@@ -50,15 +50,15 @@ Insert the following records into the appropriate tables.
 
 #### OnFlight 
 ```
-(1, 'AC35', '2022-09-14 07:00:00', '1A')
-(1, 'WJ111', '2022-09-15 10:00:00', '10C')
-(2, 'AC35', '2022-09-14 07:00:00', '2A')
-(2, 'WJ111', '2022-09-15 10:00:00', '10D')
+(1, 'AC35', '2026-09-14 07:00:00', '1A')
+(1, 'WJ111', '2026-09-15 10:00:00', '10C')
+(2, 'AC35', '2026-09-14 07:00:00', '2A')
+(2, 'WJ111', '2026-09-15 10:00:00', '10D')
 ```
 
 ### Update (2 marks)
 
-1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2022-09-14'` to be seat `'2B'` rather than the current `'1A'`.
+1. Update passenger id `1` on flight `'AC35'` on the `7 a.m.` flight on `'2026-09-14'` to be seat `'2B'` rather than the current `'1A'`.
 
 2. Delay all flights that depart Kelowna airport by 1 hour. (advance actual departure time) Note: To add an hour to a date use the syntax `DATE_ADD(your date field, INTERVAL 1 HOUR)`.
 
@@ -66,10 +66,10 @@ Insert the following records into the appropriate tables.
 
 1. The Kelowna airport is destroyed! Remove it from the `Airport` table. Note the changes to the flight table due to `SET NULL` foreign key action.
 
-2. Remove the unruly passenger `1` from flight `'WJ111'` on the `10 a.m.` flight on `'2022-09-15'`.
+2. Remove the unruly passenger `1` from flight `'WJ111'` on the `10 a.m.` flight on `'2026-09-15'`.
 
 3. Delete all on flight records for `'Fred Brothers'`. Note: You do not have to use a subquery for this question but try if you can!
 
 ## Submission
 
-**Submit the lab answers on Canvas as a text file or document that contains all of your SQL DDL commands or show a TA your SQL DDL commands in a help session.**
+**Submit on Canvas or show a TA in a help session a screenshot of your completed and marked assigned on PrairieLearn. Alternatively, you may submit the lab answers on Canvas as a text file or document that contains all of your SQL commands.**
