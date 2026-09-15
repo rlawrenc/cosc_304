@@ -6,8 +6,8 @@ This lab practices SQL DDL.
 
 **PrairieLearn marking may be a little picky. You can also complete the lab by putting all SQL statements in a text file and submitting on Canvas or showing the TA. The questions on PrairieLearn are running on [SQLite](https://www.sqlite.org/index.html).**
 
-Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/247) and [GitHub](practice).
+Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/300) and [GitHub](practice).
 
-The lab is completed on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/246) or is completed using [MySQL on Docker](assign/) and **requires computer setup by following these [setup instructions](../setup).**
+It is recommended to complete the lab on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/299). You may also use [MySQL on Docker](assign/) that **requires computer setup by following these [setup instructions](../setup).**
 
 Note: MySQL does not follow the standard for delimited identifiers using double-quotes ("). It uses backticks (\`) instead. To force it to use double-quotes, run this command when you start a session: `set session sql_mode = 'ANSI';` It is also possible to set this globally using  `set global sql_mode = 'ANSI';` **Avoid using delimited identifiers for lab 2.**
