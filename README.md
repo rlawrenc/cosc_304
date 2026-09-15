@@ -125,7 +125,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 |---|---|---|
 |  | September 7 – 11 | **No Lab during First Week of Class** |
 | [1](labs/lab1) | September 14 – 18 | Lab 1: Querying using Relational Algebra |
-| [2](labs/lab2) | September 21 – 25 | Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE |
+| [2](labs/lab2) | September 21 – 25 | Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE |
 | [3](labs/lab3) | September 28 – October 2 | Lab 3: Writing SQL Queries |
 | [4](labs/lab4) | October 5 – 9 | Lab 4: Database Design using UML Modeling |
 | [5](labs/lab5) | October 12 – 16 | Lab 5: Converting UML Diagrams into the Relational Model |
