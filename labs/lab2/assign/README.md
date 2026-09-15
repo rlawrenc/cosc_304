@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 2 - Creating tables using SQL and MySQL
+# COSC 304 - Introduction to Database Systems<br>Assignment 2 - SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE
 
-This assignment practices SQL DDL. 
+This assignment practices SQL DDL and DML. 
 
 ## Question 1 (10 marks)
 
@@ -14,11 +14,12 @@ Write the SQL DDL to create the following 5 tables describing airports, airplane
 
 - A `Passenger` table where each passenger is identified by an integer `id`. Also store a `firstname` and `lastname` (both up to 30 characters) and a `birthdate`. Other attributes include `street` (50 chars), `city` (40 chars), `province` (20 chars), and `country` (20 chars). (1.5 marks)
 
-- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `departDateTime`, and a `seatNum` (stores exactly 4 characters). ***Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
+- An `OnFlight` table that stores information about passengers on flights. Each record stores the `passengerId`, `flightNumber`, `departDateTime`, and a `seatNum` (stores exactly 4 characters). The primary key consists of `passengerId`, `flightNumber`, and `departDateTime`.
+- **Make all foreign keys set to perform no action (generate error) on delete and cascade on update.*** (3 marks)
 
 ## Question 2 (10 marks)
 
-Write the SQL DDL to perform the following modifications to the database created in Question 1.
+Write the SQL DML to perform the following modifications to the database created in Question 1.
 
 ### Insert (5 marks)
 
@@ -72,4 +73,4 @@ Insert the following records into the appropriate tables.
 
 ## Submission
 
-**Submit on Canvas or show a TA in a help session a screenshot of your completed and marked assigned on PrairieLearn. Alternatively, you may submit the lab answers on Canvas as a text file or document that contains all of your SQL commands.**
+**Submit on Canvas or show a TA in a help session a screenshot of your completed and marked assignment on PrairieLearn. Alternatively, you may submit the lab answers on Canvas as a text file or document that contains all of your SQL commands.**
