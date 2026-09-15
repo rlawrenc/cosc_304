@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 2 - SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE
+# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE
 
 This assignment practices SQL DDL and DML. 
 
