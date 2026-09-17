@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL: CREATE, INSERT, UPDATE, and DELETE
+# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE
 
-This lab practices SQL DDL. 
+This lab practices SQL DDL and DML. 
 
 **Note: You can do the lab and practice questions on PrairieLearn without setting up a MySQL database using Docker. However, it is recommended to setup your environment as you will need it for future labs.**
 
