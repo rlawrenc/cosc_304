@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating Tables using SQL and MySQL - Local Setup
+# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE - Local Setup
 
 **Make sure your computer is setup to run Docker by following these [setup instructions](../../setup).**
 
