@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: Creating Tables using SQL and MySQL
+# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE
 
-Practice questions using SQL DDL on a MySQL database.
+Practice questions using SQL DDL and DML on a MySQL database.
 
 **Make sure your computer is setup to run Docker by following these [setup instructions](../../setup). Then follow the [lab 2 setup instructions](../setup).**
 
