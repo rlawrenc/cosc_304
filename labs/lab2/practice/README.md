@@ -4,7 +4,7 @@ Practice questions using SQL DDL and DML on a MySQL database.
 
 **Make sure your computer is setup to run Docker by following these [setup instructions](../../setup). Then follow the [lab 2 setup instructions](../setup).**
 
-### Practice SQL DDL
+### Practice SQL DDL and DML
 
 As practice, here are some changes to make to the existing the database.  You can answer the questions in groups.
 
