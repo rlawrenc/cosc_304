@@ -39,7 +39,7 @@ Here are the questions that you must answer using SQL. **You can answer them in 
 FROM student
 WHERE (standing = 'JR' OR standing = 'SO') AND major = 'Computer Science';</pre></li>
 
-<li><pre>SELECT *
+<li><pre>SELECT cname, room
 FROM faculty F, course C
 WHERE F.fid = C.fid and F.fname = 'Richard Jackson';</pre></li>
 
