@@ -4,7 +4,7 @@ SELECT sname FROM student WHERE (standing = 'JR' OR standing = 'SO') AND major =
 
 Q2: Return all courses (name and room only) taught by 'Richard Jackson'
 
-SELECT * FROM faculty F, course C WHERE F.fid = C.fid and F.fname = 'Richard Jackson'
+SELECT cname, room FROM faculty F, course C WHERE F.fid = C.fid and F.fname = 'Richard Jackson'
 
 Q3: Return all students (number and name only) that are enrolled in a course offered in room 'R15' taught by a faculty member in department '68' and have 'SR' standing.  
 
