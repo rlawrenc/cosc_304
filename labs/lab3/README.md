@@ -6,7 +6,7 @@ This lab practices SQL.
 
 **PrairieLearn marking may be a little picky. You can also complete the lab by putting all SQL statements in a text file and submitting on Canvas or showing the TA. The questions on PrairieLearn are running on [SQLite](https://www.sqlite.org/index.html).**
 
-Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/249) and [GitHub](practice).
+Practice questions are available on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/302) and [GitHub](practice).
 
-The lab is completed on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/248) or is completed using [MySQL on Docker](assign/) and **requires computer setup by following these [setup instructions](../setup).**
+The lab is completed on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/301) or is completed using [MySQL on Docker](assign/) and **requires computer setup by following these [setup instructions](../setup).**
 
