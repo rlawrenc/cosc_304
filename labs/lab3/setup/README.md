@@ -8,7 +8,7 @@
  - Download the `docker-compose.yml` file into the `cosc304_lab3` directory. 
  - Create a folder `ddl` in `cosc304_lab3` directory. Download the contents of the `ddl` folder into the `cosc304_lab3\ddl` folder.
  - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab3`.
- - Run the command `docker-compose up -d`
+ - Run the command `docker compose up -d`
  - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
  - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
 
