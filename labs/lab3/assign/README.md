@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 3 - SQL
 
-This assignment is on writing queries in SQL. These questions can be completed either on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/248) or locally on your computer using Docker and MySQL. **Before starting the assignment, complete the [database setup using Docker](../setup)**. **Submit the lab answers on Canvas as a text file or document that contains all of your SQL commands or show a TA your SQL commands in a help session.**
+This assignment is on writing queries in SQL. These questions can be completed either on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/301) or locally on your computer using Docker and MySQL. **Before starting the assignment, complete the [database setup using Docker](../setup)**. **Submit the lab answers on Canvas as a text file or document that contains all of your SQL commands or show a TA your SQL commands in a help session.**
 
 ## Question 1 (20 marks)
 
@@ -29,7 +29,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-----------------+-------------------------------------+
 ```
 
-2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Only show a shipment once and order by shipment date descending and amount descending. Note: <strong>PrairieLearn uses SQLite</strong>. To extract year from DATETIME see the following link: <a href="https://database.guide/how-to-extract-the-day-month-and-year-from-a-date-in-sqlite/">Extract Year in SQLite</a>. When using MySQL you can use <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year">YEAR()</a> function to get the year from the shipment date or use date comparisons.
+2. Return the shipment id, shipment date, product id, and amount for all shipments in `2022` where there was a product shipped with an amount greater than `8`. Order by shipment date descending and amount descending. Note: <strong>PrairieLearn uses SQLite</strong>. To extract year from DATETIME see the following link: <a href="https://database.guide/how-to-extract-the-day-month-and-year-from-a-date-in-sqlite/">Extract Year in SQLite</a>. When using MySQL you can use <a href="https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_year">YEAR()</a> function to get the year from the shipment date or use date comparisons.
 
 #### Output:
 ```
@@ -101,7 +101,7 @@ shippedproduct(sid: integer, pid: integer, amount: integer)
 +-------+------+--------------+-----------+
 ```
 
-7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after `September 1st, 2021`, and only show products if they have been shipped at least three times and have a `totalValueShipped > $110`. Order by `totalAmountShipped` ascending.
+7. Return a list of products (id and name) along with the number of times it has been shipped, the total amount of all shipments, and the total value of all shipments. Only consider shipments after `September 1st, 2021`, and only show products if they have been shipped at least three times and have a `totalValueShipped > $110`. Order by `totalAmountShipped` ascending then product id ascending.
 
 #### Output:
 ```
