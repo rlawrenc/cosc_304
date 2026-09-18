@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Assignment 3 - SQL
+# COSC 304 - Introduction to Database Systems<br>Lab 3: Writing SQL Queries
 
 This assignment is on writing queries in SQL. These questions can be completed either on [PrairieLearn](https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/301) or locally on your computer using Docker and MySQL. **Before starting the assignment, complete the [database setup using Docker](../setup)**. **Submit the lab answers on Canvas as a text file or document that contains all of your SQL commands or show a TA your SQL commands in a help session.**
 
