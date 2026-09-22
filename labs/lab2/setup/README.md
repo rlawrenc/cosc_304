@@ -1,20 +1,78 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML: CREATE, INSERT, UPDATE, and DELETE - Local Setup
+# COSC 304 - Introduction to Database Systems<br>Lab 2: SQL DDL and DML - Local Setup
 
-**Make sure your computer is setup to run Docker by following these [setup instructions](../../setup).**
+**Before starting:** Install Docker Desktop by following the [course setup instructions](../../setup).
 
-### Step #1: Setup MySQL Docker Container
+### 1. Get the course files
 
- - Create a directory `cosc304_lab2`.
- - Download the `docker-compose.yml` file into the `cosc304_lab2` directory. 
- - Create a folder `ddl` in `cosc304_lab2` directory. Download the contents of the `ddl` folder into the `cosc304_lab2\ddl` folder.
- - Open a command shell either directly on your machine or using VSCode. Make sure your current directory is `cosc304_lab2`.
- - Run the command `docker-compose up -d`
- - If everything is successful, the MySQL database will start on port 3306. If there is a port conflict, change the port to 3307 in the `docker-compose.yml` file.
- - Your database is `mydb`. There are other databases also created such as `workson` and `university`.
+You need a local copy of the COSC 304 GitHub repository. Either:
 
-## Step #2: Access MySQL using Command Interface
+* Clone the repository:
 
-MySQL commands can be running using the command line within the Docker container. Run the command:
+  ```text
+  git clone https://github.com/rlawrenc/cosc_304.git
+  ```
+* Or use **Code → Download ZIP** on GitHub and unzip the downloaded file.
+Open a terminal and change to the Lab 2 setup directory:
+
+```text
+cd cosc_304/labs/lab2/setup
+```
+
+If you downloaded the ZIP, the directory may instead be named `cosc_304-main`.
+
+### 2. Start MySQL
+
+Make sure Docker Desktop is running, then from the `labs/lab2/setup` directory run:
+
+```text
+docker compose up -d
+```
+
+The first time this command is run, Docker downloads MySQL and initializes the database. This may take a minute.
+
+Check that the container is running:
+
+```text
+docker compose ps
+```
+
+MySQL is available on `localhost` port `3306`.
+
+If port `3306` is already being used on your computer, change this line in `docker-compose.yml`:
+
+```text
+- '3306:3306'
+```
+
+to:
+
+```text
+- '3307:3306'
+```
+You would then connect to MySQL using port `3307`.
+
+### 3. Connect to MySQL
+
+Connect directly to the MySQL command-line interface:
+
+```text
+docker compose exec cosc304-mysql mysql -u root -p
+```
+
+Enter the root password from `docker-compose.yml`.
+
+Useful MySQL commands include:
+
+| Function          | Command           |
+| ----------------- | ----------------- |
+| List databases    | `SHOW DATABASES;` |
+| Select a database | `USE university;` |
+| List tables       | `SHOW TABLES;`    |
+| Exit MySQL        | `exit`            |
+
+The `university` and `workson` database should already be created and populated when the container is first initialized.
+
+Note that you may also start MySQL from a bash shell on the container using:
 
 ```
 docker exec -it cosc304-mysql bash
@@ -30,36 +88,51 @@ OR
 mysql -u testuser -p
 ```
 
-The password is given in the `docker-compose.yml` file (which you are **encouraged to change**). Note that all commands are terminated with a semi-colon (`;`). Some useful commands are:
-
-| Function  | Command |
-| ------------- | ------------- |
-| Listing all databases	  | `show databases;`  |
-| Use database `dbname`  | `use dbname;`  |
-| List all tables  | `show tables;`  |
-
 ![Connecting using MySQL Command Line](img/commandline.png)
 
-### Step #2: Accessing MySQL using SQuirreL SQL
+## 4. Stop MySQL
 
-[SQuirreL](http://squirrel-sql.sourceforge.net) is an open source graphical query tool capable of querying any JDBC-accessible database including Oracle, MySQL, and SQL Server.
+When finished, stop the container with:
+
+```text
+docker compose down
+```
+
+Your database contents are preserved and will be available the next time you run:
+
+```text
+docker compose up -d
+```
+
+### Resetting the Database
+
+If you need to completely reset the database and rerun the initialization scripts:
+
+```text
+docker compose down -v
+docker compose up -d
+```
+
+**Warning:** `docker compose down -v` deletes the MySQL database volume and all changes you have made to it.
+
+The university database should already be loaded. If you have any issues, you can create the tables and load the data for the [university database using this DDL script](../ddl/university_MySQL_DDL.sql).  
+
+## Optional: SQuirreL SQL
+
+You may also connect using [SQuirreL](http://squirrel-sql.sourceforge.net) or another MySQL-compatible database client.
 
 [Download and install MySQL JDBC driver](mysql-connector-java-8.0.27.jar) and put it in the SQuirreL `lib` folder.
 
-Start up SQuirreL.  Register our MySQL server with the information: 
+Connection information:
 
-<pre>
-Name: MySQL
-Login name: root
-Password: (see docker-compose.yml file)
-Host name: localhost
-Port: (leave blank for default)
-Database: mydb
-</pre>
+```text
+Host: localhost
+Port: 3306
+User: root
+Password: see docker-compose.yml
+Database: university
+```
+
+If you changed the Docker port to `3307`, use port `3307` here instead.
 
 <img src="img/squirrel-mysql.png" width="400" alt="MySQL Connection Setup in SQuirreL">
-
-### Step #3: Example SQL DDL
-
-The university database should already be loaded. If you have any issues, using SQuirreL, create the tables and load the data for the [university database using this DDL script](../ddl/university_MySQL_DDL.sql).  
-
