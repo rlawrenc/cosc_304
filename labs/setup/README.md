@@ -12,7 +12,7 @@ Although you may use any text editor, the officially supported editor is [VSCode
 
 ## Install Java
 
-If your computer does not have at least Java 17, install [the latest Java version](https://www.oracle.com/java/technologies/downloads/). You may install JDK 21 or JDK 24.
+If your computer does not have at least Java 17, install [the latest Java version](https://www.oracle.com/java/technologies/downloads/). You may install JDK 27 or JDK 25 or JDK 21.
 
 ## Install SQuirreL SQL (Optional)
 
