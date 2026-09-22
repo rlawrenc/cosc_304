@@ -8,11 +8,9 @@ services:
             MYSQL_PASSWORD: '304testpw'            
             MYSQL_ROOT_PASSWORD: '304rootpw'
         ports:
-            - '3306:3306'
-        expose:
-            - '3306'   
+            - '3306:3306'        
         volumes:
             - mysql-db:/var/lib/mysql
-            - ../ddl:/docker-entrypoint-initdb.d
+            - ../ddl:/docker-entrypoint-initdb.d:ro
 volumes:     
     mysql-db:
