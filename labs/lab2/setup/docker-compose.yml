@@ -1,10 +1,9 @@
 services:             
     cosc304-mysql:
         image: mysql:8.4
-        container_name: cosc304-mysql
-        restart: always
+        container_name: cosc304-mysql        
         environment:
-            MYSQL_DATABASE: 'testuser'
+            MYSQL_DATABASE: 'mydb'
             MYSQL_USER: 'testuser'
             MYSQL_PASSWORD: '304testpw'            
             MYSQL_ROOT_PASSWORD: '304rootpw'
