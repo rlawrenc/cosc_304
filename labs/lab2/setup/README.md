@@ -70,7 +70,7 @@ Useful MySQL commands include:
 | List tables       | `SHOW TABLES;`    |
 | Exit MySQL        | `exit`            |
 
-The `university` and `workson` database should already be created and populated when the container is first initialized.
+The `university` and `workson` databases should already be created and populated when the container is first initialized.
 
 Note that you may also start MySQL from a bash shell on the container using:
 
