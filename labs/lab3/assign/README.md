@@ -4,7 +4,7 @@ This assignment is on writing queries in SQL. These questions can be completed e
 
 ## Question 1 (20 marks)
 
-Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on MySQL.** [DDL is available](../ddl/ShipmentMySQL.sql). **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
+Given the following relational schema, write queries in **SQL** to answer the English questions. **There is a shipment database on MySQL.** [DDL is available](../../lab2/ddl/ShipmentMySQL.sql). **You must only submit the SQL for your answers but you can include the query output as well to help the TA with marking.**
 
 ```
 customer(cid: integer, cname: string, address: string, city: string, state: string)
