@@ -13,11 +13,11 @@ On Canvas submit a single document that contains a screenshot of the UML design 
 
 ### Question Description
 
-A pet daycare stores information about `pets` that belong to `owners`. An `owner` is identified by an `id`, and their `first name`, `last name`, and `address` are also stored. `Pets` are identified by their `name` and their `owner`. For each pet, record their `age` and a `description`.  Our pet daycare specializes in `cats` and `dogs` so specific information is stored for each of these types of pets. For `cats` note if they `have claws` and `are social`. For `dogs` we need to know their `size` and if they are `barkers`. Our company supports animals besides cats and dogs. For other types of animals, information about them and their type are stored in the `description` of the `pet`. Our facility has several `buildings` that have an identifying `id` and also a `building name` and `year built`. Each `building` contains multiple `rooms` with a `room number` that is unique within a building. Rooms also have a specific `size`.  When a pet `stays` at the day care, the `start date` distinguishes between particular stays for that pet. Additional information is the `end date` and `cost`. The pet `stays` in one particular `room` for a given stay.
+A pet daycare stores information about `pets` that belong to `owners`. An `owner` is identified by an `id`, and their `first name`, `last name`, and `address` are also stored. `Pets` are identified by their `name` and their `owner`. For each pet, record their `age` and a `description`.  Our pet daycare specializes in `cats` and `dogs`, so specific information is stored for each of these types of pets. For `cats` note if they `have claws` and `are social`. For `dogs` we need to know their `size` and whether they are `barkers`. A pet cannot be both a cat and a dog. Our company supports animals besides cats and dogs. For other types of animals, information about them and their type are stored in the `description` of the `pet`. Our facility has several `buildings` that have an identifying `id` and also a `building name` and `year built`. Each `building` contains multiple `rooms` with a `room number` that is unique within a building. Rooms also have a specific `size`.  When a pet `stays` at the day care, the `start date` distinguishes between particular stays for that pet in a particular room. Additional information about a `stay` includes the `end date` and `cost`. Each `stay` is in one particular `room`.
 
 ## Question 2 (35 marks) - Project Deliverable
 
-The project will build an online store like Amazon.com selling whatever products you want. The first step is to develop a database design and convert that design into SQL DDL. Description:
+This question will develop a database design for an online store and convert that design into SQL DDL. Description:
 
 - A <strong>Customer</strong> is identified by an auto-increment id. Other attributes include first name, last name, email, phone number, street address, city, province/state, postal code, and country. A <strong>Customer</strong> also has a user id (unique) and password.
 
@@ -28,19 +28,19 @@ The project will build an online store like Amazon.com selling whatever products
 - The store sells products. A <strong>Product</strong> has an auto-increment id, name, price, image URL (string), image (BLOB), and description.
 - A product has a category. A category has one or more Products. A <strong>Category</strong> has an auto-increment id and name.
 
-- Products are part of an order. An order may have multiple products. For each product in an order track the quantity and price.
+- Products are part of an order. An order may have zero or more products. For each product in an order track the quantity and price.
 
 - An order is shipped with a shipment. A <strong>Shipment</strong> has an auto-increment id, a shipment date, and a description. A shipment contains only one order.
 
-- A <strong>Warehouse</strong> contains products. A product may be stored at multiple warehouses with different inventory values. A shipment will be sent from only one warehouse. A <strong>Warehouse</strong> has an auto-increment id and a name.
+- A <strong>Warehouse</strong> contains products. A product may be stored at multiple warehouses with different inventory quantities. A shipment will be sent from only one warehouse. A <strong>Warehouse</strong> has an auto-increment id and a name.
 
-- For each customer, track their shopping cart which may contain products each with a quantity and price.
+- For each customer, track the products currently in their shopping cart. For each product in a customer's cart, store the quantity and price.
 
 - A product may have reviews by customers. A <strong>Review</strong> by a customer on a product has an auto-increment id, rating (1 to 5), comment, and review date. A customer does not have to buy a product in order to provide a review. A customer may review a product more than once.
 
 ### Deliverables
 
-**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use PrairieLearn to check your work (link: https://plcanary.ok.ubc.ca/pl/course_instance/11/assessment/252), but your design needs to include data types so it must be in Astah or another tool.**
+**1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use PrairieLearn to check your work (link: https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/305), but your design needs to include data types so it must be in Astah or another tool.**
 
 **2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. Make sure your primary keys that are auto-increment are specified as `AUTO_INCREMENT` in your DDL. (11 marks)**
 
