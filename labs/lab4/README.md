@@ -1,6 +1,6 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 4: Building ER diagrams using an UML modeling tool
+# COSC 304 - Introduction to Database Systems<br>Lab 4: Database Design Using ER Diagrams and UML Notation
 
-This lab designs ER diagrams in UML notation. The AutoER auto-grading software on PrairieLearn is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [Astah](http://astah.net/editions). <strong>Note: Astah no longer has a free community version. Request a student license or use the 30-day trial.</strong> <a href="https://drawio.com/">drawio</a> is an online drawing tool that can also be used but it does not have as good support for database modeling in UML.</p>
+This lab designs ER diagrams in UML notation. The AutoER auto-grading software on PrairieLearn is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [Astah](http://astah.net/editions). Astah UML provides a free student license for students with an academic email address. <a href="https://drawio.com/">drawiodraw.io/diagrams.net</a> can also be used, although its support for UML database modeling is less specialized.</p>
 
 <h3>PrairieLearn link: https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/304</h3>
 
