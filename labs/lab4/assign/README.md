@@ -29,14 +29,14 @@ Construct a database design in UML for a question databank. **Data types are not
 
 - A `course` is identified by its `course number` and has a `course name` and `year`.
 
-- For a particular `course`, different `course offerings` are distinguished by their starting date. A `course offering` stores the `number of students` in the course and also has an `ending date`.
+- For a particular `course`, different `course offerings` are distinguished by their starting date. A `course offering` stores the `number of students` in the course offering and also has an `ending date`.
 
-- Every `course` has one or more `learning outcomes` that are `material` and `skills` that `students` should learn after `completing` the course. A `learning outcome` (identified by `outcomeId`) may be achieved in many courses or in no current courses.
+- Every `course` has one or more `learning outcomes` that describe the `material` and `skills` that `students` should learn after `completing` the course. A `learning outcome` (identified by `outcomeId`) may be achieved in many courses or in no current courses.
 
-- A `question` is used in a `course offering` to test student `knowledge`. A `question` is identified by its `questionId` and also contains a `questionName`, `questionText`, and `questionAnswer`.
+- A `question` may be used in a `course offering` to test student `knowledge`. A `question` is identified by its `questionId` and also contains a `questionName`, `questionText`, and `questionAnswer`.
 
 - `Questions` must have at least one `learning outcome` and may have many. Each `question` has one `topic`.
 
-- A `topic` has a unique `topicName` and may have multiple `subtopics`. A `subtopic` is itself a `topic`. A `topic` may have multiple `subtopics`, and a `topic` may have at most one parent `topic`.
+- A `topic` has a unique `topicName`. A `topic` may have multiple `subtopics`, and a `topic` may have at most one parent `topic`.
 
 - A `question` can be used in multiple `course offerings`, and in each offering the `mark` associated with the `question` may be different.
