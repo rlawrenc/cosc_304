@@ -42,7 +42,7 @@ This question will develop a database design for an online store and convert tha
 
 **1. Draw the ER/UML diagram for this database. Note: Data types are REQUIRED as part of the design. (21 marks)** **You can use PrairieLearn to check your work (link: https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/305), but your design needs to include data types so it must be in Astah or another tool.**
 
-**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys. Your SQL DDL must run on either MySQL or Microsoft SQL Server. Make sure your primary keys that are auto-increment are specified as `AUTO_INCREMENT` in your DDL. (11 marks)**
+**2. Convert the UML diagram into SQL DDL. Make sure to define primary keys and foreign keys and include appropriate constraints. Your SQL DDL must run on either MySQL or Microsoft SQL Server. For auto-increment primary keys, use the appropriate syntax for your DBMS (`AUTO_INCREMENT` in MySQL or `IDENTITY` in SQL Server). Use `NOT NULL` when participation is mandatory (minimum cardinality of one), and `UNIQUE` where uniqueness must be enforced (e.g., `userId VARCHAR(20) NOT NULL UNIQUE`). (11 marks)**
 
 **3. Imagine creating your own store and selling products. Determine what products to sell. Write a mission statement (1 mark) and executive summary paragraph (2 marks) describing your idea.**
 
