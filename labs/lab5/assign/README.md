@@ -23,7 +23,7 @@ This question will develop a database design for an online store and convert tha
 
 - A customer may have some payment methods. A <strong>Payment Method</strong> has an auto-increment id for a key, a payment method type (PayPal, Visa, etc.), payment number, and payment expiry date.
 
-- An <strong>Order</strong> is placed by one customer. A customer may have multiple orders. An <strong>Order</strong> has an auto-increment id, order date, and total order amount (e.g. $55.75). Also store the shipment address, city, state, country, and postal code. Use <strong>OrderSummary</strong> as entity/table name as <strong>Order</strong> is a keyword in SQL.
+- An <strong>Order</strong> is placed by one customer. A customer may have zero or more orders. An <strong>Order</strong> has an auto-increment id, order date, and total order amount (e.g. $55.75). Also store the shipment address, city, state, country, and postal code. Use <strong>OrderSummary</strong> as entity/table name as <strong>Order</strong> is a keyword in SQL.
 
 - The store sells products. A <strong>Product</strong> has an auto-increment id, name, price, image URL (string), image (BLOB), and description.
 - A product has a category. A category has one or more Products. A <strong>Category</strong> has an auto-increment id and name.
@@ -32,7 +32,7 @@ This question will develop a database design for an online store and convert tha
 
 - An order is shipped with a shipment. A <strong>Shipment</strong> has an auto-increment id, a shipment date, and a description. A shipment contains only one order.
 
-- A <strong>Warehouse</strong> contains products. A product may be stored at multiple warehouses with different inventory quantities. A shipment will be sent from only one warehouse. A <strong>Warehouse</strong> has an auto-increment id and a name.
+- A <strong>Warehouse</strong> may contain products. A product may be stored at multiple warehouses with different inventory quantities. A shipment will be sent from only one warehouse. A <strong>Warehouse</strong> has an auto-increment id and a name.
 
 - For each customer, track the products currently in their shopping cart. For each product in a customer's cart, store the quantity and price.
 
