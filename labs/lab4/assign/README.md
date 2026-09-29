@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 4: Database Design Using ER Diagrams and UML Notation
 
-This lab designs ER diagrams in UML notation. The AutoER auto-grading software on PrairieLearn is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [Astah](http://astah.net/editions). Astah UML provides a free student license for students with an academic email address. <a href="https://drawio.com/">drawiodraw.io/diagrams.net</a> can also be used, although its support for UML database modeling is less specialized.</p>
+In this lab, you will design ER diagrams using UML notation. The AutoER auto-grading software on PrairieLearn is used to design and mark your UML diagrams. It is also valuable to learn how to use commercial UML design software such as [Astah](http://astah.net/editions). Astah UML provides a free student license for students with an academic email address. <a href="https://drawio.com/">drawiodraw.io/diagrams.net</a> can also be used, although its support for UML database modeling is less specialized.</p>
 
 <h3>PrairieLearn link: https://plcanary.ok.ubc.ca/pl/course_instance/12/assessment/303</h3>
 
@@ -14,9 +14,9 @@ Construct a database design in UML for a stock market tracking database. **Data 
 
 - Each company is classified in a particular `industry`. An `industry` has an identifying `name` and also a `description`.
 
-- Stock market `analysts` cover stocks and produce `recommendations`. `Analysts` are distinguished from each other by the name of their `firm` and their `name`. Analysts also have an `accuracy rating` that measures the accuracy of their `recommendations`.
+- Stock market `analysts` produce `recommendations` on companies. `Analysts` are distinguished from each other by the name of their `firm` and their `name`. Analysts also have an `accuracy rating` that measures the accuracy of their `recommendations`.
 
-- Each `recommendation` is from a particular `analyst` on a certain `company`. A `recommendation` includes a predicted `price` in the next 12 months and a `rating` for the stock (buy, hold, sell). For each company an analyst covers, the database stores the analyst’s current recommendation. There is at most one current recommendation from a particular analyst for a particular company.
+- Each `recommendation` is from a particular `analyst` on a certain `company`. A `recommendation` includes a predicted `price` in the next 12 months and a `rating` for the stock (buy, hold, sell). The database stores the analyst’s current recommendation. There is at most one current recommendation from a particular analyst for a particular company.
 
 - The database includes a `daily summary` for each company with a `closing price`, `volume`, `low price`, and `high price`. Daily summaries are identified by the company it is associated with and the `summary date`.
 
