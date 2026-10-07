@@ -12,7 +12,7 @@ As practice, here are some changes to make to the existing the database.  You ca
 
 1. Create a new table called `dept` with attributes `deptId INTEGER`, `deptName VARCHAR(40)`, and `deptLocation VARCHAR(50)`.
 
-2. Create a new table called `courseDept` with attributes `deptId INTEGER` and `cname VARCHAR(40)`. There should be a foreign key to `course` table and a foreign key to the `dept` table.
+2. Create a new table called `courseDept` with attributes `deptId INTEGER` and `cname VARCHAR(40)`. There should be a foreign key to the `course` table and a foreign key to the `dept` table.
 
 #### INSERT Command
 
