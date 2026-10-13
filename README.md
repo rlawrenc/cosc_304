@@ -58,7 +58,7 @@ Microsoft Copilot: https://m365.cloud.microsoft/  Instructions: https://it.ubc.c
 | Assignments | 20% | Weekly assignments |
 | Midterm #1 | 15% | October 13th in class | 
 | Midterm #2 | 15% | November 3rd in class | 
-| Final Exam | 40% | Cumulative, 2.5 hours | 
+| Final Exam | 40% | Cumulative, 2.5 hours, December 17th at 7 p.m. in ASC 140 | 
 
 **A student must receive a combined grade of at least 50% on the exams (midterms and final) to pass the course.  Otherwise, the student receives a maximum overall grade of 45.**
 
@@ -113,9 +113,7 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Dec. 1 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
 | Dec. 3 (TH) | **Project work class** | |
 | Dec. 8 (T) | **Project presentations<br>Final Exam Review**  | |
-<!--
-| Dec. () | **COSC 304 Final Exam Wednesday, Dec. th at X:X p.m. in X. <br> Exam is closed book on paper.** | |
--->
+| Dec. 17 (TH) | **COSC 304 Final Exam Thursday, Dec. 17th at 7 p.m. in ASC 140. <br> Exam is closed book on paper.** | |
 
 ## Labs
 
