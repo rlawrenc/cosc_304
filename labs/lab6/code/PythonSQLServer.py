@@ -1,15 +1,25 @@
-import pyodbc 
+
+import pyodbc
+
+cnx = None
+cursor = None
+
 try:
-    # print(pyodbc.drivers())
-    # Download and install ODBC Driver 18 for SQL Server from Microsoft if not installed
-    # https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server
-    cnx = pyodbc.connect("""DRIVER={ODBC Driver 18 for SQL Server};SERVER=localhost;
-                        DATABASE=workson;UID=sa;PWD=todo;TrustServerCertificate=yes;""")
+    cnx = pyodbc.connect("""DRIVER={ODBC Driver 18 for SQL Server};SERVER=localhost,1433;
+                            DATABASE=workson;UID=sa;PWD=304#sa#pw;Encrypt=yes;TrustServerCertificate=yes;""")
+
     cursor = cnx.cursor()
-    cursor.execute("SELECT * FROM emp WHERE salary < ?", [50000]) 
+    cursor.execute("SELECT ename, salary FROM emp")
+
+    print("Employee Name,Salary")
     for row in cursor:
-        print(row[0],row[1], row.salary)        
-except pyodbc.Error as err:  
-    print(err)
+        print(f"{row.ename},{row.salary}")
+
+except pyodbc.Error as err:
+    print("Database error:", err)
+
 finally:
-    cnx.close()
+    if cursor is not None:
+        cursor.close()
+    if cnx is not None:
+        cnx.close()

@@ -2,14 +2,14 @@ import java.sql.*;
 
 public class TestJdbcSqlServer
 {	public static void main(String[] args)
-	{	String url = "jdbc:sqlserver://localhost;databaseName=WorksOn;TrustServerCertificate=True";		
+	{	String url = "jdbc:sqlserver://localhost:1433;databaseName=workson;encrypt=true;trustServerCertificate=true";
 		String uid = "sa";
-		String pw = "todo";
+		String pw = "304#sa#pw";
 			
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);
-	          Statement stmt = con.createStatement();) 
-	    {			
-			ResultSet rst = stmt.executeQuery("SELECT ename,salary FROM emp");
+	          Statement stmt = con.createStatement();
+			  ResultSet rst = stmt.executeQuery("SELECT ename,salary FROM emp");) 
+	    {				
 			System.out.println("Employee Name,Salary");
 			while (rst.next())
 			{	System.out.println(rst.getString("ename")+","+rst.getDouble("salary"));

@@ -2,18 +2,18 @@ import java.sql.*;
 
 public class SqlServerQuestion
 {	public static void main(String[] args)
-	{	String url = "jdbc:sqlserver://localhost;databaseName=WorksOn;TrustServerCertificate=True";	
+	{	String url = "jdbc:sqlserver://localhost:1433;databaseName=workson;encrypt=true;trustServerCertificate=true";
 		String uid = "sa";
-		String pw = "todo";
+		String pw = "304#sa#pw";
 	
 		try ( Connection con = DriverManager.getConnection(url, uid, pw);
 	              Statement stmt = con.createStatement(); ) 
 		{
-			String sql = "SELECT D.dno, dname, P.pno, pname, SUM(hours) "+
-							" FROM Dept D, Proj P, WorksOn W "+
-							" WHERE D.dno = P.dno AND P.pno = W.pno " +
-							" GROUP BY D.dno, dname, P.pno, pname " +
-							" ORDER BY D.dno ASC, SUM(hours) DESC";
+			String sql = "SELECT D.dno, D.dname, P.pno, P.pname, SUM(W.hours) AS total_hours " +
+						"FROM Dept D JOIN Proj P ON D.dno = P.dno " +
+						"JOIN WorksOn W ON P.pno = W.pno " +
+						"GROUP BY D.dno, D.dname, P.pno, P.pname " +
+						"ORDER BY D.dno, total_hours DESC, P.pno";
 
 			ResultSet rst = stmt.executeQuery(sql);
 
@@ -35,6 +35,7 @@ public class SqlServerQuestion
 					count++;
 				}
 			}
+			rst.close();
 		}
 		catch (SQLException ex)
 		{
