@@ -1,20 +1,20 @@
 # COSC 304 - Introduction to Database Systems<br>Lab 6: Using Python with MySQL and Microsoft SQL Server
 
-This assignment practices developing Java code that uses JDBC to connect to a MySQL database.
+This assignment uses Python code to connect to a MySQL database.
 
 The database is a standard order database consisting of products, customers, orders, ordered products, and employees.  There is a list of products to order and a list of employees who take orders. An order has an id and date and may contain multiple products.  The database schema is below:
 
 <pre>
-Customer (<u>CustomerId</u>, CustomerName)
-Employee (<u>EmployeeId</u>, EmployeeName, Salary, <i>SupervisorId</i>)
-Product(<u>ProductId</u>, ProductName, ListPrice)
-Orders (<u>OrderId</u>, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
-OrderedProduct (<i><u>OrderId</u></i>, <i><u>ProductId</u></i>, Quantity, Price)
+Customer (<u>CustomerId</u> {PK}, CustomerName)
+Employee (<u>EmployeeId</u> {PK}, EmployeeName, Salary, <i>SupervisorId</i>)
+Product(<u>ProductId</u> {PK}, ProductName, ListPrice)
+Orders (<u>OrderId</u> {PK}, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
+OrderedProduct (<i><u>OrderId</u></i> {PK}, <i><u>ProductId</u></i> {PK}, Quantity, Price)
 </pre>
 
 ## Initial Steps
 
-Download the starter code [Python file](OrderDB.py) and the test file [Python file](TestOrderDB.py). There is also a [DDL script](order.ddl) to create the database.
+Use the starter code [Python file](OrderDB.py) and the test file [Python file](TestOrderDB.py). There is also a [DDL script](order.ddl) to create the database.
 
 Use VSCode to edit the code files. You will need to install the Python extension to execute.
 
@@ -24,7 +24,7 @@ Write the code to complete the methods in `OrderDB.py` (look for `TODO` items).
 
 The Python test library is called `unittest`. To add it to your project in VSCode, click on the test (beaker) icon, then click on the `Configure Tests` blue button. VSCode will ask for the test library. Respond with `unittest` and indicate the test files will have the format `Test*.py`.
 
-**Your code will be graded based on it passing the unit tests.** You can show the TA all JUnit tests passing to receive full marks. Otherwise, submit your source code via Canvas.
+**Your code will be graded based on it passing the unit tests.** You can show the TA all tests passing to receive full marks. Otherwise, submit your source code via Canvas.
 
 <table>
 <tr><th>Operation</th>														<th width="100">Marks</th></tr>
