@@ -1,7 +1,6 @@
 import mysql.connector
 
 # TODO: Fill in code where you see TODO
-
 class OrderDB:
     """Application for querying an order database"""
     
