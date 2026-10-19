@@ -1,4 +1,7 @@
 import pyodbc 
+
+cnx = None
+cursor = None
 try:
     # print(pyodbc.drivers())
     # Download and install ODBC Driver 18 for SQL Server from Microsoft if not installed
@@ -18,7 +21,7 @@ try:
 
     for row in cursor:
         current = row[0]
-        if last == None or last != current:
+        if last is None or last != current:
             last = current
             count = 0
             print("\nId:", current," Name:", row[1])
@@ -28,7 +31,11 @@ try:
             print(row[2],"\t",row[3],"\t",str(row[4]))
             count+=1
 
-except pyodbc.Error as err:  
-    print(err)
+except pyodbc.Error as err:
+    print("Database error:", err)
+
 finally:
-    cnx.close()
+    if cursor is not None:
+        cursor.close()
+    if cnx is not None:
+        cnx.close()

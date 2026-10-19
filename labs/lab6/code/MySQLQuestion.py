@@ -13,10 +13,12 @@ try:
         # Look up employees directly supervised by this supervisor
         cursor2 = cnx.cursor()
         query2 = "SELECT ename, salary FROM emp WHERE supereno = %s ORDER BY salary DESC"
-        cursor2.execute(query2, (eno,))
-        for (ename, salary) in cursor2:
-            print(f"   {ename}, {salary:.2f}")
-        cursor2.close()
+        try:
+            cursor2.execute(query2, (eno,))
+            for ename, salary in cursor2:
+                print(f"   {ename}, {salary:.2f}")
+        finally:
+            cursor2.close()
 except mysql.connector.Error as err:  
     print(err)
 finally:
