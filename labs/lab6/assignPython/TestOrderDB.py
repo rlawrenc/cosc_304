@@ -5,7 +5,6 @@ import unittest
 #import import_ipynb
 import OrderDB
 
-
 class TestOrderDB(unittest.TestCase):
     def setUp(self):
         self.orderDB = OrderDB.OrderDB()
