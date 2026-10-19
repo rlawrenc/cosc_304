@@ -96,40 +96,6 @@ Run the program and verify that it can connect to MySQL and display employee nam
 
 ### Python Setup
 
-1. Install the [Microsoft ODBC Driver 18 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server) for your operating system. This driver must be installed separately from the Python `pyodbc` library.
-
-2. Install the Python library:
-
-   ```bash
-   python -m pip install pyodbc
-   ```
-
-3. Verify that the Microsoft ODBC driver is installed:
-
-   ```bash
-   python -c "import pyodbc; print(pyodbc.drivers())"
-   ```
-
-   The output should include `ODBC Driver 18 for SQL Server`.
-
-4. Open [PythonSQLServer.py](code/PythonSQLServer.py) and verify that its connection settings match the Docker configuration:
-
-   ```python
-   cnx = pyodbc.connect(
-       "DRIVER={ODBC Driver 18 for SQL Server};"
-       "SERVER=localhost,1433;"
-       "DATABASE=workson;"
-       "UID=sa;"
-       "PWD=304#sa#pw;"
-       "Encrypt=yes;"
-       "TrustServerCertificate=yes;"
-   )
-   ```
-
-5. Run the Python program to verify that it connects to SQL Server and retrieves employee information.
-
-### Python Setup
-
 1. Install the MySQL Connector/Python library:
 
 ```bash
