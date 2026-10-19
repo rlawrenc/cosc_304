@@ -5,16 +5,16 @@ This assignment practices developing Java code that uses JDBC to connect to a My
 The database is a standard order database consisting of products, customers, orders, ordered products, and employees.  There is a list of products to order and a list of employees who take orders. An order has an id and date and may contain multiple products.  The database schema is below:
 
 <pre>
-Customer (<u>CustomerId</u> {PK}, CustomerName)
-Employee (<u>EmployeeId</u> {PK}, EmployeeName, Salary, <i>SupervisorId</i>)
-Product(<u>ProductId</u> {PK}, ProductName, ListPrice)
-Orders (<u>OrderId</u> {PK}, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
-OrderedProduct (<i><u>OrderId</u></i> {PK}, <i><u>ProductId</u></i> {PK}, Quantity, Price)
+Customer (<u>CustomerId</u>, CustomerName)
+Employee (<u>EmployeeId</u>, EmployeeName, Salary, <i>SupervisorId</i>)
+Product(<u>ProductId</u>, ProductName, ListPrice)
+Orders (<u>OrderId</u>, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
+OrderedProduct (<i><u>OrderId</u></i>, <i><u>ProductId</u></i>, Quantity, Price)
 </pre>
 
 ## Initial Steps
 
-Download the [starter code](304_lab6.zip) and unzip. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestOrderJDBC.java`, and the code file to edit called `OrderJDBC.java`. It also contains the MySQL JDBC JAR file.
+Use the starter code in this directory. The starter code has a SQL DDL script to create the database, a JUnit test program called `TestOrderJDBC.java`, and the code file to edit called `OrderJDBC.java`. It also contains the MySQL JDBC JAR file.
 
 Use VSCode to edit the code files. You will need to install the Java extension to compile and run.
 
