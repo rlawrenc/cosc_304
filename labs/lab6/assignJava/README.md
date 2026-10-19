@@ -5,11 +5,11 @@ This assignment practices developing Java code that uses JDBC to connect to a My
 The database is a standard order database consisting of products, customers, orders, ordered products, and employees.  There is a list of products to order and a list of employees who take orders. An order has an id and date and may contain multiple products.  The database schema is below:
 
 <pre>
-Customer (<u>CustomerId</u>, CustomerName)
-Employee (<u>EmployeeId</u>, EmployeeName, Salary, <i>SupervisorId</i>)
-Product(<u>ProductId</u>, ProductName, ListPrice)
-Orders (<u>OrderId</u>, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
-OrderedProduct (<i><u>OrderId</u></i>, <i><u>ProductId</u></i>, Quantity, Price)
+Customer (<u>CustomerId</u> {PK}, CustomerName)
+Employee (<u>EmployeeId</u> {PK}, EmployeeName, Salary, <i>SupervisorId</i>)
+Product(<u>ProductId</u> {PK}, ProductName, ListPrice)
+Orders (<u>OrderId</u> {PK}, OrderDate, <i>CustomerId</i>, <i>EmployeeId</i>, Total)
+OrderedProduct (<i><u>OrderId</u></i> {PK}, <i><u>ProductId</u></i> {PK}, Quantity, Price)
 </pre>
 
 ## Initial Steps
