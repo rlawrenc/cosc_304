@@ -11,20 +11,20 @@ CREATE TABLE Employee (
    SupervisorId  char(5),
    PRIMARY KEY (EmployeeId),
    FOREIGN KEY (SupervisorId) REFERENCES Employee (EmployeeId)
-) ENGINE = InnoDB;
+);
 
 CREATE TABLE Customer (
    CustomerId    char(5)        NOT NULL,
    CustomerName  varchar(50),
    PRIMARY KEY (CustomerId)
-) ENGINE = InnoDB;
+);
 
 CREATE TABLE Product (
    ProductId     char(5)        NOT NULL,
    ProductName   varchar(50),
    ListPrice     decimal (9,2),
    PRIMARY KEY (ProductId)
-) ENGINE = InnoDB;
+);
 
 CREATE TABLE Orders (
    OrderId       char(5)        NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE Orders (
    PRIMARY KEY (OrderId),
    FOREIGN KEY (CustomerId) REFERENCES Customer (CustomerId) ON UPDATE CASCADE ON DELETE CASCADE,
    FOREIGN KEY (EmployeeId) REFERENCES Employee (EmployeeId)
-) ENGINE = InnoDB;
+);
 
 CREATE TABLE OrderedProduct (
    OrderId       char(5)        NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE OrderedProduct (
    PRIMARY KEY (OrderId, ProductId),
    FOREIGN KEY (OrderId) REFERENCES Orders (OrderId) ON UPDATE CASCADE ON DELETE CASCADE,
    FOREIGN KEY (ProductId) REFERENCES Product (ProductId)
-) ENGINE = InnoDB;
+);
 
 INSERT INTO Customer VALUES ( '00000', 'A. Anderson' );
 INSERT INTO Customer VALUES ( '00001', 'B. Brown' );
