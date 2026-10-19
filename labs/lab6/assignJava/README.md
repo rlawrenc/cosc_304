@@ -1,8 +1,10 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 6: Using Java/JDBC with MySQL and Microsoft SQL Server
+# COSC 304 - Introduction to Database Systems<br>Lab 6: Database Programming Using Java and JDBC
 
-This assignment practices developing Java code that uses JDBC to connect to a MySQL database.
+This assignment practices writing Java programs that use JDBC to connect to a MySQL database, execute SQL queries, update data, and process query results.
 
-The database is a standard order database consisting of products, customers, orders, ordered products, and employees.  There is a list of products to order and a list of employees who take orders. An order has an id and date and may contain multiple products.  The database schema is below:
+You will complete the provided OrderJDBC.java program and verify your implementation using JUnit tests.
+
+The assignment uses a database containing customers, employees, products, orders, and ordered products:
 
 <pre>
 Customer (<u>CustomerId</u>, CustomerName)
