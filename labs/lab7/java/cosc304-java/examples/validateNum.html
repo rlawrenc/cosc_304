@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Number Field Validation</title>
+<script>
+function validate(num)
+{
+    const value = num.trim();
+	const number = Number(value);
+	
+    if (value !== "" && Number.isInteger(number))
+        alert("You entered a valid integer: " + value);
+    else
+        alert("Invalid integer entered: " + num);
+}
+</script>
+</head>
+<body>
+
+<p>Enter an integer:</p>
+<form>
+    <input type="text" name="numField"
+           onchange="validate(this.value)">
+</form>
+
+</body>
+</html>

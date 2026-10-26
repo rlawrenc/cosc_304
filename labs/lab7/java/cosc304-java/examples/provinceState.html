@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Province/State for Canada/US</title>
+</head>
+<body>
+
+<form>
+    Country:
+    <select id="country" name="country" onchange="changeCountry()">
+        <option value="CA">Canada</option>
+        <option value="US">United States</option>
+    </select>
+    <p>
+        <span id="stateText">Province:</span>
+        <select id="state" name="state"></select>
+    </p>
+</form>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+
+function changeCountry_callBack()
+{
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+    {
+        const text = xmlhttp.responseText.trim();
+        const stateList = document.getElementById("state");
+
+        // Remove all current options.
+        stateList.replaceChildren();
+
+        if (text != "INVALID" && text.length > 0)
+        {
+            const values = text.split(',');
+
+            for (const stateCode of values)
+            {
+                const newOpt = document.createElement('option');
+                newOpt.text = stateCode;
+                newOpt.value = stateCode;
+                stateList.add(newOpt);
+            }
+        }
+    }
+}
+
+function changeCountry()
+{
+    const countryList = document.getElementById("country");
+    const stateText = document.getElementById("stateText");
+
+    stateText.textContent = countryList.value == "US" ? "State:" : "Province:";
+
+    xmlhttp.open("GET", "provinceState.jsp?country=" + encodeURIComponent(countryList.value), true);
+    xmlhttp.onreadystatechange = changeCountry_callBack;
+    xmlhttp.send();
+}
+
+// Load the provinces for the default country.
+changeCountry();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd"
+         version="6.1">
+
+    <display-name>COSC 304 Java Examples</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/servlet/HelloServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JdbcServlet</servlet-name>
+        <servlet-class>JdbcServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JdbcServlet</servlet-name>
+        <url-pattern>/servlet/JdbcServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EmpServlet</servlet-name>
+        <servlet-class>EmpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmpServlet</servlet-name>
+        <url-pattern>/servlet/EmpServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

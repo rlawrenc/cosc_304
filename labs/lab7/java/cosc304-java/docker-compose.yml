@@ -1,0 +1,81 @@
+services:             
+    cosc304-sqlserver:
+        platform: linux/amd64
+        image: mcr.microsoft.com/mssql/server:2025-latest
+        container_name: cosc304-sqlserver
+        environment:
+            ACCEPT_EULA: 'Y'
+            MSSQL_SA_PASSWORD: '304#sa#pw' 
+            MSSQL_PID: "Developer"            
+        ports:
+          - "127.0.0.1:1433:1433"
+        volumes:
+            - cosc304-db:/var/opt/mssql
+            - ./ddl:/scripts:ro
+        networks:
+          network304:
+            aliases:
+              - cosc304_sqlserver
+        command:
+          - /bin/bash
+          - -c
+          - |
+            set -e
+            /opt/mssql/bin/sqlservr &
+            pid=$$!
+            trap 'kill -TERM "$$pid" 2>/dev/null || true' TERM INT
+
+            # Wait for SQL Server to accept a connection (up to about 5 minutes).
+            ready=0
+            for attempt in {1..60}; do
+              if /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "$$MSSQL_SA_PASSWORD" -No -l 5 -b -Q "SELECT 1" >/dev/null 2>&1; then
+                ready=1
+                break
+              fi
+              if ! kill -0 "$$pid" 2>/dev/null; then
+                echo "SQL Server exited before becoming ready" >&2
+                exit 1
+              fi
+              sleep 5
+            done
+            if [ "$$ready" -ne 1 ]; then
+              echo "SQL Server did not become ready" >&2
+              exit 1
+            fi
+
+            # Initialize bundled exercise databases only once per persistent volume.
+            if [ ! -f /var/opt/mssql/.cosc304-init-complete ]; then
+              found=0
+              for file in /scripts/SQLServer*.ddl; do
+                [ -f "$$file" ] || continue
+                found=1
+                /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "$$MSSQL_SA_PASSWORD" -No -l 30 -b -i "$$file"
+              done
+              if [ "$$found" -ne 1 ]; then
+                echo "No SQL Server DDL scripts found under /scripts" >&2
+                exit 1
+              fi
+              touch /var/opt/mssql/.cosc304-init-complete
+            fi
+            wait "$$pid"
+            
+    app:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: cosc304-java
+        depends_on:
+            - cosc304-sqlserver
+        container_name: cosc304-java
+        volumes:
+            - ./shop:/usr/local/tomcat/webapps/shop
+            - ./examples:/usr/local/tomcat/webapps/examples:ro
+            - ./ddl:/opt/cosc304/ddl:ro
+        ports:
+          - "127.0.0.1:80:8080"
+        networks:
+            - network304
+volumes: 
+    cosc304-db:    
+networks:
+    network304:

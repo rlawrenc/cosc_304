@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Validate User Name and Email</title>
+<script>
+function validate(field, value)
+{
+    const xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function()
+    {
+        if (xmlhttp.readyState == 4)
+        {
+            if (xmlhttp.status == 200)
+            {
+                const result = xmlhttp.responseText.trim();
+
+                if (result != "VALID")
+                    alert(result);
+                else
+                    alert("Valid " + field + ".");
+            }
+            else
+                alert("Validation request failed.");
+        }
+    };
+
+    xmlhttp.open("GET", "validateUserEmail.jsp?" + field + "=" + encodeURIComponent(value), true);
+    xmlhttp.send();
+}
+
+function checkUserName()
+{
+    validate("name", document.getElementById("username").value);
+}
+
+function checkEmail()
+{
+    validate("email", document.getElementById("email").value);
+}
+</script>
+</head>
+<body>
+
+<form>
+    <p>
+        Name:
+        <input type="text" id="username">
+        <button type="button" onclick="checkUserName()">Check</button>
+    </p>
+    <p>
+        Email:
+        <input type="text" id="email">
+        <button type="button" onclick="checkEmail()">Check</button>
+    </p>
+</form>
+
+</body>
+</html>
