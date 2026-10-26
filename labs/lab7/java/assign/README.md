@@ -107,7 +107,7 @@ Build a simple web site that allows users to search for products by name, put pr
 
 #### Bonus Marks
 
-Up to 10 bonus marks can be received by going beyond the basic assignment requirements:
+A maximum of 10 bonus marks may be awarded, regardless of how many bonus features are completed. Bonus mark options:
 
 - **+5 marks** - for allowing a user to remove items from their shopping cart and to change the quantity of items ordered when viewing their cart.
 - **+5 marks** - for validating a customer's password when they try to place an order.
