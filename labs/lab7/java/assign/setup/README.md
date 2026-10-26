@@ -16,22 +16,28 @@ This will setup a development environment using Docker on your computer.
 
 <img src="imgs/terminal.png">
 
-5. Type the following command in your terminal and press enter:
+5. Useful Docker commands:
 
     ```
-    docker-compose up -d
+    # Start
+    docker compose up -d
+    
+    # Check the running containers
+    docker compose ps
+    
+    # Inspect errors
+    docker compose logs -f
+    
+    # Stop, preserving containers
+    docker compose stop
+    
+    # Stop and remove containers/networks
+    docker compose down
     ```
 
-    This will setup the JSP runtime and Microsoft SQL server on your system. Please note that you will need at least 500MB of space on your hard drive.
+    This will setup the JSP runtime and Microsoft SQL Server on your system. **If you have issues running Microsoft SQL Server on your machine, please contact the instructor for access to the cosc304 server.**
 
 6. Open your preferred web browser and navigate to the following URL: [http://127.0.0.1/shop/shop.html](http://127.0.0.1/shop/shop.html). If all went well with the above steps, you should see the shop opening page.
 
 7. Edit the files in the text editor and save them on your computer. Changes to these files should be reflected on the website.
 
-## Debugging
-
-Errors will be printed on the respective page being run.
-
-## Shutting Down the Development Server
-
-Press `Ctrl + C` in the terminal instance that you ran `docker-compose up` in.
