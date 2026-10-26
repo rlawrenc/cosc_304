@@ -1,8 +1,8 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using JSP
 
-This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://www.microsoft.com/en-ca/sql-server)</a>.</p>
+This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://www.microsoft.com/en-ca/sql-server).</p>
 
-The web store that we are going to build allows customers to enter their information, chose products by putting them into a shopping cart, and then place an order.
+The web store that we are going to build allows customers to enter their information, choose products by putting them into a shopping cart, and then place an order.
 
 ## Initial Steps
 
