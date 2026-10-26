@@ -9,8 +9,9 @@ The project includes a separate `examples/` web application with demonstrations 
 ## Set up the project
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/Download) (recommended) or another editor, and [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-2. Download [cosc304-java.zip](cosc304-java.zip) and extract it. Open the extracted **`cosc304-java`** folder in your editor. The project source is also available in [the expanded project directory](cosc304-java/).
-3. Open a terminal in `cosc304-java` (in VS Code: *Terminal → New Terminal*). Run:
+2. The project source is available in [cosc304-java](cosc304-java/). Alternatively there is a zip file [cosc304-java.zip](cosc304-java.zip).
+3. Open the **`cosc304-java`** folder in your editor. 
+4. Open a terminal in `cosc304-java` (in VS Code: *Terminal → New Terminal*). Run:
 
    ```bash
    docker compose up -d --build
@@ -18,8 +19,8 @@ The project includes a separate `examples/` web application with demonstrations 
    ```
 
    Docker starts Tomcat and SQL Server and initializes the sample databases the first time the persistent database volume is created. SQL Server can take a little time to become ready.
-4. Open [http://localhost/shop/](http://localhost/shop/) to see the store. Visit [http://localhost/shop/loaddata.jsp](http://localhost/shop/loaddata.jsp) to verify database connectivity and view data counts. That page also provides a **Reset Database** button if you need to reload the original store data. **Resetting deletes any orders and other changes you have made to the store data.**
-5. Edit the JSP files in `cosc304-java/shop/` and refresh the browser to see changes. `shop/jdbc.jsp` provides shared connection information. The `examples/` folder is for reference only.
+5. Open [http://localhost/shop/](http://localhost/shop/) to see the store. Visit [http://localhost/shop/loaddata.jsp](http://localhost/shop/loaddata.jsp) to verify database connectivity and view data counts. That page also provides a **Reset Database** button if you need to reload the original store data. **Resetting deletes any orders and other changes you have made to the store data.**
+6. Edit the JSP files in `cosc304-java/shop/` and refresh the browser to see changes. `shop/jdbc.jsp` provides shared connection information. The `examples/` folder is for reference only.
 
 Useful commands (run from `cosc304-java`):
 
