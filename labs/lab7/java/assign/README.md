@@ -1,6 +1,6 @@
 # COSC 304 - Introduction to Database Systems<br>Assignment 7 - Building a Database-enabled Web Site using JSP
 
-This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://www.microsoft.com/en-ca/sql-server)</a>. SQL Server supports most of the SQL standard including foreign keys and triggers.</p>
+This assignment practices web development using a commercial database system, [Microsoft SQL Server](https://www.microsoft.com/en-ca/sql-server)</a>.</p>
 
 The web store that we are going to build allows customers to enter their information, chose products by putting them into a shopping cart, and then place an order.
 
@@ -13,10 +13,8 @@ The web store that we are going to build allows customers to enter their informa
 
 3. Create the tables and load the sample data into your SQL Server database.  The file `WebContent/loaddata.jsp` will load the database using the `WebContent/ddl/SQLServer_orderdb.ddl` script. You can run this file by using the URL: `http://localhost/shop/loaddata.jsp`.
 
-4. **SQL Server is not supported on the Apple M1 chip.** However, there is an alternate version that is. In the `docker-compose.yml` file, change:
-`image: mcr.microsoft.com/mssql/server:2019-latest` to this: `image: mcr.microsoft.com/azure-sql-edge` .
-
-
+4. If you have any issues running SQL Server on your computer, contact the professor for access to SQL Server on the cosc304 server.
+   
 ## Databases and Autonumber Fields
 
 This database storing customers, orders, and products uses autonumber fields to assign a primary key value for orders.  An autonumber field is an integer field which is automatically assigned by the database.  The value of the counter starts at 1.  When a record is added, the value of the autonumber field for the new record is set to the counter and then the counter is incremented.  Thus, the values of the autonumber field for records are 1,2,3,...  Autonumber fields are useful as primary keys as they are guaranteed to be unique.  To create an autonumber field in a SQL Server create table statement use the `IDENTITY` keyword: 
@@ -32,7 +30,7 @@ CREATE TABLE dummy (
 
 ## Question 1 (10 marks)
 
-Modify the `listorder.jsp` so that it lists all orders currently in the database. You must list all orders and the products of those orders.
+Modify `listorder.jsp` so that it lists all orders currently in the database. You must list all orders and the products of those orders.
 
 #### Details:
 
@@ -125,5 +123,5 @@ Up to 10 bonus marks can be received by going beyond the basic assignment requir
 #### Deliverables:
 
 1. Option #1: Demonstrate your working site to the TA in a help session. Bonus marks if completed by early deadlines. No submission on Canvas is required.
-2. Option #2: Submit in a single zip file all your source code using Canvas. This can be done by exporting your project. Submit all your files, but the files you must change are: `listprod.jsp`, `listorder.jsp` and `order.jsp`.
+2. Option #2: Submit in a single zip file all your source code using Canvas. Submit all your files, but the files you must change are: `listprod.jsp`, `listorder.jsp` and `order.jsp`.
 3. Only one submission for a group. Put both partners' names and student numbers on the submission.
