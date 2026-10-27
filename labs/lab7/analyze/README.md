@@ -118,27 +118,26 @@ The first step is to gather descriptive statistics from the company data. This w
 
 | productId | totalInventory | totalSold | inventoryRatio |
 | --------- | -------------- | --------- | -------------- |
-| 20        | 456            | <null>    | 9999           |
-| 39        | 333            | <null>    | 9999           |
-| 58        | 242            | <null>    | 9999           |
-| 60        | 394            | <null>    | 9999           |
-| 80        | 277            | <null>    | 9999           |
-| 100       | 381            | <null>    | 9999           |
-| 119       | 423            | <null>    | 9999           |
-| 140       | 316            | <null>    | 9999           |
-| 160       | 388            | <null>    | 9999           |
-| 180       | 197            | <null>    | 9999           |
-| 200       | 197            | <null>    | 9999           |
-| 178       | 288            | 5         | 57             |
-| 168       | 34             | 1         | 34             |
-| 99        | 156            | 5         | 31             |
-| 30        | 28             | 1         | 28             |
-| 77        | 220            | 11        | 20             |
-| 34        | 234            | 12        | 19             |
-| 86        | 39             | 2         | 19             |
-| 116       | 281            | 15        | 18             |
-| 21        | 52             | 3         | 17             |
-
+| 20        | 456            | null      | 9999           |
+| 39        | 333            | null      | 9999           |
+| 60        | 394            | null      | 9999           |
+| 80        | 277            | null      | 9999           |
+| 100       | 381            | null      | 9999           |
+| 119       | 423            | null      | 9999           |
+| 140       | 316            | null      | 9999           |
+| 160       | 388            | null      | 9999           |
+| 180       | 197            | null      | 9999           |
+| 200       | 197            | null      | 9999           |
+| 36        | 61             | 2         | 30             |
+| 178       | 288            | 10        | 28             |
+| 139       | 205            | 9         | 22             |
+| 58        | 242            | 12        | 20             |
+| 77        | 220            | 14        | 15             |
+| 99        | 156            | 12        | 13             |
+| 17        | 280            | 23        | 12             |
+| 34        | 234            | 23        | 10             |
+| 198       | 185            | 17        | 10             |
+| 54        | 51             | 6         | 8              |
 
 ## Part 2: Data Visualization (20 marks)
 
@@ -164,7 +163,7 @@ To read data into Excel from SQL Server, follow these steps:
 
 ### Visualizations
 
-Create the following visualizations with one worksheet per visualization. Use the name of the worksheet given. List the SQL query performed under the chart.**2026 is a partial year through October 26.** **Chart images do NOT have to look exactly like the samples provided.**
+Create the following visualizations with one worksheet per visualization. Use the name of the worksheet given. List the SQL query performed under the chart. **2026 is a partial year through October 26.** **Chart images do NOT have to look exactly like the samples provided.**
 
 1. Sheet: `worstproducts` Visualize query 4 from part 1 showing the bottom 7 ordered products using a 3D column chart. (5 marks)
 
