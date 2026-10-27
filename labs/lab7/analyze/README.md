@@ -1,4 +1,4 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 7 - Using Databases with Analysis Software (Excel)
+<img width="1077" height="60" alt="image" src="https://github.com/user-attachments/assets/23854113-1743-4f6f-90ec-4bbcc76974bf" /># COSC 304 - Introduction to Database Systems<br>Lab 7 - Using Databases with Analysis Software (Excel)
 
 You have just been hired as the first data analyst at the ACME company. ACME has been selling products for many years and recording that information in a database. However, they have not been using that collected data to improve their business by tracking key customers and item sales volume, and modifying their pricing and distribution strategies. Your role is to provide these insights to management in a way that is easily understood.
 
@@ -15,112 +15,130 @@ The first step is to gather descriptive statistics from the company data. This w
 
 1. List the 10 lowest priced items (id, name, price). (1 mark)
 
-| productId | productName               | productPrice |
-| --------- | ------------------------- | ------------ |
-| 92        | Fantastic Wooden Keyboard | 0.49         |
-| 154       | Heavy Duty Marble Table   | 0.61         |
-| 85        | Small Steel Shoes         | 4.39         |
-| 71        | Synergistic Marble Plate  | 8.08         |
-| 56        | Sleek Copper Knife        | 8.51         |
-| 150       | Incredible Wool Plate     | 12.78        |
-| 96        | Enormous Copper Car       | 13.42        |
-| 164       | Mediocre Plastic Pants    | 15.54        |
-| 64        | Gorgeous Linen Shirt      | 18.44        |
-| 155       | Gorgeous Concrete Pants   | 22.21        |
-
+| productId | productName          | productPrice |
+| --------- | -------------------- | ------------ |
+| 3         | Dark Chocolate Bar   | 3.99         |
+| 11        | Whole Grain Crackers | 4.49         |
+| 7         | Tomato Pasta Sauce   | 4.99         |
+| 147       | Apple Juice 2L       | 5.99         |
+| 6         | Pasta Variety Pack   | 6.49         |
+| 146       | Orange Juice 2L      | 6.99         |
+| 14        | Pancake Mix 1kg      | 7.49         |
+| 1         | Maple Granola 500g   | 7.99         |
+| 16        | Peanut Butter 750g   | 7.99         |
+| 144       | Black Tea 30 Bags    | 7.99         |
 
 2. Show the id, name, city, and state for the top 5 customers based on order total amount. (2 marks)
 
-| customerId | firstName | lastName | city                | state | totalOrderAmount |
-| ---------- | --------- | -------- | ------------------- | ----- | ---------------- |
-| 46         | Leisa     | Will     | Ziemannton          | NF    | 52067.75         |
-| 98         | Amal      | Schiller | Christiansenborough | NB    | 50172.41         |
-| 76         | Mathilda  | Rowe     | Aracelyborough      | QC    | 49468.52         |
-| 94         | Ariel     | Tromp    | New Geoffreychester | SK    | 48761.63         |
-| 55         | Theresia  | Harvey   | South Glennis       | SK    | 47793.56         |
+| customerId | firstName | lastName | city       | state | totalOrderAmount |
+| ---------- | --------- | -------- | ---------- | ----- | ---------------- |
+| 591        | Gabrielle | Brown    | Montreal   | QC    | 6455.44          |
+| 317        | Zoe       | Martin   | Lethbridge | AB    | 6427.58          |
+| 592        | Taylor    | Tremblay | Edmonton   | AB    | 5673.22          |
+| 1004       | Alex      | Nguyen   | Vancouver  | BC    | 5330.27          |
+| 1041       | Isabelle  | Clark    | Kelowna    | BC    | 5069.25          |
 
-3. List the top 10 ordered products by total quantity (id, name, total quantity) in 2023. (2 marks)
+3. List the top 10 ordered products by total quantity (id, name, total quantity) in 2026. (2 marks)
 
-| productId | productName                 | totalQuantity |
-| --------- | --------------------------- | ------------- |
-| 154       | Heavy Duty Marble Table     | 81            |
-| 125       | Small Silk Keyboard         | 72            |
-| 133       | Lightweight Plastic Watch   | 70            |
-| 184       | Fantastic Concrete Bottle   | 68            |
-| 199       | Sleek Cotton Lamp           | 68            |
-| 21        | Awesome Paper Shoes         | 67            |
-| 165       | Mediocre Aluminum Plate     | 67            |
-| 169       | Fantastic Wooden Coat       | 66            |
-| 150       | Incredible Wool Plate       | 65            |
-| 86        | Synergistic Bronze Computer | 64            |
+| productId | productName                | totalQuantity |
+| --------- | -------------------------- | ------------- |
+| 145       | Sparkling Water 12 Pack    | 109           |
+| 160       | Decaf Coffee Beans 500g    | 82            |
+| 5         | Almond Butter 500g         | 69            |
+| 120       | Mini Portable Projector    | 67            |
+| 159       | Mineral Water 24 Pack      | 64            |
+| 144       | Black Tea 30 Bags          | 62            |
+| 143       | Green Tea 30 Bags          | 59            |
+| 142       | Whole Bean Coffee 1kg      | 58            |
+| 101       | Wireless Bluetooth Earbuds | 57            |
+| 121       | Camping Tent 4 Person      | 56            |
 
 4. List the bottom 7 ordered products (id, name, total revenue) that have generated the least amount of revenue. Only show products that have had a total quantity ordered of at least 60. (3 marks)
 
-| productId | productName                 | totalRevenue |
-| --------- | --------------------------- | ------------ |
-| 48        | Lightweight Aluminum Gloves | 3502.07      |
-| 162       | Enormous Wool Wallet        | 4156.69      |
-| 40        | Fantastic Silk Knife        | 4515.65      |
-| 100       | Intelligent Leather Pants   | 4637.83      |
-| 45        | Practical Linen Chair       | 5228.64      |
-| 7         | Lightweight Wooden Lamp     | 5395.01      |
-| 4         | Intelligent Iron Shoes      | 5527.69      |
+| productId | productName          | totalRevenue |
+| --------- | -------------------- | ------------ |
+| 7         | Tomato Pasta Sauce   | 402.17       |
+| 14        | Pancake Mix 1kg      | 451.67       |
+| 16        | Peanut Butter 750g   | 567.68       |
+| 147       | Apple Juice 2L       | 635.81       |
+| 11        | Whole Grain Crackers | 636.03       |
+| 146       | Orange Juice 2L      | 727.99       |
+| 3         | Dark Chocolate Bar   | 748.30       |
+
 
 5. List the customer (id, names, average rating) who gives the highest average review rating considering all of their reviews. (3 marks)
 
 | customerId | firstName | lastName | avgRating |
 | ---------- | --------- | -------- | --------- |
-| 32         | Brandee   | West     | 5         |
+| 6          | Nathan    | Murphy   | 5         |
 
-6. Show the payment types based on total order amount by year. Only show years 2020 to current. An order must be shipped to be counted for a payment. Order by year ascending and total payment amount descending. Note: This query is hard since `ordersummary` does not have a payment id for each order. We will assume that if a customer has multiple payment methods, then the method with the smallest `paymentMethodId` was the one used for all their orders. (3 marks)
 
-|      | paymentType | totalPaymentAmount |
-| ---- | ----------- | ------------------ |
-| 2020 | VISA        | 307440.61          |
-| 2020 | MC          | 206010.13          |
-| 2020 | PayPal      | 37408.81           |
-| 2020 | AMEX        | 31748.90           |
-| 2020 | ApplePay    | 16474.36           |
-| 2021 | VISA        | 339138.66          |
-| 2021 | MC          | 213836.72          |
-| 2021 | PayPal      | 78742.10           |
-| 2021 | AMEX        | 36261.00           |
-| 2021 | ApplePay    | 16706.42           |
-| 2022 | VISA        | 315487.59          |
-| 2022 | MC          | 211686.66          |
-| 2022 | PayPal      | 51534.70           |
-| 2022 | ApplePay    | 41460.50           |
-| 2022 | AMEX        | 35080.32           |
-| 2023 | VISA        | 270514.28          |
-| 2023 | MC          | 171443.02          |
-| 2023 | PayPal      | 45045.61           |
-| 2023 | ApplePay    | 15659.39           |
-| 2023 | AMEX        | 15458.50           |
+6. Show the payment types based on total order amount by year. Only show years 2022 to current. An order must be shipped to be counted for a payment. Order by year ascending and total payment amount descending. (3 marks)
+
+| orderYear | paymentType | totalPaymentAmount |
+| --- | --- | --- |
+| 2022 | VISA | 89,891.69 |
+| 2022 | MC | 46,337.05 |
+| 2022 | PayPal | 24,807.62 |
+| 2022 | ApplePay | 14,934.32 |
+| 2022 | AMEX | 8,480.10 |
+| 2023 | VISA | 103,948.46 |
+| 2023 | MC | 65,385.57 |
+| 2023 | PayPal | 28,573.14 |
+| 2023 | ApplePay | 21,897.05 |
+| 2023 | AMEX | 13,181.01 |
+| 2024 | VISA | 147,144.94 |
+| 2024 | MC | 72,248.00 |
+| 2024 | PayPal | 35,574.86 |
+| 2024 | ApplePay | 26,263.04 |
+| 2024 | AMEX | 14,537.71 |
+| 2025 | VISA | 172,435.11 |
+| 2025 | MC | 105,623.91 |
+| 2025 | PayPal | 44,981.00 |
+| 2025 | ApplePay | 28,445.25 |
+| 2025 | AMEX | 17,087.65 |
+| 2026 | VISA | 150,800.90 |
+| 2026 | MC | 82,324.20 |
+| 2026 | PayPal | 38,441.16 |
+| 2026 | ApplePay | 23,371.31 |
+| 2026 | AMEX | 21,395.68 |
 
 7. Show the top 5 products (id, name, total quantity difference) that are shipped more frequently from the Kelowna warehouse compared to the Toronto warehouse. Hint: Subqueries may be useful. (3 marks)
 
-| productId | productName                | quantityDiff |
-| --------- | -------------------------- | ------------ |
-| 116       | Mediocre Steel Hat         | 89           |
-| 27        | Mediocre Wooden Bag        | 77           |
-| 152       | Ergonomic Granite Watch    | 76           |
-| 199       | Sleek Cotton Lamp          | 66           |
-| 131       | Lightweight Concrete Chair | 65           |
+| productId | productName           | quantityDiff |
+| --------- | --------------------- | ------------ |
+| 121       | Camping Tent 4 Person | 125          |
+| 125       | Trekking Pole Pair    | 98           |
+| 124       | Camping Cooking Stove | 88           |
+| 122       | Hiking Backpack 35L   | 87           |
+| 45        | Safety Bicycle Helmet | 55           |
 
-8. Show the top 10 products that have the highest current inventory based on its sales for 2022. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2022 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2022, it should be in the list with a sales ratio of 9999. You may want to use the [SQLServer ISNULL() function](https://learn.microsoft.com/en-us/sql/t-sql/functions/isnull-transact-sql?view=sql-server-ver16). (3 marks)
+
+8. Show the top 20 products that have the highest current inventory based on its sales for 2025. Calculate this as a ratio. For example, if the inventory of product X is currently 100, and the sales volume for product X in 2025 is 10, then the inventory ratio is 100/10 = 10. If a product has no sales in 2025, it should be in the list with a sales ratio of 9999. You may want to use the [SQLServer ISNULL() function](https://learn.microsoft.com/en-us/sql/t-sql/functions/isnull-transact-sql?view=sql-server-ver16). (3 marks)
 
 | productId | totalInventory | totalSold | inventoryRatio |
 | --------- | -------------- | --------- | -------------- |
-| 16        | 1213           | <null>    | 9999           |
-| 44        | 1057           | <null>    | 9999           |
-| 48        | 1536           | <null>    | 9999           |
-| 54        | 897            | <null>    | 9999           |
-| 121       | 1600           | <null>    | 9999           |
-| 141       | 889            | <null>    | 9999           |
-| 157       | 1070           | 1         | 1070           |
-| 46        | 1006           | 1         | 1006           |
-| 83        | 1983           | 3         | 661            |
-| 59        | 1204           | 2         | 602            |
+| 20        | 456            | <null>    | 9999           |
+| 39        | 333            | <null>    | 9999           |
+| 58        | 242            | <null>    | 9999           |
+| 60        | 394            | <null>    | 9999           |
+| 80        | 277            | <null>    | 9999           |
+| 100       | 381            | <null>    | 9999           |
+| 119       | 423            | <null>    | 9999           |
+| 140       | 316            | <null>    | 9999           |
+| 160       | 388            | <null>    | 9999           |
+| 180       | 197            | <null>    | 9999           |
+| 200       | 197            | <null>    | 9999           |
+| 178       | 288            | 5         | 57             |
+| 168       | 34             | 1         | 34             |
+| 99        | 156            | 5         | 31             |
+| 30        | 28             | 1         | 28             |
+| 77        | 220            | 11        | 20             |
+| 34        | 234            | 12        | 19             |
+| 86        | 39             | 2         | 19             |
+| 116       | 281            | 15        | 18             |
+| 21        | 52             | 3         | 17             |
+
 
 ## Part 2: Data Visualization (20 marks)
 
@@ -146,17 +164,17 @@ To read data into Excel from SQL Server, follow these steps:
 
 ### Visualizations
 
-Create the following visualizations with one worksheet per visualization. Use the name of the worksheet given. List the SQL query performed under the chart. **Chart images do NOT have to look exactly like the samples provided.**
+Create the following visualizations with one worksheet per visualization. Use the name of the worksheet given. List the SQL query performed under the chart.**2026 is a partial year through October 26.** **Chart images do NOT have to look exactly like the samples provided.**
 
 1. Sheet: `worstproducts` Visualize query 4 from part 1 showing the bottom 7 ordered products using a 3D column chart. (5 marks)
 
 <img src="img/p2_q1.png" width="300" alt="p2_q1">
 
-2. Sheet: `paymentmethods` Use a pie chart to show the percentage payment volume (based on order total amount) by payment method in 2023. (Similar to Q6 in Part 1.) (5 marks)
+2. Sheet: `paymentmethods` Use a pie chart to show the percentage payment volume (based on order total amount) by payment method in 2026. (Similar to Q6 in Part 1.) (5 marks)
 
 <img src="img/p2_q2.png" width="300" alt="p2_q2">
 
-3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) in 2022. (5 marks)
+3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) in 2025. (5 marks)
 
 <img src="img/p2_q3.png" width="300" alt="p2_q3">
 
