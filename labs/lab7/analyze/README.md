@@ -1,4 +1,4 @@
-<img width="1077" height="60" alt="image" src="https://github.com/user-attachments/assets/23854113-1743-4f6f-90ec-4bbcc76974bf" /># COSC 304 - Introduction to Database Systems<br>Lab 7 - Using Databases with Analysis Software (Excel)
+# COSC 304 - Introduction to Database Systems<br>Lab 7 - Using Databases with Analysis Software (Excel)
 
 You have just been hired as the first data analyst at the ACME company. ACME has been selling products for many years and recording that information in a database. However, they have not been using that collected data to improve their business by tracking key customers and item sales volume, and modifying their pricing and distribution strategies. Your role is to provide these insights to management in a way that is easily understood.
 
