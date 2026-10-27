@@ -173,7 +173,7 @@ Create the following visualizations with one worksheet per visualization. Use th
 
 <img src="img/p2_q2.png" width="600" alt="p2_q2">
 
-3. Sheet: `categoryvolume` Use a pie chart to show the percentage products ordered by category (based on order total amount) in 2025. (5 marks)
+3. Sheet: `categoryvolume` Use a pie chart to show the percentage of total sales revenue by product category in 2025. . (5 marks)
 
 <img src="img/p2_q3.png" width="600" alt="p2_q3">
 
