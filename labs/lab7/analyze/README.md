@@ -181,11 +181,21 @@ To read data into Excel from SQL Server, follow these steps:
 
 <img src="img/excel_getdata.png" width="500">
 
-2) Enter `cosc304.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
+2) Enter the server name based on your database setup:
+
+- **Local Docker SQL Server:** `localhost,1433`
+- **Course SQL Server:** `cosc304.ok.ubc.ca`
+
+Enter `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
 
 <img src="img/excel_query.png" width="500">
 
-3) For authentication, select `Database` authentication. The user id is `cosc304`.
+3) For authentication, select `Database` authentication. Use the following credentials:
+
+- **Local Docker SQL Server:** User id `sa`, password `304#sa#pw`.
+- **Course SQL Server:** User id `cosc304`, password available on Canvas.
+
+If prompted about trusting the SQL Server certificate, select the option to trust the server certificate.
 
 <img src="img/excel_user_pw.png" width="500" alt="User authentication">
 
