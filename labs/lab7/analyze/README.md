@@ -6,8 +6,38 @@ You have just been hired as the first data analyst at the ACME company. ACME has
 
 The ACME company sells all kinds of products. Every product has a given category, and customers are encouraged to review products.  Customers place orders through a website. Orders are shipped from one of three warehouses in Kelowna, Winnipeg, and Toronto. Each warehouse maintains inventory on its products. The company needs information on its top selling products, largest customers, and efficiency of its distribution system.
 
-The ACME database is stored on Microsoft SQL Server. It is read-only and accessible at `cosc304.ok.ubc.ca` with database `analysis`. If using SQuirreL, the JDBC URL is: `jdbc:sqlserver://cosc304.ok.ubc.ca;databaseName=analysis;trustServerCertificate=true`.  User id and password are on Canvas. To access the database, you must be on campus connected to ubcsecure WiFi or connect to campus via VPN (`myvpn.ok.ubc.ca`).
+The ACME database is stored on Microsoft SQL Server. There are two options for connecting to the database.
 
+**Option 1: Local SQL Server using Docker (recommended if you already have Docker installed)**
+
+If you already have Docker installed and working, we encourage you to run SQL Server locally. The provided `docker-compose.yml` automatically starts SQL Server and loads the sample database from the DDL files in the `ddl` directory. From the directory containing `docker-compose.yml`, run:
+
+```bash
+docker compose up -d
+```
+
+Connect to the database using:
+
+- **Server:** `localhost,1433`
+- **Database:** `analysis`
+- **User id:** `sa`
+- **Password:** `304#sa#pw`
+
+If using SQuirreL, the JDBC URL is `jdbc:sqlserver://localhost:1433;databaseName=analysis;trustServerCertificate=true`.
+
+Stop SQL Server when finished using `docker compose down`. Your database will be preserved for the next time you start Docker.
+
+**Option 2: Course SQL Server**
+
+If you do not already have Docker working, you can use the shared course SQL Server. This database is read-only.
+
+- **Server:** `cosc304.ok.ubc.ca`
+- **Database:** `analysis`
+- **User id and password:** Available on Canvas
+
+If using SQuirreL, the JDBC URL is `jdbc:sqlserver://cosc304.ok.ubc.ca;databaseName=analysis;trustServerCertificate=true`.
+
+To access the course server, you must be on campus connected to ubcsecure WiFi or connected to campus via VPN (`myvpn.ok.ubc.ca`).
 
 ## Part 1: Descriptive Analysis (20 marks)
 
