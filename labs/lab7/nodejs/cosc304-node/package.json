@@ -1,0 +1,20 @@
+{
+  "name": "cosc304-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "COSC 304 Lab 7 Node.js/Express SQL Server web store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --legacy-watch --ext js,json server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.19.0",
+    "mssql": "^12.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
