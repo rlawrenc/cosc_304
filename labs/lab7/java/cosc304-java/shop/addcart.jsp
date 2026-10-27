@@ -1,6 +1,9 @@
 
 <%@ page import="java.util.HashMap, java.util.ArrayList" %>
 <%
+    // For this lab, we accept the product name and price from the request.
+    // In a real web store, the server should use the product ID to retrieve
+    // and verify the name and price from the database, since users can modify URL parameters.
     // Get product information from request
     String id = request.getParameter("id");
     String name = request.getParameter("name");

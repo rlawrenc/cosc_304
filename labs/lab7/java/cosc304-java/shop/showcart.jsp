@@ -4,6 +4,21 @@
 <%@ page import="java.text.NumberFormat" %>
 <%@ page import="java.util.Map" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%!
+// Escape values before displaying them in HTML. Cart values may come from URL parameters.
+private String escapeHtml(Object value)
+{
+    if (value == null)
+        return "";
+
+    return value.toString()
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace("\"", "&quot;")
+        .replace("'", "&#39;");
+}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,14 +50,14 @@ else
 		ArrayList<Object> product = (ArrayList<Object>) entry.getValue();
 		if (product.size() < 4)
 		{
-			out.println("Expected product with four entries. Got: "+product);
+			out.println("Expected product with four entries. Got: "+escapeHtml(product));
 			continue;
 		}
 		
-		out.print("<tr><td>"+product.get(0)+"</td>");
-		out.print("<td>"+product.get(1)+"</td>");
+		out.print("<tr><td>"+escapeHtml(product.get(0))+"</td>");
+		out.print("<td>"+escapeHtml(product.get(1))+"</td>");
 
-		out.print("<td align=\"center\">"+product.get(3)+"</td>");
+		out.print("<td align=\"center\">"+escapeHtml(product.get(3))+"</td>");
 		Object price = product.get(2);
 		Object itemqty = product.get(3);
 		double pr = 0;
@@ -54,7 +69,7 @@ else
 		}
 		catch (Exception e)
 		{
-			out.println("Invalid price for product: "+product.get(0)+" price: "+price);
+			out.println("Invalid price for product: "+escapeHtml(product.get(0))+" price: "+escapeHtml(price));
 		}
 		try
 		{
@@ -62,7 +77,7 @@ else
 		}
 		catch (Exception e)
 		{
-			out.println("Invalid quantity for product: " + product.get(0) + " quantity: " + itemqty);
+			out.println("Invalid quantity for product: " + escapeHtml(product.get(0)) + " quantity: " + escapeHtml(itemqty));
 		}		
 
 		out.print("<td align=\"right\">"+currFormat.format(pr)+"</td>");

@@ -50,8 +50,10 @@ try (Connection con = DriverManager.getConnection(url, uid, pw);
         out.println("<tr><th>eno</th><th>ename</th><th>pno</th>"
                   + "<th>pname</th><th>resp</th><th>hours</th></tr>");
 
+        int count = 0;
         while (rst.next())
         {
+            count++;
             out.println("<tr><td>" + rst.getString(1) + "</td>"
                       + "<td>" + rst.getString(2) + "</td>"
                       + "<td>" + rst.getString(3) + "</td>"
@@ -60,6 +62,7 @@ try (Connection con = DriverManager.getConnection(url, uid, pw);
                       + "<td>" + rst.getInt(6) + "</td></tr>");
         }
         out.println("</table>");
+        out.println("<p>Number of matching records: " + count + "</p>");
     }
 }
 catch (SQLException ex)

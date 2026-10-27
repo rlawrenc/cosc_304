@@ -18,6 +18,7 @@ DROP TABLE IF EXISTS category;
 DROP TABLE IF EXISTS ordersummary;
 DROP TABLE IF EXISTS paymentmethod;
 DROP TABLE IF EXISTS customer;
+go
 
 CREATE TABLE customer (
     customerId          INT IDENTITY,
