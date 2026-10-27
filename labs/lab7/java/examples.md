@@ -6,7 +6,7 @@ Start Docker as described in the [main Lab 7 README](README.md), then open [http
 
 ## Example 1 — JSP basics
 
-Look at [`HelloWorld.jsp`](cosc304-java/examples/HelloWorld.jsp), which uses JSP scriptlets to generate HTML output. Run it at `http://localhost/examples/HelloWorld.jsp`.
+Look at [`HelloWorld.jsp`](cosc304-java/examples/HelloWorld.jsp), which uses JSP scriptlets to generate HTML output. Run it at [http://localhost/examples/HelloWorld.jsp](http://localhost/examples/HelloWorld.jsp).
 
 **Practice:** Modify the example to display the heading **Hello World Again!** followed by the numbers 1–5, each on its own line.
 
