@@ -6,7 +6,8 @@ You have just been hired as the first data analyst at the ACME company. ACME has
 
 The ACME company sells all kinds of products. Every product has a given category, and customers are encouraged to review products.  Customers place orders through a website. Orders are shipped from one of three warehouses in Kelowna, Winnipeg, and Toronto. Each warehouse maintains inventory on its products. The company needs information on its top selling products, largest customers, and efficiency of its distribution system.
 
-The ACME database is stored on Microsoft SQL Server. There are two options for connecting to the database.
+The ACME database is stored on Microsoft SQL Server. There are two options for connecting to the database. 
+**Mac users:** The SQL Server Docker image is not officially supported on Apple Silicon (M-series) Macs. If you cannot run SQL Server locally, use the course SQL Server instead. You do not need Docker to complete this lab.
 
 **Option 1: Local SQL Server using Docker (recommended if you already have Docker installed)**
 
@@ -175,31 +176,76 @@ Analyzing data is easier using visualizations. The next step is to visualize dat
 
 ### Connecting Excel and SQL Server
 
+You can import SQL query results directly into Excel or export the results from SQuirreL SQL. Both methods are acceptable for this lab.
+
+#### Excel for Windows
+
 To read data into Excel from SQL Server, follow these steps:
 
-1) Open Excel. Under the `Data` Menu, select `Get Data` then, `From Database`, then `From SQL Server Database`.
+1. Open Excel. Under the `Data` menu, select `Get Data`, then `From Database`, then `From SQL Server Database`.
 
 <img src="img/excel_getdata.png" width="500">
 
-2) Enter the server name based on your database setup:
+2. Enter the server name based on your database setup:
 
-- **Local Docker SQL Server:** `localhost,1433`
-- **Course SQL Server:** `cosc304.ok.ubc.ca`
+   - **Local Docker SQL Server:** `localhost,1433`
+   - **Course SQL Server:** `cosc304.ok.ubc.ca`
 
-Enter `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
+   Enter `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
 
 <img src="img/excel_query.png" width="500">
 
-3) For authentication, select `Database` authentication. Use the following credentials:
+3. For authentication, select `Database` authentication. Use the following credentials:
 
-- **Local Docker SQL Server:** User id `sa`, password `304#sa#pw`.
-- **Course SQL Server:** User id `cosc304`, password available on Canvas.
+   - **Local Docker SQL Server:** User id `sa`, password `304#sa#pw`.
+   - **Course SQL Server:** User id `cosc304`, password available on Canvas.
 
-If prompted about trusting the SQL Server certificate, select the option to trust the server certificate.
+   If prompted about trusting the SQL Server certificate, select the option to trust the server certificate.
 
 <img src="img/excel_user_pw.png" width="500" alt="User authentication">
 
-4) Click the `Load` button to load the data into a worksheet.
+4. Click the `Load` button to load the data into a worksheet.
+
+#### Excel for Mac
+
+Excel for Mac has a different interface for connecting to SQL Server. Follow these steps:
+
+1. Open Excel and select `Data` > `Get Data (Power Query)` > `From SQL Server ODBC`. In some versions, `From SQL Server ODBC` may appear directly on the Data tab.
+
+2. Enter the connection information:
+
+   - **Server Name:** `cosc304.ok.ubc.ca` (course server) or `localhost,1433` (local Docker)
+   - **Database Name:** `analysis`
+   - **Authentication:** `Username/Password`
+   - **User Name:** `cosc304` (course server) or `sa` (local Docker)
+   - **Password:** Available on Canvas (course server) or `304#sa#pw` (local Docker)
+
+3. Click `Connect`. If using the course server, you must be on campus or connected through the UBC VPN.
+
+4. In the Navigator window, select a table from the database. The SQL statement appears in the right pane. Replace this statement with your SQL query and click `Run` to preview the results.
+
+5. Click `Return Data`, select a new worksheet as the destination, and click `OK`.
+
+6. Create your chart using the imported query results.
+
+For additional details, see [Microsoft's Excel for Mac database connection instructions](https://support.microsoft.com/en-us/excel/import-and-shape-data-in-excel-for-mac-power-query).
+
+**Note:** If your version of Excel does not provide the SQL Server ODBC option or the connection does not work, use the alternative method below.
+
+#### Alternative: Export SQL Results to Excel (Windows or Mac)
+
+If you cannot connect Excel directly to SQL Server, you may export your query results using SQuirreL SQL and import them into Excel. This method is acceptable for all visualizations.
+
+1. Connect to the SQL Server database using SQuirreL SQL.
+2. Execute the SQL query that produces the data for your visualization.
+3. Right-click the query results table and select `Export CSV / MS Excel / XML / JSON ...` (the exact menu wording may vary by version).
+4. Export the results as a CSV or Excel file, including column headers.
+5. Open the exported file in Excel. If using CSV, you can also import it using `Data` > `From Text/CSV`.
+6. Create the required visualization and copy your SQL query underneath the chart.
+7. Repeat for each visualization, placing each chart on its required worksheet in the same Excel workbook.
+
+**Important:** You must still write and execute the SQL queries yourself. Your Excel workbook must contain all required visualizations, with one worksheet per visualization and the SQL query underneath each chart. The grading is the same regardless of which data import method you use.
+
 
 ### Visualizations
 
