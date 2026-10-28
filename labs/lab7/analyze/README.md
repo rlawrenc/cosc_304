@@ -19,7 +19,7 @@ docker compose up -d
 
 Connect to the database using:
 
-- **Server:** `localhost,1433`
+- **Server:** `localhost`
 - **Database:** `analysis`
 - **User id:** `sa`
 - **Password:** `304#sa#pw`
@@ -188,7 +188,7 @@ To read data into Excel from SQL Server, follow these steps:
 
 2. Enter the server name based on your database setup:
 
-   - **Local Docker SQL Server:** `localhost,1433`
+   - **Local Docker SQL Server:** `localhost`
    - **Course SQL Server:** `cosc304.ok.ubc.ca`
 
    Enter `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
@@ -214,7 +214,7 @@ Excel for Mac has a different interface for connecting to SQL Server. Follow the
 
 2. Enter the connection information:
 
-   - **Server Name:** `cosc304.ok.ubc.ca` (course server) or `localhost,1433` (local Docker)
+   - **Server Name:** `cosc304.ok.ubc.ca` (course server) or `localhost` (local Docker)
    - **Database Name:** `analysis`
    - **Authentication:** `Username/Password`
    - **User Name:** `cosc304` (course server) or `sa` (local Docker)
