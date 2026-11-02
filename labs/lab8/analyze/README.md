@@ -1,94 +1,107 @@
-# COSC 304 - Introduction to Database Systems<br>Lab 8 - Data Prediction, Forecasting, and Visualization
+# COSC 304 - Introduction to Database Systems  
+## Lab 8 - Data Prediction, Forecasting, and Visualization
 
 ## ACME Company Goals
 
-Your managers found the data analysis you performed previously very helpful in understanding their customers, products, and overall business. They have now started asking questions about not just the current state of the business but also future trends for use in long range planning. ACME Company has tasked you with several goals related to prediction and forecasting, specifically predicting their overall sales for the next few years and best selling products. The output of this analysis will be an Excel file called `304_lab8_analysis.xlsx`. 
+In Lab 7, you analyzed ACME Company's historical orders, customers, and products. Management would now like to use that data to estimate future sales and identify products and regions that may perform well in the coming year.
 
-### Connecting Excel and SQL Server
+In this lab, you will use SQL to extract historical data and Excel to perform predictions and create visualizations. **The goal is to explain a reasonable forecasting approach, not to produce a perfectly accurate prediction.** A forecast is only as reliable as the data and assumptions used to create it.
 
-To read data into Excel from SQL Server, follow these steps:
+The database contains orders from **2022 through October 26, 2026**. **2026 is an incomplete year**, so be careful when comparing its sales with earlier years or using it to forecast future sales.
 
-1) Open Excel. Under the `Data` Menu, select `Get Data` then, `From Database`, then `From SQL Server Database`.
+**Deliverable:** Submit a single Excel workbook named `304_lab8_analysis.xlsx`, containing the required tables, formulas, charts, explanations, and SQL queries. Use the worksheet names specified below. The lab is worth **25 marks**.
 
-<img src="img/excel_getdata.png" width="400">
+### Connecting to SQL Server and Excel
 
-2) Enter `cosc304.ok.ubc.ca` for the server and `analysis` for the database. Select `Advanced options` and enter the SQL query that you want to perform. Click `OK`.
+Use the same **`analysis` database** and connection setup as Lab 7:
 
-<img src="img/excel_query.png" width="500">
+- **Local Docker SQL Server:** Server `localhost`, database `analysis`, user `sa`, password `304#sa#pw`.
+- **Course SQL Server:** Server `cosc304.ok.ubc.ca`, database `analysis`, credentials from Canvas. You must be on campus or connected through UBC VPN.
 
-3) For authentication, select `Database` authentication. The user id and password is provided on Canvas. Note that you must be connected to UBC VPN in order to access the database. 
+See the [Lab 7 analysis instructions](../../lab7/analyze/README.md#connecting-excel-and-sql-server) for detailed steps for Excel on Windows and on Mac.
 
-<img src="img/excel_user_pw.png" width="500" alt="User authentication">
-
-4) Click the `Load` button to load the data into a worksheet.
+You may connect Excel directly to SQL Server **or** run the SQL queries in SQuirreL SQL and import the results into Excel as CSV/Excel files. Both methods are acceptable. Include the SQL used to produce each dataset in your workbook.
 
 ## Part 1: Prediction and Forecasting (25 marks)
 
-Performing predictions is easy in Excel, and there are several methods to do it.
-
 ### Question 1: Predicting Company Sales (10 marks)
 
-Let's go through the steps to predict the company sales for the next two years (2024, 2025). The initial query to retrieve the data is: 
+ACME wants to forecast total sales revenue for **2027 and 2028**. First, produce a forecast using the historical data as recorded. Then improve the forecast by accounting for the incomplete 2026 data.
 
-```
-SELECT YEAR(orderDate) as year, SUM(TotalAmount) as totalSales
+**Step 1: Retrieve annual sales.** Run the following query and import the results into a worksheet named **`salesdata`**.
+
+```sql
+SELECT YEAR(orderDate) AS year, SUM(totalAmount) AS totalSales
 FROM ordersummary
 GROUP BY YEAR(orderDate)
-ORDER BY YEAR(orderDate)
+ORDER BY YEAR(orderDate);
 ```
-Connect to the database using Excel. Execute the query and load the data into Excel. Store data in sheet called `salesdata`. 
 
-There are several ways to perform a prediction. Excel has a [**forecast** function](https://support.microsoft.com/en-us/office/forecast-and-forecast-linear-functions-50ca49c9-7b40-4892-94e4-7ad38bbeda99) that will predict an output value based on an input value and the prior data series points.
+You should obtain one row per year, from 2022 to 2026.
 
-<img src="img/p1_q1_linear_forecast.png" width="500">
+**Step 2: Initial prediction (5 marks).** Create a worksheet named **`initialpredict`** with the following:
 
-Another way is to create a graph and add a [linear trend line](https://support.microsoft.com/en-us/office/add-a-trend-or-moving-average-line-to-a-chart-fa59f86c-5852-4b68-a6d4-901a745842ad).
+1. The historical annual sales data (2022–2026), including the *unadjusted* 2026 total.
+2. Predictions of annual sales in **2027 and 2028** using Excel's [`FORECAST.LINEAR`](https://support.microsoft.com/en-us/office/forecast-and-forecast-linear-functions-50ca49c9-7b40-4892-94e4-7ad38bbeda99) function. For example, if the years are in `salesdata!A2:A6` and totals in `salesdata!B2:B6`, use:
 
-<img src="img/p1_q1_linear_graph.png" width="500">
+   ```excel
+   =FORECAST.LINEAR(2027,salesdata!$B$2:$B$6,salesdata!$A$2:$A$6)
+   ```
 
-It is also possible to use **Forecast Sheet**. Once you have a data set loaded and selected, on the **Data** tab, in the **Forecast** group, click **Forecast** Sheet. An [example walkthrough written by Microsoft](https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd) is available.
+   Repeat for 2028.
+3. A line or scatter chart of the historical sales with a **linear trendline extended two years into the future**. Show the forecast values in a small table and compare them with the values from `FORECAST.LINEAR`. The two linear methods should give essentially the same predictions (apart from rounding).
+4. One or two sentences explaining why the prediction may be misleading.
 
-<img src="img/excel_forecast.png" width="100">
+**Optional forecasting method:** Excel for Windows also offers **Data > Forecast Sheet**, which uses a different forecasting method. You may include its 2027–2028 predictions for comparison. The automatic Forecast Sheet command is not available in Excel for Mac, so it is **not required**.
 
-Create a forecast sheet and rename it as `initialpredict` similar to shown below.
+See Microsoft's [forecasting walkthrough for Excel for Windows](https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd).
 
-<img src="img/p1_q1_forecast.png" width="500">
+**Step 3: Updated prediction (5 marks).** The recorded 2026 total includes orders only through October 26. Make a second prediction using these assumptions:
 
-The results of these forecast methods produce different results. Completing this part is worth 5 marks.
+1. Keep the recorded annual sales totals for **2022–2025** unchanged.
+2. Estimate **full-year 2026 sales by increasing its recorded total by 20%**. This is a simple assumption, not a guaranteed adjustment; actual sales may be affected by seasonality.
+3. Use the adjusted 2026 value to calculate updated forecasts for **2027 and 2028**.
 
-| Year   | Linear Regression   | Linear Treandline  | Forecase Sheet  |
-|---|---|---|---|
-| 2024 | $837,071.64  | $837,072.00  | $762,127.98 | 
-| 2025 | $938,035.54  | $938,036.00  | $851,584.09 |
+Put the adjusted data, prediction formulas, and updated chart on a worksheet named **`salesprediction`**. Include a small comparison of your initial and adjusted forecasts and briefly explain how and why they differ.
 
+### Question 2: Predicting Sales by Province (5 marks)
 
-Unfortunately, this prediction is not very accurate for several reasons. First, 2019 was only a partial year for sales starting in October. Similarly, the 2023 selling season is not complete with data only up to October. The *art* of making predictions comes from deciding what to do with incomplete, missing, or inaccurate data. Perform an updated prediction and save in the sheet `salesprediction`. Here are the assumptions:
+ACME wants to know which Canadian province is likely to have the highest sales revenue in **2027 and 2028**.
 
-1. 2019 data will not be used as it is incomplete.
-2. 2023 data will be increased by 20% as there are still 2 months of sales. (Note: This estimate could be better as many retailers do a higher percentage of sales around Christmas.)
-3. Generate an updated sales table and sales prediction for 2024 and 2025.
+1. Write a SQL query showing **annual sales revenue by customer province** for the years **2022–2026**. Use the customer's province (`state` in the database). Include the year, province, and total sales revenue.
+2. Use the historical data to predict sales revenue by province for **2027 and 2028**. Because 2026 is incomplete, either adjust it appropriately or omit it from the historical data used for prediction. Briefly describe your choice. Identify the province with the largest predicted sales in each forecast year.
+3. Create an Excel **filled map chart** showing actual total sales revenue by province for **2025**, the last complete year in the dataset. A map chart can be inserted using **Insert > Maps > Filled Map**. If Excel does not recognize two-letter province codes, use full province names and include a separate country column containing `Canada`.
 
-This second prediction is worth 5 marks.
+Place your query, data table, prediction results, map chart, and brief explanation in a worksheet named **`regionsales`**.
 
-
-### Question 2: Predicting Sales by Region (5 marks)
-
-ACME Company wants to understand its sales by province (state). Generate a query that produces data with the overall sales by province for the years 2020 to 2022. Use this data to predict the province with the highest sales in 2023 and 2024.
-
-Excel has a nice [map chart visualization](https://support.microsoft.com/en-us/office/create-a-map-chart-in-excel-f2cfed55-d622-42cd-8ec9-ec8a358b593b) for displaying data on a map. Create a map chart showing the total sales by province for 2022 similar to below.
-
-<img src="img/p1_q2_map_chart.png" width="500">
+See Microsoft's [instructions for map charts in Excel](https://support.microsoft.com/en-us/office/create-a-map-chart-in-excel-f2cfed55-d622-42cd-8ec9-ec8a358b593b). Creating a map chart requires an internet connection. If the map feature is unavailable, create a bar chart comparing provincial sales and note the limitation.
 
 ### Question 3: Predicting Top Product Sales (10 marks)
 
-The goal is to predict the top 3 selling products in 2024 based on historical data from 2020 to 2023. The data table and visualization should be in a sheet called `productsales`. This is an open-ended question, and there are multiple ways to approach this. A challenge is that there are 200 products to consider. Although you may use Python or Java to perform code analysis, that is not required. The question is marked based on your approach and discussion more than your final result. Note: Use of Generative AI (including Copilot and ChatGPT) is allowed for this part. Document any sources used to build your analysis.
+ACME wants to predict its **top three products by sales revenue in 2027**, using historical orders from **2022–2026**. Sales revenue is the sum of **quantity × price** for ordered products. It is not the same as the number of units sold.
 
-Marking:
-1. Write a short paragraph describing your analysis approach. (2 marks)
-2. Implement your analysis approach in Excel, SQL, and maybe Java/Python code. (5 marks)
-3. List any sources (website, AI conversations) used to design and implement your approach. (2 marks)
-4. List your predicted top 3 selling products for 2024 and their predicted sales volume (quantity*price). (1 mark)
+This is an open-ended question. There are approximately 200 products to consider, and there are several reasonable ways to forecast revenue. You may use SQL and Excel, and optionally Java or Python. Consider how to handle products that have little or no historical sales and how to account for the incomplete 2026 data.
 
-# Submission
+Put the analysis in a worksheet named **`productsales`**, including the SQL query, historical data or summary, calculations, visualization, and predicted top three products. Provide the following:
 
-Submit your Excel file on Canvas. Bonus marks are available for early review by the TA in a virtual office hours.
+1. A short paragraph describing and justifying your forecasting approach. **(2 marks)**
+2. An implementation of your approach using SQL and Excel, with Java/Python if useful. Show enough calculations or formulas to explain how you obtained your predictions. **(5 marks)**
+3. A list of sources used to design or implement your approach, including websites and any AI tools or conversations. If none were used, state that. **(2 marks)**
+4. Your predicted **top three products for 2027**, with their names and predicted sales revenue (in dollars). **(1 mark)**
+
+**Generative AI (including ChatGPT and Copilot) is allowed for this question.** You remain responsible for checking all SQL, formulas, assumptions, and results. Document any AI assistance in your workbook.
+
+## Submission
+
+Submit **one Excel workbook** named `304_lab8_analysis.xlsx` on Canvas. It should contain these five worksheets:
+
+- `salesdata` — annual sales data retrieved from SQL Server
+- `initialpredict` — initial 2027–2028 forecasts and chart
+- `salesprediction` — updated forecasts using adjusted 2026 sales
+- `regionsales` — province-level predictions and map (or fallback) chart
+- `productsales` — product revenue forecasting and predicted top three products
+
+Make sure the SQL queries, formulas, charts, written explanations, and source/AI acknowledgments are included in the workbook. The same marking criteria apply whether data was imported directly from SQL Server or exported from SQuirreL SQL.
+
+Bonus marks are available for early review by the TA during virtual office hours, as described in the course schedule on Canvas.
+
