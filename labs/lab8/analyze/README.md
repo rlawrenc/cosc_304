@@ -22,7 +22,7 @@ See the [Lab 7 analysis instructions](../../lab7/analyze/README.md#connecting-ex
 
 You may connect Excel directly to SQL Server **or** run the SQL queries in SQuirreL SQL and import the results into Excel as CSV/Excel files. Both methods are acceptable. Include the SQL used to produce each dataset in your workbook.
 
-## Part 1: Prediction and Forecasting (25 marks)
+## Prediction and Forecasting (25 marks)
 
 ### Question 1: Predicting Company Sales (10 marks)
 
@@ -50,17 +50,17 @@ You should obtain one row per year, from 2022 to 2026.
 
 <img src="img/p1_q1_linear_forecast.png" width="500">
 
-4. A line or scatter chart of the historical sales with a **linear trendline extended two years into the future**. Show the forecast values in a small table and compare them with the values from `FORECAST.LINEAR`. The two linear methods should give essentially the same predictions (apart from rounding).
+3.Create an XY scatter chart of historical sales using the year as the X-axis and sales revenue as the Y-axis. Add a linear trendline extended two years into the future. Compare its predictions for 2027 and 2028 with the results from `FORECAST.LINEAR`. The two methods should give essentially the same results apart from rounding.
 
 <img src="img/p1_q1_linear_graph.png" width="500">
 
-6. One or two sentences explaining why the prediction may be misleading.
+4. One or two sentences explaining why the prediction may be misleading.
 
 **Optional forecasting method:** Excel for Windows also offers **Data > Forecast Sheet**, which uses a different forecasting method. You may include its 2027–2028 predictions for comparison. The automatic Forecast Sheet command is not available in Excel for Mac, so it is **not required**.
 
 <img src="img/excel_forecast.png" width="100">
 
-See Microsoft's [forecasting walkthrough for Excel for Windows](https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd).
+Example of Excel's optional Forecast Sheet, which uses a different forecasting method and may produce different predictions from FORECAST.LINEAR. See Microsoft's [forecasting walkthrough for Excel for Windows](https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd).
 
 <img src="img/p1_q1_forecast.png" width="500">
 
