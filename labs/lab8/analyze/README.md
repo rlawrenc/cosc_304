@@ -48,13 +48,21 @@ You should obtain one row per year, from 2022 to 2026.
    =FORECAST.LINEAR(2027,salesdata!$B$2:$B$6,salesdata!$A$2:$A$6)
    ```
 
-   Repeat for 2028.
-3. A line or scatter chart of the historical sales with a **linear trendline extended two years into the future**. Show the forecast values in a small table and compare them with the values from `FORECAST.LINEAR`. The two linear methods should give essentially the same predictions (apart from rounding).
-4. One or two sentences explaining why the prediction may be misleading.
+<img src="img/p1_q1_linear_forecast.png" width="500">
+
+4. A line or scatter chart of the historical sales with a **linear trendline extended two years into the future**. Show the forecast values in a small table and compare them with the values from `FORECAST.LINEAR`. The two linear methods should give essentially the same predictions (apart from rounding).
+
+<img src="img/p1_q1_linear_graph.png" width="500">
+
+6. One or two sentences explaining why the prediction may be misleading.
 
 **Optional forecasting method:** Excel for Windows also offers **Data > Forecast Sheet**, which uses a different forecasting method. You may include its 2027–2028 predictions for comparison. The automatic Forecast Sheet command is not available in Excel for Mac, so it is **not required**.
 
+<img src="img/excel_forecast.png" width="100">
+
 See Microsoft's [forecasting walkthrough for Excel for Windows](https://support.microsoft.com/en-us/office/create-a-forecast-in-excel-for-windows-22c500da-6da7-45e5-bfdc-60a7062329fd).
+
+<img src="img/p1_q1_forecast.png" width="500">
 
 **Step 3: Updated prediction (5 marks).** The recorded 2026 total includes orders only through October 26. Make a second prediction using these assumptions:
 
@@ -76,6 +84,8 @@ Place your query, data table, prediction results, map chart, and brief explanati
 
 See Microsoft's [instructions for map charts in Excel](https://support.microsoft.com/en-us/office/create-a-map-chart-in-excel-f2cfed55-d622-42cd-8ec9-ec8a358b593b). Creating a map chart requires an internet connection. If the map feature is unavailable, create a bar chart comparing provincial sales and note the limitation.
 
+<img src="img/p1_q2_map_chart.png" width="500">
+
 ### Question 3: Predicting Top Product Sales (10 marks)
 
 ACME wants to predict its **top three products by sales revenue in 2027**, using historical orders from **2022–2026**. Sales revenue is the sum of **quantity × price** for ordered products. It is not the same as the number of units sold.
@@ -89,7 +99,7 @@ Put the analysis in a worksheet named **`productsales`**, including the SQL quer
 3. A list of sources used to design or implement your approach, including websites and any AI tools or conversations. If none were used, state that. **(2 marks)**
 4. Your predicted **top three products for 2027**, with their names and predicted sales revenue (in dollars). **(1 mark)**
 
-**Generative AI (including ChatGPT and Copilot) is allowed for this question.** You remain responsible for checking all SQL, formulas, assumptions, and results. Document any AI assistance in your workbook.
+**Generative AI is allowed for this question.** You remain responsible for checking all SQL, formulas, assumptions, and results. Document any AI assistance in your workbook.
 
 ## Submission
 
