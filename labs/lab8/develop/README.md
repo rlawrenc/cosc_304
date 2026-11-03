@@ -8,7 +8,7 @@ Modify your existing project web site with new features including a product deta
 
 2. Start with the setup for lab 7 for either [Java](https://github.com/rlawrenc/cosc_304/tree/main/labs/lab7/java), [Python](https://github.com/rlawrenc/cosc_304/tree/main/labs/lab7/python), or [Node.js](https://github.com/rlawrenc/cosc_304/tree/main/labs/lab7/nodejs). **If you have an existing Docker container for lab 7, you do not need to download and setup lab 7 again.**
 
-3. Download starter code for [Java](304_lab8_java.zip), [Python](304_lab8_python.zip), or [Node.js](304_lab8_starter_node.zip). These code files should be **ADDED** to your existing lab 7 project. 
+3. Download starter code for [Java](304_lab8_java_starter.zip), [Python](304_lab8_python_starter.zip), or [Node.js](304_lab8_node_starter.zip). These code files should be **ADDED** to your existing lab 7 project. 
 
 4. Your output does not have to look exactly like the sample (feel free to make it look better!).
 
