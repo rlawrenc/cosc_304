@@ -1,52 +1,91 @@
 /*
-JdbcTransactions.java - This code demonstrates transactions in JDBC.
+ * JdbcTransactions.java - Demonstrates a JDBC transaction using the Lab 7
+ * SQL Server orders database.
+ *
+ * The program compares an order's stored total with the sum of its line items
+ * and corrects the total if necessary. The SELECT and optional UPDATE are
+ * performed in one transaction.
+ *
+ * Key steps:
+ * 1. Turn off auto-commit with setAutoCommit(false).
+ * 2. Execute the SQL statements.
+ * 3. Commit on success, or roll back if a SQL error occurs.
+ *
+ * Run this standalone program with the SQL Server JDBC driver on the classpath.
+ * Start the Lab 7 Docker containers first.
+ */
 
-There are two main steps:
-1) Turn auto-commit off for your database connection.
-2) Make sure to explicitly call commit() to end and commit your transaction, or call rollback().
-
-This sample code determines if a given order total is consistent with its lineitems
-and then updates the order total (if required) in a single transaction per order.
-*/
-
+import java.math.BigDecimal;
 import java.sql.*;
 
 public class JdbcTransactions
-{	public static void main(String[] args)
-	{	String url = "jdbc:sqlserver:/localhost;databaseName=workson;TrustServerCertificate=True";
-		String uid = "sa";
-		String pw = "todo";
+{
+    public static void main(String[] args)
+    {
+        // Connect from the host computer to the Lab 7 SQL Server Docker container.
+        String url = "jdbc:sqlserver://cosc304_sqlserver:1433;databaseName=orders;"
+                   + "encrypt=true;trustServerCertificate=true";
+        String uid = "sa";
+        String pw = "304#sa#pw";  // Classroom Docker password (not for production)
+        int orderId = 1;
 
-		try ( Connection con = DriverManager.getConnection(url, uid, pw);)
-		{		
-			Statement stmt = con.createStatement();
+        try (Connection con = DriverManager.getConnection(url, uid, pw))
+        {
+            con.setAutoCommit(false);  // Start managing transactions explicitly
 
-			con.setAutoCommit(false);			// Set auto-commit to false so can support transactions
+            try
+            {
+                String sql = "SELECT O.totalAmount, "
+                           + "SUM(OP.quantity * OP.price) AS calculatedTotal "
+                           + "FROM ordersummary O "
+                           + "LEFT JOIN orderproduct OP ON O.orderId = OP.orderId "
+                           + "WHERE O.orderId = ? "
+                           + "GROUP BY O.orderId, O.totalAmount";
 
-			// First, let's mess up the order total
-			String sql = "UPDATE Orders SET totalAmount = -1 WHERE orderId = 1;";
-			System.out.println("Changing order total for order id 1 to -1.");
-			stmt.execute(sql);
+                BigDecimal storedTotal;
+                BigDecimal calculatedTotal;
 
-			con.commit();						// Now must explicitly commit each statement
+                try (PreparedStatement pstmt = con.prepareStatement(sql))
+                {
+                    pstmt.setInt(1, orderId);
+                    try (ResultSet rst = pstmt.executeQuery())
+                    {
+                        if (!rst.next())
+                            throw new SQLException("Order " + orderId + " was not found.");
 
-			sql = "SELECT SUM(quantity*price),totalAmount FROM Orders O, OrderedProduct OP WHERE OP.orderId = O.orderId and O.orderId = 1 GROUP BY O.orderId, O.totalAmount";
-			ResultSet rst = stmt.executeQuery(sql);
+                        storedTotal = rst.getBigDecimal("totalAmount");
+                        calculatedTotal = rst.getBigDecimal("calculatedTotal");
+                    }
+                }
 
-			if (rst.next())
-			{
-				double lineItemValue = rst.getDouble(1);
-				double totalAmount = rst.getDouble(2);
+                if (storedTotal.compareTo(calculatedTotal) != 0)
+                {
+                    sql = "UPDATE ordersummary SET totalAmount = ? WHERE orderId = ?";
+                    try (PreparedStatement pstmt = con.prepareStatement(sql))
+                    {
+                        pstmt.setBigDecimal(1, calculatedTotal);
+                        pstmt.setInt(2, orderId);
+                        pstmt.executeUpdate();
+                    }
+                    System.out.println("Order " + orderId + " total was incorrect: "
+                                       + storedTotal + ". Updated to: " + calculatedTotal);
+                }
+                else
+                    System.out.println("Order " + orderId + " total is correct: " + storedTotal);
 
-				if (lineItemValue != totalAmount)
-				{
-					stmt.execute("UPDATE Orders SET totalAmount = "+lineItemValue+" WHERE orderId = 1;");
-					System.out.println("Order total is incorrect: "+totalAmount+" Updating to: "+lineItemValue);
-				}
-			}
-			con.commit();		// Commit this transaction			
-		}
-		catch (SQLException ex) {
-			System.err.println("SQLException: " + ex); }
-	}
+                con.commit();  // Commit the transaction
+                System.out.println("Transaction committed.");
+            }
+            catch (SQLException ex)
+            {
+                con.rollback();  // Undo any changes made in this transaction
+                System.out.println("Transaction rolled back.");
+                throw ex;
+            }
+        }
+        catch (SQLException ex)
+        {
+            System.err.println("SQLException: " + ex.getMessage());
+        }
+    }
 }
