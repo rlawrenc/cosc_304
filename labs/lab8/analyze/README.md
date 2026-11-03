@@ -50,7 +50,7 @@ You should obtain one row per year, from 2022 to 2026.
 
 <img src="img/p1_q1_linear_forecast.png" width="500">
 
-3.Create an XY scatter chart of historical sales using the year as the X-axis and sales revenue as the Y-axis. Add a linear trendline extended two years into the future. Compare its predictions for 2027 and 2028 with the results from `FORECAST.LINEAR`. The two methods should give essentially the same results apart from rounding.
+3.Create a column chart of historical sales using the year as the X-axis and sales revenue as the Y-axis. Add a linear trendline extended two years into the future. Compare its predictions for 2027 and 2028 with the results from `FORECAST.LINEAR`. The two methods should give essentially the same results apart from rounding.
 
 <img src="img/p1_q1_linear_graph.png" width="500">
 
