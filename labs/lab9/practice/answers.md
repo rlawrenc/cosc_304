@@ -66,11 +66,11 @@ drop trigger updateLowSalary;
 
 ```
 {"proj":[
-	{"pno":"P1", "pname":"Instruments"	, "budget":"150000", "dno":"D1"},
-	{"pno":"P2", "pname":"DB Develop"	, "budget":"135000", "dno":"D2"},
-	{"pno":"P3", "pname":"Budget"		, "budget":"250000", "dno":"D3"},
-	{"pno":"P4", "pname":"Maintenance"	, "budget":"310000", "dno":"D2"},
-	{"pno":"P5", "pname":"CAD/CAM"		, "budget":"500000", "dno":"D2"}
+	{"pno":"P1", "pname":"Instruments"	, "budget":150000, "dno":"D1"},
+	{"pno":"P2", "pname":"DB Develop"	, "budget":135000, "dno":"D2"},
+	{"pno":"P3", "pname":"Budget"		, "budget":250000, "dno":"D3"},
+	{"pno":"P4", "pname":"Maintenance"	, "budget":310000, "dno":"D2"},
+	{"pno":"P5", "pname":"CAD/CAM"		, "budget":500000, "dno":"D2"}
 ],
 "dept":[
 	{"dno":"D1", "dname":"Management", "mgreno":"E8"},
