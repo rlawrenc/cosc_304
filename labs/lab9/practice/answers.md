@@ -27,6 +27,8 @@ GROUP BY E.eno, ename, salary, bdate, dno
 
 ## Question 3 - Triggers
 
+Note: When running these triggers using the MySQL command-line client, use `DELIMITER //` before the trigger definition, end the trigger with `END//`, and restore `DELIMITER ;` afterward.
+
 ```
 -- 1
 CREATE TRIGGER increaseBudget
