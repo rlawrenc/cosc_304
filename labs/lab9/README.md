@@ -23,7 +23,7 @@ Use the [XML Practice Query Page](https://cosc304.ok.ubc.ca/rlawrenc/tomcat/xml/
 **JavaScript Object Notation (JSON)** is a method for serializing data objects into text form. It is human-readable, supports semi-structured data, and has supporting libraries in many programming languages. It is often used for data interchange between a client and the server. 
 
 #### JSON constructs
-- **Values:** number, strings (double quoted), true, false, null
+- **Values:** number, strings (double quoted), true, false, null, objects, and arrays
 - **Objects:** enclosed in { } and consist of set of key-value pairs
 - **Arrays:** enclosed in [ ] and are lists of values
 - Objects and arrays can be nested.
