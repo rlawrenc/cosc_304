@@ -14,7 +14,7 @@ Complete your project by adding more features. Use the [list of features with po
 
 1. Get inspired for your store and the products it sells by reviewing some of the [best past projects](https://cmps-people.ok.ubc.ca/rlawrenc/teaching/304/Project/index.html). You should sell different products than the sample products provided in lab 7.
 
-2. On Canvas submit the URL to your repository which much include both your code and documentation with your walkthrough.
+2. On Canvas submit a zip file which much include both your code and documentation with your walkthrough.
 
 3. **Make sure your documentation contains the URL for your site as well as user ids and passwords.**
 
