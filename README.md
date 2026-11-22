@@ -107,10 +107,10 @@ For example, if the midterm 1 percentage mark was `80%`, the midterm 2 percentag
 | Nov. 10 (T) | **No class for Term 1 midterm break** | |
 | Nov. 12 (TH) | **No class for Term 1 midterm break** | |
 | Nov. 17 (T) | [JSON](topics/20_json)<br>[NoSQL Databases](topics/21_nosql) | |
-| Nov. 19 (TH) | [AI and Databases](topics/AI_databases) | |
-| Nov. 24 (T) | [Normalization and Design Verification](topics/22_normalization) | |
-| Nov. 26 (TH) | [Database hosting and data cleansing/wrangling](topics/23_hosting) | [Sample D3 Code](topics/23_hosting/code) |
-| Dec. 1 (T) | [Data warehousing and Data Mining](topics/24_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/25_course_summary) |  |
+| Nov. 19 (TH) | [AI and Databases](topics/22_AI_databases) | |
+| Nov. 24 (T) | [Normalization and Design Verification](topics/23_normalization) | |
+| Nov. 26 (TH) | [Database hosting and data cleansing/wrangling](topics/24_hosting) | [Sample D3 Code](topics/24_hosting/code) |
+| Dec. 1 (T) | [Data warehousing and Data Mining](topics/25_data_warehousing)<br>[304 Course Summary and Preview of COSC 404](topics/26_course_summary) |  |
 | Dec. 3 (TH) | **Project work class** | |
 | Dec. 8 (T) | **Project presentations<br>Final Exam Review**  | |
 | Dec. 17 (TH) | **COSC 304 Final Exam Thursday, Dec. 17 at 7 p.m. in ASC 140. <br> Exam is closed book on paper.** | |
